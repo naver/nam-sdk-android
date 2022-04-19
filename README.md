@@ -257,7 +257,7 @@ GfpSdk.setUserProperties(GfpSdk.getUserProperties().buildUpon()
 NAM(Naver Ad Manager) SDK의 저작권은 네이버(주)에 있습니다.
 
 ```
-NAM(Naver Ad Manager) SDK for iOS
+NAM(Naver Ad Manager) SDK for Android
 Copyright 2022-present NAVER Corp.
 All rights reserved.
 Unauthorized use, modification and redistribution of this software are strongly prohibited.
