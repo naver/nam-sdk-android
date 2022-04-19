@@ -191,6 +191,7 @@ AdParam adParam = new AdParam.Builder()
 - 광고 요청 Timeout 관련\
 광고 요청 Timeout 과 관련된 API 목록은 다음과 같습니다. 설정시 넘겨지는 long 값은 양수의 millis 값으로 설정해야만 합니다.\
 기본적으로 60초가 설정되어 있습니다.
+  
 | 이름 | 설명 |
 |:---|:---|
 | bannerAdRequestTimeout(long) | `GfpBannerAdView` 를 통해서 호출하는 광고의 타임아웃값을 설정. |
@@ -198,6 +199,7 @@ AdParam adParam = new AdParam.Builder()
 | unifiedAdRequestTimeout(long) | `GfpAdLoader` 를 통해서 호출하는 광고의 타임아웃값을 설정. |
 | rewardedAdRequestTimeout(long) | `GfpRewardedAdManager` 를 통해서 호출하는 광고의 타임아웃값을 설정. |
 | interstitialAdRequestTimeout(long) | `GfpInterstitialAdManager` 를 통해서 호출하는 광고의 타임아웃값을 설정. |
+  
 - `logLevel(Log.LogLevel)`\
   GFP SDK 의 log level 을 설정할 수 있습니다. default 값은 `ASSERT` 레벨입니다.
 ```
