@@ -21,26 +21,20 @@ Naver Ad Manager는 높은 단가의 ‘네이버 성과형 광고 플랫폼’(
 - Build 관련\
 코틀린: 1.4.32\
 minSdkVersion: 19\
-targetSdkVersion: 30\
-compileSdkVersion: 30
-- NDA Video\
-androidx.constraintlayout:constraintlayout:1.1.3
+targetSdkVersion: 31\
+compileSdkVersion: 31
 - NDA\
 androidx.recyclerview:recyclerview:1.2.1
-- NDA Richmedia\
-androidx.constraintlayout:constraintlayout:1.1.3
 - DFP\
-com.google.android.gms:play-services-ads:20.2.0
+com.google.android.gms:play-services-ads:20.6.0
 - FAN\
-com.facebook.android:audience-network-sdk:6.5.1
-- IMA\
-com.google.ads.interactivemedia.v3:interactivemedia:3.24.0
+com.facebook.android:audience-network-sdk:6.8.0
 - InMobi\
-com.inmobi.monetization:inmobi-ads:9.2.0\
+com.inmobi.monetization:inmobi-ads:10.0.1\
 com.squareup.picasso:picasso:2.71828\
 com.google.android.gms:play-services-location:17.0.0
 - Unity\
-com.unity3d.ads:unity-ads:3.7.5
+com.unity3d.ads:unity-ads:4.1.0
 
 #### 지원하는 Mediation DSP 별 광고 종류
 - 각 Mediation DSP(extension) 이름은 다음과 같습니다\
@@ -53,15 +47,13 @@ com.unity3d.ads:unity-ads:3.7.5
 
 **아래 지원되는 광고를 참고하시고, GFP 관리자와 협의하여 연결하고자 하는 DSP를 확인하시고 각 모듈을 추가 하여야 합니다.**
 
-| Ad Provider | Banner | Video(Instream) | Native | Native (without media view) | Reward | Interstitial |
-|:--------------------------|:------|:---------------|:------|:--------------------------|:------|:------------|
-| NDA | O | X | O | O | X | X |
-| NDAVideo | X | **O** | X | X | X | X |
-| DFP | O | X | O | O | O | O |
-| IMA | X | **O** | X | X | X | X |
-| FAN | O | X | O | O | O | O |
-| InMobi | O | X | ***O*** | ***X*** | X | X |
-| Unity | O(320*50 크기만 지원) | X | X | X | **O** | **O** |
+| Ad Provider | Banner | Native | Native (without media view) | Reward | Interstitial |
+|:------------|:-------|:-------|:----------------------------|:-------|:-------------|
+| NDA | O | O | O | X | X |
+| DFP | O | O | O | O | O |
+| FAN | O | O | O | O | O |
+| InMobi | O | ***O*** | ***X*** | X | X |
+| Unity | O(320*50 크기만 지원) | X | X | **O** | **O** |
 
 ----
 
@@ -80,20 +72,17 @@ implementation fileTree(dir: 'libs', include: ['*.aar'])
 implementation 'androidx.core:core-ktx:1.3.2'
 implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.4.32'
 // android
-implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 implementation 'androidx.recyclerview:recyclerview:1.2.1'
 // DFP
-implementation 'com.google.android.gms:play-services-ads:20.2.0'
+implementation 'com.google.android.gms:play-services-ads:20.6.0'
 // FAN
-implementation 'com.facebook.android:audience-network-sdk:6.5.1'
-// IMA
-implementation 'com.google.ads.interactivemedia.v3:interactivemedia:3.24.0'
+implementation 'com.facebook.android:audience-network-sdk:6.8.0'
 // InMobi
-implementation 'com.inmobi.monetization:inmobi-ads:9.2.0'
+implementation 'com.inmobi.monetization:inmobi-ads:10.0.1'
 implementation 'com.squareup.picasso:picasso:2.71828'
 implementation 'com.google.android.gms:play-services-location:17.0.0'
 // UNITY
-implementation 'com.unity3d.ads:unity-ads:3.7.5@aar'
+implementation 'com.unity3d.ads:unity-ads:4.1.0@aar'
 ```
 
 #### 2. Edit `AndroidManifest.xml`
@@ -132,20 +121,13 @@ Meta Audience Network (extension-fan) 모듈을 추가하시는 경우\
 <application android:hardwareAccelerated="true" ...>
 ```
 
-- IMA (구글 동영상 광고) 관련 설정\
-IMA 광고를 처리하고자 하면 아래 권한이 추가 되어야 합니다.
-```
-<!-- Required permissions for the IMA SDK -->
-<uses-permission android:name="android.permission.INTERNET"/>
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-```
-
 #### 3. 광고 파라미터 설정
 각 광고 형태에 맞는 광고 요청시에는 광고 요청에 필요한 정보를 담은 `AdParam` 객체를 생성해야 합니다.\
 세부적인 타겟팅 및 리포팅은 customParam 에 적용된 항목으로 적용됩니다.
 
 ##### 3-1. Parameter 설명
 광고 요청시에 사용되는 `AdParam` 내의 parameter 들은 각각의 역할이 있습니다.
+> `Keyword`와 `Custom Parameter`의 경우엔 NAM 광고 당담자와 협의하여 사용해 주셔야 합니다.
 
 - Ad Unit ID (required)\
   필수적인 param 으로 광고 Unit ID 에 해당됩니다.
@@ -163,45 +145,40 @@ IMA 광고를 처리하고자 하면 아래 권한이 추가 되어야 합니다
 - Custom Parameter (optional)\
   DFP 및 외부 demand 에서 사용되는 parameter 로 세부적인 타게팅 및 리포팅을 위해서 사용됩니다.
 
-- 동영상 관련 파라미터 (required in video)\
-  video 광고에서 필요한 메타 정보입니다.\
-  관련된 예시는 동영상 광고 sector를 확인해 주세요.
-  - vsi: 비디오 스케줄 아이디 (Video ad Schedule Id)\
-    vri: 비디오 스케줄 요청 아이디 (Video ad schedule Request id)\
-    vcl: 비디오 켄텐츠 길이 (Video Content Length)\
-    vsd: 비디오 전/중/후 여부 (Video StartDelay)\
-
 ```
 AdParam adParam = new AdParam.Builder()
     .setAdUnitId("AOS_VOD_END") // 광고 Unit ID
     .setCurrentPageUrl("https://www.naver.com")  // 해당 페이지에 대한 설명 link
-    .addKeyword("lo:Y,dh:720") // GFP Admin 을 통한 타겟팅 설정 및 리포트 지원
-    .addCustomParam("channel_id", "41312")
+    .addKeyword("lo:Y,dh:720") // NAM Admin 을 통한 타겟팅 설정 및 리포트 지원. 광고 담당자와 협의 필요.
+    .addCustomParam("channel_id", "41312") // 광고 담당자와 협의 필요.
     .build();
 ```
 
 ##### 3-2. SDK 관련 공통 설정
 광고 요청마다 설정하는 AdParam 외에, SDK 관련된 `SdkProperties` 통해 공통 설정을 할 수 있습니다.
 - `addProviderOptions(GfpProviderOptions)`\
-  광고제공자별로 해당 광고제공자에 대한 TestMode 설정을 할 수 있습니다.\
-  (DfpProviderOptions, FanProviderOptions, UnityProviderOptions, NdaProviderOptions)\
-  설정하지 않을 경우 각 광고제공자의 TestMode 는 Off 상태입니다.\
-  일부 DSP의 경우 테스트 광고를 받기 위해서 TestMode 설정이 필요한 경우가 있습니다.\
-  NdaProviderOptions의 경우 [AdMute](/doc/ad_mute.md)에서 사용하는 옵션이 있으므로, 관련 가이드 확인 부탁드립니다.
+광고제공자별로 해당 광고제공자에 대한 TestMode 설정을 할 수 있습니다.\
+(DfpProviderOptions, FanProviderOptions, UnityProviderOptions, NdaProviderOptions)\
+설정하지 않을 경우 각 광고제공자의 TestMode 는 Off 상태입니다.\
+일부 DSP의 경우 테스트 광고를 받기 위해서 TestMode 설정이 필요한 경우가 있습니다.
 - 광고 요청 Timeout 관련\
 광고 요청 Timeout 과 관련된 API 목록은 다음과 같습니다. 설정시 넘겨지는 long 값은 양수의 millis 값으로 설정해야만 합니다.\
 기본적으로 60초가 설정되어 있습니다.
-  
+- `GfpTheme` (NDA 모듈, NdaProviderOptions)\
+일부 광고 소재의 경우에 다크모드를 지원하는 경우도 있습니다. (일부 광고에서 버튼 등의 UI나 색상이 달라집니다.)\
+GfpTheme.DARK 는 명시적으로 앱에서 다크모드에 맞는 테마 및 UI를 적용 했을때 설정해 주시면 되고, GfpTheme.SYSTEM 의 경우엔 안드로이드 시스템 설정을 참고 합니다.
+
 | 이름 | 설명 |
 |:---|:---|
 | bannerAdRequestTimeout(long) | `GfpBannerAdView` 를 통해서 호출하는 광고의 타임아웃값을 설정. |
-| videoAdRequestTimeout(long) | `GfpVideoAdManager` 및 `GfpVideoAdScheduleManager` 를 통해서 호출하는 광고의 타임아웃값을 설정. |
 | unifiedAdRequestTimeout(long) | `GfpAdLoader` 를 통해서 호출하는 광고의 타임아웃값을 설정. |
 | rewardedAdRequestTimeout(long) | `GfpRewardedAdManager` 를 통해서 호출하는 광고의 타임아웃값을 설정. |
 | interstitialAdRequestTimeout(long) | `GfpInterstitialAdManager` 를 통해서 호출하는 광고의 타임아웃값을 설정. |
-  
+
 - `logLevel(Log.LogLevel)`\
   GFP SDK 의 log level 을 설정할 수 있습니다. default 값은 `ASSERT` 레벨입니다.
+
+- 예시  
 ```
 GfpSdk.setSdkProperties(GfpSdk.getSdkProperties().buildUpon()
     .addProviderOptions(new DfpProviderOptions.Builder()
@@ -215,7 +192,6 @@ GfpSdk.setSdkProperties(GfpSdk.getSdkProperties().buildUpon()
     .logLevel(GfpLogger.LogLevel.VERBOSE)
     .bannerAdRequestTimeout(60_000L)
     .unifiedAdRequestTimeout(60_000L)
-    .videoAdRequestTimeout(60_000L)
     .interstitialAdRequestTimeout(60_000L)
     .rewardedAdRequestTimeout(60_000L)
 .build());

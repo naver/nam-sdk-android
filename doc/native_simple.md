@@ -7,6 +7,9 @@
 ### [Step 1] Dependency 추가 및 초기화
 네이티브 심플 광고는 NDA 모듈만 지원됩니다.\
 [공통 통합 내용을 참고해 주세요](../README.md)
+> 네이티브 심플 광고는 기본적으로 누끼로 서빙되기 때문에\
+> 유색 배경을 사용하는 서비스의 경우 광고 가독성이 떨어질수 있으니\
+> 배경색(혹은 background image)을 지정하여 사용해주세요.
 
 ----
 
@@ -60,11 +63,10 @@ adLoader = new GfpAdLoader.Builder(this, adParam)
 - setAdChoicePlacement\
 Native Simple 광고 표시될 `AD` badge 에 대한 위치를 설정합니다.\
 미 설정시에는 우측 상단에 자동적으로 렌더링 되게 됩니다.\
-AdMute에 대한 내용은 [AdMute](ad_mute.md) 를 참고하여 주시기 바랍니다.\
 옵션 값은 `GfpNativeSimpleAdOptions` 의  ADCHOICES_* 변수 값을 확인해 주세요.
 
-> GFP SDK 를 통해서 렌더링되는 네이티브 심플 광고는 실제 광고 영역 우상단에 'AD,X' 마크를 자동으로 렌더링 하게 됩니다.\
-해당 마크는 AdMute icon 으로, 광고에 따라서 없을 수도 있고 'i', 'i,X' 마크 등이 렌더링 될 수 있습니다.
+> GFP SDK 를 통해서 렌더링되는 네이티브 심플 광고는 실제 광고 영역 우상단에 'i,X' 마크를 자동으로 렌더링 하게 됩니다.\
+광고에 따라서 없을 수도 있습니다.
 
 ```
 GfpNativeSimpleAdOptions adOptions = new GfpNativeSimpleAdOptions.Builder()
@@ -75,7 +77,7 @@ GfpNativeSimpleAdOptions adOptions = new GfpNativeSimpleAdOptions.Builder()
 ----
 
 ### [Step 4] 광고 이벤트 수신
-`GfpNativeSimpleAd.OnNativeSimpleAdLoadedListener` 를 통해 로드 이벤트를 수신할 수 있고, `AdEventListener` 를 통해 click, impression, handleClick, error, adMute 등에 대한 이벤트를 수신할 수 있습니다.
+`GfpNativeSimpleAd.OnNativeSimpleAdLoadedListener` 를 통해 로드 이벤트를 수신할 수 있고, `AdEventListener` 를 통해 click, impression, handleClick, error 등에 대한 이벤트를 수신할 수 있습니다.
 
 #### 4-1. 광고 로드 이벤트 수신 - GfpNativeSimpleAd.OnNativeSimpleAdLoadedListener
 아래와 같이 GfpAdLoader 의 Builder 설정시 withNativeSimpleAd() 를 추가하여 네이티브 심플 광고를 로드 합니다.\
@@ -109,11 +111,6 @@ adLoader = new GfpAdLoader.Builder(this, adParam)
         @Override
         public void onAdImpression() {
             // 광고의 노출이 발생했을 경우
-        }
-
-        @Override
-        public void onAdMuted() {
-            // 광고의 숨기기가 발생했을 경우
         }
 
         @Override
@@ -167,11 +164,6 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onAdImpression() {
                     Log.d("MainActivity", "노출 성공");
-                }
-
-                @Override
-                public void onAdMuted() {
-                    Log.d("MainActivity", "광고 숨기기 성공");
                 }
 
                 public void onError(GfpError error, GfpResponseInfo responseInfo) {

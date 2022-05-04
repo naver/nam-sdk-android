@@ -136,11 +136,6 @@ bannerAdView.setTimeoutMillis(30_000L);
             }
 
             @Override
-            public void onAdMuted(GfpBannerAd ad) {
-                // 배너 광고의 숨기기가 발생했을 때 실행됩니다.
-            }
-
-            @Override
             public boolean handleClick(GfpBannerAd ad, String... urls) {
                 // 배너 광고의 Click 처리를 override 설정했을 경우, 사용자가 클릭을 했을 때 실행됩니다.
             }
