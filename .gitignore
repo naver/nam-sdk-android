@@ -5,3 +5,6 @@
 .idea/modules.xml
 .idea/misc.xml
 .DS_Store
+example/java/namexample/.gradle/
+example/java/namexample/app/build/
+example/java/namexample/local.properties
