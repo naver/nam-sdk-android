@@ -46,8 +46,6 @@ public class MainActivity extends AppCompatActivity {
                 // if you enable Naver DSP ads
                 .addProviderOptions(new NdaProviderOptions.Builder()
                         .build())
-                // for test (not for production level)
-                .logLevel(GfpLogger.LogLevel.DEBUG)
                 // timeout for 'ImageBanner' type
                 .bannerAdRequestTimeout(60_000L)
                 // timeout for 'NativeBanner' and 'Smartchannel' types

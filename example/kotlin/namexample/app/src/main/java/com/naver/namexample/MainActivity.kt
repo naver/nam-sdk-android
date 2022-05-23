@@ -37,8 +37,6 @@ class MainActivity : AppCompatActivity() {
                     NdaProviderOptions.Builder()
                         .build()
                 )
-                // for test (not for production level)
-                .logLevel(GfpLogger.LogLevel.DEBUG)
                 // timeout for 'ImageBanner' type
                 .bannerAdRequestTimeout(60000L)
                 // timeout for 'NativeBanner' and 'Smartchannel' types

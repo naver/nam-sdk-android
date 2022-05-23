@@ -115,6 +115,10 @@ public class ImageBannerFragment extends Fragment {
                         Log.e("ImageBannerFragment", ad.getResponseInfo().toString());
                     }
                 });
+        logTextView.append(String.format(
+                "[%s] AD Requested.%n",
+                sdf.format(new Date())
+        ));
         bannerAdView.loadAd();
         return view;
     }

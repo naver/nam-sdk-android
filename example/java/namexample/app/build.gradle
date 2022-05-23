@@ -44,7 +44,11 @@ dependencies {
     // FAN
     implementation 'com.facebook.android:audience-network-sdk:6.8.0'
     // InMobi
-    implementation 'com.inmobi.monetization:inmobi-ads:10.0.1'
-    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation ('com.inmobi.monetization:inmobi-ads:10.0.1') {
+        exclude group: "com.android.support", module: "exifinterface"
+        exclude group: "com.android.support", module: "support-annotations"
+    }
+    implementation 'androidx.exifinterface:exifinterface:1.0.0'
+    implementation 'androidx.annotation:annotation:1.2.0'
     implementation 'com.google.android.gms:play-services-location:17.0.0'
 }

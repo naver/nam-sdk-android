@@ -72,8 +72,12 @@ implementation 'com.google.android.gms:play-services-ads:20.6.0'
 // FAN
 implementation 'com.facebook.android:audience-network-sdk:6.8.0'
 // InMobi
-implementation 'com.inmobi.monetization:inmobi-ads:10.0.1'
-implementation 'com.squareup.picasso:picasso:2.71828'
+implementation ('com.inmobi.monetization:inmobi-ads:10.0.1') {
+        exclude group: "com.android.support", module: "exifinterface"
+        exclude group: "com.android.support", module: "support-annotations"
+    }
+    implementation 'androidx.exifinterface:exifinterface:1.0.0'
+    implementation 'androidx.annotation:annotation:1.2.0'
 implementation 'com.google.android.gms:play-services-location:17.0.0'
 ```
 
@@ -167,9 +171,6 @@ GfpTheme.DARK 는 명시적으로 앱에서 다크모드에 맞는 테마 및 UI
 | rewardedAdRequestTimeout(long) | `GfpRewardedAdManager` 를 통해서 호출하는 광고의 타임아웃값을 설정. |
 | interstitialAdRequestTimeout(long) | `GfpInterstitialAdManager` 를 통해서 호출하는 광고의 타임아웃값을 설정. |
 
-- `logLevel(Log.LogLevel)`\
-  GFP SDK 의 log level 을 설정할 수 있습니다. default 값은 `ASSERT` 레벨입니다.
-
 - 예시  
 ```
 GfpSdk.setSdkProperties(GfpSdk.getSdkProperties().buildUpon()
@@ -181,7 +182,6 @@ GfpSdk.setSdkProperties(GfpSdk.getSdkProperties().buildUpon()
         .setTheme(GfpTheme.SYSTEM).build())
     .addProviderOptions(new UnityProviderOptions.Builder()
         .setTestMode(false).build())
-    .logLevel(GfpLogger.LogLevel.VERBOSE)
     .bannerAdRequestTimeout(60_000L)
     .unifiedAdRequestTimeout(60_000L)
     .interstitialAdRequestTimeout(60_000L)

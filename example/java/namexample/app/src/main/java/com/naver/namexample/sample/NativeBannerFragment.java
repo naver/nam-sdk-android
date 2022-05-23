@@ -114,6 +114,10 @@ public class NativeBannerFragment extends Fragment {
                 })
                 .build();
 
+        logTextView.append(String.format(
+                "[%s] AD Requested.%n",
+                sdf.format(new Date())
+        ));
         adLoader.loadAd();
 
         return view;
