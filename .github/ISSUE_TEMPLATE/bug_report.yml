@@ -2,6 +2,24 @@ name: 🐞 Bug Report
 description: Tell us about something that's not working the way we (probably) intend.
 labels: ["bug"]
 body:
+  - type: checkboxes
+    attributes:
+      label: Checklist before submitting a bug report
+      options:
+        - label: "I've updated to the latest released version of the SDK"
+          required: true
+        - label: "I've searched for existing [Github issues](https://github.com/naver/nam-sdk-android/issues)"
+          required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: NAM SDK Version
+      placeholder: 4.2.0 ← should look like this
+    validations:
+      required: true
+
   - type: input
     id: agp_version
     attributes:
@@ -12,11 +30,20 @@ body:
       required: true
 
   - type: input
-    id: version
+    id: android-version
     attributes:
-      label: Version
-      description: NAM SDK Version
-      placeholder: 4.2.0 ← should look like this
+      label: Android version
+      description: "Which Android version are you using when you find the bug?"
+      placeholder: "Example: API 29, Android 11, ..."
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      description: Device
+      placeholder: "Example: Samsung Galaxy Note 10, ..."
+      label: Device
     validations:
       required: true
 
