@@ -1,13 +1,13 @@
-# Native Simple 광고
-본 페이지는 Native Simple(이하 NS) 사용 가이드입니다.\
-네이티브 심플 광고는 단순 이미지형의 네이티브 광고로써 네이티브 노말과는 다르게 복잡한 설정 및 추가 작업 없이 배너광고와 유사하게 네이티브 광고를 게재할 수 있게끔 합니다.
+# 스마트채널 광고
+본 페이지는 스마트채널 (Native Simple) 사용 가이드입니다.\
+스마트채널 광고는 단순히 이미지만 있는 네이티브 형태의 광고로써 네이티브형 배너 광고와는 다르게 복잡한 설정 및 추가 작업 없이 배너광고와 유사하게 네이티브 광고를 게재할 수 있게끔 합니다.
 
 ----
 
 ### [Step 1] Dependency 추가 및 초기화
-네이티브 심플 광고는 NDA 모듈만 지원됩니다.\
+스마트채널 광고는 NDA 모듈만 지원됩니다.\
 [공통 통합 내용을 참고해 주세요](../README.md)
-> 네이티브 심플 광고는 기본적으로 누끼로 서빙되기 때문에\
+> 스마트채널 광고는 기본적으로 누끼로 서빙되기 때문에\
 > 유색 배경을 사용하는 서비스의 경우 광고 가독성이 떨어질수 있으니\
 > 배경색(혹은 background image)을 지정하여 사용해주세요.
 
@@ -15,7 +15,7 @@
 
 ### [Step 2] 레이아웃 구성
 
-네이티브 광고를 게재하기 위해서는 먼저 광고를 게재하려는 Activity 또는 Fragment 의 레이아웃에 네이티브 심플 광고가 삽입될 `GfpNativeSimpleAdView` 을 추가해야 합니다.
+스마트채널 광고를 게재하기 위해서는 먼저 광고를 게재하려는 Activity 또는 Fragment 의 레이아웃에 네이티브 심플 광고가 삽입될 `GfpNativeSimpleAdView` 을 추가해야 합니다.
 
 아래 예제에서는 ConstraintLayout ViewGroup 에 `native_simple_ad_view` 라는 id 로 네이티브 광고가 게재될 GfpNativeSimpleAdView 를 선언했습니다.
 
@@ -28,12 +28,11 @@
     tools:context=".MainActivity">
 
     <com.naver.gfpsdk.GfpNativeSimpleAdView
-        android:id="@+id/native_simple_ad_view"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -43,7 +42,7 @@
 ----
 
 ### [Step 3] AdParam 과 GfpAdLoader 생성
-네이티브 광고를 로드해주는 `GfpAdLoader` 를 생성합니다.\
+스마트채널 광고를 로드해주는 `GfpAdLoader` 를 생성합니다.\
 그리고 광고 요청에 대한 Parameter 를 생성하고 `GfpAdLoader` 생성자에 할당하게 됩니다.
 
 #### 3-1. 광고 요청 타임아웃 설정
@@ -58,14 +57,14 @@ adLoader = new GfpAdLoader.Builder(this, adParam)
 
 #### 3-2. GfpNativeSimpleAdOptions
 
-네이티브 심플 광고에서는 아래와 같은 옵션들을 제공합니다.
+스마트채널 광고에서는 아래와 같은 옵션들을 제공합니다.
 
 - setAdChoicePlacement\
-Native Simple 광고 표시될 `AD` badge 에 대한 위치를 설정합니다.\
+스마트채널 광고 표시될 `AD` badge 에 대한 위치를 설정합니다.\
 미 설정시에는 우측 상단에 자동적으로 렌더링 되게 됩니다.\
 옵션 값은 `GfpNativeSimpleAdOptions` 의  ADCHOICES_* 변수 값을 확인해 주세요.
 
-> GFP SDK 를 통해서 렌더링되는 네이티브 심플 광고는 실제 광고 영역 우상단에 'i,X' 마크를 자동으로 렌더링 하게 됩니다.\
+> NAM SDK 를 통해서 렌더링되는 스마트채널 광고는 실제 광고 영역 우상단에 'i,X' 마크를 자동으로 렌더링 하게 됩니다.\
 광고에 따라서 없을 수도 있습니다.
 
 ```
@@ -80,9 +79,9 @@ GfpNativeSimpleAdOptions adOptions = new GfpNativeSimpleAdOptions.Builder()
 `GfpNativeSimpleAd.OnNativeSimpleAdLoadedListener` 를 통해 로드 이벤트를 수신할 수 있고, `AdEventListener` 를 통해 click, impression, handleClick, error 등에 대한 이벤트를 수신할 수 있습니다.
 
 #### 4-1. 광고 로드 이벤트 수신 - GfpNativeSimpleAd.OnNativeSimpleAdLoadedListener
-아래와 같이 GfpAdLoader 의 Builder 설정시 withNativeSimpleAd() 를 추가하여 네이티브 심플 광고를 로드 합니다.\
+아래와 같이 GfpAdLoader 의 Builder 설정시 withNativeSimpleAd() 를 추가하여 스마트채널 광고를 로드 합니다.\
 withNativeSimpleAd() 의 두번째 인자인 GfpNativeSimpleAd.OnNativeSimpleAdLoadedListener() 의 onNativeSimpleAdLoaded() 를 통해서\
-성공적으로 네이티브 심플 광고가 로드됐을 경우에 대한 이벤트를 수신할 수 있습니다.\
+성공적으로 스마트채널 광고가 로드됐을 경우에 대한 이벤트를 수신할 수 있습니다.\
 이때 `onNativeSimpleAdLoaded()` 의 파라미터로 로드된 광고 정보를 담고 있는 `GfpNativeSimpleAd` 객체가 전달됩니다.\
 로드가 완료되면 `GfpNativeSimpleAdView` 에 셋팅합니다.
 
@@ -204,7 +203,7 @@ GfpAdLoader 를 다시 사용하는 경우 각 요청이 완료된 후에 loadAd
 만약 요청이 완료되기 전 loadAd() 를 다시 호출할 경우에는 이전 로드가 취소되거나 이미 로드된 광고가 삭제될 수 있습니다.
 
 ### [Step 6] 광고 삭제
-네이티브 광고의 게재가 끝나면 광고가 올바르게 폐기되도록 광고를 삭제해야 합니다.\
+스마트채널 광고의 게재가 끝나면 광고가 올바르게 폐기되도록 광고를 삭제해야 합니다.\
 광고 삭제는 아래와 같이 `GfpAdLoader` 가 제공하는 `cancel()` 을 호출하면 됩니다.
 
 ```

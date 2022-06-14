@@ -33,27 +33,23 @@ com.facebook.android:audience-network-sdk:6.8.0
 com.inmobi.monetization:inmobi-ads:10.0.1\
 com.squareup.picasso:picasso:2.71828\
 com.google.android.gms:play-services-location:17.0.0
-- Unity\
-com.unity3d.ads:unity-ads:4.1.0
 
 #### 지원하는 Mediation DSP 별 광고 종류
 - 각 Mediation DSP(extension) 이름은 다음과 같습니다\
   NDA: Naver Display Ads\
   DFP: Doubleclick for Publishers (구글 광고)\
-  IMA: Interactive Media Ads (구글의 동영상 광고 제공자)\
   FAN: Facebook(Meta) Audience Network\
   InMobi
 - Pubmatic, AppNexus, Rubicon 등 외부 Ad Provider 의 광고는 ***NDA 모듈***을 통해 제공 됩니다.
 
 **아래 지원되는 광고를 참고하시고, GFP 관리자와 협의하여 연결하고자 하는 DSP를 확인하시고 각 모듈을 추가 하여야 합니다.**
 
-| Ad Provider | Banner | Native | Native (without media view) | Reward | Interstitial |
-|:------------|:-------|:-------|:----------------------------|:-------|:-------------|
-| NDA | O | O | O | X | X |
-| DFP | O | O | O | O | O |
-| FAN | O | O | O | O | O |
-| InMobi | O | ***O*** | ***X*** | X | X |
-| Unity | O(320*50 크기만 지원) | X | X | **O** | **O** |
+| Ad Provider | Banner(이미지형 배너) | Native(네이티브형 배너) | Native (without media view) | NativeSimple(스마트채널) |
+|:------------|:-------------------|:--------------------|:----------------------------|:----------------------|
+| NDA | O | O | O | ***O*** |
+| DFP | O | O | O | X |
+| FAN | O | O | O | X |
+| InMobi | O | O | ***X*** | X |
 
 ----
 
@@ -71,18 +67,18 @@ implementation fileTree(dir: 'libs', include: ['*.aar'])
 // kotlin
 implementation 'androidx.core:core-ktx:1.3.2'
 implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.4.32'
-// android
-implementation 'androidx.recyclerview:recyclerview:1.2.1'
 // DFP
 implementation 'com.google.android.gms:play-services-ads:20.6.0'
 // FAN
 implementation 'com.facebook.android:audience-network-sdk:6.8.0'
 // InMobi
-implementation 'com.inmobi.monetization:inmobi-ads:10.0.1'
-implementation 'com.squareup.picasso:picasso:2.71828'
+implementation ('com.inmobi.monetization:inmobi-ads:10.0.1') {
+        exclude group: "com.android.support", module: "exifinterface"
+        exclude group: "com.android.support", module: "support-annotations"
+    }
+    implementation 'androidx.exifinterface:exifinterface:1.0.0'
+    implementation 'androidx.annotation:annotation:1.2.0'
 implementation 'com.google.android.gms:play-services-location:17.0.0'
-// UNITY
-implementation 'com.unity3d.ads:unity-ads:4.1.0@aar'
 ```
 
 #### 2. Edit `AndroidManifest.xml`
@@ -175,9 +171,6 @@ GfpTheme.DARK 는 명시적으로 앱에서 다크모드에 맞는 테마 및 UI
 | rewardedAdRequestTimeout(long) | `GfpRewardedAdManager` 를 통해서 호출하는 광고의 타임아웃값을 설정. |
 | interstitialAdRequestTimeout(long) | `GfpInterstitialAdManager` 를 통해서 호출하는 광고의 타임아웃값을 설정. |
 
-- `logLevel(Log.LogLevel)`\
-  GFP SDK 의 log level 을 설정할 수 있습니다. default 값은 `ASSERT` 레벨입니다.
-
 - 예시  
 ```
 GfpSdk.setSdkProperties(GfpSdk.getSdkProperties().buildUpon()
@@ -189,7 +182,6 @@ GfpSdk.setSdkProperties(GfpSdk.getSdkProperties().buildUpon()
         .setTheme(GfpTheme.SYSTEM).build())
     .addProviderOptions(new UnityProviderOptions.Builder()
         .setTestMode(false).build())
-    .logLevel(GfpLogger.LogLevel.VERBOSE)
     .bannerAdRequestTimeout(60_000L)
     .unifiedAdRequestTimeout(60_000L)
     .interstitialAdRequestTimeout(60_000L)
@@ -220,11 +212,9 @@ GfpSdk.setUserProperties(GfpSdk.getUserProperties().buildUpon()
 ```
 
 #### 4. 각 광고 타입 별 설정
-- [배너 광고](doc/banner.md)
-- [네이티브 광고](doc/native_normal.md)
-- [네이티브 심플 광고](doc/native_simple.md)
-- [보상형 광고](doc/rewarded.md)
-- [전면형 광고](doc/interstitial.md)
+- [이미지형 배너 광고](doc/banner.md)
+- [네이티브형 배너 광고](doc/native_normal.md)
+- [스마트채널 광고](doc/native_simple.md)
 
 ----
 

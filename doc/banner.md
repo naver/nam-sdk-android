@@ -1,5 +1,5 @@
-# 배너 광고
-배너 광고는 앱에 레이아웃 내에 표시되는 직사각형 이미지 형태의 광고로서 `WebView` 로 구현된 광고형태입니다.
+# 이미지형 배너 광고
+이미지형 배너 광고는 앱에 레이아웃 내에 표시되는 직사각형 이미지 형태의 광고로서 `WebView` 로 구현된 광고형태입니다.
 
 ![샘플 이미지](images/banner_sample.png)
 
@@ -26,11 +26,11 @@
 
         <RelativeLayout
             android:id="@+id/banner_container"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -52,8 +52,7 @@ public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
 
     //광고 요청 파라미터
     AdParam adParam = new AdParam.Builder()
-                    .setAdUnitId("NS_AOS_MIX_BANNER_TEST")
-                    .addUserParam("testKey", "tesValue")
+                    .setAdUnitId("YOUR_BANNER_UNIT_ID")
                     .build();
 
     GfpBannerAdView bannerAdView = new GfpBannerAdView(this, adParam);

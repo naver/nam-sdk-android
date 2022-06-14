@@ -1,10 +1,6 @@
-# Native Normal 광고
+# 네이티브형 배너 광고
 
-본 페이지는 Native Normal(이하 NN) 사용 가이드입니다.\
-네이티브 광고는 media view 설정에 따라 조금씩 부르는 용어가 다르기도 합니다.
-- Native (media view 가 이미지)
-- OutStream Native (media view 가 동영상)
-- Native Banner (media view 가 없음)
+본 페이지는 네이티브형 배너 (Native) 사용 가이드입니다.
 
 ----
 ### [Step 1] Dependency 추가 및 초기화
@@ -26,11 +22,11 @@
 
         <RelativeLayout
             android:id="@+id/native_container"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -118,7 +114,6 @@
                             android:id="@+id/ad_sponsored"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/ad_attribution"
                             android:textColor="#999999"
                             android:textSize="12dp" />
 
@@ -198,7 +193,7 @@
                             android:layout_height="40dp"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
-                            android:background="@color/colorPrimary"
+                            android:background="#3c3c3c"
                             android:paddingLeft="3dp"
                             android:paddingRight="3dp"
                             android:textColor="#ffffff"
