@@ -1,10 +1,5 @@
-.idea
-.idea/vcs.xml
-.idea/sonarlint/issuestore/index.pb
-.idea/nam-sdk-android.iml
-.idea/modules.xml
-.idea/misc.xml
+.idea/
 .DS_Store
-example/java/namexample/.gradle/
-example/java/namexample/app/build/
-example/java/namexample/local.properties
+example/javaSample/.gradle/
+example/javaSample/app/build/
+example/javaSample/local.properties

@@ -1,10 +1,10 @@
-NAM SDK는 정상적으로 로드된 광고 혹은 로드 실패된 광고에 대해서 디버깅 및 로깅을 위해 `GfpResponseInfo` 객체를 제공합니다.\
-이 객체에는 광고 로드와 관련된 정보가 포함되는데 `GfpAd` 를 상속받는 `GfpBannerAd`, `GfpNativeAd`, `GfpVideoAd`, `GfpRewardedAd`, `GfpInterstitialAd` 의 객체의\
-`getResponseInfo()` 메서드를 통해서 객체를 획득할 수 있습니다.
+# Response Info
 
-배너 광고 요청시 광고 응답 정보를 확인하는 예제는 다음과 같습니다.
+For debugging and logging purpose, successfully loaded ads provide a `GfpResponseInfo` object.
+This object contains information about the ad it loaded. Each ad format class has a property to get the response info. 
+On banner ads for example, use the `responseInfo` property.
 
-```
+```java
 GfpBannerAdView bannerAdView = new GfpBannerAdView(this, adParam);
 bannerAdView.setAdListener(new BannerAdListener() {
     @Override
@@ -48,6 +48,27 @@ GfpAdLoader.Builder builder = new GfpAdLoader.Builder(this, adParam)
         Log.d("native simple ad response info", nativeSimpleAd.getResponseInfo();
     }).build();
 ```
+
+## Response info properties 
+
+Properties of the `GfpResponseInfo` object include: 
+
+### requestId 
+A unique identifier of the ad request. This can be used to identify the ad.
+
+### adCallLatency
+
+
+### totalLoadLatency
+
+### adapterLoadLatency
+
+### loadedAdapterName
+
+### adapterResponses
+
+### errors
+
 
 ##### `GfpResponseInfo` 객체의 메서드에는 다음이 포함됩니다.
   - getRequestId()\
