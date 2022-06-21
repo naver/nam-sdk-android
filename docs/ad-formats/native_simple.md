@@ -17,10 +17,8 @@ in the layout for the `Activity` or `Fragment` in which you'd like to display it
 ```xml
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <com.naver.gfpsdk.GfpNativeSimpleAdView
         android:id="@+id/native_simple_ad_view"

@@ -14,20 +14,16 @@ in the layout for the `Activity` or `Fragment` in which you'd like to display it
 ```xml
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".BannerFragment">
+    android:layout_height="match_parent">
 
-        <RelativeLayout
-            android:id="@+id/ad_container"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentBottom="true"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+    <RelativeLayout
+        android:id="@+id/ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
@@ -164,7 +160,7 @@ protected void onDestroy() {
 
 ## (Optional) Configure timeout
 
-You can configure timeout for a single ad request may be set in milliseconds. If not set, the value set in `GfpSdk.setSdkProperties()` uses the bannerAdRequestTimeout value.
+You can configure timeout for a single ad request may be set in milliseconds. If not set, the value set in `GfpSdk.setSdkProperties()` uses the `bannerAdRequestTimeout` value.
 
 ```java
 bannerAdView.setTimeoutMillis(30_000L);
