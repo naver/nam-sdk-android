@@ -107,7 +107,7 @@ NAM SDK mediation supports several ad provider, with a mix of bidding and waterf
 | [DFP](docs/ad-providers/dfp.md)       | O      | O      | X             | O        | O            | Google Mobile Ads provider                             |
 | [FAN](docs/ad-providers/fan.md)       | O      | O      | X             | O        | O            | Meta Audience Network provider                         |
 | [INMOBI](docs/ad-providers/inmobi.md) | O      | O      | X             | X        | X            | InMobi provider                                        |
->Note: After contacting the GFP manager, add the module of the Ad provider you want to add to.
+>Note: After contacting the NAM manager, add the module of the Ad provider you want to add to.
 
 ### 7. (Optional) Targeting your ads
 
