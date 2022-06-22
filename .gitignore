@@ -1,5 +1,2 @@
 .idea/
 .DS_Store
-example/javaSample/.gradle/
-example/javaSample/app/build/
-example/javaSample/local.properties
