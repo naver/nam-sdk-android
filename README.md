@@ -1,9 +1,7 @@
 # Naver Ad Manager SDK for Android
 
-Integrating the `Naver Ad Manager SDK` into an app is the first step toward displaying ads and earning revenue. Once you've integrated the SDK,
+Integrating the `Naver Ad Manager(NAM) SDK` into an app is the first step toward displaying ads and earning revenue. Once you've integrated the SDK,
 you can choose an ad format (such as banner or native or rewarded or interstitial) and follow the steps to implement it.
-
-![Ad Formats](docs/images/ad_formats.png?raw=true "Title")
 
 ## Before you begin
 
@@ -49,23 +47,24 @@ android {
 
 ### 3. Add the dependencies for the Naver Ad Manager SDK to your module's app-level Gradle file, normally `app/build.gradle`:
 
+<strike>
+  
 ```gradle
 dependencies {
   implementation 'com.naver.gfpsdk:gfpsdk-core:4.2.0'
   ... (add your mediation dependencies) 
 }
 ```
->Note: You must add dependency with aar until `NAM SDK` is uploaded to the maven repository.
+  
+</strike>
 
-#### Manual integration
+❗**You must manually integrate the NAM SDK before it is uploaded to the maven repository.**
 
-You must manually integrate the NAM SDK before it is uploaded to the maven repository.
-
-##### 1. Download the NAM SDK
+#### 1. Download the NAM SDK
 
 You can download the aar files [here](https://github.com/naver/nam-sdk-android/tree/feature/update-readme/release).
 
-##### 2. Extract the aar files under the `libs` folder and add it to your project.
+#### 2. Extract the aar files under the `libs` folder and add it to your project.
 
 ```gradle
 implementation fileTree(dir: 'libs', include: ['*.aar'])
