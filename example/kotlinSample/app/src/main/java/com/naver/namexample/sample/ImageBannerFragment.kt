@@ -1,3 +1,11 @@
+/*
+ * NAM(Naver Ad Manager) SDK for Android
+ *
+ * Copyright 2022-present NAVER Corp.
+ * All rights reserved.
+ *
+ * Unauthorized use, modification and redistribution of this software are strongly prohibited.
+ */
 package com.naver.namexample.sample
 
 import android.os.Bundle
@@ -29,7 +37,8 @@ class ImageBannerFragment : Fragment() {
         logTextView = binding.logTextView
 
         val adParam = AdParam.Builder()
-            .setAdUnitId("YOUR_UNIT_ID")
+            // todo Please set your AD Unit ID. You can get the ID from NAM Admin.
+            .setAdUnitId("AOS_nw_banner-N345765840")
             .build()
         val bannerAdOptions = GfpBannerAdOptions.Builder()
             .setBannerViewLayoutType(BannerViewLayoutType.FLUID_WIDTH)

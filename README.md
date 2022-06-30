@@ -47,28 +47,20 @@ android {
 
 ### 3. Add the dependencies for the Naver Ad Manager SDK to your module's app-level Gradle file, normally `app/build.gradle`:
 
-<strike>
-  
 ```gradle
 dependencies {
-  implementation 'com.naver.gfpsdk:gfpsdk-core:4.2.0'
-  ... (add your mediation dependencies) 
+    implementation(platform("com.naver.gfpsdk:gfpsdk-bom:4.3.0-beta.1"))
+	implementation "com.naver.gfpsdk:gfpsdk-core"
+
+	... (add your mediation dependencies)
+	implementation "com.naver.gfpsdk:extension-nda"
+	implementation "com.naver.gfpsdk:extension-dfp"
+	implementation "com.naver.gfpsdk:extension-fan"
+	implementation "com.naver.gfpsdk:extension-inmobi"
+	implementation "com.naver.gfpsdk:extension-unity"
 }
 ```
   
-</strike>
-
-❗**You must manually integrate the NAM SDK before it is uploaded to the maven repository.**
-
-#### 1. Download the NAM SDK
-
-You can download the aar files [here](https://github.com/naver/nam-sdk-android/tree/feature/update-readme/release).
-
-#### 2. Extract the aar files under the `libs` folder and add it to your project.
-
-```gradle
-implementation fileTree(dir: 'libs', include: ['*.aar'])
-```
 
 ### 4. Add your Publisher Code to your app's `AndroidManifest.xml` file. 
 

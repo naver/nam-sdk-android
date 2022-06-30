@@ -1,54 +1,77 @@
 plugins {
-    id 'com.android.application'
+	id "com.android.application"
+	id "com.diffplug.spotless" version "6.7.2" // you don't need to use this
 }
 
 android {
-    compileSdk 31
+	compileSdk 31
 
-    defaultConfig {
-        applicationId "com.naver.namexample"
-        minSdk 21
-        targetSdk 31
-        versionCode 1
-        versionName "1.0"
+	defaultConfig {
+		applicationId "com.naver.namexample"
+		minSdk 21
+		targetSdk 31
+		versionCode 1
+		versionName "1.0"
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-    }
+		testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+	}
 
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
-    }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
-    }
+	buildTypes {
+		release {
+			minifyEnabled false
+			proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+		}
+	}
+	compileOptions {
+		sourceCompatibility JavaVersion.VERSION_11
+		targetCompatibility JavaVersion.VERSION_11
+	}
+}
+
+project.ext {
+	namSdkVersion = "4.3.0-beta.1"
+}
+
+// for the convention. you don't need to use this
+spotless {
+	format "misc", {
+		target "*.gradle", "*.md", ".gitignore"
+		trimTrailingWhitespace()
+		indentWithTabs()
+		endWithNewline()
+	}
+	java {
+		target("**/*.java")
+		removeUnusedImports()
+		licenseHeader "/*\n" +
+				" * NAM(Naver Ad Manager) SDK for Android\n" +
+				" * \n" +
+				" * Copyright 2022-present NAVER Corp.\n" +
+				" * All rights reserved.\n" +
+				" * \n" +
+				" * Unauthorized use, modification and redistribution of this software are strongly prohibited.\n" +
+				" */"
+		googleJavaFormat()
+	}
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+	implementation "androidx.appcompat:appcompat:1.4.1"
+	implementation "com.google.android.material:material:1.4.0"
+	implementation "androidx.constraintlayout:constraintlayout:2.1.3"
+	testImplementation "junit:junit:4.13.2"
+	androidTestImplementation "androidx.test.ext:junit:1.1.3"
+	androidTestImplementation "androidx.test.espresso:espresso-core:3.4.0"
 
-    implementation fileTree(dir: '../../../../release', include: ['*.aar'])
-    // kotlin
-    implementation 'androidx.core:core-ktx:1.3.2'
-    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.4.32'
-    // DFP
-    implementation 'com.google.android.gms:play-services-ads:20.6.0'
-    // FAN
-    implementation 'com.facebook.android:audience-network-sdk:6.8.0'
-    // InMobi
-    implementation ('com.inmobi.monetization:inmobi-ads:10.0.1') {
-        exclude group: "com.android.support", module: "exifinterface"
-        exclude group: "com.android.support", module: "support-annotations"
-    }
-    implementation 'androidx.exifinterface:exifinterface:1.0.0'
-    implementation 'androidx.annotation:annotation:1.2.0'
-    implementation 'com.google.android.gms:play-services-location:17.0.0'
+	// NAM SDK support BoM
+	implementation(platform("com.naver.gfpsdk:gfpsdk-bom:" + namSdkVersion))
+	implementation "com.naver.gfpsdk:gfpsdk-core"
+	implementation "com.naver.gfpsdk:extension-nda"
+	implementation "com.naver.gfpsdk:extension-dfp"
+	implementation "com.naver.gfpsdk:extension-fan"
+	implementation("com.naver.gfpsdk:extension-inmobi")
+			{
+				exclude(group: "com.squareup.picasso")
+			}
+	implementation "com.naver.gfpsdk:extension-unity"
 }

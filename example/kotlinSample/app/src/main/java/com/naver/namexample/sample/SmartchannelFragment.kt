@@ -1,3 +1,11 @@
+/*
+ * NAM(Naver Ad Manager) SDK for Android
+ *
+ * Copyright 2022-present NAVER Corp.
+ * All rights reserved.
+ *
+ * Unauthorized use, modification and redistribution of this software are strongly prohibited.
+ */
 package com.naver.namexample.sample
 
 import android.os.Bundle
@@ -27,7 +35,8 @@ class SmartchannelFragment : Fragment() {
         val nativeSimpleAdView = binding.nativeSimpleAdView
         logTextView = binding.logTextView
         val adParam = AdParam.Builder()
-            .setAdUnitId("YOUR_UNIT_ID")
+            // todo Please set your AD Unit ID. You can get the ID from NAM Admin.
+            .setAdUnitId("AOS_nw_native-N345765840")
             .build()
         adLoader = GfpAdLoader.Builder(requireActivity(), adParam)
             .withAdListener(object : AdEventListener() {
@@ -54,7 +63,8 @@ class SmartchannelFragment : Fragment() {
             })
             .withNativeSimpleAd(
                 GfpNativeSimpleAdOptions.Builder()
-                    .setAdChoicePlacement(GfpNativeSimpleAdOptions.ADCHOICES_BOTTOM_LEFT)
+                    // a placement for AdMute (Naver ad opt-out)
+                    .setAdChoicePlacement(GfpNativeSimpleAdOptions.ADCHOICES_TOP_RIGHT)
                     .build()
             ) { nativeSimpleAd: GfpNativeSimpleAd ->
                 logTextView.append("[${DateUtil.CURR_TIME_STR}] AD Loaded.\n\t\tAdProviderName: ${nativeSimpleAd.adProviderName}\n")

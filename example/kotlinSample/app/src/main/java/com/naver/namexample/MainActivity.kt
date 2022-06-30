@@ -1,3 +1,11 @@
+/*
+ * NAM(Naver Ad Manager) SDK for Android
+ *
+ * Copyright 2022-present NAVER Corp.
+ * All rights reserved.
+ *
+ * Unauthorized use, modification and redistribution of this software are strongly prohibited.
+ */
 package com.naver.namexample
 
 import android.os.Bundle
@@ -7,8 +15,6 @@ import com.naver.gfpsdk.GfpSdk.getSdkProperties
 import com.naver.gfpsdk.GfpSdk.getUserProperties
 import com.naver.gfpsdk.GfpSdk.setSdkProperties
 import com.naver.gfpsdk.GfpSdk.setUserProperties
-import com.naver.gfpsdk.GfpTheme
-import com.naver.gfpsdk.internal.GfpLogger
 import com.naver.gfpsdk.provider.DfpProviderOptions
 import com.naver.gfpsdk.provider.FanProviderOptions
 import com.naver.gfpsdk.provider.NdaProviderOptions
