@@ -29,7 +29,7 @@ class ImageBannerFragment : Fragment() {
         logTextView = binding.logTextView
 
         val adParam = AdParam.Builder()
-            .setAdUnitId("YOUR_UNIT_ID")
+            .setAdUnitId(AD_UNIT_ID)
             .build()
         val bannerAdOptions = GfpBannerAdOptions.Builder()
             .setBannerViewLayoutType(BannerViewLayoutType.FLUID_WIDTH)
@@ -87,5 +87,9 @@ class ImageBannerFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         bannerAdView?.destroy()
+    }
+
+    companion object {
+        private const val AD_UNIT_ID = "INSERT YOUR AD UNIT ID"
     }
 }

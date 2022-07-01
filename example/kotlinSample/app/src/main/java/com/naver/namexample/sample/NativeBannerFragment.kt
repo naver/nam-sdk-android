@@ -31,7 +31,7 @@ class NativeBannerFragment : Fragment() {
         nativeContainer = binding.nativeContainer
         logTextView = binding.logTextView
         val adParam = AdParam.Builder()
-            .setAdUnitId("YOUR_UNIT_ID")
+            .setAdUnitId(AD_UNIT_ID)
             .build()
         val nativeAdOptions = GfpNativeAdOptions.Builder()
             .setHasMediaView(true)
@@ -119,5 +119,9 @@ class NativeBannerFragment : Fragment() {
     override fun onDestroy() {
         super.onDestroy()
         adLoader?.cancel()
+    }
+
+    companion object {
+        private const val AD_UNIT_ID = "INSERT YOUR AD UNIT ID"
     }
 }

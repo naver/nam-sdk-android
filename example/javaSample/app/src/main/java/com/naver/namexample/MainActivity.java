@@ -8,8 +8,6 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.naver.gfpsdk.GenderType;
 import com.naver.gfpsdk.GfpSdk;
-import com.naver.gfpsdk.GfpTheme;
-import com.naver.gfpsdk.internal.GfpLogger;
 import com.naver.gfpsdk.provider.DfpProviderOptions;
 import com.naver.gfpsdk.provider.FanProviderOptions;
 import com.naver.gfpsdk.provider.NdaProviderOptions;
@@ -48,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                         .build())
                 // timeout for 'ImageBanner' type
                 .bannerAdRequestTimeout(60_000L)
-                // timeout for 'NativeBanner' and 'Smartchannel' types
+                // timeout for 'NativeBanner' and 'SmartChannel' types
                 .unifiedAdRequestTimeout(60_000L)
                 .build());
 

@@ -16,10 +16,10 @@ import androidx.fragment.app.ListFragment;
 
 import com.naver.namexample.sample.ImageBannerFragment;
 import com.naver.namexample.sample.NativeBannerFragment;
-import com.naver.namexample.sample.SmartchannelFragment;
+import com.naver.namexample.sample.SmartChannelFragment;
 
 public class MainMenuFragment extends ListFragment {
-    private SampleAdInfo[] adList = new SampleAdInfo[] {
+    private final SampleAdInfo[] adList = new SampleAdInfo[]{
             new SampleAdInfo("이미지형 배너", SampleAdType.IMAGE_BANNER),
             new SampleAdInfo("네이티브형 배너", SampleAdType.NATIVE_BANNER),
             new SampleAdInfo("스마트채널", SampleAdType.SMART_CHANNEL),
@@ -30,13 +30,13 @@ public class MainMenuFragment extends ListFragment {
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_main_menu, container, false);
-        ArrayAdapter<SampleAdInfo> adapter = new ArrayAdapter<SampleAdInfo>(getActivity(), android.R.layout.simple_list_item_1, adList);
+        ArrayAdapter<SampleAdInfo> adapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, adList);
         setListAdapter(adapter);
         return rootView;
     }
 
     @Override
-    public void onListItemClick(ListView listView, View view, int position, long id) {
+    public void onListItemClick(ListView listView, @NonNull View view, int position, long id) {
         SampleAdInfo adInfo = (SampleAdInfo) listView.getItemAtPosition(position);
         Fragment newFragment = null;
 
@@ -48,7 +48,7 @@ public class MainMenuFragment extends ListFragment {
                 newFragment = new NativeBannerFragment();
                 break;
             case SMART_CHANNEL:
-                newFragment = new SmartchannelFragment();
+                newFragment = new SmartChannelFragment();
                 break;
             default:
                 Toast.makeText(this.getContext(), "[ERROR] Please check again your ad type", Toast.LENGTH_SHORT).show();
@@ -66,9 +66,9 @@ public class MainMenuFragment extends ListFragment {
         IMAGE_BANNER, NATIVE_BANNER, SMART_CHANNEL
     }
 
-    class SampleAdInfo {
-        private String adName;
-        private SampleAdType adType;
+    static class SampleAdInfo {
+        private final String adName;
+        private final SampleAdType adType;
 
         public SampleAdInfo(String adName, SampleAdType adType) {
             this.adName = adName;
@@ -79,6 +79,7 @@ public class MainMenuFragment extends ListFragment {
             return adType;
         }
 
+        @NonNull
         @Override
         public String toString() {
             return adName;

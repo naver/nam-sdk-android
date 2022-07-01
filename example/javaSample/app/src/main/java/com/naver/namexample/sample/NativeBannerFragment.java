@@ -33,6 +33,8 @@ import java.util.Locale;
 import java.util.Map;
 
 public class NativeBannerFragment extends Fragment {
+    private static final String AD_UNIT_ID = "INSERT YOUR AD UNIT ID";
+
     private GfpAdLoader adLoader;
     private RelativeLayout nativeContainer;
     private final SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss.SSS", Locale.getDefault());
@@ -46,14 +48,14 @@ public class NativeBannerFragment extends Fragment {
         logTextView = view.findViewById(R.id.log_text_view);
 
         AdParam adParam = new AdParam.Builder()
-                .setAdUnitId("YOUR_UNIT_ID")
+                .setAdUnitId(AD_UNIT_ID)
                 .build();
 
         GfpNativeAdOptions nativeAdOptions = new GfpNativeAdOptions.Builder()
                 .setHasMediaView(true)
                 .build();
 
-        adLoader = new GfpAdLoader.Builder(getContext(), adParam)
+        adLoader = new GfpAdLoader.Builder(requireActivity(), adParam)
                 .withTimeoutMillis(60_000L)
                 .withAdListener(new AdEventListener() {
                     @Override
@@ -95,6 +97,7 @@ public class NativeBannerFragment extends Fragment {
                     @Override
                     public void onError(GfpError error, GfpResponseInfo responseInfo) {
                         logTextView.append(String.format(
+                                Locale.US,
                                 "[%s] Error occurred.%n    code[%d]%n    subCode[%s]%n    message[%s]%n",
                                 sdf.format(new Date()),
                                 error.getErrorCode(),

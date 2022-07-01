@@ -1,5 +1,7 @@
 # Naver Ad Manager SDK for Android
 
+![Maven Central](https://img.shields.io/maven-central/v/com.naver.gfpsdk/gfpsdk-core)
+
 Integrating the `Naver Ad Manager(NAM) SDK` into an app is the first step toward displaying ads and earning revenue. Once you've integrated the SDK,
 you can choose an ad format (such as banner or native or rewarded or interstitial) and follow the steps to implement it.
 
@@ -18,7 +20,7 @@ To prepare your app, complete the steps in the following sections.
 
 ### 1. In your project-level `build.gradle` file, include [Google's Maven repository](https://maven.google.com/web/index.html) and [Maven central repository](https://search.maven.org/artifact) in both your buildscript and allprojects sections:
 
-```gradle
+```groovy
 buildscript {
     repositories {
         google()
@@ -36,7 +38,7 @@ allprojects {
 
 ### 2. Set the compile options to `java 8`, in your module's app-level Gradle file, normally `app/build.gradle`:
 
-```gradle
+```groovy
 android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -47,27 +49,56 @@ android {
 
 ### 3. Add the dependencies for the Naver Ad Manager SDK to your module's app-level Gradle file, normally `app/build.gradle`:
 
-<strike>
-  
-```gradle
+#### (Required) Add the core dependency
+
+```groovy
 dependencies {
-  implementation 'com.naver.gfpsdk:gfpsdk-core:4.2.0'
-  ... (add your mediation dependencies) 
+  implementation platform('com.naver.gfpsdk:gfpsdk-bom:4.3.0-beta.1')
+  implementation 'com.naver.gfpsdk:gfpsdk-core' // no version specified
 }
 ```
-  
-</strike>
+>Note: You can avoid specifying the version of each dependency with a `Bill Of Materials`.
 
-❗**You must manually integrate the NAM SDK before it is uploaded to the maven repository.**
+#### (Optional) Add the mediation dependencies
 
-#### 1. Download the NAM SDK
+##### For `S2S` mediation, make sure the following dependencies are place:
 
-You can download the aar files [here](https://github.com/naver/nam-sdk-android/tree/feature/update-readme/release).
+```groovy
+dependencies {
+  implementation 'com.naver.gfpsdk:extension-nda' // no version specified
+} 
+```
 
-#### 2. Extract the aar files under the `libs` folder and add it to your project.
+##### For `Google Ad Manager` mediation, make sure the following dependencies are place:
 
-```gradle
-implementation fileTree(dir: 'libs', include: ['*.aar'])
+```groovy
+dependencies {
+  implementation 'com.naver.gfpsdk:extension-dfp' // no version specified
+} 
+```
+
+##### For `Meta Audience Network` mediation, make sure the following dependencies are place:
+
+```groovy
+dependencies {
+  implementation 'com.naver.gfpsdk:extension-fan' // no version specified
+} 
+```
+
+##### For `InMobi` mediation, make sure the following dependencies are place:
+
+```groovy
+dependencies {
+  implementation 'com.naver.gfpsdk:extension-inmobi' // no version specified
+} 
+```
+
+##### For `Unity` mediation, make sure the following dependencies are place:
+
+```groovy
+dependencies {
+  implementation 'com.naver.gfpsdk:extension-unity' // no version specified
+} 
 ```
 
 ### 4. Add your Publisher Code to your app's `AndroidManifest.xml` file. 
@@ -103,7 +134,7 @@ NAM SDK mediation supports several ad provider, with a mix of bidding and waterf
 | Ad Provider                           | Banner | Native | Native Simple | Rewarded | Interstitial | Description                                            |
 |:--------------------------------------|:-------|:-------|:--------------|:---------|:-------------|:-------------------------------------------------------|
 | [NDA](docs/ad-providers/nda.md)       | O      | O      | O             | X        | X            | S2S provider (Naver, Pubmatic, AppNexus, Rubicon, ...) |
-| [DFP](docs/ad-providers/dfp.md)       | O      | O      | X             | O        | O            | Google Mobile Ads provider                             |
+| [DFP](docs/ad-providers/dfp.md)       | O      | O      | X             | O        | O            | Google Ad Manager provider                             |
 | [FAN](docs/ad-providers/fan.md)       | O      | O      | X             | O        | O            | Meta Audience Network provider                         |
 | [INMOBI](docs/ad-providers/inmobi.md) | O      | O      | X             | X        | X            | InMobi provider                                        |
 >Note: After contacting the NAM manager, add the module of the Ad provider you want to add to.
@@ -123,8 +154,6 @@ NAM SDK provides an option for developers to send targeting data. More informati
 Bugs and feature requests can be filed with [GitHub Issues](https://github.com/naver/nam-sdk-android/issues).
 
 ## License
-
-NAM(Naver Ad Manager) SDK의 저작권은 네이버(주)에 있습니다.
 
 ```
 NAM(Naver Ad Manager) SDK for Android

@@ -24,7 +24,9 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Map;
 
-public class SmartchannelFragment extends Fragment {
+public class SmartChannelFragment extends Fragment {
+    private static final String AD_UNIT_ID = "INSERT YOUR AD UNIT ID";
+
     private GfpAdLoader adLoader;
     private final SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss.SSS", Locale.getDefault());
     private TextView logTextView;
@@ -32,12 +34,12 @@ public class SmartchannelFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_smartchannel, container, false);
+        View view = inflater.inflate(R.layout.fragment_smart_channel, container, false);
         GfpNativeSimpleAdView nativeSimpleAdView = view.findViewById(R.id.native_simple_ad_view);
         logTextView = view.findViewById(R.id.log_text_view);
 
         AdParam adParam = new AdParam.Builder()
-                .setAdUnitId("YOUR_UNIT_ID")
+                .setAdUnitId(AD_UNIT_ID)
                 .build();
 
         adLoader = new GfpAdLoader.Builder(requireActivity(), adParam)
@@ -73,6 +75,7 @@ public class SmartchannelFragment extends Fragment {
                     @Override
                     public void onError(GfpError error, GfpResponseInfo responseInfo) {
                         logTextView.append(String.format(
+                                Locale.US,
                                 "[%s] Error occurred.%n    code[%d]%n    subCode[%s]%n    message[%s]%n",
                                 sdf.format(new Date()),
                                 error.getErrorCode(),

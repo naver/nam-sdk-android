@@ -7,8 +7,6 @@ import com.naver.gfpsdk.GfpSdk.getSdkProperties
 import com.naver.gfpsdk.GfpSdk.getUserProperties
 import com.naver.gfpsdk.GfpSdk.setSdkProperties
 import com.naver.gfpsdk.GfpSdk.setUserProperties
-import com.naver.gfpsdk.GfpTheme
-import com.naver.gfpsdk.internal.GfpLogger
 import com.naver.gfpsdk.provider.DfpProviderOptions
 import com.naver.gfpsdk.provider.FanProviderOptions
 import com.naver.gfpsdk.provider.NdaProviderOptions

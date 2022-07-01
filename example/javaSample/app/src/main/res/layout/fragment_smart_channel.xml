@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sample.SmartchannelFragment">
+    tools:context=".sample.SmartChannelFragment">
     <ScrollView
         android:id="@+id/ad_scroll_area"
         android:layout_width="0dp"
@@ -30,7 +30,7 @@
                 android:gravity="center"
                 android:text="@string/scroll_down"
                 android:textColor="@android:color/black"
-                android:textSize="18sp" />
+                android:textSize="18dp" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -65,7 +65,7 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:textColor="@android:color/black"
-            android:textSize="14sp"
+            android:textSize="13dp"
             tools:text="log" />
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

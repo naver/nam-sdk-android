@@ -14,20 +14,20 @@ import com.naver.gfpsdk.GfpError
 import com.naver.gfpsdk.GfpNativeSimpleAd
 import com.naver.gfpsdk.GfpNativeSimpleAdOptions
 import com.naver.gfpsdk.GfpResponseInfo
-import com.naver.namexample.databinding.FragmentSmartchannelBinding
+import com.naver.namexample.databinding.FragmentSmartChannelBinding
 import com.naver.namexample.util.DateUtil
 
-class SmartchannelFragment : Fragment() {
+class SmartChannelFragment : Fragment() {
     private var adLoader: GfpAdLoader? = null
     private lateinit var logTextView: TextView
-    private lateinit var binding: FragmentSmartchannelBinding
+    private lateinit var binding: FragmentSmartChannelBinding
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
-        binding = FragmentSmartchannelBinding.inflate(inflater)
+        binding = FragmentSmartChannelBinding.inflate(inflater)
         val nativeSimpleAdView = binding.nativeSimpleAdView
         logTextView = binding.logTextView
         val adParam = AdParam.Builder()
-            .setAdUnitId("YOUR_UNIT_ID")
+            .setAdUnitId(AD_UNIT_ID)
             .build()
         adLoader = GfpAdLoader.Builder(requireActivity(), adParam)
             .withAdListener(object : AdEventListener() {
@@ -69,5 +69,9 @@ class SmartchannelFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         adLoader?.cancel()
+    }
+
+    companion object {
+        private const val AD_UNIT_ID = "INSERT YOUR AD UNIT ID"
     }
 }

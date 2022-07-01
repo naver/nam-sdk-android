@@ -1,4 +1,4 @@
-# Google Mobile Ads 
+# Google Ad Manager 
 
 This guide is intended for publishers who want to use NAM SDK to load and display ads from the Google Mobile Ads through waterfall mediation.
 It covers how to integrate the Google Mobile Ads SDK and adapter into an Android app.
@@ -28,7 +28,7 @@ repositories {
 
 ...
 dependencies {
-    implementation 'com.naver.gfpsdk:extension-dfp:4.2.0'  
+    implementation 'com.naver.gfpsdk:extension-dfp:4.3.0-beta.1'  
 }
 ```
 
