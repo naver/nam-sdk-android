@@ -1,3 +1,11 @@
+/*
+ * NAM(Naver Ad Manager) SDK for Android
+ *
+ * Copyright 2022-present NAVER Corp.
+ * All rights reserved.
+ *
+ * Unauthorized use, modification and redistribution of this software are strongly prohibited.
+ */
 package com.naver.namexample
 
 import android.os.Bundle

@@ -1,3 +1,11 @@
+/*
+ * NAM(Naver Ad Manager) SDK for Android
+ *
+ * Copyright 2022-present NAVER Corp.
+ * All rights reserved.
+ *
+ * Unauthorized use, modification and redistribution of this software are strongly prohibited.
+ */
 package com.naver.namexample.sample
 
 import android.os.Bundle
@@ -72,6 +80,6 @@ class SmartChannelFragment : Fragment() {
     }
 
     companion object {
-        private const val AD_UNIT_ID = "INSERT YOUR AD UNIT ID"
+        private const val AD_UNIT_ID = "AOS_nw_native-N345765840"
     }
 }
