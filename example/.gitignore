@@ -1,0 +1,14 @@
+.idea/
+.DS_Store
+local.properties
+
+# Gradle
+.gradle
+build
+**/build
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws

@@ -1,7 +1,6 @@
 plugins {
 	id 'com.android.application'
 	id 'org.jetbrains.kotlin.android'
-	id "com.diffplug.spotless" version "6.7.2" // you don't need to use this
 }
 
 android {
@@ -31,28 +30,6 @@ android {
 
 	viewBinding {
 		enabled = true
-	}
-}
-
-// for the convention. you don't need to use this
-spotless {
-	format "misc", {
-		target "*.gradle", "*.md", ".gitignore"
-		trimTrailingWhitespace()
-		indentWithTabs()
-		endWithNewline()
-	}
-	kotlin {
-		target("**/*.kt")
-		licenseHeader "/*\n" +
-				" * NAM(Naver Ad Manager) SDK for Android\n" +
-				" * \n" +
-				" * Copyright 2022-present NAVER Corp.\n" +
-				" * All rights reserved.\n" +
-				" * \n" +
-				" * Unauthorized use, modification and redistribution of this software are strongly prohibited.\n" +
-				" */"
-		ktlint()
 	}
 }
 

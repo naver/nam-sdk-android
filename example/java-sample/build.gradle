@@ -1,6 +1,5 @@
 plugins {
 	id 'com.android.application'
-	id "com.diffplug.spotless" version "6.7.2"
 }
 
 android {
@@ -26,29 +25,6 @@ android {
 	compileOptions {
 		sourceCompatibility JavaVersion.VERSION_1_8
 		targetCompatibility JavaVersion.VERSION_1_8
-	}
-}
-
-// for the convention. you don't need to use this
-spotless {
-	format "misc", {
-		target "*.gradle", "*.md", ".gitignore"
-		trimTrailingWhitespace()
-		indentWithTabs()
-		endWithNewline()
-	}
-	java {
-		target("**/*.java")
-		removeUnusedImports()
-		licenseHeader "/*\n" +
-				" * NAM(Naver Ad Manager) SDK for Android\n" +
-				" * \n" +
-				" * Copyright 2022-present NAVER Corp.\n" +
-				" * All rights reserved.\n" +
-				" * \n" +
-				" * Unauthorized use, modification and redistribution of this software are strongly prohibited.\n" +
-				" */"
-		googleJavaFormat()
 	}
 }
 
