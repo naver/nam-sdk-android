@@ -1,6 +1,6 @@
 # Naver Ad Manager SDK for Android
 
-![Maven Central](https://img.shields.io/maven-central/v/com.naver.gfpsdk/gfpsdk-core)
+![Maven Central](https://img.shields.io/maven-central/v/com.naver.gfpsdk/nam-core)
 
 Integrating the `Naver Ad Manager(NAM) SDK` into an app is the first step toward displaying ads and earning revenue. Once you've integrated the SDK,
 you can choose an ad format (such as banner or native or rewarded or interstitial) and follow the steps to implement it.
@@ -53,8 +53,8 @@ android {
 
 ```groovy
 dependencies {
-  implementation platform('com.naver.gfpsdk:gfpsdk-bom:4.3.0-beta.1')
-  implementation 'com.naver.gfpsdk:gfpsdk-core' // no version specified
+  implementation platform('com.naver.gfpsdk:nam-bom:4.3.1')
+  implementation 'com.naver.gfpsdk:nam-core' // no version specified
 }
 ```
 >Note: You can avoid specifying the version of each dependency with a `Bill Of Materials`.
@@ -65,7 +65,7 @@ dependencies {
 
 ```groovy
 dependencies {
-  implementation 'com.naver.gfpsdk:extension-nda' // no version specified
+  implementation 'com.naver.gfpsdk:nam-nda' // no version specified
 } 
 ```
 
@@ -73,7 +73,7 @@ dependencies {
 
 ```groovy
 dependencies {
-  implementation 'com.naver.gfpsdk:extension-dfp' // no version specified
+  implementation 'com.naver.gfpsdk:nam-dfp' // no version specified
 } 
 ```
 
@@ -81,7 +81,7 @@ dependencies {
 
 ```groovy
 dependencies {
-  implementation 'com.naver.gfpsdk:extension-fan' // no version specified
+  implementation 'com.naver.gfpsdk:nam-fan' // no version specified
 } 
 ```
 
@@ -89,7 +89,7 @@ dependencies {
 
 ```groovy
 dependencies {
-  implementation 'com.naver.gfpsdk:extension-inmobi' // no version specified
+  implementation 'com.naver.gfpsdk:nam-inmobi' // no version specified
 } 
 ```
 
@@ -97,7 +97,7 @@ dependencies {
 
 ```groovy
 dependencies {
-  implementation 'com.naver.gfpsdk:extension-unity' // no version specified
+  implementation 'com.naver.gfpsdk:nam-unity' // no version specified
 } 
 ```
 

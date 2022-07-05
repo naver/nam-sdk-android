@@ -28,7 +28,7 @@ repositories {
 
 ...
 dependencies {
-    implementation 'com.naver.gfpsdk:extension-dfp:4.3.0-beta.1'  
+    implementation 'com.naver.gfpsdk:nam-dfp:4.3.1'  
 }
 ```
 

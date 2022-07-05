@@ -32,13 +32,13 @@ dependencies {
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
 
-    implementation platform('com.naver.gfpsdk:gfpsdk-bom:4.3.0-beta.1')
-    implementation 'com.naver.gfpsdk:gfpsdk-core'
-    implementation 'com.naver.gfpsdk:extension-nda' // (optional) s2s mediation dependencies
-    implementation 'com.naver.gfpsdk:extension-dfp' // (optional) dfp mediation dependencies
-    implementation 'com.naver.gfpsdk:extension-fan' // (optional) fan mediation dependencies
-    implementation 'com.naver.gfpsdk:extension-inmobi' // (optional) inmobi mediation dependencies
-    implementation 'com.naver.gfpsdk:extension-unity' // (optional) unity mediation dependencies
+    implementation platform('com.naver.gfpsdk:nam-bom:4.3.1')
+    implementation 'com.naver.gfpsdk:nam-core'
+    implementation 'com.naver.gfpsdk:nam-nda' // (optional) s2s mediation dependencies
+    implementation 'com.naver.gfpsdk:nam-dfp' // (optional) dfp mediation dependencies
+    implementation 'com.naver.gfpsdk:nam-fan' // (optional) fan mediation dependencies
+    implementation 'com.naver.gfpsdk:nam-inmobi' // (optional) inmobi mediation dependencies
+    implementation 'com.naver.gfpsdk:nam-unity' // (optional) unity mediation dependencies
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
