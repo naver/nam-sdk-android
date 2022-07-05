@@ -7,7 +7,7 @@
 
 * change the artifact id of the external build
 
-    To prevent conflicts with NAVER internal build, we changed the artifact id of NAM SDK, and from version `4.3.1` you have to add dependencies as below.
+    >⚠️ Important: To prevent conflicts with NAVER internal build, we changed the artifact id of NAM SDK, and from version `4.3.1` you have to add dependencies as below.
 
     ```groovy
     implementation platform('com.naver.gfpsdk:nam-bom:4.3.1')
