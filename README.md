@@ -145,8 +145,8 @@ NAM SDK provides an option for developers to send targeting data. More informati
 
 ## Demo apps 
 
-- [Java Example](https://github.com/naver/nam-sdk-android/tree/main/example/javaSample)
-- [Kotlin Example](https://github.com/naver/nam-sdk-android/tree/main/example/kotlinSample)
+- [Java Example](https://github.com/naver/nam-sdk-android/tree/main/example/java-sample)
+- [Kotlin Example](https://github.com/naver/nam-sdk-android/tree/main/example/kotlin-sample)
 >Note: These applications are provided for demo purposes only. Do NOT use in production.
 
 ## Feedback and getting help

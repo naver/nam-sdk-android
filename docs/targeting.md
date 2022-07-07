@@ -116,7 +116,7 @@ If you know the `country` information, apply it as below.
 ```java
 UserProperties userProperties = GfpSdk.getUserProperties()
     .buildUpon()
-    .yob("KR")
+    .country("KR")
     .build(); 
 ```
 >Note: set the **ISO 3166-1 alpha-2** value.
