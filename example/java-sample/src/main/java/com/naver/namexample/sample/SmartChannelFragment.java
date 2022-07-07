@@ -30,84 +30,94 @@ import java.util.Locale;
 import java.util.Map;
 
 public class SmartChannelFragment extends Fragment {
-  private static final String AD_UNIT_ID = "AOS_nw_native-N345765840";
+    private static final String AD_UNIT_ID = "AOS_nw_native-N345765840";
 
-  private GfpAdLoader adLoader;
-  private final SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss.SSS", Locale.getDefault());
-  private TextView logTextView;
+    private GfpAdLoader adLoader;
+    private final SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss.SSS", Locale.getDefault());
+    private TextView logTextView;
 
-  @Override
-  public View onCreateView(
-      LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-    View view = inflater.inflate(R.layout.fragment_smart_channel, container, false);
-    GfpNativeSimpleAdView nativeSimpleAdView = view.findViewById(R.id.native_simple_ad_view);
-    logTextView = view.findViewById(R.id.log_text_view);
+    @Override
+    public View onCreateView(
+            LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_smart_channel, container, false);
+        GfpNativeSimpleAdView nativeSimpleAdView = view.findViewById(R.id.native_simple_ad_view);
+        logTextView = view.findViewById(R.id.log_text_view);
 
-    AdParam adParam = new AdParam.Builder().setAdUnitId(AD_UNIT_ID).build();
+        AdParam adParam = new AdParam.Builder().setAdUnitId(AD_UNIT_ID).build();
 
-    adLoader =
-        new GfpAdLoader.Builder(requireActivity(), adParam)
-            .withAdListener(
-                new AdEventListener() {
-                  @Override
-                  public void onAdClicked() {
-                    logTextView.append(String.format("[%s] AD Clicked.%n", sdf.format(new Date())));
-                  }
+        adLoader =
+                new GfpAdLoader.Builder(requireActivity(), adParam)
+                        .withAdListener(
+                                new AdEventListener() {
+                                    @Override
+                                    public void onAdClicked() {
+                                        logTextView.append(
+                                                String.format(
+                                                        "[%s] AD Clicked.%n",
+                                                        sdf.format(new Date())));
+                                    }
 
-                  @Override
-                  public void onAdImpression() {
-                    logTextView.append(
-                        String.format("[%s] AD impression.%n", sdf.format(new Date())));
-                  }
+                                    @Override
+                                    public void onAdImpression() {
+                                        logTextView.append(
+                                                String.format(
+                                                        "[%s] AD impression.%n",
+                                                        sdf.format(new Date())));
+                                    }
 
-                  @Override
-                  public void onAdMetaChanged(Map<String, String> params) {
-                    if (params != null && !params.isEmpty()) {
-                      Joiner.MapJoiner joiner = Joiner.on(',').withKeyValueSeparator(":");
-                      logTextView.append(
-                          String.format(
-                              "[%s] AD MetaChanged.%n    Value: %s%n",
-                              sdf.format(new Date()), joiner.join(params)));
-                    }
-                  }
+                                    @Override
+                                    public void onAdMetaChanged(Map<String, String> params) {
+                                        if (params != null && !params.isEmpty()) {
+                                            Joiner.MapJoiner joiner =
+                                                    Joiner.on(',').withKeyValueSeparator(":");
+                                            logTextView.append(
+                                                    String.format(
+                                                            "[%s] AD MetaChanged.%n    Value: %s%n",
+                                                            sdf.format(new Date()),
+                                                            joiner.join(params)));
+                                        }
+                                    }
 
-                  @Override
-                  public void onError(GfpError error, GfpResponseInfo responseInfo) {
-                    logTextView.append(
-                        String.format(
-                            Locale.US,
-                            "[%s] Error occurred.%n    code[%d]%n    subCode[%s]%n    message[%s]%n",
-                            sdf.format(new Date()),
-                            error.getErrorCode(),
-                            error.getErrorSubCode(),
-                            error.getErrorMessage()));
-                    Log.e("SmartchannelFragment", responseInfo.toString());
-                  }
-                })
-            .withNativeSimpleAd(
-                new GfpNativeSimpleAdOptions.Builder()
-                    .setAdChoicePlacement(GfpNativeSimpleAdOptions.ADCHOICES_BOTTOM_LEFT)
-                    .build(),
-                nativeSimpleAd -> {
-                  logTextView.append(
-                      String.format(
-                          "[%s] AD Loaded.%n    AdProviderName: %s%n",
-                          sdf.format(new Date()), nativeSimpleAd.getAdProviderName()));
-                  nativeSimpleAdView.setNativeSimpleAd(nativeSimpleAd);
-                })
-            .build();
+                                    @Override
+                                    public void onError(
+                                            GfpError error, GfpResponseInfo responseInfo) {
+                                        logTextView.append(
+                                                String.format(
+                                                        Locale.US,
+                                                        "[%s] Error occurred.%n    code[%d]%n    subCode[%s]%n    message[%s]%n",
+                                                        sdf.format(new Date()),
+                                                        error.getErrorCode(),
+                                                        error.getErrorSubCode(),
+                                                        error.getErrorMessage()));
+                                        Log.e("SmartchannelFragment", responseInfo.toString());
+                                    }
+                                })
+                        .withNativeSimpleAd(
+                                new GfpNativeSimpleAdOptions.Builder()
+                                        .setAdChoicePlacement(
+                                                GfpNativeSimpleAdOptions.ADCHOICES_BOTTOM_LEFT)
+                                        .build(),
+                                nativeSimpleAd -> {
+                                    logTextView.append(
+                                            String.format(
+                                                    "[%s] AD Loaded.%n    AdProviderName: %s%n",
+                                                    sdf.format(new Date()),
+                                                    nativeSimpleAd.getAdProviderName()));
+                                    nativeSimpleAdView.setNativeSimpleAd(nativeSimpleAd);
+                                })
+                        .build();
 
-    logTextView.append(String.format("[%s] AD Requested.%n", sdf.format(new Date())));
-    adLoader.loadAd();
-    return view;
-  }
-
-  @Override
-  public void onDestroyView() {
-    super.onDestroyView();
-
-    if (adLoader != null) {
-      adLoader.cancel();
+        logTextView.append(String.format("[%s] AD Requested.%n", sdf.format(new Date())));
+        adLoader.loadAd();
+        return view;
     }
-  }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+
+        if (adLoader != null) {
+            adLoader.cancel();
+        }
+    }
 }
