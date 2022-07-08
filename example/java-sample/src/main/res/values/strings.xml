@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">NamJavaExample</string>
-    <!-- TODO Please change this into your code. NAM admin lets you know. -->
-    <string name="publisher_cd">345765840</string>
-    <string name="scroll_down">Please Scroll Down To Check Your AD.</string>
-</resources>

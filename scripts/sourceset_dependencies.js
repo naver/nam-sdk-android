@@ -1,0 +1,1 @@
+sourceset_dependencies='{":library-core:dokkaHtmlExternal/external":[":library-core:dokkaHtmlExternal/main"],":library-core:dokkaHtmlExternal/externalDebug":[],":library-core:dokkaHtmlExternal/externalRelease":[],":library-core:dokkaHtmlExternal/internalDebug":[],":library-core:dokkaHtmlExternal/internalRelease":[],":library-core:dokkaHtmlExternal/main":[]}'
