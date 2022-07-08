@@ -143,6 +143,10 @@ NAM SDK mediation supports several ad provider, with a mix of bidding and waterf
 
 NAM SDK provides an option for developers to send targeting data. More information can be found [here](docs/targeting.md).
 
+## API
+
+The documentation for latest version is available on [here](https://naver.github.io/nam-sdk-android/)
+
 ## Demo apps 
 
 - [Java Example](https://github.com/naver/nam-sdk-android/tree/main/example/java-sample)
