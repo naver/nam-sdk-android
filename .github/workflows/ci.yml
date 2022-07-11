@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  schedule:
+    # Run at AM 10:00 on every day-of-weak from Monday through Friday.
+    - cron: 0 10 * * 1-5
+  pull_request:
+
+jobs:
+  spotless-check:
+    name: Sportless Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+      - name: Set up JDK 11
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+      - name: Spotless Check
+        run: |
+          cd ./example
+          ./gradlew spotlessCheck
