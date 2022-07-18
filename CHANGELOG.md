@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.3.2 (2022-07-18)
+
+
+### Bug Fixes
+
+* **nda:** fix a bug that user cannot click the ad mute button when the same ad is rebind
+
 ### 4.3.1 (2022-07-05)
 
 
@@ -10,7 +17,7 @@
     >⚠️ Important: To prevent conflicts with NAVER internal build, we changed the artifact id of NAM SDK, and from version `4.3.1` you have to add dependencies as below.
 
     ```groovy
-    implementation platform('com.naver.gfpsdk:nam-bom:4.3.1')
+    implementation platform('com.naver.gfpsdk:nam-bom:4.3.2')
     implementation 'com.naver.gfpsdk:nam-core'
     implementation 'com.naver.gfpsdk:nam-nda'
     implementation 'com.naver.gfpsdk:nam-dfp'
