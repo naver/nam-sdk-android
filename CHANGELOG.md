@@ -17,7 +17,7 @@
     >⚠️ Important: To prevent conflicts with NAVER internal build, we changed the artifact id of NAM SDK, and from version `4.3.1` you have to add dependencies as below.
 
     ```groovy
-    implementation platform('com.naver.gfpsdk:nam-bom:4.3.2')
+    implementation platform('com.naver.gfpsdk:nam-bom:4.3.1')
     implementation 'com.naver.gfpsdk:nam-core'
     implementation 'com.naver.gfpsdk:nam-nda'
     implementation 'com.naver.gfpsdk:nam-dfp'
