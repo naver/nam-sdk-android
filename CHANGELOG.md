@@ -1,5 +1,22 @@
 # Changelog
 
+### 4.3.3 (2022-08-01)
+
+
+### Bug Fixes
+
+* **core:** does not set a content description on Native Banner 
+* **core:** fix a bug that is not drawn if width of `GfpNativeSimpleAdView` is `wrap_content`
+* **nda:** fix a bug calculating size of NS image in recycler view 
+
+
+### Code Refactoring
+
+* migrate some of internal code to kotlin 
+* **nda:** refactor ad mute view 
+* **nda:** remove `recyclerView` dependency 
+
+
 ### 4.3.2 (2022-07-18)
 
 
