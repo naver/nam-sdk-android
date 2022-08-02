@@ -1,5 +1,12 @@
 # Changelog
 
+### 4.3.4 (2022-08-02)
+
+### Bug Fixes
+
+* **nda:** AdMuteView render abnormally if api level is less than 24
+
+
 ### 4.3.3 (2022-08-01)
 
 
