@@ -1,4 +1,10 @@
 # Changelog
+### 4.3.5 (2022-08-03)
+
+### Bug Fixes
+
+* **core:** fix a bug which is not updating background margin in NS after drawing rich media ad.
+
 
 ### 4.3.4 (2022-08-02)
 
