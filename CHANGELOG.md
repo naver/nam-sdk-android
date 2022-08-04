@@ -1,4 +1,11 @@
 # Changelog
+### 4.3.6 (2022-08-04)
+
+### Bug Fixes
+
+* **core:** fix a bug which is making crash after obfuscation in NS.
+
+
 ### 4.3.5 (2022-08-03)
 
 ### Bug Fixes
