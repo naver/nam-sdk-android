@@ -62,7 +62,7 @@ class SmartChannelFragment : Fragment() {
             })
             .withNativeSimpleAd(
                 GfpNativeSimpleAdOptions.Builder()
-                    .setAdChoicePlacement(GfpNativeSimpleAdOptions.ADCHOICES_BOTTOM_LEFT)
+                    .setAdChoicePlacement(GfpNativeSimpleAdOptions.ADCHOICES_TOP_RIGHT)
                     .build()
             ) { nativeSimpleAd: GfpNativeSimpleAd ->
                 logTextView.append("[${DateUtil.CURR_TIME_STR}] AD Loaded.\n\t\tAdProviderName: ${nativeSimpleAd.adProviderName}\n")

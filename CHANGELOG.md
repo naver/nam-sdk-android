@@ -1,26 +1,36 @@
 # Changelog
-### 4.3.6 (2022-08-04)
+## 4.4.0 (2022-09-01)
+### Features
+* **core:** add network type parameter in ad request
+* **core:** support App Set ID
+* support OM SDK in Banner ad (webview)
+
+### Code Refactoring
+* **fan:** remove validation login for c2s, migrate to kotlin
+* **nda:** change default value of `GfpTheme` from `SYSTEM` to `LIGHT`
+
+## 4.3.6 (2022-08-04)
 
 ### Bug Fixes
 
 * **core:** fix a bug which is making crash after obfuscation in NS.
 
 
-### 4.3.5 (2022-08-03)
+## 4.3.5 (2022-08-03)
 
 ### Bug Fixes
 
 * **core:** fix a bug which is not updating background margin in NS after drawing rich media ad.
 
 
-### 4.3.4 (2022-08-02)
+## 4.3.4 (2022-08-02)
 
 ### Bug Fixes
 
 * **nda:** AdMuteView render abnormally if api level is less than 24
 
 
-### 4.3.3 (2022-08-01)
+## 4.3.3 (2022-08-01)
 
 
 ### Bug Fixes
@@ -37,14 +47,14 @@
 * **nda:** remove `recyclerView` dependency 
 
 
-### 4.3.2 (2022-07-18)
+## 4.3.2 (2022-07-18)
 
 
 ### Bug Fixes
 
 * **nda:** fix a bug that user cannot click the ad mute button when the same ad is rebind
 
-### 4.3.1 (2022-07-05)
+## 4.3.1 (2022-07-05)
 
 
 ### Bug Fixes

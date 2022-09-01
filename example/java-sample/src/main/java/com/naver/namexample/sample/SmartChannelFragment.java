@@ -95,7 +95,7 @@ public class SmartChannelFragment extends Fragment {
                         .withNativeSimpleAd(
                                 new GfpNativeSimpleAdOptions.Builder()
                                         .setAdChoicePlacement(
-                                                GfpNativeSimpleAdOptions.ADCHOICES_BOTTOM_LEFT)
+                                                GfpNativeSimpleAdOptions.ADCHOICES_TOP_RIGHT)
                                         .build(),
                                 nativeSimpleAd -> {
                                     logTextView.append(
