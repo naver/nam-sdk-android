@@ -15,7 +15,7 @@ It covers how to integrate the Google Mobile Ads SDK and adapter into an Android
 
 ## Requirements
 
-- Android API level 21 or higher
+- Android API level 19 or higher
 - Latest NAM SDK
 
 ## Step 1: Import the Google Mobile Ads SDK extension
@@ -28,7 +28,7 @@ repositories {
 
 ...
 dependencies {
-    implementation 'com.naver.gfpsdk:nam-dfp:4.4.0'  
+    implementation 'com.naver.gfpsdk:nam-dfp:4.4.1'  
 }
 ```
 
