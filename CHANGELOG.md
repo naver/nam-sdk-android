@@ -1,11 +1,20 @@
 # Changelog
+
+## 4.4.1 (2022-09-27)
+
+### Bug Fixes
+* **nda:** fix a bug where `NdaAdMuteView` is not rendered properly
+
 ## 4.4.0 (2022-09-01)
+
 ### Features
+
 * **core:** add network type parameter in ad request
 * **core:** support App Set ID
 * support OM SDK in Banner ad (webview)
 
 ### Code Refactoring
+
 * **fan:** remove validation login for c2s, migrate to kotlin
 * **nda:** change default value of `GfpTheme` from `SYSTEM` to `LIGHT`
 
