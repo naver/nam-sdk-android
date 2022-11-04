@@ -230,6 +230,7 @@ $dokka.location:com.naver.gfpsdk.provider/ProviderType.NDA///PointingToDeclarati
 $dokka.location:com.naver.gfpsdk.provider/ProviderType.NDA_VIDEO///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.provider/-provider-type/-n-d-a_-v-i-d-e-o/index.html
 $dokka.location:com.naver.gfpsdk.provider/ProviderType.UNITY///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.provider/-provider-type/-u-n-i-t-y/index.html
 $dokka.location:com.naver.gfpsdk.provider/ProviderType///PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-provider-type/index.html
+$dokka.location:com.naver.gfpsdk.provider/ProviderType/parse/#java.lang.String/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-provider-type/parse.html
 $dokka.location:com.naver.gfpsdk.provider/ProviderType/valueOf/#java.lang.String/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-provider-type/value-of.html
 $dokka.location:com.naver.gfpsdk.provider/ProviderType/values/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-provider-type/values.html
 $dokka.location:com.naver.gfpsdk.provider/RewardedAdapterListener///PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-rewarded-adapter-listener/index.html
