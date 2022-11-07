@@ -1,19 +1,19 @@
 # Changelog
 
 ## 5.0.0 (2022-11-04)
-- ⚠ BREAKING CHANGES
-  - **core:** removed `GfpNativeAdView.setIconView(View)` method. use `GfpNativeAdView.setIconView(ImageView)` instead
+### ⚠ BREAKING CHANGES
+* **core:** removed `GfpNativeAdView.setIconView(View)` method. use `GfpNativeAdView.setIconView(ImageView)` instead
 
-- Bug Fixes
-  - **core:** fix an obfuscation error in OmidVisibilityTracker
-  - **core:** fix Exception on SDK initialization
-  - **nda:** destroy `WebView` with a delay
-  - **nda:** fix scrolling issue of webview inside scrollable view
+### Bug Fixes
+* **core:** fix an obfuscation error in OmidVisibilityTracker
+* **core:** fix Exception on SDK initialization
+* **nda:** destroy `WebView` with a delay
+* **nda:** fix scrolling issue of webview inside scrollable view
 
-- Code Refactoring
-  - **core:** change scope of `play-service-appset` to compileOnly
-  - **core:** remove `GfpNativeAdView.setIconView(View)` method
-  - **nda:** migrate some code related to banner ads to kotlin
+### Code Refactoring
+* **core:** change scope of `play-service-appset` to compileOnly
+* **core:** remove `GfpNativeAdView.setIconView(View)` method
+* **nda:** migrate some code related to banner ads to kotlin
 
 ## 4.4.1 (2022-09-27)
 
