@@ -1,5 +1,25 @@
 # Changelog
 
+## 5.1.0 (2022-12-28)
+### Features
+- **applovin:** add the AppLovin Max SDK module
+- **nda:** support In-App JS Tag on NdaBannerAdapter
+
+### Bug Fixes
+- **adplayer:** fix the font size on instream ad
+- **applovin:** fix a rendering bug in AppLovin Native ad
+- **applovin:** fix a rendering issue on Native Banner for AppLovin
+- **core:** sometimes `OneTimeAction` doesn't work
+- **fan:** modify to request bidder token for every ad call
+- **nda:** support JS-Tag provided by tappx
+
+### Code Refactoring
+- **dfp:** bump `gma` sdk to 21.3.0
+- **fan:** bump `meta` sdk to 6.12.0
+- **inmobi:** bump `inmobi` sdk to 10.0.8
+- **unity:** bump `unity` sdk version to 4.4.1
+- **unity:** migrate unity module to kotlin
+
 ## 5.0.0 (2022-11-04)
 ### ⚠ BREAKING CHANGES
 * **core:** removed `GfpNativeAdView.setIconView(View)` method. use `GfpNativeAdView.setIconView(ImageView)` instead
