@@ -34,13 +34,14 @@ dependencies {
 	implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
 	implementation 'androidx.multidex:multidex:2.0.1'
 
-	implementation platform('com.naver.gfpsdk:nam-bom:5.1.0')
+	implementation platform('com.naver.gfpsdk:nam-bom:5.1.2')
 	implementation 'com.naver.gfpsdk:nam-core'
 	implementation 'com.naver.gfpsdk:nam-nda' // (optional) s2s mediation dependencies
 	implementation 'com.naver.gfpsdk:nam-dfp' // (optional) dfp mediation dependencies
 	implementation 'com.naver.gfpsdk:nam-fan' // (optional) fan mediation dependencies
 	implementation 'com.naver.gfpsdk:nam-inmobi' // (optional) inmobi mediation dependencies
 	implementation 'com.naver.gfpsdk:nam-unity' // (optional) unity mediation dependencies
+	implementation 'com.naver.gfpsdk:nam-applovin' // (optional) applovin mediation dependencies
 
 	testImplementation 'junit:junit:4.13.2'
 	androidTestImplementation 'androidx.test.ext:junit:1.1.3'
