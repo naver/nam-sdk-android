@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.1.2 (2023-01-11)
+### Bug Fixes
+- **applovin:** fix a bug of handling MREC format in banner
+- **core:** fix rare ANR after calling `loadAd()`
+- **nda:** fix missing webview provider crash
+
 ## 5.1.0 (2022-12-28)
 ### Features
 - **applovin:** add the AppLovin Max SDK module

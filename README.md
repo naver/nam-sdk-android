@@ -53,7 +53,7 @@ android {
 
 ```groovy
 dependencies {
-  implementation platform('com.naver.gfpsdk:nam-bom:5.1.0')
+  implementation platform('com.naver.gfpsdk:nam-bom:5.1.2')
   implementation 'com.naver.gfpsdk:nam-core' // no version specified
 }
 ```
@@ -137,6 +137,8 @@ NAM SDK mediation supports several ad provider, with a mix of bidding and waterf
 | [DFP](docs/ad-providers/dfp.md)       | O      | O      | X             | O        | O            | Google Ad Manager provider                             |
 | [FAN](docs/ad-providers/fan.md)       | O      | O      | X             | O        | O            | Meta Audience Network provider                         |
 | [INMOBI](docs/ad-providers/inmobi.md) | O      | O      | X             | X        | X            | InMobi provider                                        |
+| UNITY                                 | O      | X      | X             | O        | O            | Unity provider                                         |
+| APPLOVIN                              | O      | O      | X             | O        | O            | AppLovin provider                                      |
 >Note: After contacting the NAM manager, add the module of the Ad provider you want to add to.
 
 ### 7. (Optional) Targeting your ads
