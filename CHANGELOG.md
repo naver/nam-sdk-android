@@ -1,5 +1,14 @@
 # Changelog
 
+## 5.1.3 (2023-02-14)
+### Bug Fixes
+- **core:** fix a potential memory issue when injecting omid script
+- **core:** property `logLevel` of `SdkProperties` is never used
+- **nda:** Do not assign WebView for two part in `MraidController`
+
+### Code Refactoring
+- **core:** unify the adcall host to NAM
+
 ## 5.1.2 (2023-01-11)
 ### Bug Fixes
 - **applovin:** fix a bug of handling MREC format in banner
