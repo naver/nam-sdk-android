@@ -1,4 +1,16 @@
 # Changelog
+## 5.2.0 (2023-03-13)
+### Features
+- **core:** add `setContentId()` method for targeting
+### Bug Fixes
+- **applovin:** Fix the AppLovin Rewarded ad callback
+### Code Refactoring
+- **applovin:** refactoring initializing process on AppLovin
+- **applovin:** version up AppLovin SDK to 11.8.1
+- **core:** change `contentId` param to `contentInfo` param
+- **nda:** migrate all code to kotlin
+- **nda:** provide `AdMute` for S2S Native Normal ad
+- **unity:** version up unity sdk to 4.6.0
 
 ## 5.1.3 (2023-02-14)
 ### Bug Fixes
