@@ -58,6 +58,7 @@ $dokka.location:com.naver.gfpsdk.provider/GfpAdAdapter///PointingToDeclaration/
 $dokka.location:com.naver.gfpsdk.provider/GfpAdAdapter/ACTIVE_VIEW_IMP_TYPE/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-gfp-ad-adapter/-a-c-t-i-v-e_-v-i-e-w_-i-m-p_-t-y-p-e.html
 $dokka.location:com.naver.gfpsdk.provider/GfpAdAdapter/ADCALL_RES_TIME/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-gfp-ad-adapter/-a-d-c-a-l-l_-r-e-s_-t-i-m-e.html
 $dokka.location:com.naver.gfpsdk.provider/GfpAdAdapter/GFP_NO/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-gfp-ad-adapter/-g-f-p_-n-o.html
+$dokka.location:com.naver.gfpsdk.provider/GfpAdAdapter/VIDEO_ADCHOICE/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-gfp-ad-adapter/-v-i-d-e-o_-a-d-c-h-o-i-c-e.html
 $dokka.location:com.naver.gfpsdk.provider/GfpAdAdapter/VIDEO_SKIP_AFTER/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-gfp-ad-adapter/-v-i-d-e-o_-s-k-i-p_-a-f-t-e-r.html
 $dokka.location:com.naver.gfpsdk.provider/GfpAdAdapter/VIDEO_SKIP_MIN/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-gfp-ad-adapter/-v-i-d-e-o_-s-k-i-p_-m-i-n.html
 $dokka.location:com.naver.gfpsdk.provider/GfpAdAdapter/adapterLogListener/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-gfp-ad-adapter/adapter-log-listener.html
@@ -295,6 +296,7 @@ $dokka.location:com.naver.gfpsdk.provider/VideoPlayerControllerListener/onAdSkip
 $dokka.location:com.naver.gfpsdk.provider/VideoPlayerControllerListener/onAdStarted/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-video-player-controller-listener/on-ad-started.html
 $dokka.location:com.naver.gfpsdk.provider/VideoPlayerControllerListener/onAdViewableImpression/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-video-player-controller-listener/on-ad-viewable-impression.html
 $dokka.location:com.naver.gfpsdk.provider/VideoPlayerControllerListener/onError/#com.naver.gfpsdk.GfpError/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-video-player-controller-listener/on-error.html
+$dokka.location:com.naver.gfpsdk.provider/VideoPlayerControllerListener/onPrivacyClicked/#java.lang.String/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-video-player-controller-listener/on-privacy-clicked.html
 $dokka.location:com.naver.gfpsdk////PointingToDeclaration/library-core/com.naver.gfpsdk/index.html
 $dokka.location:com.naver.gfpsdk/AdEventListener///PointingToDeclaration/library-core/com.naver.gfpsdk/-ad-event-listener/index.html
 $dokka.location:com.naver.gfpsdk/AdEventListener/AdEventListener/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-ad-event-listener/-ad-event-listener.html
