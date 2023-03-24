@@ -1,4 +1,12 @@
 # Changelog
+## 5.3.0 (2023-03-24)
+### Bug Fixes
+* fix the valid expire time in C2S Rewarded Ad
+
+### Code Refactoring
+* **applovin:** disable AppLovin's cache option
+* **core:** Supporting OMSDK version 1.4.2
+
 ## 5.2.0 (2023-03-13)
 ### Features
 - **core:** add `setContentId()` method for targeting
