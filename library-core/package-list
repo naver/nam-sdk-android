@@ -154,6 +154,7 @@ $dokka.location:com.naver.gfpsdk.provider/NativeAssetProvider/getAdvertiserName/
 $dokka.location:com.naver.gfpsdk.provider/NativeAssetProvider/getBody/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-native-asset-provider/get-body.html
 $dokka.location:com.naver.gfpsdk.provider/NativeAssetProvider/getCallToAction/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-native-asset-provider/get-call-to-action.html
 $dokka.location:com.naver.gfpsdk.provider/NativeAssetProvider/getIcon/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-native-asset-provider/get-icon.html
+$dokka.location:com.naver.gfpsdk.provider/NativeAssetProvider/getNotice/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-native-asset-provider/get-notice.html
 $dokka.location:com.naver.gfpsdk.provider/NativeAssetProvider/getSocialContext/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-native-asset-provider/get-social-context.html
 $dokka.location:com.naver.gfpsdk.provider/NativeAssetProvider/getTitle/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-native-asset-provider/get-title.html
 $dokka.location:com.naver.gfpsdk.provider/NativeNormalAdTracker///PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-native-normal-ad-tracker/index.html
@@ -447,6 +448,7 @@ $dokka.location:com.naver.gfpsdk/GfpAdLoaderBase/cancel/#/PointingToDeclaration/
 $dokka.location:com.naver.gfpsdk/GfpAdLoaderBase/loadAd/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-loader-base/load-ad.html
 $dokka.location:com.naver.gfpsdk/GfpAdLoaderBase/loadAd/#com.naver.gfpsdk.AdParam/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-loader-base/load-ad.html
 $dokka.location:com.naver.gfpsdk/GfpAdMuteView.Callback///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-mute-view/-callback/index.html
+$dokka.location:com.naver.gfpsdk/GfpAdMuteView.Callback/onAdMuteViewFocused/#kotlin.Boolean/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-mute-view/-callback/on-ad-mute-view-focused.html
 $dokka.location:com.naver.gfpsdk/GfpAdMuteView.Callback/onAdMuted/#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-mute-view/-callback/on-ad-muted.html
 $dokka.location:com.naver.gfpsdk/GfpAdMuteView.Callback/onPrivacyClicked/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-mute-view/-callback/on-privacy-clicked.html
 $dokka.location:com.naver.gfpsdk/GfpAdMuteView///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-mute-view/index.html
@@ -640,6 +642,7 @@ $dokka.location:com.naver.gfpsdk/GfpNativeAdAssetNames/ASSET_CALL_TO_ACTION/#/Po
 $dokka.location:com.naver.gfpsdk/GfpNativeAdAssetNames/ASSET_ICON/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-asset-names/-a-s-s-e-t_-i-c-o-n.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdAssetNames/ASSET_IMAGE/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-asset-names/-a-s-s-e-t_-i-m-a-g-e.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdAssetNames/ASSET_MEDIA/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-asset-names/-a-s-s-e-t_-m-e-d-i-a.html
+$dokka.location:com.naver.gfpsdk/GfpNativeAdAssetNames/ASSET_NOTICE/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-asset-names/-a-s-s-e-t_-n-o-t-i-c-e.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdAssetNames/ASSET_SOCIAL_CONTEXT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-asset-names/-a-s-s-e-t_-s-o-c-i-a-l_-c-o-n-t-e-x-t.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdAssetNames/ASSET_TITLE/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-asset-names/-a-s-s-e-t_-t-i-t-l-e.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Builder///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-builder/index.html
@@ -669,6 +672,7 @@ $dokka.location:com.naver.gfpsdk/GfpNativeAdView/getAdditionalContainer/#/Pointi
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/getInnerAdViewGroup/#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/get-inner-ad-view-group.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/iconView/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/icon-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/mediaView/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/media-view.html
+$dokka.location:com.naver.gfpsdk/GfpNativeAdView/noticeView/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/notice-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/removeAllViews/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/remove-all-views.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/removeView/#android.view.View?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/remove-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/setInnerAdViewGroup/#kotlin.String#android.view.ViewGroup/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/set-inner-ad-view-group.html
