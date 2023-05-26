@@ -30,12 +30,10 @@ import com.naver.gfpsdk.GfpNativeAdOptions;
 import com.naver.gfpsdk.GfpNativeAdView;
 import com.naver.gfpsdk.GfpResponseInfo;
 import com.naver.gfpsdk.Image;
-import com.naver.gfpsdk.internal.util.Joiner;
 import com.naver.namexample.R;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
-import java.util.Map;
 
 public class NativeBannerFragment extends Fragment {
     private static final String AD_UNIT_ID = "INSERT YOUR AD UNIT ID";
@@ -84,19 +82,6 @@ public class NativeBannerFragment extends Fragment {
                                                 String.format(
                                                         "[%s] AD Muted.%n",
                                                         sdf.format(new Date())));
-                                    }
-
-                                    @Override
-                                    public void onAdMetaChanged(Map<String, String> params) {
-                                        if (params != null && !params.isEmpty()) {
-                                            Joiner.MapJoiner joiner =
-                                                    Joiner.on(',').withKeyValueSeparator(":");
-                                            logTextView.append(
-                                                    String.format(
-                                                            "[%s] AD MetaChanged.%n    Value: %s%n",
-                                                            sdf.format(new Date()),
-                                                            joiner.join(params)));
-                                        }
                                     }
 
                                     @Override

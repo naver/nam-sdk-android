@@ -22,12 +22,10 @@ import com.naver.gfpsdk.GfpError;
 import com.naver.gfpsdk.GfpNativeSimpleAdOptions;
 import com.naver.gfpsdk.GfpNativeSimpleAdView;
 import com.naver.gfpsdk.GfpResponseInfo;
-import com.naver.gfpsdk.internal.util.Joiner;
 import com.naver.namexample.R;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
-import java.util.Map;
 
 public class SmartChannelFragment extends Fragment {
     private static final String AD_UNIT_ID = "AOS_nw_native-N345765840";
@@ -63,19 +61,6 @@ public class SmartChannelFragment extends Fragment {
                                                 String.format(
                                                         "[%s] AD impression.%n",
                                                         sdf.format(new Date())));
-                                    }
-
-                                    @Override
-                                    public void onAdMetaChanged(Map<String, String> params) {
-                                        if (params != null && !params.isEmpty()) {
-                                            Joiner.MapJoiner joiner =
-                                                    Joiner.on(',').withKeyValueSeparator(":");
-                                            logTextView.append(
-                                                    String.format(
-                                                            "[%s] AD MetaChanged.%n    Value: %s%n",
-                                                            sdf.format(new Date()),
-                                                            joiner.join(params)));
-                                        }
                                     }
 
                                     @Override

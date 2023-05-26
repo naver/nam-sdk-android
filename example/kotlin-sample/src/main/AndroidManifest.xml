@@ -26,10 +26,10 @@
         <meta-data
             android:name="com.naver.gfpsdk.PUBLISHER_CD"
             android:value="@string/publisher_cd" />
-        <!-- DFP(Google ads) 모듈 사용시 추가 부탁드립니다. -->
+        <!-- DFP(Google ads) 모듈 사용시 추가 부탁드립니다. 아래 APP ID 는 구글이 제공하는 샘플 APP ID 입니다. -->
         <meta-data
-            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
-            android:value="true"/>
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="ca-app-pub-3940256099942544~3347511713"/>
     </application>
 
 </manifest>
