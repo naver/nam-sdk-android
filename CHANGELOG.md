@@ -1,4 +1,10 @@
 # Changelog
+### 6.0.1 (2023-05-26)
+
+### Bug Fixes
+
+* **core:** fix meta(nam-fan module) ads not loading 
+
 ## 6.0.0 (2023-05-25)
 
 ### ⚠ BREAKING CHANGES
