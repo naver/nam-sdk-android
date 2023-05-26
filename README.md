@@ -149,7 +149,7 @@ NAM SDK mediation supports several ad provider, with a mix of bidding and waterf
 
 | Ad Provider                           | Banner | Native | Native Simple | Rewarded | Interstitial | Description                                            |
 |:--------------------------------------|:-------|:-------|:--------------|:---------|:-------------|:-------------------------------------------------------|
-| [NDA](docs/ad-providers/nda.md)       | O      | O      | O             | X        | X            | S2S provider (Naver, Pubmatic, AppNexus, Rubicon, ...) |
+| [NDA](docs/ad-providers/nda.md)       | O      | O      | O             | O        | X            | S2S provider (Naver, Pubmatic, AppNexus, Rubicon, ...) |
 | [DFP](docs/ad-providers/dfp.md)       | O      | O      | X             | O        | O            | Google Ad Manager provider                             |
 | [FAN](docs/ad-providers/fan.md)       | O      | O      | X             | O        | O            | Meta Audience Network provider                         |
 | [INMOBI](docs/ad-providers/inmobi.md) | O      | O      | X             | X        | X            | InMobi provider                                        |
