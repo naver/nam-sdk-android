@@ -28,7 +28,7 @@ repositories {
 
 ...
 dependencies {
-    implementation 'com.naver.gfpsdk:nam-nda:5.3.0'  
+    implementation 'com.naver.gfpsdk:nam-nda:6.0.0'  
 }
 ```
 

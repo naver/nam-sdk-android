@@ -1,4 +1,31 @@
 # Changelog
+## 6.0.0 (2023-05-25)
+
+### ⚠ BREAKING CHANGES
+
+* **core:** removed `GfpLogger`
+* **core:** removed `SdkPropertiesBuilder.logLevel()` and `SdkProperties.logLevel`
+
+### Features
+
+* **nda:** support s2s reward video
+* support Vungle SDK 
+
+### Bug Fixes
+
+* **applovin:** Fix the AppLovin Rewarded ad callback 
+* **nda:** privacy icon is duplicated when re-attaching on recyclerview 
+
+### Code Refactoring
+
+* **applovin:** bump `applovin` sdk version to 11.7.1 
+* **core:** support custom parameter as a global property 
+* **dfp:** bump `gma` sdk to 21.5.0
+* **fan:** bump `meta` sdk to 6.13.7 
+* **ima:** bump `ima` sdk version to 3.27.1 
+* **inmobi:** bump `inmobi` sdk to 10.1.2 
+* **unity:** bump `unity` sdk version to 4.6.1 
+
 ## 5.3.0 (2023-03-24)
 ### Bug Fixes
 * fix the valid expire time in C2S Rewarded Ad
@@ -8,6 +35,7 @@
 * **core:** Supporting OMSDK version 1.4.2
 
 ## 5.2.0 (2023-03-13)
+
 ### Features
 - **core:** add `setContentId()` method for targeting
 ### Bug Fixes
@@ -21,6 +49,7 @@
 - **unity:** version up unity sdk to 4.6.0
 
 ## 5.1.3 (2023-02-14)
+
 ### Bug Fixes
 - **core:** fix a potential memory issue when injecting omid script
 - **core:** property `logLevel` of `SdkProperties` is never used

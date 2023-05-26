@@ -30,24 +30,24 @@ class MainActivity : AppCompatActivity() {
                 .addProviderOptions(
                     DfpProviderOptions.Builder()
                         // for test (not for production level)
-                        .setTestMode(true).build()
+                        .setTestMode(true).build(),
                 )
                 // if you enable FAN (Meta/Facebook) ads
                 .addProviderOptions(
                     FanProviderOptions.Builder()
                         // for test (not for production level)
-                        .setTestMode(true).build()
+                        .setTestMode(true).build(),
                 )
                 // if you enable Naver DSP ads
                 .addProviderOptions(
                     NdaProviderOptions.Builder()
-                        .build()
+                        .build(),
                 )
                 // timeout for 'ImageBanner' type
                 .bannerAdRequestTimeout(60000L)
                 // timeout for 'NativeBanner' and 'Smartchannel' types
                 .unifiedAdRequestTimeout(60000L)
-                .build()
+                .build(),
         )
 
         // It will be used in targeting rule. please contact NAM admin before using this.
@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
                 .country("KR")
                 .language("KO")
                 .gender(GenderType.MALE)
-                .build()
+                .build(),
         )
 
         supportFragmentManager.beginTransaction()
