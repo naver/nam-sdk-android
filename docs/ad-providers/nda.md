@@ -11,7 +11,7 @@ It covers how to integrate the S2S ad provider and adapter into an Android app.
 | Native        | ✔️          |
 | Native Simple | ✔️          |
 | Interstitial  | ❌️          |
-| Rewarded      | ❌️          |
+| Rewarded      | ✔️          |
 
 ## Requirements
 
@@ -28,7 +28,7 @@ repositories {
 
 ...
 dependencies {
-    implementation 'com.naver.gfpsdk:nam-nda:6.0.1'  
+    implementation 'com.naver.gfpsdk:nam-nda:6.0.2'  
 }
 ```
 
