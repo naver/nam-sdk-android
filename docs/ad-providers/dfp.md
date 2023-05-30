@@ -28,11 +28,26 @@ repositories {
 
 ...
 dependencies {
-    implementation 'com.naver.gfpsdk:nam-dfp:6.0.1'  
+    implementation 'com.naver.gfpsdk:nam-dfp:6.0.2'  
 }
 ```
 
 ## Step 2: Additional code required
+
+To enable DFP module, Google App ID should be set in `AndroidManifest.xml` file.
+
+Add your Ad Manager app ID (identified in the Ad Manager UI) to your app's `AndroidManifest.xml` file. To do so, add a `<meta-data>` tag with `android:name="com.google.android.gms.ads.APPLICATION_ID"`. You can find your app ID in the Ad Manager UI. For `android:value`, insert your own Ad Manager app ID, surrounded by quotation marks.
+
+```xml
+<manifest>
+    <application>
+        <!-- Sample Ad Manager app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy"/>
+    </application>
+</manifest>
+```
 
 Add a `<meta-data>` tag with `android:name="com.google.android.gms.ads.AD_MANAGER_APP"` in your `AndroidManifest.xml` file. For `android:value`, insert `true`, surrounded by quotation marks.
 
@@ -42,13 +57,7 @@ Add a `<meta-data>` tag with `android:name="com.google.android.gms.ads.AD_MANAGE
     android:value="true" />
 ```
 
-In a real app, use your actual Ad Manager app ID, not the one listed above. If you're just looking to experiment with the SDK in a Hello World app, you can use the sample app ID shown above.
-
-Note also that failure to add the <meta-data> tag as shown above results in a crash with the message:
-
-```
-The Google Mobile Ads SDK was initialized incorrectly.
-```
+>Note: In a real app, use your actual Ad Manager app ID, not the one listed above. 
 
 ## Step 3: Test your implementation
 
