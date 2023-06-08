@@ -1,11 +1,19 @@
 # Changelog
-### 6.0.2 (2023-05-31)
+## 6.0.3 (2023-06-08)
+>Note: NAM SDK with versions 6.0.0 through 6.0.2 may encounter permissions issues when installing apps, causing apps to fail to install properly. **For this reason, we strongly recommend using version 6.0.3.**
+### Bug Fixes
+* **nda:** fix missing webview provider crash
+
+### Code Refactoring
+* **nda:** remove broadcast permission on RewardVideo AD
+
+## 6.0.2 (2023-05-31)
 
 ### Bug Fixes
 
 * **nda:** NDA Banner does not render properly when set to `FLUID_WIDTH`
 
-### 6.0.1 (2023-05-26)
+## 6.0.1 (2023-05-26)
 
 ### Bug Fixes
 

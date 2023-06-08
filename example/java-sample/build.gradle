@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-	compileSdk 31
+	compileSdk 33
 
 	defaultConfig {
 		applicationId "com.naver.namexample"
 		minSdk 19
-		targetSdk 31
+		targetSdk 33
 		versionCode 1
 		versionName "1.0"
 		multiDexEnabled = true
@@ -34,7 +34,7 @@ dependencies {
 	implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
 	implementation 'androidx.multidex:multidex:2.0.1'
 
-	implementation platform('com.naver.gfpsdk:nam-bom:6.0.2')
+	implementation platform('com.naver.gfpsdk:nam-bom:6.0.3')
 	implementation 'com.naver.gfpsdk:nam-core'
 	implementation 'com.naver.gfpsdk:nam-nda' // (optional) s2s mediation dependencies
 	implementation 'com.naver.gfpsdk:nam-dfp' // (optional) dfp mediation dependencies
