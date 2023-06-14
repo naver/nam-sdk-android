@@ -30,7 +30,11 @@ class SmartChannelFragment : Fragment() {
     private lateinit var logTextView: TextView
     private lateinit var binding: FragmentSmartChannelBinding
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
         binding = FragmentSmartChannelBinding.inflate(inflater)
         val nativeSimpleAdView = binding.nativeSimpleAdView
         logTextView = binding.logTextView
@@ -56,7 +60,9 @@ class SmartChannelFragment : Fragment() {
                 }
 
                 override fun onError(error: GfpError, responseInfo: GfpResponseInfo) {
-                    logTextView.append("[${DateUtil.CURR_TIME_STR}] Error occurred.\n\tcode[${error.errorCode}]\n\tsubCode[${error.errorSubCode}]\n\t\tmessage[${error.errorMessage}]\n")
+                    logTextView.append(
+                        "[${DateUtil.CURR_TIME_STR}] Error occurred.\n\tcode[${error.errorCode}]\n\tsubCode[${error.errorSubCode}]\n\t\tmessage[${error.errorMessage}]\n"
+                    )
                     Log.e("SmartchannelFragment", responseInfo.toString())
                 }
             })
@@ -65,7 +71,9 @@ class SmartChannelFragment : Fragment() {
                     .setAdChoicePlacement(GfpNativeSimpleAdOptions.ADCHOICES_TOP_RIGHT)
                     .build()
             ) { nativeSimpleAd: GfpNativeSimpleAd ->
-                logTextView.append("[${DateUtil.CURR_TIME_STR}] AD Loaded.\n\t\tAdProviderName: ${nativeSimpleAd.adProviderName}\n")
+                logTextView.append(
+                    "[${DateUtil.CURR_TIME_STR}] AD Loaded.\n\t\tAdProviderName: ${nativeSimpleAd.adProviderName}\n"
+                )
                 nativeSimpleAdView.setNativeSimpleAd(nativeSimpleAd)
             }
             .build()

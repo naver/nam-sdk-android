@@ -1,4 +1,10 @@
 # Changelog
+
+## 6.0.4 (2023-06-15)
+### Bug Fixes
+* **adplayer:** add clickable information to GfpVideoAdQoeInfo
+* **core:** fix AdBreak processing to play in-stream ads sequentially
+
 ## 6.0.3 (2023-06-08)
 >Note: NAM SDK with versions 6.0.0 through 6.0.2 may encounter permissions issues when installing apps, causing apps to fail to install properly. **For this reason, we strongly recommend using version 6.0.3.**
 ### Bug Fixes
