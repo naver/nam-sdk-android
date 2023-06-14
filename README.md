@@ -53,7 +53,7 @@ android {
 
 ```groovy
 dependencies {
-  implementation platform('com.naver.gfpsdk:nam-bom:6.0.3')
+  implementation platform('com.naver.gfpsdk:nam-bom:6.0.4')
   implementation 'com.naver.gfpsdk:nam-core' // no version specified
 }
 ```
@@ -117,6 +117,13 @@ dependencies {
 } 
 ```
 
+#### For `Naver` In-Stream ads, please adds following dependency:
+```groovy
+dependencies {
+  implementation 'com.naver.gfpsdk:nam-ndavideo' // no version specified
+} 
+```
+
 ### 4. Add your Publisher Code to your app's `AndroidManifest.xml` file. 
 
 To do so, add a `<meta-data>` tag with `android:name="com.naver.gfpsdk.PUBLISHER_CD"`. For `android:value`, insert your own Publisher Code.
@@ -142,6 +149,7 @@ NAM SDK is now imported and you're ready to implement an ad. NAM SDK offers a nu
 | [Banner Ads](docs/ad-formats/banner.md)               | Rectangular ads that appear at the top or bottom of the device screen. Banner ads stay on screen while users are interacting with the app, and can refresh automatically after a certain period of time. If you're new to mobile advertising, they're a great place to start. |
 | [Native Ads](docs/ad-formats/native_normal.md)        | Customizable ads that match the look and feel of your app. You decide how and where they're placed, so the layout is more consistent with your app's design.                                                                                                                  |
 | [Native Simple Ads](docs/ad-formats/native_simple.md) | Native Simple has been designed to make the implementation of native ads as easy as possible, and it's a great choice if you are new to the format.                                                                                                                           |
+| [In Stream Ads](docs/ad-formats/in_stream.md)         | In-Stream (Video) AD is placed between the beginning and the end of the video content.                                                                                                                                                                                        |
 
 ### 6. Select ad provider you want to integrate
 

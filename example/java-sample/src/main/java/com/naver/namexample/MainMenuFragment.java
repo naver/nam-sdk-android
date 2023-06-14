@@ -21,6 +21,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.fragment.app.ListFragment;
 import com.naver.namexample.sample.ImageBannerFragment;
+import com.naver.namexample.sample.InStreamFragment;
 import com.naver.namexample.sample.NativeBannerFragment;
 import com.naver.namexample.sample.SmartChannelFragment;
 
@@ -30,6 +31,7 @@ public class MainMenuFragment extends ListFragment {
                 new SampleAdInfo("이미지형 배너", SampleAdType.IMAGE_BANNER),
                 new SampleAdInfo("네이티브형 배너", SampleAdType.NATIVE_BANNER),
                 new SampleAdInfo("스마트채널", SampleAdType.SMART_CHANNEL),
+                new SampleAdInfo("동영상형", SampleAdType.INSTREAM)
             };
 
     @Override
@@ -59,6 +61,8 @@ public class MainMenuFragment extends ListFragment {
             case SMART_CHANNEL:
                 newFragment = new SmartChannelFragment();
                 break;
+            case INSTREAM:
+                newFragment = new InStreamFragment();
             default:
                 Toast.makeText(
                                 this.getContext(),
@@ -79,7 +83,8 @@ public class MainMenuFragment extends ListFragment {
     enum SampleAdType {
         IMAGE_BANNER,
         NATIVE_BANNER,
-        SMART_CHANNEL
+        SMART_CHANNEL,
+        INSTREAM
     }
 
     static class SampleAdInfo {
