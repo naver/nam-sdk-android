@@ -1,5 +1,12 @@
 # Changelog
 
+## 6.0.5 (2023-06-21)
+### Bug Fixes
+* **core:** can do skip on multiple in-stream ad
+
+### Code Refactoring
+* **core:** make public the schedule response
+
 ## 6.0.4 (2023-06-15)
 ### Bug Fixes
 * **adplayer:** add clickable information to GfpVideoAdQoeInfo
