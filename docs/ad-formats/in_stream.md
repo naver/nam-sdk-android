@@ -10,7 +10,7 @@ Please check the following 'Implement the AdVideoPlayer'
 ## Step 1: Add dependencies
 ```groovy
 dependencies {
-    implementation platform('com.naver.gfpsdk:nam-bom:6.0.4')
+    implementation platform('com.naver.gfpsdk:nam-bom:6.0.5')
     implementation 'com.naver.gfpsdk:nam-core'
     implementation 'com.naver.gfpsdk:nam-ndavideo'                      // (optional) for instream ads
     implementation 'com.google.android.exoplayer:exoplayer-core:2.18.0' // using exoplayer for example
@@ -55,7 +55,6 @@ public class SampleExoPlayerView extends StyledPlayerView {
     private AdVideoPlayer adPlayer;
     private String contentVideoUrl;
     private long savedContentPosition = 0L;
-    private VideoAdMediaFormatChangeListener bitrateChangeListener;
 
     public SampleExoPlayerView(Context context) {
         this(context, null);
@@ -318,12 +317,7 @@ public class SampleExoPlayerView extends StyledPlayerView {
                                 int windowIndex,
                                 @Nullable MediaSource.MediaPeriodId mediaPeriodId,
                                 MediaLoadData mediaLoadData) {
-                            if (bitrateChangeListener != null
-                                    && mediaLoadData.trackFormat != null) {
-                                bitrateChangeListener.onMediaFormatChanged(
-                                        mediaLoadData.trackFormat.bitrate / 1000,
-                                        mediaLoadData.trackFormat.containerMimeType);
-                            }
+                            // nothing
                         }
                     });
 
@@ -367,14 +361,6 @@ public class SampleExoPlayerView extends StyledPlayerView {
         return playbackState == PlaybackState.PAUSED;
     }
 
-    public void addAdBitrateChangeListener(VideoAdMediaFormatChangeListener listener) {
-        this.bitrateChangeListener = listener;
-    }
-
-    public interface VideoAdMediaFormatChangeListener {
-        void onMediaFormatChanged(int bitrate, String mimeType);
-    }
-
     public enum PlaybackState {
         STOPPED,
         PAUSED,
@@ -386,7 +372,6 @@ public class SampleExoPlayerView extends StyledPlayerView {
 ## Step 3: Add layout to locate player
 Please, add video player and UI container for AD to your layout.
 In this example, `ad_video_player` and `ad_ui_container` are used in constructor of ad loader(GfpVideoAdScheduleManager)
-- `outer_remind_ad_container` will be used in SMR ads. Before using it, please be informed by NAM admin.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -402,11 +387,6 @@ In this example, `ad_video_player` and `ad_ui_container` are used in constructor
         android:id="@+id/ad_ui_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
-    <FrameLayout
-        android:id="@+id/outer_remind_ad_container"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
 </RelativeLayout>
 ```
 
@@ -473,7 +453,7 @@ SDK handles one ad schedule event at a time. So please resume/pause the content 
 ```java
 videoAdScheduleManager.setAdScheduleListener(new VideoAdScheduleListener() {
         @Override
-        public void onScheduleLoaded() {
+        public void onScheduleLoaded(VideoScheduleResponse schedule) {
             // needs to pause the content.
         }
 
@@ -570,7 +550,6 @@ public class InStreamFragment extends Fragment {
     private AdVideoPlayer adVideoPlayer;
     private GfpVideoAdScheduleManager videoAdScheduleManager;
     private SampleExoPlayerView exoPlayerView;
-    private FrameLayout outerRemindAdContainer;
     private FrameLayout adUiContainer;
     
     @Override
@@ -581,7 +560,6 @@ public class InStreamFragment extends Fragment {
         // this example using Sample player for playing content and ad
         exoPlayerView = view.findViewById(R.id.ad_video_player);
         adUiContainer = view.findViewById(R.id.ad_ui_container);
-        outerRemindAdContainer = view.findViewById(R.id.outer_remind_ad_container);
         // for example, SampleExoPlayerView contains AdVideoPlayer
         adVideoPlayer = exoPlayerView.createAdVideoPlayer("YOUR_CONTENTS_URL");
         
@@ -614,7 +592,7 @@ public class InStreamFragment extends Fragment {
         
         videoAdScheduleManager.setAdScheduleListener(new VideoAdScheduleListener() {
             @Override
-            public void onScheduleLoaded() {
+            public void onScheduleLoaded(VideoScheduleResponse schedule) {
                 // scedule is loaded
             }
 

@@ -21,20 +21,19 @@ import com.naver.gfpsdk.GfpNonLinearAdView
 import com.naver.gfpsdk.GfpVideoAd
 import com.naver.gfpsdk.GfpVideoAdOptions
 import com.naver.gfpsdk.GfpVideoAdScheduleManager
-import com.naver.gfpsdk.RemindTextAdViewAttributes
 import com.naver.gfpsdk.VideoAdListener
 import com.naver.gfpsdk.VideoAdScheduleListener
 import com.naver.gfpsdk.VideoAdScheduleParam
+import com.naver.gfpsdk.VideoScheduleResponse
 import com.naver.gfpsdk.provider.AdVideoPlayer
 import com.naver.namexample.R
 import com.naver.namexample.util.DateUtil
 import com.naver.namexample.video.SampleExoPlayerView
 
 class InStreamFragment : Fragment() {
-    var adVideoPlayer: AdVideoPlayer? = null
-    var videoAdScheduleManager: GfpVideoAdScheduleManager? = null
+    private var adVideoPlayer: AdVideoPlayer? = null
+    private var videoAdScheduleManager: GfpVideoAdScheduleManager? = null
     private lateinit var exoPlayerView: SampleExoPlayerView
-    private lateinit var outerRemindAdContainer: FrameLayout
     private lateinit var adUiContainer: FrameLayout
     private lateinit var logTextView: TextView
 
@@ -48,7 +47,6 @@ class InStreamFragment : Fragment() {
         // 본영상과 광고영상 재생을 위한 Sample player 를 가정.
         exoPlayerView = view.findViewById(R.id.ad_video_player)
         adUiContainer = view.findViewById(R.id.ad_ui_container)
-        outerRemindAdContainer = view.findViewById(R.id.outer_remind_ad_container)
         logTextView = view.findViewById(R.id.log_text_view)
         adVideoPlayer = exoPlayerView.createAdVideoPlayer(CONTENTS_URL)
 
@@ -102,8 +100,13 @@ class InStreamFragment : Fragment() {
 
         // 스케쥴 리스너 설정
         videoAdScheduleManager?.setAdScheduleListener(object : VideoAdScheduleListener {
-            override fun onScheduleLoaded() {
+            override fun onScheduleLoaded(schedule: VideoScheduleResponse) {
                 logTextView.append("[${DateUtil.CURR_TIME_STR}] 광고 스케쥴 로드\n")
+                schedule.adBreaks.forEach { adBreak ->
+                    logTextView.append(
+                        "\t${adBreak.id}, ad cont to play: ${adBreak.adSources.size}, video unit id: ${adBreak.adUnitId}, ad star position(sec): ${adBreak.startDelay}\n" // ktlint-disable max-line-length
+                    )
+                }
             }
 
             override fun onContentResumeRequest() {
@@ -143,8 +146,9 @@ class InStreamFragment : Fragment() {
             }
 
             override fun onAdStartReady(ad: GfpVideoAd) {
-                ad.start(true)
                 logTextView.append("[${DateUtil.CURR_TIME_STR}] 광고 재생 준비 완료\n")
+                exoPlayerView.useController = false
+                ad.start(true)
             }
 
             override fun onAdNonLinearStartReady(ad: GfpVideoAd) {
@@ -181,16 +185,6 @@ class InStreamFragment : Fragment() {
             }
         })
         videoAdScheduleManager?.load()
-    }
-
-    private fun setOuterRemindTextAdSetting() {
-        // NAM 담당자로 부터, RemindText 광고에 대해 안내 받으신 이후 사용 부탁드립니다.
-        // RemindText 광고가 영상 영역 바깥에 그려지는 경우 사용하기 위한 설정입니다. (GfpNonLinearAdView.ContainerType.OUTER)
-        val remindTextAttributeBuilder = RemindTextAdViewAttributes.Builder()
-        videoAdScheduleManager?.setOuterRemindTextAdViewAttributes(
-            remindTextAttributeBuilder.build()
-        )
-        videoAdScheduleManager?.setOuterRemindTextAdViewContainer(outerRemindAdContainer)
     }
 
     override fun onPause() {

@@ -28,6 +28,7 @@ import com.google.android.exoplayer2.source.hls.HlsMediaSource;
 import com.google.android.exoplayer2.ui.StyledPlayerView;
 import com.google.android.exoplayer2.upstream.DefaultDataSource;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSource;
+import com.naver.ads.NasLogger;
 import com.naver.gfpsdk.provider.AdVideoPlayer;
 import java.io.IOException;
 import java.util.concurrent.CopyOnWriteArraySet;
@@ -41,7 +42,6 @@ public class SampleExoPlayerView extends StyledPlayerView {
     private AdVideoPlayer adPlayer;
     private String contentVideoUrl;
     private long savedContentPosition = 0L;
-    private VideoAdMediaFormatChangeListener bitrateChangeListener;
 
     public SampleExoPlayerView(Context context) {
         this(context, null);
@@ -233,10 +233,19 @@ public class SampleExoPlayerView extends StyledPlayerView {
     public void resumeContentsRequest() {
         setUseController(true);
         if (player != null) {
-            player.setMediaSource(generateMediaSource(contentVideoUrl), true);
-            player.prepare();
-            adPlayer.seekTo(savedContentPosition);
-            adPlayer.play();
+            MediaSource mediaSource = generateMediaSource(contentVideoUrl);
+            if (mediaSource != null) {
+                player.setMediaSource(generateMediaSource(contentVideoUrl), true);
+                player.prepare();
+                adPlayer.seekTo(savedContentPosition);
+                adPlayer.play();
+            } else {
+                NasLogger.e(LOG_TAG, "null mediaSource");
+                for (AdVideoPlayer.PlayerCallback callback : videoPlayerCallbacks) {
+                    callback.onError();
+                }
+                player.stop();
+            }
         }
     }
 
@@ -304,22 +313,19 @@ public class SampleExoPlayerView extends StyledPlayerView {
                                 int windowIndex,
                                 @Nullable MediaSource.MediaPeriodId mediaPeriodId,
                                 MediaLoadData mediaLoadData) {
-                            if (bitrateChangeListener != null
-                                    && mediaLoadData.trackFormat != null) {
-                                bitrateChangeListener.onMediaFormatChanged(
-                                        mediaLoadData.trackFormat.bitrate / 1000,
-                                        mediaLoadData.trackFormat.containerMimeType);
-                            }
+                            // nothing
                         }
                     });
 
             return hlsMediaSource;
-        } else {
+        } else if (videoUrl != null) {
             return new ProgressiveMediaSource.Factory(
                             new DefaultDataSource.Factory(
                                     getContext(),
                                     new DefaultHttpDataSource.Factory().setUserAgent("user_agent")))
                     .createMediaSource(MediaItem.fromUri(videoUrl));
+        } else {
+            return null;
         }
     }
 
@@ -351,14 +357,6 @@ public class SampleExoPlayerView extends StyledPlayerView {
 
     public boolean isPaused() {
         return playbackState == PlaybackState.PAUSED;
-    }
-
-    public void addAdBitrateChangeListener(VideoAdMediaFormatChangeListener listener) {
-        this.bitrateChangeListener = listener;
-    }
-
-    public interface VideoAdMediaFormatChangeListener {
-        void onMediaFormatChanged(int bitrate, String mimeType);
     }
 
     public enum PlaybackState {
