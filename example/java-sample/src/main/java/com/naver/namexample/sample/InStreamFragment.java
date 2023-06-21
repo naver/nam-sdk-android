@@ -62,7 +62,7 @@ public class InStreamFragment extends Fragment {
                         .setCurrentPageUrl("https://tv.naver.com/v/36037577/list/67096")
                         .setVrr(1) // Request a Remind Ad for SMR (1 = request, 0 = don't request)
                         .addCustomParam("lo", "Y") // Loudness Normalazation 적용 여부
-                        .addCustomParam("pt", "1800") // 콘텐츠 클립 전체 시간 (second 단위)
+                        .addCustomParam("pt", "653") // 콘텐츠 클립 전체 시간 (second 단위)
                         .addCustomParam("pcmo", "mo") // pc or mo or tv - mo로 고정된 값
                         .addCustomParam("vid", "0A7CFF5F2F5791DEE667757BD6F9E80411AA") // video ID
                         .addCustomParam("tid", "3Cb51Nn2ufoyPok6Tpct-A") // 트랜잭션 ID
@@ -77,7 +77,7 @@ public class InStreamFragment extends Fragment {
         String adScheduleId = "WAVVE_SCH";
         VideoAdScheduleParam videoAdScheduleParam =
                 new VideoAdScheduleParam.Builder(adScheduleId)
-                        .setDuration(1800L)
+                        .setDuration(653L)
                         .setAdSchedulePolicy(true, true, true)
                         .setContentStartOffset(0)
                         .build();
