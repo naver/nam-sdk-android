@@ -1,5 +1,18 @@
 # Changelog
 
+## 6.1.0 (2023-07-04)
+### Features
+* **core:** support Global Privacy Policy for GDPR, CCPA, COPPA
+
+### Bug Fixes
+* **core:** do not re-create the ViewObserver on every ad-load event
+* **core:** the AdBreak processing is stopped, if ad fails in a series of ads
+
+### Code Refactoring
+* add extra assets to native ad
+* **core:** specify non-null parameter for VideoAdListener
+* **nda:** remove ConstraintLayout on RewardVideo AD
+
 ## 6.0.5 (2023-06-21)
 ### Bug Fixes
 * **core:** can do skip on multiple in-stream ad
