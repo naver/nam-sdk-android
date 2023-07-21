@@ -1,5 +1,13 @@
 # Changelog
 
+## 6.1.1 (2023-07-21)
+### Bug Fixes
+* unplayed ad makes the video content stop after ad schedule is finished
+
+### Code Refactoring
+* add an attribute to GfpAdChoicesView for AdMute icon resource
+* **core:** add `GfpTheme` type that can be used lazily
+
 ## 6.1.0 (2023-07-04)
 ### Features
 * **core:** support Global Privacy Policy for GDPR, CCPA, COPPA
