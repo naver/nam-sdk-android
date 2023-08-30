@@ -68,7 +68,7 @@ class SmartChannelFragment : Fragment() {
             })
             .withNativeSimpleAd(
                 GfpNativeSimpleAdOptions.Builder()
-                    .setAdChoicePlacement(GfpNativeSimpleAdOptions.ADCHOICES_TOP_RIGHT)
+                    .setAdChoicesPlacement(GfpNativeSimpleAdOptions.ADCHOICES_TOP_RIGHT)
                     .build()
             ) { nativeSimpleAd: GfpNativeSimpleAd ->
                 logTextView.append(
