@@ -79,7 +79,7 @@ public class SmartChannelFragment extends Fragment {
                                 })
                         .withNativeSimpleAd(
                                 new GfpNativeSimpleAdOptions.Builder()
-                                        .setAdChoicePlacement(
+                                        .setAdChoicesPlacement(
                                                 GfpNativeSimpleAdOptions.ADCHOICES_TOP_RIGHT)
                                         .build(),
                                 nativeSimpleAd -> {

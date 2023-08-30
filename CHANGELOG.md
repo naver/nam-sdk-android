@@ -1,5 +1,36 @@
 # Changelog
 
+## 6.2.0 (2023-08-30)
+
+### ⚠ BREAKING CHANGES
+
+* **core:** removed `GfpNativeSimpleAdOptions.Builder.setAdChoicePlacement(int)` method. use `GfpNativeSimpleAdOptions.Builder.setAdChoicesPlacement(int)` instead
+* **core:** removed `GfpNativeAdOptions.Builder.setAdChoicePlacement(int)` method. use `GfpNativeAdOptions.Builder.setAdChoicesPlacement(int)` instead
+
+>Note: There is an interface name change to unify the words used across platforms. We appreciate your understanding that this is a breaking change without a major version change.
+
+### Features
+
+* add api to get media information in native ad objects
+* **core:** add an ad request uri interface on AdParam
+* **core:** add user show interest listener to `GfpAdLoader`
+* **nda:** change ad choices icon in S2S Native Normal ads
+* support s2s native out-stream video ads
+
+### Bug Fixes
+
+* **core:** fix crash when tracking to invalid url
+* **core:** make `GfpDedupeManager` reusable after destroying it
+* **nda:** update ui translations
+* **nda:** video ad pauses when restored after being rewound
+
+### Code Refactoring
+
+* **nda:** ignore playback restriction when user-activated play control
+* **nda:** improve ad mute feedback list page
+* **nda:** modify the logic that determines the ad mute layout type
+* **nda:** only generate blur image only when blur image settings are present
+
 ## 6.1.1 (2023-07-21)
 ### Bug Fixes
 * unplayed ad makes the video content stop after ad schedule is finished
