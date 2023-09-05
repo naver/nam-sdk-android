@@ -444,7 +444,7 @@ $dokka.location:com.naver.gfpsdk/GfpAd/getAdProviderName/#/PointingToDeclaration
 $dokka.location:com.naver.gfpsdk/GfpAd/getResponseInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad/get-response-info.html
 $dokka.location:com.naver.gfpsdk/GfpAdChoicesView///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-choices-view/index.html
 $dokka.location:com.naver.gfpsdk/GfpAdChoicesView/GfpAdChoicesView/#android.content.Context#android.util.AttributeSet?#kotlin.Int/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-choices-view/-gfp-ad-choices-view.html
-$dokka.location:com.naver.gfpsdk/GfpAdChoicesView/getAdMuteResId/#kotlin.Boolean/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-choices-view/get-ad-mute-res-id.html
+$dokka.location:com.naver.gfpsdk/GfpAdChoicesView/getAdChoicesDrawableResId/#kotlin.Boolean/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-choices-view/get-ad-choices-drawable-res-id.html
 $dokka.location:com.naver.gfpsdk/GfpAdLoader.Builder///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-loader/-builder/index.html
 $dokka.location:com.naver.gfpsdk/GfpAdLoader.Builder/Builder/#android.content.Context#com.naver.gfpsdk.AdParam/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-loader/-builder/-builder.html
 $dokka.location:com.naver.gfpsdk/GfpAdLoader///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-loader/index.html
