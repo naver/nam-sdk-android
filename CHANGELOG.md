@@ -1,5 +1,15 @@
 # Changelog
 
+## 6.3.0 (2023-09-05)
+
+### Features
+
+* support global privacy policy on C2S
+
+### Bug Fixes
+
+* **vungle:** fix a mis matching error code on Vungle rendering error
+
 ## 6.2.0 (2023-08-30)
 
 ### ⚠ BREAKING CHANGES
