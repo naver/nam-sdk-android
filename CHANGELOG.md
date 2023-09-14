@@ -1,4 +1,19 @@
 # Changelog
+## 6.4.0 (2023-09-14)
+### Features
+* **core:** support DigitalTurbine SDK
+
+### Bug Fixes
+* **core:** fix a cached TFCD value on external module
+* **core:** fix the case where load error event is lost
+* **core:** NullPointerException on GfpResponseInfo
+* **dfp:** remove `DfpInitializer`
+* fix a ConcurrentModificationException issue on DSP initialization (Vungle, Unity, DT)
+* fix the no_fill error stat code in Vungle, AppLovin
+* **nda:** fix bug with companion ad using `WebView`
+
+### Code Refactoring
+* adjust c2s dsp video mute setting
 
 ## 6.3.0 (2023-09-05)
 
