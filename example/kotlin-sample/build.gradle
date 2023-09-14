@@ -40,7 +40,7 @@ dependencies {
 	implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
 	implementation 'androidx.multidex:multidex:2.0.1'
 
-	implementation platform('com.naver.gfpsdk:nam-bom:6.3.0')
+	implementation platform('com.naver.gfpsdk:nam-bom:6.4.0')
 	implementation 'com.naver.gfpsdk:nam-core'
 	implementation 'com.naver.gfpsdk:nam-nda' // (optional) s2s mediation dependency
 	implementation 'com.naver.gfpsdk:nam-dfp' // (optional) dfp mediation dependency
@@ -50,6 +50,7 @@ dependencies {
 	implementation 'com.naver.gfpsdk:nam-applovin' // (optional) applovin mediation dependency
 	implementation 'com.naver.gfpsdk:nam-vungle' // (optional) vungle mediation dependency
 	implementation 'com.naver.gfpsdk:nam-ndavideo' // (optional) naver instream ads dependency
+	implementation 'com.naver.gfpsdk:nam-dt' // (optional) digital turbine mediation dependency
 
 	// for video player, this example using exoplayer
 	implementation 'com.google.android.exoplayer:exoplayer-core:2.18.0'
