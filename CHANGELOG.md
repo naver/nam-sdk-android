@@ -1,4 +1,8 @@
 # Changelog
+### 6.4.1 (2023-09-15)
+### Bug Fixes
+* **nda:** fix the NPE created by empty background option in NativeSimple AD
+
 ## 6.4.0 (2023-09-14)
 ### Features
 * **core:** support DigitalTurbine SDK
