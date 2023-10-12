@@ -16,6 +16,7 @@ $dokka.location:com.naver.gfpsdk.properties/SdkProperties/rewardedAdRequestTimeo
 $dokka.location:com.naver.gfpsdk.properties/SdkProperties/unifiedAdRequestTimeout/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-sdk-properties/unified-ad-request-timeout.html
 $dokka.location:com.naver.gfpsdk.properties/SdkProperties/videoAdRequestTimeout/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-sdk-properties/video-ad-request-timeout.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties///PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/index.html
+$dokka.location:com.naver.gfpsdk.properties/UserProperties/abt/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/abt.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/buildUpon/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/build-upon.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/cookies/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/cookies.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/country/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/country.html
@@ -427,7 +428,6 @@ $dokka.location:com.naver.gfpsdk/Gfp.Api/DEFAULT_CONNECT_TIMEOUT/#/PointingToDec
 $dokka.location:com.naver.gfpsdk/Gfp.Api/DEFAULT_READ_TIMEOUT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/-d-e-f-a-u-l-t_-r-e-a-d_-t-i-m-e-o-u-t.html
 $dokka.location:com.naver.gfpsdk/Gfp.Api/INTERSTITIAL_AD_REQUEST_TIMEOUT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/-i-n-t-e-r-s-t-i-t-i-a-l_-a-d_-r-e-q-u-e-s-t_-t-i-m-e-o-u-t.html
 $dokka.location:com.naver.gfpsdk/Gfp.Api/NELO2_CONNECT_TIMEOUT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/-n-e-l-o2_-c-o-n-n-e-c-t_-t-i-m-e-o-u-t.html
-$dokka.location:com.naver.gfpsdk/Gfp.Api/NELO2_SERVER_URL/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/-n-e-l-o2_-s-e-r-v-e-r_-u-r-l.html
 $dokka.location:com.naver.gfpsdk/Gfp.Api/REWARDED_AD_REQUEST_TIMEOUT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/-r-e-w-a-r-d-e-d_-a-d_-r-e-q-u-e-s-t_-t-i-m-e-o-u-t.html
 $dokka.location:com.naver.gfpsdk/Gfp.Api/UNIFIED_AD_REQUEST_TIMEOUT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/-u-n-i-f-i-e-d_-a-d_-r-e-q-u-e-s-t_-t-i-m-e-o-u-t.html
 $dokka.location:com.naver.gfpsdk/Gfp.Api/VIDEO_AD_REQUEST_TIMEOUT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/-v-i-d-e-o_-a-d_-r-e-q-u-e-s-t_-t-i-m-e-o-u-t.html
@@ -751,7 +751,7 @@ $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/GfpNativeSimpleAdView/#an
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/addView/#android.view.View?#kotlin.Int#android.view.ViewGroup.LayoutParams?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/add-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/additionalContainer/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/additional-container.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/bringChildToFront/#android.view.View?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/bring-child-to-front.html
-$dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/initializeBackgroundContainer/#com.naver.gfpsdk.internal.services.adcall.StyleRecord/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/initialize-background-container.html
+$dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/initializeBackgroundContainer/#com.naver.gfpsdk.internal.services.adcall.StyleRecord?#com.naver.gfpsdk.GfpNativeBackgroundOption?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/initialize-background-container.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/mediaView/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/media-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/removeAllViews/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/remove-all-views.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/removeView/#android.view.View?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/remove-view.html
