@@ -1,5 +1,15 @@
 # Changelog
-### 6.4.1 (2023-09-15)
+## 6.4.2 (2023-10-12)
+### Bug Fixes
+* **core:** background color does not changed on re-bound ad
+* **core:** NativeSimple background makes IllegalArgumentException(NaN)
+* fix lint errors
+* fix the NativeSimple AD's background rendering
+
+### Code Refactoring
+* add drawable resources for hdpi resolution
+
+## 6.4.1 (2023-09-15)
 ### Bug Fixes
 * **nda:** fix the NPE created by empty background option in NativeSimple AD
 
