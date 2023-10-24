@@ -1,4 +1,17 @@
 # Changelog
+## 6.5.0 (2023-10-24)
+### Features
+* add api to get `text` and `highlightedBgColor` of `callToAction` asset
+
+### Bug Fixes
+* **fan:** fix the edge case of NPE during FAN initialization
+
+### Code Refactoring
+* **core:** optimize `GfpNativeAdView` and `GfpNativeSimpleAdView`
+* **nda:** update ui translations for ad mute
+* remove night resources
+* separate extension for label assets
+
 ## 6.4.2 (2023-10-12)
 ### Bug Fixes
 * **core:** background color does not changed on re-bound ad
