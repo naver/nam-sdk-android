@@ -1,4 +1,16 @@
 # Changelog
+## 6.6.0 (2023-11-06)
+
+### ⚠ Deprecated
+* **This version has an issue with mediation not performing correctly. Use the older NAM SDK v6.5.0 instead.**
+
+### Bug Fixes
+* **fan:** fix for native banner not supporting `GfpNativeAd.getMediaData()` ([f588fb8](https://oss.navercorp.com/da-ssp-app-sdk/naver_sdk_aos/commit/f588fb84dd723c77626a6754dd27cc7c311649d7)), closes [#1512](https://oss.navercorp.com/da-ssp-app-sdk/naver_sdk_aos/issues/1512)
+* fix cases where vast tracking does not work ([89a69b6](https://oss.navercorp.com/da-ssp-app-sdk/naver_sdk_aos/commit/89a69b66296201eb991e6dd448a7c8c4655b9db1)), closes [#1502](https://oss.navercorp.com/da-ssp-app-sdk/naver_sdk_aos/issues/1502)
+
+### Code Refactoring
+* **applovin:** add a validation check in the AppLovin native ad for CTA ([2866eaa](https://oss.navercorp.com/da-ssp-app-sdk/naver_sdk_aos/commit/2866eaa27c7398df7c8d591560a28303e1e0d266)), closes [#1489](https://oss.navercorp.com/da-ssp-app-sdk/naver_sdk_aos/issues/1489)
+
 ## 6.5.0 (2023-10-24)
 ### Features
 * add api to get `text` and `highlightedBgColor` of `callToAction` asset
