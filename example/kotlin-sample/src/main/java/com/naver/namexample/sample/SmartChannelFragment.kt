@@ -9,7 +9,6 @@
 package com.naver.namexample.sample
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -61,9 +60,8 @@ class SmartChannelFragment : Fragment() {
 
                 override fun onError(error: GfpError, responseInfo: GfpResponseInfo) {
                     logTextView.append(
-                        "[${DateUtil.CURR_TIME_STR}] Error occurred.\n\tcode[${error.errorCode}]\n\tsubCode[${error.errorSubCode}]\n\t\tmessage[${error.errorMessage}]\n"
+                        "[${DateUtil.CURR_TIME_STR}] Error occurred.\n\tcode[${error.errorCode}]\n\tsubCode[${error.errorSubCode}]\n\t\tmessage[${error.errorMessage}]\n" // ktlint-disable max-line-length
                     )
-                    Log.e("SmartchannelFragment", responseInfo.toString())
                 }
             })
             .withNativeSimpleAd(
@@ -72,7 +70,7 @@ class SmartChannelFragment : Fragment() {
                     .build()
             ) { nativeSimpleAd: GfpNativeSimpleAd ->
                 logTextView.append(
-                    "[${DateUtil.CURR_TIME_STR}] AD Loaded.\n\t\tAdProviderName: ${nativeSimpleAd.adProviderName}\n"
+                    "[${DateUtil.CURR_TIME_STR}] AD Loaded.\n\t\tAdProviderName: ${nativeSimpleAd.adProviderName}\n" // ktlint-disable max-line-length
                 )
                 nativeSimpleAdView.setNativeSimpleAd(nativeSimpleAd)
             }

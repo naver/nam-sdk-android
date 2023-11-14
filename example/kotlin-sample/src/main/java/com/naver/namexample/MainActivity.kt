@@ -10,6 +10,7 @@ package com.naver.namexample
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.naver.ads.NasLogger
 import com.naver.gfpsdk.GenderType
 import com.naver.gfpsdk.GfpSdk.getSdkProperties
 import com.naver.gfpsdk.GfpSdk.getUserProperties
@@ -24,30 +25,33 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        NasLogger.setLogLevel(NasLogger.LogLevel.DEBUG)
+        // un-necessary on release
+
         setSdkProperties(
             getSdkProperties().buildUpon()
                 // if you enable DFP (Google) ads
                 .addProviderOptions(
                     DfpProviderOptions.Builder()
                         // for test (not for production level)
-                        .setTestMode(true).build(),
+                        .setTestMode(true).build()
                 )
                 // if you enable FAN (Meta/Facebook) ads
                 .addProviderOptions(
                     FanProviderOptions.Builder()
                         // for test (not for production level)
-                        .setTestMode(true).build(),
+                        .setTestMode(true).build()
                 )
                 // if you enable Naver DSP ads
                 .addProviderOptions(
                     NdaProviderOptions.Builder()
-                        .build(),
+                        .build()
                 )
                 // timeout for 'ImageBanner' type
                 .bannerAdRequestTimeout(60000L)
                 // timeout for 'NativeBanner' and 'Smartchannel' types
                 .unifiedAdRequestTimeout(60000L)
-                .build(),
+                .build()
         )
 
         // It will be used in targeting rule. please contact NAM admin before using this.
@@ -59,7 +63,7 @@ class MainActivity : AppCompatActivity() {
                 .country("KR")
                 .language("KO")
                 .gender(GenderType.MALE)
-                .build(),
+                .build()
         )
 
         supportFragmentManager.beginTransaction()
