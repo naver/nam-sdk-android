@@ -9,7 +9,6 @@
 package com.naver.namexample.sample
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -31,7 +30,11 @@ class ImageBannerFragment : Fragment() {
     private lateinit var logTextView: TextView
     private lateinit var binding: FragmentImageBannerBinding
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
         binding = FragmentImageBannerBinding.inflate(layoutInflater)
         val bannerAdContainer = binding.bannerContainer
         logTextView = binding.logTextView
@@ -56,7 +59,9 @@ class ImageBannerFragment : Fragment() {
             setAdListener(
                 object : BannerAdListener() {
                     override fun onAdLoaded(ad: GfpBannerAd) {
-                        logTextView.append("[${DateUtil.CURR_TIME_STR}] AD Loaded.\n\tAdProviderName: ${ad.adProviderName} Size: ${bannerAdView?.bannerAdSize}\n")
+                        logTextView.append(
+                            "[${DateUtil.CURR_TIME_STR}] AD Loaded.\n\tAdProviderName: ${ad.adProviderName} Size: ${bannerAdView?.bannerAdSize}\n" // ktlint-disable max-line-length
+                        )
                     }
 
                     override fun onAdClicked(ad: GfpBannerAd) {
@@ -76,14 +81,18 @@ class ImageBannerFragment : Fragment() {
                     }
 
                     override fun onAdSizeChanged(ad: GfpBannerAd) {
-                        logTextView.append("[${DateUtil.CURR_TIME_STR}] AD SizeChanged.\n\tSize: ${bannerAdView?.bannerAdSize}\n")
+                        logTextView.append(
+                            "[${DateUtil.CURR_TIME_STR}] AD SizeChanged.\n\tSize: ${bannerAdView?.bannerAdSize}\n" // ktlint-disable max-line-length
+                        )
                     }
 
                     override fun onError(ad: GfpBannerAd, error: GfpError) {
-                        logTextView.append("[${DateUtil.CURR_TIME_STR}] Error occurred.\n\tcode[${error.errorCode}]\n\tsubCode[${error.errorSubCode}]\n\t\tmessage[${error.errorMessage}]\n")
-                        Log.e("ImageBannerFragment", ad.responseInfo.toString())
+                        logTextView.append(
+                            "[${DateUtil.CURR_TIME_STR}] Error occurred.\n\tcode[${error.errorCode}]\n\tsubCode[${error.errorSubCode}]\n\t\tmessage[${error.errorMessage}]\n" // ktlint-disable max-line-length
+                        )
                     }
-                })
+                }
+            )
             bannerAdContainer.addView(this)
             logTextView.append("[${DateUtil.CURR_TIME_STR}] AD Requested.\n")
             loadAd()

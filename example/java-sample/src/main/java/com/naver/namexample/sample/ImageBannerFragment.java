@@ -9,7 +9,6 @@
 package com.naver.namexample.sample;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -103,7 +102,6 @@ public class ImageBannerFragment extends Fragment {
                                         error.getErrorCode(),
                                         error.getErrorSubCode(),
                                         error.getErrorMessage()));
-                        Log.e("ImageBannerFragment", ad.getResponseInfo().toString());
                     }
                 });
         logTextView.append(String.format("[%s] AD Requested.%n", sdf.format(new Date())));
