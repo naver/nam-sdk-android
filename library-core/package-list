@@ -520,7 +520,6 @@ $dokka.location:com.naver.gfpsdk/GfpAdMuteView/removeAllViews/#/PointingToDeclar
 $dokka.location:com.naver.gfpsdk/GfpAdMuteView/removeView/#android.view.View?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-mute-view/remove-view.html
 $dokka.location:com.naver.gfpsdk/GfpApsAdParam///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-aps-ad-param/index.html
 $dokka.location:com.naver.gfpsdk/GfpApsAdParam/GfpApsAdParam/#java.lang.String#int#int#java.util.Map<java.lang.String,java.util.List<java.lang.String>>/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-aps-ad-param/-gfp-aps-ad-param.html
-$dokka.location:com.naver.gfpsdk/GfpApsAdParam/getHostUrl/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-aps-ad-param/get-host-url.html
 $dokka.location:com.naver.gfpsdk/GfpApsAdParam/getParameters/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-aps-ad-param/get-parameters.html
 $dokka.location:com.naver.gfpsdk/GfpBannerAd.OnBannerAdViewLoadedListener///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-banner-ad/-on-banner-ad-view-loaded-listener/index.html
 $dokka.location:com.naver.gfpsdk/GfpBannerAd.OnBannerAdViewLoadedListener/onBannerAdViewLoaded/#GfpBannerAdView/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-banner-ad/-on-banner-ad-view-loaded-listener/on-banner-ad-view-loaded.html
