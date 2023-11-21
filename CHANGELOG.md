@@ -1,4 +1,17 @@
 # Changelog
+## 6.7.0 (2023-11-21)
+### Bug Fixes
+* **nda:** fix a clickable area on rewarded companion ad
+
+### Code Refactoring
+* **adplayer:** organize drawables for skip button in in-stream
+* **applovin:** bump `applovin` sdk to 11.10.1
+* **dfp:** bump `dfp` sdk to 22.2.0
+* **fan:** bump `fan` sdk to 6.16.0
+* **inmobi:** bump `inMobi` sdk to 10.5.9
+* **unity:** bump `unity` sdk to 4.8.0
+* **vungle:** bump `vungle` sdk to 7.0.0
+
 ## 6.6.3 (2023-11-20)
 ### Bug Fixes
 * **core:** fix a bug when binding native ads in RecyclerView
