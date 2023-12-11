@@ -10,7 +10,7 @@ Please check the following 'Implement the AdVideoPlayer'
 ## Step 1: Add dependencies
 ```groovy
 dependencies {
-    implementation platform('com.naver.gfpsdk:nam-bom:6.7.0')
+    implementation platform('com.naver.gfpsdk:nam-bom:6.7.1')
     implementation 'com.naver.gfpsdk:nam-core'
     implementation 'com.naver.gfpsdk:nam-ndavideo'                      // (optional) for instream ads
     implementation 'com.google.android.exoplayer:exoplayer-core:2.18.0' // using exoplayer for example
@@ -375,8 +375,7 @@ In this example, `ad_video_player` and `ad_ui_container` are used in constructor
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    ... >
+<RelativeLayout>
     <com.naver.gfpsdk.adssample.video.SampleExoPlayerView
         android:id="@+id/ad_video_player"
         android:layout_width="match_parent"
