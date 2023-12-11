@@ -1,4 +1,14 @@
 # Changelog
+## 6.7.1 (2023-12-11)
+### Bug Fixes
+* **core:** fix the initialization api
+* **core:** fix the VideoAdOptions setting after the video schedule is loaded
+
+### Code Refactoring
+* add validation for media types
+* **core:** refactor internal initialization to prevent ConcurrentModificationException
+* **unity:** remove unnecessary size validation on banner
+
 ## 6.7.0 (2023-11-21)
 ### Bug Fixes
 * **nda:** fix a clickable area on rewarded companion ad
