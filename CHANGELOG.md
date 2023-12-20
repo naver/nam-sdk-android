@@ -1,4 +1,8 @@
 # Changelog
+## 6.7.2 (2023-12-20)
+### Code Refactoring
+* **unity:** bump unity sdk to 4.9.2
+
 ## 6.7.1 (2023-12-11)
 ### Bug Fixes
 * **core:** fix the initialization api

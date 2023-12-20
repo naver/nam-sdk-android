@@ -53,7 +53,7 @@ android {
 
 ```groovy
 dependencies {
-  implementation platform('com.naver.gfpsdk:nam-bom:6.7.1')
+  implementation platform('com.naver.gfpsdk:nam-bom:6.7.2')
   implementation 'com.naver.gfpsdk:nam-core' // no version specified
 }
 ```
