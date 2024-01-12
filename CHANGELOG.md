@@ -1,4 +1,16 @@
 # Changelog
+## 7.0.0 (2023-01-12)
+### ⚠ BREAKING CHANGES
+* **core:** removed `GfpNativeSimpleAdOptions.Builder.setBackgroundOptions()`
+* **core:** removed `GfpTheme.SYSTEM`, `GfpTheme.LIGHT` and `GfpTheme.DARK`
+
+### Features
+* does not collect adid on child directed app
+
+### Code Refactoring
+* **core:** remove deprecated GfpNativeBackgroundOption
+* **core:** remove deprecated GfpTheme fields
+
 ## 6.7.2 (2023-12-20)
 ### Code Refactoring
 * **unity:** bump unity sdk to 4.9.2
