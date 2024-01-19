@@ -1,5 +1,9 @@
 # Changelog
-## 7.0.0 (2023-01-12)
+## 7.0.1 (2024-01-19)
+### Bug Fixes
+* **fan:** fix ANR issue while fetching the bid token
+
+## 7.0.0 (2024-01-12)
 ### ⚠ BREAKING CHANGES
 * **core:** removed `GfpNativeSimpleAdOptions.Builder.setBackgroundOptions()`
 * **core:** removed `GfpTheme.SYSTEM`, `GfpTheme.LIGHT` and `GfpTheme.DARK`
