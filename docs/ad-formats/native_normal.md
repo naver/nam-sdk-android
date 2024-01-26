@@ -168,8 +168,6 @@ The view hierarchy for a native ad that uses a `LinearLayout` to display its ass
                             android:id="@+id/ad_call_to_action"
                             android:layout_width="100dp"
                             android:layout_height="40dp"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
                             android:background="#3c3c3c"
                             android:paddingLeft="3dp"
                             android:paddingRight="3dp"
