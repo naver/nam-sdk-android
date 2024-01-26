@@ -1,4 +1,23 @@
 # Changelog
+## 7.1.0 (2024-01-26)
+### Features
+* **aps:** add APS Banner
+* **ironsource:** support IronSource SDK
+* **nda:** add a dialog to continue to see the RewardedAd
+* **vungle:** support in-app bidding on Vungle
+
+### Bug Fixes
+* **applovin:** fix a AppLovin sequential caching setting
+
+### Code Refactoring
+* **applovin:** bump `applovin` sdk to 11.11.3
+* **dfp:** bump `dfp` sdk to 22.6.0
+* **dt:** bump DigitalTurbine sdk to 8.2.4
+* **inmobi:** bump `inmobi` sdk to 10.6.2
+* **nda:** change the default background of `GfpMediaView` from `black` to `transparent`
+* **nda:** refactor the ad choice validation on RewardedVideo AD
+* **unity:** bump `unity` sdk to 4.9.2
+
 ## 7.0.1 (2024-01-19)
 ### Bug Fixes
 * **fan:** fix ANR issue while fetching the bid token

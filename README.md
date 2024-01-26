@@ -53,7 +53,7 @@ android {
 
 ```groovy
 dependencies {
-  implementation platform('com.naver.gfpsdk:nam-bom:7.0.1')
+  implementation platform('com.naver.gfpsdk:nam-bom:7.1.0')
   implementation 'com.naver.gfpsdk:nam-core' // no version specified
 }
 ```
@@ -132,6 +132,14 @@ dependencies {
 } 
 ```
 
+##### To use header bidding for Banner with `Amazon Publusher Services`, make sure the following dependencies are place:
+
+```groovy
+dependencies {
+  implementation 'com.naver.gfpsdk:nam-aps' // no version specified
+} 
+```
+
 ### 4. Add your Publisher Code to your app's `AndroidManifest.xml` file. 
 
 To do so, add a `<meta-data>` tag with `android:name="com.naver.gfpsdk.PUBLISHER_CD"`. For `android:value`, insert your own Publisher Code.
@@ -173,6 +181,7 @@ NAM SDK mediation supports several ad provider, with a mix of bidding and waterf
 | APPLOVIN                              | O      | O      | X             | O        | O            | AppLovin provider                                      |
 | VUNGLE                                | X      | X      | X             | O        | O            | Vungle provider                                        |
 | DigitalTurbine                        | O      | X      | X             | O        | O            | DigitalTurbine provider                                |
+| APS                                   | O      | X      | X             | X        | X            | AmazonPublisherServices provider (for header bidding)  |
 >Note: After contacting the NAM manager, add the module of the Ad provider you want to add to.
 
 ### 7. (Optional) Targeting your ads
