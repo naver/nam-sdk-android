@@ -1,4 +1,12 @@
 # Changelog
+## 7.1.1 (2024-02-06)
+### Bug Fixes
+* **nda:** fix the load failure of EndCard in RewardedVideo AD
+
+### Code Refactoring
+* **core:** add an UA parameter on ad request
+* **core:** support OMSDK version 1.4.10
+
 ## 7.1.0 (2024-01-26)
 ### Features
 * **aps:** add APS Banner
