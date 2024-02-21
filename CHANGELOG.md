@@ -1,4 +1,11 @@
 # Changelog
+## 7.2.0 (2024-02-21)
+### Features
+* add a language setting on in-stream ad
+
+### Bug Fixes
+* `ViewObserver` does not work with ad that is displayed on top of other apps
+
 ## 7.1.1 (2024-02-06)
 ### Bug Fixes
 * **nda:** fix the load failure of EndCard in RewardedVideo AD
@@ -226,7 +233,7 @@
 
 ### Bug Fixes
 
-* **core:** fix meta(nam-fan module) ads not loading 
+* **core:** fix meta(nam-fan module) ads not loading
 
 ## 6.0.0 (2023-05-25)
 
@@ -238,22 +245,22 @@
 ### Features
 
 * **nda:** support s2s reward video
-* support Vungle SDK 
+* support Vungle SDK
 
 ### Bug Fixes
 
-* **applovin:** Fix the AppLovin Rewarded ad callback 
-* **nda:** privacy icon is duplicated when re-attaching on recyclerview 
+* **applovin:** Fix the AppLovin Rewarded ad callback
+* **nda:** privacy icon is duplicated when re-attaching on recyclerview
 
 ### Code Refactoring
 
-* **applovin:** bump `applovin` sdk version to 11.7.1 
-* **core:** support custom parameter as a global property 
+* **applovin:** bump `applovin` sdk version to 11.7.1
+* **core:** support custom parameter as a global property
 * **dfp:** bump `gma` sdk to 21.5.0
-* **fan:** bump `meta` sdk to 6.13.7 
-* **ima:** bump `ima` sdk version to 3.27.1 
-* **inmobi:** bump `inmobi` sdk to 10.1.2 
-* **unity:** bump `unity` sdk version to 4.6.1 
+* **fan:** bump `meta` sdk to 6.13.7
+* **ima:** bump `ima` sdk version to 3.27.1
+* **inmobi:** bump `inmobi` sdk to 10.1.2
+* **unity:** bump `unity` sdk version to 4.6.1
 
 ## 5.3.0 (2023-03-24)
 ### Bug Fixes
@@ -372,16 +379,16 @@
 
 ### Bug Fixes
 
-* **core:** does not set a content description on Native Banner 
+* **core:** does not set a content description on Native Banner
 * **core:** fix a bug that is not drawn if width of `GfpNativeSimpleAdView` is `wrap_content`
-* **nda:** fix a bug calculating size of NS image in recycler view 
+* **nda:** fix a bug calculating size of NS image in recycler view
 
 
 ### Code Refactoring
 
-* migrate some of internal code to kotlin 
-* **nda:** refactor ad mute view 
-* **nda:** remove `recyclerView` dependency 
+* migrate some of internal code to kotlin
+* **nda:** refactor ad mute view
+* **nda:** remove `recyclerView` dependency
 
 
 ## 4.3.2 (2022-07-18)
@@ -398,7 +405,7 @@
 
 * change the artifact id of the external build
 
-    >⚠️ Important: To prevent conflicts with NAVER internal build, we changed the artifact id of NAM SDK, and from version `4.3.1` you have to add dependencies as below.
+  >⚠️ Important: To prevent conflicts with NAVER internal build, we changed the artifact id of NAM SDK, and from version `4.3.1` you have to add dependencies as below.
 
     ```groovy
     implementation platform('com.naver.gfpsdk:nam-bom:4.3.1')
@@ -415,7 +422,7 @@
 
 ### Features
 
-* add new module to generate Bill of Materials 
+* add new module to generate Bill of Materials
 
     ```groovy
     implementation platform('com.naver.gfpsdk:gfpsdk-bom:4.3.0')
@@ -430,13 +437,13 @@
 
 ### Bug Fixes
 
-* **core:** fix a potential bug in `GfpAdLoader.Builder` 
+* **core:** fix a potential bug in `GfpAdLoader.Builder`
 
 
 ### Code Refactoring
 
-* **core:** migrate `GfpError` class to kotlin 
-* **inmobi:** remove optional dependencies of inmobi module 
+* **core:** migrate `GfpError` class to kotlin
+* **inmobi:** remove optional dependencies of inmobi module
 * migrate some of internal code to kotlin
 
 
