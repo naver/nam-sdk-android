@@ -140,6 +140,14 @@ dependencies {
 } 
 ```
 
+##### For `IronSource` mediation, make sure the following dependencies are place:
+
+```groovy
+dependencies {
+  implementation 'com.naver.gfpsdk:nam-ironsource' // no version specified
+} 
+```
+
 ### 4. Add your Publisher Code to your app's `AndroidManifest.xml` file. 
 
 To do so, add a `<meta-data>` tag with `android:name="com.naver.gfpsdk.PUBLISHER_CD"`. For `android:value`, insert your own Publisher Code.
@@ -171,17 +179,18 @@ NAM SDK is now imported and you're ready to implement an ad. NAM SDK offers a nu
 
 NAM SDK mediation supports several ad provider, with a mix of bidding and waterfall mediation integrations. Select an ad provider below for integration instructions specific to that ad provider.
 
-| Ad Provider                           | Banner | Native | Native Simple | Rewarded | Interstitial | Description                                            |
-|:--------------------------------------|:-------|:-------|:--------------|:---------|:-------------|:-------------------------------------------------------|
-| [NDA](docs/ad-providers/nda.md)       | O      | O      | O             | O        | X            | S2S provider (Naver, Pubmatic, AppNexus, Rubicon, ...) |
-| [DFP](docs/ad-providers/dfp.md)       | O      | O      | X             | O        | O            | Google Ad Manager provider                             |
-| [FAN](docs/ad-providers/fan.md)       | O      | O      | X             | O        | O            | Meta Audience Network provider                         |
-| [INMOBI](docs/ad-providers/inmobi.md) | O      | O      | X             | X        | X            | InMobi provider                                        |
-| UNITY                                 | O      | X      | X             | O        | O            | Unity provider                                         |
-| APPLOVIN                              | O      | O      | X             | O        | O            | AppLovin provider                                      |
-| VUNGLE                                | X      | X      | X             | O        | O            | Vungle provider                                        |
-| DigitalTurbine                        | O      | X      | X             | O        | O            | DigitalTurbine provider                                |
-| APS                                   | O      | X      | X             | X        | X            | AmazonPublisherServices provider (for header bidding)  |
+| Ad Provider                                   | Banner | Native | Native Simple | Rewarded | Interstitial | Description                                            |
+|:----------------------------------------------|:-------|:-------|:--------------|:---------|:-------------|:-------------------------------------------------------|
+| [NDA](docs/ad-providers/nda.md)               | O      | O      | O             | O        | X            | S2S provider (Naver, Pubmatic, AppNexus, Rubicon, ...) |
+| [DFP](docs/ad-providers/dfp.md)               | O      | O      | X             | O        | O            | Google Ad Manager provider                             |
+| [FAN](docs/ad-providers/fan.md)               | O      | O      | X             | O        | O            | Meta Audience Network provider                         |
+| [INMOBI](docs/ad-providers/inmobi.md)         | O      | O      | X             | X        | X            | InMobi provider                                        |
+| UNITY                                         | O      | X      | X             | O        | O            | Unity provider                                         |
+| APPLOVIN                                      | O      | O      | X             | O        | O            | AppLovin provider                                      |
+| VUNGLE                                        | X      | X      | X             | O        | O            | Vungle provider                                        |
+| DigitalTurbine                                | O      | X      | X             | O        | O            | DigitalTurbine provider                                |
+| APS                                           | O      | X      | X             | X        | X            | AmazonPublisherServices provider (for header bidding)  |
+| [IronSource](docs/ad-providers/ironsource.md) | O      | X      | X             | O        | O            | IronSource provider                                    |
 >Note: After contacting the NAM manager, add the module of the Ad provider you want to add to.
 
 ### 7. (Optional) Targeting your ads

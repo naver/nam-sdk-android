@@ -52,6 +52,7 @@ dependencies {
 	implementation 'com.naver.gfpsdk:nam-ndavideo' // (optional) naver instream ads dependency
 	implementation 'com.naver.gfpsdk:nam-dt' // (optional) digital turbine mediation dependency
 	implementation 'com.naver.gfpsdk:nam-aps' // (optional) AmazonPublisherServices mediation (for header bidding)
+	implementation 'com.naver.gfpsdk:nam-ironsource' // (optional) ironsource mediation
 
 	// for video player, this example using exoplayer
 	implementation 'com.google.android.exoplayer:exoplayer-core:2.18.0'

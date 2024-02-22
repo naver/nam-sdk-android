@@ -9,6 +9,9 @@ dependencyResolutionManagement {
 	repositories {
 		google()
 		mavenCentral()
+		maven {
+			url "https://android-sdk.is.com/"
+		}
 	}
 }
 rootProject.name = "NamExample"
