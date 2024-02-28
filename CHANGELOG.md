@@ -1,4 +1,13 @@
 # Changelog
+
+## 7.2.1 (2024-02-28)
+### Bug Fixes
+* **applovin:** add error handling at initialization
+* **fan:** add error handling when load native ad
+* **ironsource:** remove IronSource banner
+* **unity:** fix crash when passing application context when requesting Unity banner
+* **vungle:** add error handling at initialization
+
 ## 7.2.0 (2024-02-21)
 ### Features
 * add a language setting on in-stream ad
