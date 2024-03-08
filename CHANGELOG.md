@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.3.0 (2024-03-08)
+### Code Refactoring
+* improve logging process
+
 ## 7.2.1 (2024-02-28)
 ### Bug Fixes
 * **applovin:** add error handling at initialization
