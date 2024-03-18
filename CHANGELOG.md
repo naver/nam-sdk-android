@@ -1,4 +1,13 @@
 # Changelog
+## 7.4.0 (2024-03-18)
+### ⚠ Deprecated
+* **This version has an issue. Use the older NAM SDK v7.3.0 instead.**
+
+### Features
+* support clickable control view type for native outstream ad
+
+### Code Refactoring
+* add background color and text colors to native ad
 
 ## 7.3.0 (2024-03-08)
 ### Code Refactoring
