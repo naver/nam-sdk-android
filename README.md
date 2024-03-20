@@ -1,6 +1,6 @@
 # Naver Ad Manager SDK for Android
 
-![Maven Central](https://img.shields.io/badge/maven--central-v7.3.0-blue)
+![Maven Central](https://img.shields.io/maven-central/v/com.naver.gfpsdk/nam-core)
 
 Integrating the `Naver Ad Manager(NAM) SDK` into an app is the first step toward displaying ads and earning revenue. Once you've integrated the SDK,
 you can choose an ad format (such as banner or native or rewarded or interstitial) and follow the steps to implement it.
@@ -53,7 +53,7 @@ android {
 
 ```groovy
 dependencies {
-  implementation platform('com.naver.gfpsdk:nam-bom:7.3.0')
+  implementation platform('com.naver.gfpsdk:nam-bom:7.4.1')
   implementation 'com.naver.gfpsdk:nam-core' // no version specified
 }
 ```
