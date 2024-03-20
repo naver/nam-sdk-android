@@ -1,4 +1,8 @@
 # Changelog
+## 7.4.1 (2024-03-20)
+### Code Refactoring
+* **core:** add theme to `GfpRewardedAdOptions` and `GfpInterstitialAdOptions`
+
 ## 7.4.0 (2024-03-18)
 ### ⚠ Deprecated
 * **This version has an issue. Use the older NAM SDK v7.3.0 instead.**

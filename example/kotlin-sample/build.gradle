@@ -40,7 +40,7 @@ dependencies {
 	implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
 	implementation 'androidx.multidex:multidex:2.0.1'
 
-	implementation platform('com.naver.gfpsdk:nam-bom:7.3.0')
+	implementation platform('com.naver.gfpsdk:nam-bom:7.4.1')
 	implementation 'com.naver.gfpsdk:nam-core'
 	implementation 'com.naver.gfpsdk:nam-nda' // (optional) s2s mediation dependency
 	implementation 'com.naver.gfpsdk:nam-dfp' // (optional) dfp mediation dependency
