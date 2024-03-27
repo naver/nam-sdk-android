@@ -29,7 +29,7 @@ repositories {
 
 ...
 dependencies {
-    implementation 'com.naver.gfpsdk:nam-ironsource:7.4.1'  
+    implementation 'com.naver.gfpsdk:nam-ironsource:7.4.2'  
 }
 ```
 

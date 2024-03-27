@@ -1,4 +1,16 @@
 # Changelog
+## [7.4.2] (2024-03-27)
+### Bug Fixes
+* **dfp:** fix the video mute setting in DFP Rewarded/Interstitial AD
+
+### Code Refactoring
+* **applovin:** refactor the integration of AppLovin SDK
+* **core:** additional device properties parameters on AdCallRequest
+* **dt:** add the mute video setting on DigitalTurbine
+* refactor log level
+* support additional event tracking types
+* **vungle:** refactor the no fill ad in Vungle
+
 ## 7.4.1 (2024-03-20)
 ### Code Refactoring
 * **core:** add theme to `GfpRewardedAdOptions` and `GfpInterstitialAdOptions`
