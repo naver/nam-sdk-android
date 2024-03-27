@@ -10,7 +10,7 @@ Please check the following 'Implement the AdVideoPlayer'
 ## Step 1: Add dependencies
 ```groovy
 dependencies {
-    implementation platform('com.naver.gfpsdk:nam-bom:7.4.1')
+    implementation platform('com.naver.gfpsdk:nam-bom:7.4.2')
     implementation 'com.naver.gfpsdk:nam-core'
     implementation 'com.naver.gfpsdk:nam-ndavideo'                      // (optional) for instream ads
     implementation 'com.google.android.exoplayer:exoplayer-core:2.18.0' // using exoplayer for example
