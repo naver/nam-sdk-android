@@ -1,5 +1,10 @@
 # Changelog
-## [7.4.2] (2024-03-27)
+
+## 7.4.3 (2024-04-26)
+### Code Refactoring
+- add corner option for where the ad choices icon is
+
+## 7.4.2 (2024-03-27)
 ### Bug Fixes
 * **dfp:** fix the video mute setting in DFP Rewarded/Interstitial AD
 
