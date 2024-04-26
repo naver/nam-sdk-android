@@ -501,6 +501,7 @@ $dokka.location:com.naver.gfpsdk/GfpAdMuteView/GfpAdMuteView/#android.content.Co
 $dokka.location:com.naver.gfpsdk/GfpAdMuteView/adChoicesContainer/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-mute-view/ad-choices-container.html
 $dokka.location:com.naver.gfpsdk/GfpAdMuteView/addView/#android.view.View?#kotlin.Int#android.view.ViewGroup.LayoutParams?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-mute-view/add-view.html
 $dokka.location:com.naver.gfpsdk/GfpAdMuteView/bringChildToFront/#android.view.View?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-mute-view/bring-child-to-front.html
+$dokka.location:com.naver.gfpsdk/GfpAdMuteView/isPlaceInAdViewCorner/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-mute-view/is-place-in-ad-view-corner.html
 $dokka.location:com.naver.gfpsdk/GfpAdMuteView/removeAllViews/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-mute-view/remove-all-views.html
 $dokka.location:com.naver.gfpsdk/GfpAdMuteView/removeView/#android.view.View?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-mute-view/remove-view.html
 $dokka.location:com.naver.gfpsdk/GfpApsAdParam///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-aps-ad-param/index.html
@@ -793,6 +794,7 @@ $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions.Builder/activateObserv
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions.Builder/adChoicesPlacement/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/-builder/ad-choices-placement.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions.Builder/build/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/-builder/build.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions.Builder/minHeightInBottomAlign/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/-builder/min-height-in-bottom-align.html
+$dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions.Builder/placeAdChoicesInAdViewCorner/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/-builder/place-ad-choices-in-ad-view-corner.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions.Builder/theme/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/-builder/theme.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/index.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions/ADCHOICES_BOTTOM_LEFT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/-a-d-c-h-o-i-c-e-s_-b-o-t-t-o-m_-l-e-f-t.html
@@ -801,6 +803,7 @@ $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions/ADCHOICES_TOP_LEFT/#/P
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions/ADCHOICES_TOP_RIGHT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/-a-d-c-h-o-i-c-e-s_-t-o-p_-r-i-g-h-t.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions/adChoicesPlacement/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/ad-choices-placement.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions/isActivateObservingOnBackground/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/is-activate-observing-on-background.html
+$dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions/isPlaceAdChoicesInAdViewCorner/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/is-place-ad-choices-in-ad-view-corner.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions/minHeightInBottomAlign/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/min-height-in-bottom-align.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions/theme/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/theme.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView.BackgroundContainer///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/-background-container/index.html
