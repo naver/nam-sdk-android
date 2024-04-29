@@ -1,5 +1,10 @@
 # Changelog
 
+## 7.4.4 (2024-04-29)
+### Bug Fixes
+* **applovin:** set applovin banner view size
+* **core:** add child as centered to GfpBannerAdView
+
 ## 7.4.3 (2024-04-26)
 ### Code Refactoring
 - add corner option for where the ad choices icon is
