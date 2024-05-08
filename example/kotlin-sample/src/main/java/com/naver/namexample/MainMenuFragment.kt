@@ -20,6 +20,7 @@ import com.naver.namexample.databinding.FragmentMainMenuBinding
 import com.naver.namexample.sample.ImageBannerFragment
 import com.naver.namexample.sample.InStreamFragment
 import com.naver.namexample.sample.NativeBannerFragment
+import com.naver.namexample.sample.RewardedFragment
 import com.naver.namexample.sample.SmartChannelFragment
 
 class MainMenuFragment : ListFragment() {
@@ -28,7 +29,8 @@ class MainMenuFragment : ListFragment() {
         SampleAdInfo("이미지형 배너") { ImageBannerFragment() },
         SampleAdInfo("네이티브형 배너") { NativeBannerFragment() },
         SampleAdInfo("스마트채널") { SmartChannelFragment() },
-        SampleAdInfo("동영상형") { InStreamFragment() }
+        SampleAdInfo("동영상형") { InStreamFragment() },
+        SampleAdInfo("리워드형") { RewardedFragment() }
     )
 
     override fun onCreateView(

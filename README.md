@@ -174,6 +174,7 @@ NAM SDK is now imported and you're ready to implement an ad. NAM SDK offers a nu
 | [Native Ads](docs/ad-formats/native_normal.md)        | Customizable ads that match the look and feel of your app. You decide how and where they're placed, so the layout is more consistent with your app's design.                                                                                                                  |
 | [Native Simple Ads](docs/ad-formats/native_simple.md) | Native Simple has been designed to make the implementation of native ads as easy as possible, and it's a great choice if you are new to the format.                                                                                                                           |
 | [In Stream Ads](docs/ad-formats/in_stream.md)         | In-Stream (Video) AD is placed between the beginning and the end of the video content.                                                                                                                                                                                        |
+| [Rewarded Ads](docs/ad-formats/rewarded.md)           | Rewarded ads provide incentives and rewards to users when they complete watching a video in full screen.                                                                                                                                                                      |
 
 ### 6. Select ad provider you want to integrate
 
