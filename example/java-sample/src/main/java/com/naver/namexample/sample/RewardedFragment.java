@@ -41,18 +41,14 @@ public class RewardedFragment extends Fragment {
         showButton.setEnabled(false);
 
         showButton.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        // 유효성 체크
-                        if (rewardedAdManager.isAdInvalidated()) {
-                            logTextView.append(
-                                    String.format("[%s] 광고가 유효하지 않습니다%n", sdf.format(new Date())));
-                            return;
-                        }
-
-                        rewardedAdManager.showAd(requireActivity());
+                v -> {
+                    if (rewardedAdManager.isAdInvalidated()) {
+                        logTextView.append(
+                                String.format("[%s] Ad is not valid.%n", sdf.format(new Date())));
+                        return;
                     }
+
+                    rewardedAdManager.showAd(requireActivity());
                 });
 
         logTextView = view.findViewById(R.id.log_text_view);
@@ -60,10 +56,6 @@ public class RewardedFragment extends Fragment {
         AdParam adParam = new AdParam.Builder().setAdUnitId(AD_UNIT_ID).build();
 
         rewardedAdManager = new GfpRewardedAdManager(requireActivity(), adParam);
-
-        // 필요시 타임아웃 셋팅
-        // rewardedAdManager.setTimeoutMillis(60_000L);
-
         rewardedAdManager.setAdListener(
                 new RewardedAdListener() {
                     @Override
