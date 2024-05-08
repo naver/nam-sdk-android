@@ -453,17 +453,17 @@
 
 * change the artifact id of the external build
 
-  >⚠️ Important: To prevent conflicts with NAVER internal build, we changed the artifact id of NAM SDK, and from version `4.3.1` you have to add dependencies as below.
+>⚠️ Important: To prevent conflicts with NAVER internal build, we changed the artifact id of NAM SDK, and from version `4.3.1` you have to add dependencies as below.
 
-    ```groovy
-    implementation platform('com.naver.gfpsdk:nam-bom:4.3.1')
-    implementation 'com.naver.gfpsdk:nam-core'
-    implementation 'com.naver.gfpsdk:nam-nda'
-    implementation 'com.naver.gfpsdk:nam-dfp'
-    implementation 'com.naver.gfpsdk:nam-fan'
-    implementation 'com.naver.gfpsdk:nam-inmobi'
-    implementation 'com.naver.gfpsdk:nam-unity'
-    ```
+	```groovy
+	implementation platform('com.naver.gfpsdk:nam-bom:4.3.1')
+	implementation 'com.naver.gfpsdk:nam-core'
+	implementation 'com.naver.gfpsdk:nam-nda'
+	implementation 'com.naver.gfpsdk:nam-dfp'
+	implementation 'com.naver.gfpsdk:nam-fan'
+	implementation 'com.naver.gfpsdk:nam-inmobi'
+	implementation 'com.naver.gfpsdk:nam-unity'
+	```
 
 ## 4.3.0 (2022-07-05)
 
@@ -472,15 +472,15 @@
 
 * add new module to generate Bill of Materials
 
-    ```groovy
-    implementation platform('com.naver.gfpsdk:gfpsdk-bom:4.3.0')
-    implementation 'com.naver.gfpsdk:gfpsdk-core'
-    implementation 'com.naver.gfpsdk:extension-nda'
-    implementation 'com.naver.gfpsdk:extension-dfp'
-    implementation 'com.naver.gfpsdk:extension-fan'
-    implementation 'com.naver.gfpsdk:extension-inmobi'
-    implementation 'com.naver.gfpsdk:extension-unity'
-    ```
+	```groovy
+	implementation platform('com.naver.gfpsdk:gfpsdk-bom:4.3.0')
+	implementation 'com.naver.gfpsdk:gfpsdk-core'
+	implementation 'com.naver.gfpsdk:extension-nda'
+	implementation 'com.naver.gfpsdk:extension-dfp'
+	implementation 'com.naver.gfpsdk:extension-fan'
+	implementation 'com.naver.gfpsdk:extension-inmobi'
+	implementation 'com.naver.gfpsdk:extension-unity'
+	```
 
 
 ### Bug Fixes

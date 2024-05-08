@@ -13,8 +13,8 @@ To prepare your app, complete the steps in the following sections.
 
 - Use Android Studio 3.2 or higher
 - Make sure that your app's build file uses the following values:
-  - A `minSdkVersion` of `19` or higher
-  - A `compileSdkVersion` of `28` or higher
+- A `minSdkVersion` of `19` or higher
+- A `compileSdkVersion` of `28` or higher
 
 ## Configure your app
 
@@ -22,17 +22,17 @@ To prepare your app, complete the steps in the following sections.
 
 ```groovy
 buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
+	repositories {
+		google()
+		mavenCentral()
+	}
 }
 
 allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
+	repositories {
+		google()
+		mavenCentral()
+	}
 }
 ```
 
@@ -40,10 +40,10 @@ allprojects {
 
 ```groovy
 android {
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
+	compileOptions {
+		sourceCompatibility JavaVersion.VERSION_1_8
+		targetCompatibility JavaVersion.VERSION_1_8
+	}
 }
 ```
 
@@ -53,8 +53,8 @@ android {
 
 ```groovy
 dependencies {
-  implementation platform('com.naver.gfpsdk:nam-bom:7.4.4')
-  implementation 'com.naver.gfpsdk:nam-core' // no version specified
+implementation platform('com.naver.gfpsdk:nam-bom:7.4.4')
+implementation 'com.naver.gfpsdk:nam-core' // no version specified
 }
 ```
 >Note: You can avoid specifying the version of each dependency with a `Bill Of Materials`.
@@ -65,105 +65,105 @@ dependencies {
 
 ```groovy
 dependencies {
-  implementation 'com.naver.gfpsdk:nam-nda' // no version specified
-} 
+implementation 'com.naver.gfpsdk:nam-nda' // no version specified
+}
 ```
 
 ##### For `Google Ad Manager` mediation, make sure the following dependencies are place:
 
 ```groovy
 dependencies {
-  implementation 'com.naver.gfpsdk:nam-dfp' // no version specified
-} 
+implementation 'com.naver.gfpsdk:nam-dfp' // no version specified
+}
 ```
 
 ##### For `Meta Audience Network` mediation, make sure the following dependencies are place:
 
 ```groovy
 dependencies {
-  implementation 'com.naver.gfpsdk:nam-fan' // no version specified
-} 
+implementation 'com.naver.gfpsdk:nam-fan' // no version specified
+}
 ```
 
 ##### For `InMobi` mediation, make sure the following dependencies are place:
 
 ```groovy
 dependencies {
-  implementation 'com.naver.gfpsdk:nam-inmobi' // no version specified
-} 
+implementation 'com.naver.gfpsdk:nam-inmobi' // no version specified
+}
 ```
 
 ##### For `Unity` mediation, make sure the following dependencies are place:
 
 ```groovy
 dependencies {
-  implementation 'com.naver.gfpsdk:nam-unity' // no version specified
-} 
+implementation 'com.naver.gfpsdk:nam-unity' // no version specified
+}
 ```
 
 ##### For `AppLovin` mediation, make sure the following dependencies are place:
 
 ```groovy
 dependencies {
-  implementation 'com.naver.gfpsdk:nam-applovin' // no version specified
-} 
+implementation 'com.naver.gfpsdk:nam-applovin' // no version specified
+}
 ```
 
 ##### For `Vungle` mediation, make sure the following dependencies are place:
 
 ```groovy
 dependencies {
-  implementation 'com.naver.gfpsdk:nam-vungle' // no version specified
-} 
+implementation 'com.naver.gfpsdk:nam-vungle' // no version specified
+}
 ```
 
 #### For `Naver` In-Stream ads, please adds following dependency:
 ```groovy
 dependencies {
-  implementation 'com.naver.gfpsdk:nam-ndavideo' // no version specified
-} 
+implementation 'com.naver.gfpsdk:nam-ndavideo' // no version specified
+}
 ```
 
 ##### For `DigitalTurbine` mediation, make sure the following dependencies are place:
 
 ```groovy
 dependencies {
-  implementation 'com.naver.gfpsdk:nam-dt' // no version specified
-} 
+implementation 'com.naver.gfpsdk:nam-dt' // no version specified
+}
 ```
 
 ##### To use header bidding for Banner with `Amazon Publusher Services`, make sure the following dependencies are place:
 
 ```groovy
 dependencies {
-  implementation 'com.naver.gfpsdk:nam-aps' // no version specified
-} 
+implementation 'com.naver.gfpsdk:nam-aps' // no version specified
+}
 ```
 
 ##### For `IronSource` mediation, make sure the following dependencies are place:
 
 ```groovy
 dependencies {
-  implementation 'com.naver.gfpsdk:nam-ironsource' // no version specified
-} 
+implementation 'com.naver.gfpsdk:nam-ironsource' // no version specified
+}
 ```
 
-### 4. Add your Publisher Code to your app's `AndroidManifest.xml` file. 
+### 4. Add your Publisher Code to your app's `AndroidManifest.xml` file.
 
 To do so, add a `<meta-data>` tag with `android:name="com.naver.gfpsdk.PUBLISHER_CD"`. For `android:value`, insert your own Publisher Code.
 
 ```xml
 <manifest>
-    <application>
-        <meta-data
-            android:name="com.naver.gfpsdk.PUBLISHER_CD"
-            android:value="@string/publisher_cd" />
-    </application>
+	<application>
+		<meta-data
+			android:name="com.naver.gfpsdk.PUBLISHER_CD"
+			android:value="@string/publisher_cd" />
+	</application>
 </manifest>
 ```
 >Note: `GfpSdkInitProvider` will handle the initialization of NAM SDK. This `ContentProvider` is merged into the app's manifest by default when building with Gradle, and it runs automatically at app launch. **No additional lines of code are needed in this case.**
 
-### 5. Select an ad format 
+### 5. Select an ad format
 
 NAM SDK is now imported and you're ready to implement an ad. NAM SDK offers a number of differenct ad formats, so you can choose the one that best fits your app's user experience.
 
@@ -202,10 +202,10 @@ NAM SDK provides an option for developers to send targeting data. More informati
 
 The documentation for latest version is available on [here](https://naver.github.io/nam-sdk-android/)
 
-## Demo apps 
+## Demo apps
 
-- [Java Example](https://github.com/naver/nam-sdk-android/tree/main/example/java-sample)
-- [Kotlin Example](https://github.com/naver/nam-sdk-android/tree/main/example/kotlin-sample)
+- [Java Example](https://github.com/naver/nam-sdk-android/tree/main/java-sample)
+- [Kotlin Example](https://github.com/naver/nam-sdk-android/tree/main/kotlin-sample)
 >Note: These applications are provided for demo purposes only. Do NOT use in production.
 
 ## Feedback and getting help
