@@ -20,5 +20,4 @@ jobs:
           distribution: 'adopt'
       - name: Spotless Check
         run: |
-          cd ./example
           ./gradlew spotlessCheck
