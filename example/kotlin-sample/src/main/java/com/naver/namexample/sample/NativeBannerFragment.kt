@@ -37,7 +37,7 @@ class NativeBannerFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
-        savedInstanceState: Bundle?,
+        savedInstanceState: Bundle?
     ): View {
         binding = FragmentNativeBannerBinding.inflate(inflater)
         nativeContainer = binding.nativeContainer
@@ -68,12 +68,16 @@ class NativeBannerFragment : Fragment() {
                 }
 
                 override fun onError(error: GfpError, responseInfo: GfpResponseInfo) {
-                    logTextView.append("[${DateUtil.CURR_TIME_STR}] Error occurred.\n\tcode[${error.errorCode}]\n\tsubCode[${error.errorSubCode}]\n\t\tmessage[${error.errorMessage}]\n")
+                    logTextView.append(
+                        "[${DateUtil.CURR_TIME_STR}] Error occurred.\n\tcode[${error.errorCode}]\n\tsubCode[${error.errorSubCode}]\n\t\tmessage[${error.errorMessage}]\n" // ktlint-disable max-line-length
+                    )
                     Log.e("NativeBannerFragment", responseInfo.toString())
                 }
             })
             .withNativeAd(nativeAdOptions) { nativeAd: GfpNativeAd ->
-                logTextView.append("[${DateUtil.CURR_TIME_STR}] AD Loaded.\n\t\tAdProviderName: ${nativeAd.adProviderName}\n")
+                logTextView.append(
+                    "[${DateUtil.CURR_TIME_STR}] AD Loaded.\n\t\tAdProviderName: ${nativeAd.adProviderName}\n" // ktlint-disable max-line-length
+                )
                 inflateAd(nativeAd)
             }
             .build()

@@ -33,13 +33,13 @@ class RewardedFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentRewardedBinding.inflate(inflater)
         logTextView = binding.logTextView
         showButton = binding.showButton.apply {
             isEnabled = false
             setOnClickListener(
-                View.OnClickListener { // 유효성 체크
+                View.OnClickListener {
                     if (rewardedAdManager?.isAdInvalidated != false) {
                         logTextView.append("[${DateUtil.CURR_TIME_STR}] AD is not valid.\n")
                         return@OnClickListener
@@ -73,7 +73,7 @@ class RewardedFragment : Fragment() {
 
                 override fun onAdClosed(ad: GfpRewardedAd) {
                     logTextView.append("[${DateUtil.CURR_TIME_STR}] AD Closed.\n")
-                    showButton.setEnabled(false)
+                    showButton.isEnabled = false
                 }
 
                 override fun onAdCompleted(ad: GfpRewardedAd) {
