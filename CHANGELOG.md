@@ -1,4 +1,16 @@
 # Changelog
+## 7.5.0 (2024-05-09)
+### Features
+
+* support carousel media in native ads
+
+### Bug Fixes
+
+* **nda:** align `discount` and `price` TextViews in Shopping NDA ad
+
+### Code Refactoring
+
+* **nda:** remove unused resources
 
 ## 7.4.4 (2024-04-29)
 ### Bug Fixes
