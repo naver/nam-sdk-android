@@ -571,6 +571,7 @@ $dokka.location:com.naver.gfpsdk/GfpErrorSubType///PointingToDeclaration/librar
 $dokka.location:com.naver.gfpsdk/GfpErrorSubType/ADAPTER_LOAD_TIMEOUT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-sub-type/-a-d-a-p-t-e-r_-l-o-a-d_-t-i-m-e-o-u-t.html
 $dokka.location:com.naver.gfpsdk/GfpErrorSubType/AD_RULE_NO_FILL/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-sub-type/-a-d_-r-u-l-e_-n-o_-f-i-l-l.html
 $dokka.location:com.naver.gfpsdk/GfpErrorSubType/AD_SCHEDULE_EMPTY/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-sub-type/-a-d_-s-c-h-e-d-u-l-e_-e-m-p-t-y.html
+$dokka.location:com.naver.gfpsdk/GfpErrorSubType/FAILED_TO_BIND_SLOT_VIEW/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-sub-type/-f-a-i-l-e-d_-t-o_-b-i-n-d_-s-l-o-t_-v-i-e-w.html
 $dokka.location:com.naver.gfpsdk/GfpErrorSubType/FAILED_TO_RENDER_INTERSTITIAL_AD/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-sub-type/-f-a-i-l-e-d_-t-o_-r-e-n-d-e-r_-i-n-t-e-r-s-t-i-t-i-a-l_-a-d.html
 $dokka.location:com.naver.gfpsdk/GfpErrorSubType/FAILED_TO_RENDER_NATIVE_AD/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-sub-type/-f-a-i-l-e-d_-t-o_-r-e-n-d-e-r_-n-a-t-i-v-e_-a-d.html
 $dokka.location:com.naver.gfpsdk/GfpErrorSubType/FAILED_TO_RENDER_REWARDED_AD/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-sub-type/-f-a-i-l-e-d_-t-o_-r-e-n-d-e-r_-r-e-w-a-r-d-e-d_-a-d.html
@@ -589,6 +590,8 @@ $dokka.location:com.naver.gfpsdk/GfpErrorSubType/NOT_FOUND_REWARDED_ADAPTER/#/Po
 $dokka.location:com.naver.gfpsdk/GfpErrorSubType/NOT_FOUND_UNKNOWN_ADAPTER/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-sub-type/-n-o-t_-f-o-u-n-d_-u-n-k-n-o-w-n_-a-d-a-p-t-e-r.html
 $dokka.location:com.naver.gfpsdk/GfpErrorSubType/NOT_FOUND_VIDEO_ADAPTER/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-sub-type/-n-o-t_-f-o-u-n-d_-v-i-d-e-o_-a-d-a-p-t-e-r.html
 $dokka.location:com.naver.gfpsdk/GfpErrorSubType/NOT_REGISTERED_PROVIDER/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-sub-type/-n-o-t_-r-e-g-i-s-t-e-r-e-d_-p-r-o-v-i-d-e-r.html
+$dokka.location:com.naver.gfpsdk/GfpErrorSubType/NOT_SUPPORTED_SLOTS_TYPE/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-sub-type/-n-o-t_-s-u-p-p-o-r-t-e-d_-s-l-o-t-s_-t-y-p-e.html
+$dokka.location:com.naver.gfpsdk/GfpErrorSubType/NOT_SUPPORTED_VISUAL_KEY/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-sub-type/-n-o-t_-s-u-p-p-o-r-t-e-d_-v-i-s-u-a-l_-k-e-y.html
 $dokka.location:com.naver.gfpsdk/GfpErrorSubType/NO_FILL/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-sub-type/-n-o_-f-i-l-l.html
 $dokka.location:com.naver.gfpsdk/GfpErrorSubType/RECEIVED_INVALID_PROPERTY/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-sub-type/-r-e-c-e-i-v-e-d_-i-n-v-a-l-i-d_-p-r-o-p-e-r-t-y.html
 $dokka.location:com.naver.gfpsdk/GfpErrorSubType/REQUEST_TIMEOUT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-sub-type/-r-e-q-u-e-s-t_-t-i-m-e-o-u-t.html
@@ -736,7 +739,9 @@ $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Builder/build/#/PointingToDe
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Builder/setActivateObservingOnBackground/#kotlin.Boolean/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-builder/set-activate-observing-on-background.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Builder/setAdChoicesPlacement/#kotlin.Int/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-builder/set-ad-choices-placement.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Builder/setEnableMediaBackgroundBlur/#kotlin.Boolean/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-builder/set-enable-media-background-blur.html
+$dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Builder/setEnableMediaDefaultPadding/#kotlin.Boolean/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-builder/set-enable-media-default-padding.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Builder/setHasMediaView/#kotlin.Boolean/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-builder/set-has-media-view.html
+$dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Builder/setRichMediaPaddingInDp/#android.graphics.Rect/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-builder/set-rich-media-padding-in-dp.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Builder/setTheme/#com.naver.gfpsdk.GfpTheme/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-builder/set-theme.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Companion///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-companion/index.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Companion/ADCHOICES_BOTTOM_LEFT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-companion/-a-d-c-h-o-i-c-e-s_-b-o-t-t-o-m_-l-e-f-t.html
@@ -744,12 +749,13 @@ $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Companion/ADCHOICES_BOTTOM_R
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Companion/ADCHOICES_TOP_LEFT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-companion/-a-d-c-h-o-i-c-e-s_-t-o-p_-l-e-f-t.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Companion/ADCHOICES_TOP_RIGHT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-companion/-a-d-c-h-o-i-c-e-s_-t-o-p_-r-i-g-h-t.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/index.html
-$dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/GfpNativeAdOptions/#com.naver.gfpsdk.GfpTheme?#kotlin.Int#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#com.naver.gfpsdk.internal.GfpNativeVideoOptions/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-gfp-native-ad-options.html
+$dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/GfpNativeAdOptions/#com.naver.gfpsdk.GfpTheme?#kotlin.Int#android.graphics.Rect#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#com.naver.gfpsdk.internal.GfpNativeVideoOptions/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-gfp-native-ad-options.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/adChoicesPlacement/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/ad-choices-placement.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/hasMediaView/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/has-media-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/isActivateObservingOnBackground/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/is-activate-observing-on-background.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/isCustomAdChoicesEnabled/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/is-custom-ad-choices-enabled.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/isMediaBackgroundBlurEnabled/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/is-media-background-blur-enabled.html
+$dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/richMediaPaddingInDp/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/rich-media-padding-in-dp.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/theme/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/theme.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/videoOptions/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/video-options.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptionsBase///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options-base/index.html
@@ -758,6 +764,7 @@ $dokka.location:com.naver.gfpsdk/GfpNativeAdOptionsBase/hasMediaView/#/PointingT
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptionsBase/isActivateObservingOnBackground/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options-base/is-activate-observing-on-background.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptionsBase/isCustomAdChoicesEnabled/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options-base/is-custom-ad-choices-enabled.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptionsBase/isMediaBackgroundBlurEnabled/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options-base/is-media-background-blur-enabled.html
+$dokka.location:com.naver.gfpsdk/GfpNativeAdOptionsBase/richMediaPaddingInDp/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options-base/rich-media-padding-in-dp.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptionsBase/theme/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options-base/theme.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptionsBase/videoOptions/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options-base/video-options.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView.Companion///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/-companion/index.html
@@ -1097,7 +1104,7 @@ $dokka.location:com.naver.gfpsdk/RemindTextAdViewAttributes/getTextColor/#/Point
 $dokka.location:com.naver.gfpsdk/RemindTextAdViewAttributes/getVerticalBarColor/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-remind-text-ad-view-attributes/get-vertical-bar-color.html
 $dokka.location:com.naver.gfpsdk/RemindTextAdViewAttributes/getWindowIcon/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-remind-text-ad-view-attributes/get-window-icon.html
 $dokka.location:com.naver.gfpsdk/ResolvedImage///PointingToDeclaration/library-core/com.naver.gfpsdk/-resolved-image/index.html
-$dokka.location:com.naver.gfpsdk/ResolvedImage/ResolvedImage/#android.graphics.drawable.Drawable#android.net.Uri#kotlin.Double#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/library-core/com.naver.gfpsdk/-resolved-image/-resolved-image.html
+$dokka.location:com.naver.gfpsdk/ResolvedImage/ResolvedImage/#android.graphics.drawable.Drawable?#android.net.Uri#kotlin.Double#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/library-core/com.naver.gfpsdk/-resolved-image/-resolved-image.html
 $dokka.location:com.naver.gfpsdk/ResolvedImage/getDrawable/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-resolved-image/get-drawable.html
 $dokka.location:com.naver.gfpsdk/ResolvedImage/getHeight/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-resolved-image/get-height.html
 $dokka.location:com.naver.gfpsdk/ResolvedImage/getRequiredHeight/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-resolved-image/get-required-height.html
