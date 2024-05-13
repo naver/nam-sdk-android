@@ -1,4 +1,11 @@
 # Changelog
+## 7.5.1 (2024-05-13)
+### Bug Fixes
+* **nda:** fix incorrect layout handling in `ShoppingNdaView`
+
+### Code Refactoring
+* **nda:** change the rewarded text on the Rewarded AD
+
 ## 7.5.0 (2024-05-09)
 ### Features
 
