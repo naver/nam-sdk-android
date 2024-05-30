@@ -456,6 +456,13 @@ $dokka.location:com.naver.gfpsdk/Gfp.Build/PHASE/#/PointingToDeclaration/librar
 $dokka.location:com.naver.gfpsdk/Gfp.Build/RELEASE/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-build/-r-e-l-e-a-s-e.html
 $dokka.location:com.naver.gfpsdk/Gfp.Build/VERSION_NAME/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-build/-v-e-r-s-i-o-n_-n-a-m-e.html
 $dokka.location:com.naver.gfpsdk/Gfp///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/index.html
+$dokka.location:com.naver.gfpsdk/GfpAd.LoadStat.ERROR///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk/-gfp-ad/-load-stat/-e-r-r-o-r/index.html
+$dokka.location:com.naver.gfpsdk/GfpAd.LoadStat.IDLE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk/-gfp-ad/-load-stat/-i-d-l-e/index.html
+$dokka.location:com.naver.gfpsdk/GfpAd.LoadStat.LOADED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk/-gfp-ad/-load-stat/-l-o-a-d-e-d/index.html
+$dokka.location:com.naver.gfpsdk/GfpAd.LoadStat.LOADING///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk/-gfp-ad/-load-stat/-l-o-a-d-i-n-g/index.html
+$dokka.location:com.naver.gfpsdk/GfpAd.LoadStat///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad/-load-stat/index.html
+$dokka.location:com.naver.gfpsdk/GfpAd.LoadStat/valueOf/#java.lang.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad/-load-stat/value-of.html
+$dokka.location:com.naver.gfpsdk/GfpAd.LoadStat/values/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad/-load-stat/values.html
 $dokka.location:com.naver.gfpsdk/GfpAd///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad/index.html
 $dokka.location:com.naver.gfpsdk/GfpAd/getAdParam/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad/get-ad-param.html
 $dokka.location:com.naver.gfpsdk/GfpAd/getAdProviderName/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad/get-ad-provider-name.html
