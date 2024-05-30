@@ -1,4 +1,14 @@
 # Changelog
+## 7.5.2 (2024-05-30)
+### Bug Fixes
+* **nda:** fix maximum width of badge for `Shopping NDA` ad
+* **nda:** fix price font size for price highlighted case in `Shopping NDA` ad
+
+### Code Refactoring
+* bump minSdk from 19 to 21
+* **core:** send ad loaded event after listener setting in Rewarded/Interstitial AD
+* update DSP sdk
+
 ## 7.5.1 (2024-05-13)
 ### Bug Fixes
 * **nda:** fix incorrect layout handling in `ShoppingNdaView`
