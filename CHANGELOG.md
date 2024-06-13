@@ -1,4 +1,11 @@
 # Changelog
+## 7.5.3 (2024-06-13)
+### Code Refactoring
+
+* **applovin:** bump `applovin` to 12.5.0
+* **nda:** refactor `SlotsView`'s padding handling
+* **unity:** update `unity` to 4.10.0
+
 ## 7.5.2 (2024-05-30)
 ### Bug Fixes
 * **nda:** fix maximum width of badge for `Shopping NDA` ad
