@@ -53,7 +53,7 @@ android {
 
 ```groovy
 dependencies {
-implementation platform('com.naver.gfpsdk:nam-bom:7.5.3')
+implementation platform('com.naver.gfpsdk:nam-bom:7.6.0')
 implementation 'com.naver.gfpsdk:nam-core' // no version specified
 }
 ```
@@ -148,6 +148,14 @@ implementation 'com.naver.gfpsdk:nam-ironsource' // no version specified
 }
 ```
 
+##### For `LAN` mediation, make sure the following dependencies are place:
+
+```groovy
+dependencies {
+implementation 'com.naver.gfpsdk:nam-lan' // no version specified
+}
+```
+
 ### 4. Add your Publisher Code to your app's `AndroidManifest.xml` file.
 
 To do so, add a `<meta-data>` tag with `android:name="com.naver.gfpsdk.PUBLISHER_CD"`. For `android:value`, insert your own Publisher Code.
@@ -187,10 +195,11 @@ NAM SDK mediation supports several ad provider, with a mix of bidding and waterf
 | [FAN](docs/ad-providers/fan.md)               | O      | O      | X             | O        | O            | Meta Audience Network provider                         |
 | [INMOBI](docs/ad-providers/inmobi.md)         | O      | O      | X             | X        | X            | InMobi provider                                        |
 | UNITY                                         | O      | X      | X             | O        | O            | Unity provider                                         |
-| APPLOVIN                                      | O      | O      | X             | O        | O            | AppLovin provider                                      |
+| APPLOVIN                                      | O      | X      | X             | O        | O            | AppLovin provider                                      |
 | VUNGLE                                        | X      | X      | X             | O        | O            | Vungle provider                                        |
 | DigitalTurbine                                | O      | X      | X             | O        | O            | DigitalTurbine provider                                |
 | APS                                           | O      | X      | X             | X        | X            | AmazonPublisherServices provider (for header bidding)  |
+| LAN                                           | X      | O      | O             | O        | O            | Line provider                                          |
 | [IronSource](docs/ad-providers/ironsource.md) | O      | X      | X             | O        | O            | IronSource provider                                    |
 >Note: After contacting the NAM manager, add the module of the Ad provider you want to add to.
 
