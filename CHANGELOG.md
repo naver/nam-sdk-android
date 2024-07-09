@@ -1,4 +1,11 @@
 # Changelog
+## 7.6.0 (2024-07-09)
+
+### Features
+
+* **lan:** add lan extension
+* support shopping label ad
+
 ## 7.5.3 (2024-06-13)
 ### Code Refactoring
 

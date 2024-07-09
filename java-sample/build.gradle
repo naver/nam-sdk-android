@@ -32,7 +32,7 @@ dependencies {
 	implementation 'com.google.android.material:material:1.4.0'
 	implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
 
-	implementation platform('com.naver.gfpsdk:nam-bom:7.5.3')
+	implementation platform('com.naver.gfpsdk:nam-bom:7.6.0')
 	implementation 'com.naver.gfpsdk:nam-core'
 	implementation 'com.naver.gfpsdk:nam-nda' // (optional) s2s mediation dependency
 	implementation 'com.naver.gfpsdk:nam-dfp' // (optional) dfp mediation dependency
@@ -45,6 +45,7 @@ dependencies {
 	implementation 'com.naver.gfpsdk:nam-dt' // (optional) digital turbine mediation dependency
 	implementation 'com.naver.gfpsdk:nam-aps' // (optional) AmazonPublisherServices mediation (for header bidding)
 	implementation 'com.naver.gfpsdk:nam-ironsource' // (optional) ironsource mediation
+	implementation 'com.naver.gfpsdk:nam-lan' // (optional) lan mediation
 
 	// for video player, this example using exoplayer
 	implementation 'com.google.android.exoplayer:exoplayer-core:2.18.0'
