@@ -1,4 +1,9 @@
 # Changelog
+## 7.6.1 (2024-07-10)
+### Bug Fixes
+
+- fix a bug that prevented out-stream video ad from resuming
+
 ## 7.6.0 (2024-07-09)
 
 ### Features
