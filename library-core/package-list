@@ -18,6 +18,9 @@ $dokka.location:com.naver.gfpsdk.properties/SdkProperties/videoAdRequestTimeout/
 $dokka.location:com.naver.gfpsdk.properties/UserProperties///PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/index.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/abt/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/abt.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/buildUpon/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/build-upon.html
+$dokka.location:com.naver.gfpsdk.properties/UserProperties/clearCookies/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/clear-cookies.html
+$dokka.location:com.naver.gfpsdk.properties/UserProperties/clearCustomParameter/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/clear-custom-parameter.html
+$dokka.location:com.naver.gfpsdk.properties/UserProperties/contentId/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/content-id.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/cookies/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/cookies.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/country/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/country.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/customParameter/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/custom-parameter.html
@@ -737,6 +740,9 @@ $dokka.location:com.naver.gfpsdk/GfpLanguage.ENGLISH/getLocaleCode/#android.cont
 $dokka.location:com.naver.gfpsdk/GfpLanguage.FRENCH///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk/-gfp-language/-f-r-e-n-c-h/index.html
 $dokka.location:com.naver.gfpsdk/GfpLanguage.FRENCH/getLocale/#android.content.Context/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-language/-f-r-e-n-c-h/get-locale.html
 $dokka.location:com.naver.gfpsdk/GfpLanguage.FRENCH/getLocaleCode/#android.content.Context/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-language/-f-r-e-n-c-h/get-locale-code.html
+$dokka.location:com.naver.gfpsdk/GfpLanguage.GERMAN///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk/-gfp-language/-g-e-r-m-a-n/index.html
+$dokka.location:com.naver.gfpsdk/GfpLanguage.GERMAN/getLocale/#android.content.Context/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-language/-g-e-r-m-a-n/get-locale.html
+$dokka.location:com.naver.gfpsdk/GfpLanguage.GERMAN/getLocaleCode/#android.content.Context/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-language/-g-e-r-m-a-n/get-locale-code.html
 $dokka.location:com.naver.gfpsdk/GfpLanguage.INDONESIAN///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk/-gfp-language/-i-n-d-o-n-e-s-i-a-n/index.html
 $dokka.location:com.naver.gfpsdk/GfpLanguage.INDONESIAN/getLocale/#android.content.Context/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-language/-i-n-d-o-n-e-s-i-a-n/get-locale.html
 $dokka.location:com.naver.gfpsdk/GfpLanguage.INDONESIAN/getLocaleCode/#android.content.Context/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-language/-i-n-d-o-n-e-s-i-a-n/get-locale-code.html
@@ -1230,6 +1236,7 @@ $dokka.location:com.naver.gfpsdk/UserPropertiesBuilder/gender/#com.naver.gfpsdk.
 $dokka.location:com.naver.gfpsdk/UserPropertiesBuilder/id/#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-user-properties-builder/id.html
 $dokka.location:com.naver.gfpsdk/UserPropertiesBuilder/language/#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-user-properties-builder/language.html
 $dokka.location:com.naver.gfpsdk/UserPropertiesBuilder/properties/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-user-properties-builder/properties.html
+$dokka.location:com.naver.gfpsdk/UserPropertiesBuilder/setContentId/#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-user-properties-builder/set-content-id.html
 $dokka.location:com.naver.gfpsdk/UserPropertiesBuilder/setCustomParam/#kotlin.collections.Map[kotlin.String,kotlin.String]/PointingToDeclaration/library-core/com.naver.gfpsdk/-user-properties-builder/set-custom-param.html
 $dokka.location:com.naver.gfpsdk/UserPropertiesBuilder/underAgeOfConsent/#kotlin.Boolean?/PointingToDeclaration/library-core/com.naver.gfpsdk/-user-properties-builder/under-age-of-consent.html
 $dokka.location:com.naver.gfpsdk/UserPropertiesBuilder/underAgeOfConsent/#kotlin.String?/PointingToDeclaration/library-core/com.naver.gfpsdk/-user-properties-builder/under-age-of-consent.html
