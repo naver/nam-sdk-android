@@ -1,4 +1,11 @@
 # Changelog
+## 7.6.2 (2024-07-25)
+### Code Refactoring
+* add a max redirection config for vast parsing
+* **core:** add apis to clear `customParameter`
+* **core:** add content id to ad request parameter
+* **core:** handle bounce back tracking event
+
 ## 7.6.1 (2024-07-10)
 ### Bug Fixes
 

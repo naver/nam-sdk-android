@@ -15,7 +15,7 @@ It covers how to integrate the Meta Audience Network SDK and adapter into an And
 
 ## Requirements 
 
-- Android API level 19 or higher
+- Android API level 21 or higher
 - Latest NAM SDK
 
 ## Step 1: Import the Meta Audience Network SDK extension
@@ -28,7 +28,7 @@ repositories {
 
 ...
 dependencies {
-    implementation 'com.naver.gfpsdk:nam-fan:7.6.1'  
+    implementation 'com.naver.gfpsdk:nam-fan:7.6.2'  
 }
 ```
 
