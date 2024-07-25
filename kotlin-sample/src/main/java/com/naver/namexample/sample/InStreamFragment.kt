@@ -71,7 +71,7 @@ class InStreamFragment : Fragment() {
             .addCustomParam("AreaId", "clip") // 광고 영역
             .build()
         // 스케줄 아이디는 NAM 담당자로 부터 사전에 안내 받아야 합니다.
-        val adScheduleId = "SMR_ADSCHDL"
+        val adScheduleId = "YOUR_SCH_ID"
         val videoAdScheduleParam = VideoAdScheduleParam.Builder(adScheduleId)
             .setDuration(653L)
             .setAdSchedulePolicy(true, true, true)
