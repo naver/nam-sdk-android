@@ -74,7 +74,7 @@ public class InStreamFragment extends Fragment {
                         .addCustomParam("AreaId", "clip") // 광고 영역
                         .build();
         // 스케줄 아이디는 NAM 담당자로 부터 사전에 안내 받아야 합니다.
-        String adScheduleId = "WAVVE_SCH";
+        String adScheduleId = "YOUR_SCH_ID";
         VideoAdScheduleParam videoAdScheduleParam =
                 new VideoAdScheduleParam.Builder(adScheduleId)
                         .setDuration(653L)
