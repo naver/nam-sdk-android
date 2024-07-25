@@ -15,7 +15,7 @@ It covers how to integrate the S2S ad provider and adapter into an Android app.
 
 ## Requirements
 
-- Android API level 19 or higher
+- Android API level 21 or higher
 - Latest NAM SDK
 
 ## Step 1: Import the NDA extension
@@ -28,7 +28,7 @@ repositories {
 
 ...
 dependencies {
-    implementation 'com.naver.gfpsdk:nam-nda:7.6.1'  
+    implementation 'com.naver.gfpsdk:nam-nda:7.6.2'  
 }
 ```
 

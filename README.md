@@ -13,7 +13,7 @@ To prepare your app, complete the steps in the following sections.
 
 - Use Android Studio 3.2 or higher
 - Make sure that your app's build file uses the following values:
-- A `minSdkVersion` of `19` or higher
+- A `minSdkVersion` of `21` or higher
 - A `compileSdkVersion` of `28` or higher
 
 ## Configure your app
@@ -53,7 +53,7 @@ android {
 
 ```groovy
 dependencies {
-implementation platform('com.naver.gfpsdk:nam-bom:7.6.1')
+implementation platform('com.naver.gfpsdk:nam-bom:7.6.2')
 implementation 'com.naver.gfpsdk:nam-core' // no version specified
 }
 ```
@@ -200,7 +200,7 @@ NAM SDK mediation supports several ad provider, with a mix of bidding and waterf
 | DigitalTurbine                                | O      | X      | X             | O        | O            | DigitalTurbine provider                                |
 | APS                                           | O      | X      | X             | X        | X            | AmazonPublisherServices provider (for header bidding)  |
 | LAN                                           | X      | O      | O             | O        | O            | Line provider                                          |
-| [IronSource](docs/ad-providers/ironsource.md) | O      | X      | X             | O        | O            | IronSource provider                                    |
+| [IronSource](docs/ad-providers/ironsource.md) | X      | X      | X             | O        | O            | IronSource provider                                    |
 >Note: After contacting the NAM manager, add the module of the Ad provider you want to add to.
 
 ### 7. (Optional) Targeting your ads

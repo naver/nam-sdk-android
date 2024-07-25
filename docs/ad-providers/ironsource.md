@@ -6,7 +6,7 @@ This guide is intended for publishers who want to use NAM SDK to load and displa
 
 | Ad format     | Description |
 |:--------------|:------------|
-| Banner        | ✔️          |
+| Banner        | ❌️          |
 | Native        | ❌️          |
 | Native Simple | ❌          |
 | Interstitial  | ✔️          |
@@ -14,7 +14,7 @@ This guide is intended for publishers who want to use NAM SDK to load and displa
 
 ## Requirements
 
-- Android API level 19 or higher
+- Android API level 21 or higher
 - Latest NAM SDK
 
 ## Step 1: Import the IronSource SDK extension
@@ -29,7 +29,7 @@ repositories {
 
 ...
 dependencies {
-    implementation 'com.naver.gfpsdk:nam-ironsource:7.6.1'  
+    implementation 'com.naver.gfpsdk:nam-ironsource:7.6.2'  
 }
 ```
 
