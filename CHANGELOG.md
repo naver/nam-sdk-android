@@ -1,5 +1,8 @@
 # Changelog
 ## 7.6.2 (2024-07-25)
+### ⚠ Deprecated
+* **This version has an issue. Use the older NAM SDK v7.6.1 instead.**
+
 ### Code Refactoring
 * add a max redirection config for vast parsing
 * **core:** add apis to clear `customParameter`
