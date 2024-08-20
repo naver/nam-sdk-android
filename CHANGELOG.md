@@ -1,4 +1,26 @@
 # Changelog
+
+## 7.7.0 (2024-08-20)
+
+### Features
+
+* support shopping search native ad
+
+
+### Bug Fixes
+
+* **nda:** fix video not pausing when clicking on ad choices
+* **video:** show saved last frame on FullScreenAD
+
+
+### Code Refactoring
+
+* add GFP/NDA 1+3 View
+* **ironsource:** refactor IronSource Integration to load multiple instance id
+* **nda:** modify badge UI on shopping nda ad
+* **nda:** show the CTA button on last frame for the Rewarded AD
+* reuse innerAdView inside `GfpNativeAdView` without inflating it
+
 ## 7.6.2 (2024-07-25)
 ### ⚠ Deprecated
 * **This version has an issue. Use the older NAM SDK v7.6.1 instead.**
