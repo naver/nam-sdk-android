@@ -1,310 +1,326 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>ProviderConfiguration</title>
     <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
     <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
     <script>const storage = localStorage.getItem("dokka-dark-mode")
-const savedDarkMode = storage ? JSON.parse(storage) : false
-if(savedDarkMode === true){
-    document.getElementsByTagName("html")[0].classList.add("theme-dark")
-}</script>
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
 <script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
 <link href="../../../styles/style.css" rel="Stylesheet">
-<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
 <link href="../../../styles/main.css" rel="Stylesheet">
 <link href="../../../styles/prism.css" rel="Stylesheet">
 <link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
 <script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
 <script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
 <script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
 <script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
 <script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
 </head>
 <body>
-<div class="navigation-wrapper" id="navigation-wrapper">
-    <div id="leftToggler"><span class="icon-toggler"></span></div>
-    <div class="library-name">
-            <a href="../../../index.html">
-                    <span>library-core</span>
-            </a>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            library-core
+                    </a>
+            </div>
+            <div class="library-version">
+7.7.1            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":library-core:dokkaHtmlExternal/main">androidJvm</button>
+        </div>
     </div>
-    <div>
-7.7.0    </div>
-    <div class="pull-right d-flex">
-        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
-        <div id="searchBar"></div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
     </div>
-</div>
-<div id="container">
-    <div id="leftColumn">
-        <div id="sideMenu"></div>
-    </div>
-    <div id="main">
-<div class="main-content" id="content" pageIds="library-core::com.naver.gfpsdk.provider/ProviderConfiguration///PointingToDeclaration//1416283910">
-  <div class="breadcrumbs"><a href="../../../index.html">library-core</a><span class="delimiter">/</span><a href="../index.html">com.naver.gfpsdk.provider</a><span class="delimiter">/</span><a href="index.html">ProviderConfiguration</a></div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="library-core::com.naver.gfpsdk.provider/ProviderConfiguration///PointingToDeclaration//1416283910">
+  <div class="breadcrumbs"><a href="../../../index.html">library-core</a><span class="delimiter">/</span><a href="../index.html">com.naver.gfpsdk.provider</a><span class="delimiter">/</span><span class="current">ProviderConfiguration</span></div>
   <div class="cover ">
     <h1 class="cover"><span>Provider</span><wbr></wbr><span><span>Configuration</span></span></h1>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">class </span><a href="index.html">ProviderConfiguration</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">Only inside SDK, configuration containing information from the provider module.</p></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">class </span><a href="index.html">ProviderConfiguration</a></div><p class="paragraph">Only inside SDK, configuration containing information from the provider module.</p><h4 class="">Inheritors</h4><div class="table"><div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-rtb-provider-configuration/index.html">RtbProviderConfiguration</a></div></span></div><div></div></div></div></div></div></div>
   </div>
   <div class="tabbedcontent">
-    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button><button class="section-tab" data-togglable="Inheritors">Inheritors</button></div>
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
     <div class="tabs-section-body">
-      <h2 class="tabbedcontent">Constructors</h2>
-      <div class="table" data-togglable="Constructors"><a data-name="1469644774%2FConstructors%2F1416283910" anchor-label="ProviderConfiguration" id="1469644774%2FConstructors%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
-        <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
-          <div class="main-subrow keyValue TabbedContent">
-            <div class=""><span class="inline-flex">
-                <div><a href="-provider-configuration.html"><span>Provider</span><wbr></wbr><span><span>Configuration</span></span></a></div>
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="1469644774%2FConstructors%2F1416283910" anchor-label="ProviderConfiguration" id="1469644774%2FConstructors%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-provider-configuration.html"><span>Provider</span><wbr></wbr><span><span>Configuration</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1469644774%2FConstructors%2F1416283910"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-provider-configuration.html"><span class="token function">ProviderConfiguration</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h2 class="">Types</h2>
-      <div class="table" data-togglable="Types"><a data-name="-1356405744%2FClasslikes%2F1416283910" anchor-label="InitializationListener" id="-1356405744%2FClasslikes%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
-        <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="-initialization-listener/index.html"><span>Initialization</span><wbr></wbr><span><span>Listener</span></span></a></div>
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="-1356405744%2FClasslikes%2F1416283910" anchor-label="InitializationListener" id="-1356405744%2FClasslikes%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-initialization-listener/index.html"><span>Initialization</span><wbr></wbr><span><span>Listener</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1356405744%2FClasslikes%2F1416283910"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-initialization-listener/index.html">InitializationListener</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Listener for a provider to communicate third party ad network initialization status back to the GFP SDK. Ad Provider must send these callbacks so that they can be forwarded to the publisher.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-initialization-listener/index.html">InitializationListener</a></div><div class="brief "><p class="paragraph">Listener for a provider to communicate third party ad network initialization status back to the GFP SDK. Ad Provider must send these callbacks so that they can be forwarded to the publisher.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-350665902%2FClasslikes%2F1416283910" anchor-label="InitializationStatus" id="-350665902%2FClasslikes%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
-        <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="-initialization-status/index.html"><span>Initialization</span><wbr></wbr><span><span>Status</span></span></a></div>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-initialization-status/index.html"><span>Initialization</span><wbr></wbr><span><span>Status</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-350665902%2FClasslikes%2F1416283910"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-initialization-status/index.html">InitializationStatus</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="-initialization-status/index.html">ProviderConfiguration.InitializationStatus</a><span class="token operator">&gt; </span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">The status of the provider initialization.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-initialization-status/index.html">InitializationStatus</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><a href="-initialization-status/index.html">ProviderConfiguration.InitializationStatus</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">The status of the provider initialization.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h2 class="">Functions</h2>
-      <div class="table" data-togglable="Functions"><a data-name="1004754842%2FFunctions%2F1416283910" anchor-label="getCurrentInitializationStatus" id="1004754842%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
-        <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="get-current-initialization-status.html"><span>get</span><wbr></wbr><span>Current</span><wbr></wbr><span>Initialization</span><wbr></wbr><span><span>Status</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1004754842%2FFunctions%2F1416283910"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-current-initialization-status.html"><span class="token function">getCurrentInitializationStatus</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-initialization-status/index.html">ProviderConfiguration.InitializationStatus</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Returns the provider initialization status.</p></div></div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-<a data-name="606171116%2FFunctions%2F1416283910" anchor-label="initialize" id="606171116%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
-        <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="initialize.html"><span><span>initialize</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="606171116%2FFunctions%2F1416283910"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="initialize.html"><span class="token function">initialize</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter ">initializationListener<span class="token operator">: </span><a href="-initialization-listener/index.html">ProviderConfiguration.InitializationListener</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Called by the GFP SDK to initialize a third party SDK. This method is invoked shortly after the app initializes the GFP SDK.</p></div></div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <h2 class="">Properties</h2>
-      <div class="table" data-togglable="Properties"><a data-name="-1563953845%2FProperties%2F1416283910" anchor-label="bannerAdAdapter" id="-1563953845%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
-        <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="banner-ad-adapter.html">bannerAdAdapter</a></div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-1563953845%2FProperties%2F1416283910" anchor-label="bannerAdAdapter" id="-1563953845%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="banner-ad-adapter.html"><span>banner</span><wbr></wbr><span>Ad</span><wbr></wbr><span><span>Adapter</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1563953845%2FProperties%2F1416283910"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><a data-name="-1563953845%2FProperties%2F1416283910" anchor-label="bannerAdAdapter" id="-1563953845%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="banner-ad-adapter.html">bannerAdAdapter</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html">Class</a><span class="token operator">&lt;</span><span class="token keyword">out </span><a href="../-gfp-banner-ad-adapter/index.html">GfpBannerAdAdapter</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-1563953845%2FProperties%2F1416283910" anchor-label="bannerAdAdapter" id="-1563953845%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><p class="paragraph">The banner adapter class that this provider has.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="banner-ad-adapter.html">bannerAdAdapter</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/Class.html">Class</a><span class="token operator">&lt;</span><span class="token keyword">out </span><a href="../-gfp-banner-ad-adapter/index.html">GfpBannerAdAdapter</a><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">The banner adapter class that this provider has.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-1231534236%2FProperties%2F1416283910" anchor-label="combinedAdAdapter" id="-1231534236%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
-        <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="combined-ad-adapter.html">combinedAdAdapter</a></div>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="combined-ad-adapter.html"><span>combined</span><wbr></wbr><span>Ad</span><wbr></wbr><span><span>Adapter</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1231534236%2FProperties%2F1416283910"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><a data-name="-1231534236%2FProperties%2F1416283910" anchor-label="combinedAdAdapter" id="-1231534236%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="combined-ad-adapter.html">combinedAdAdapter</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html">Class</a><span class="token operator">&lt;</span><span class="token keyword">out </span><a href="../-gfp-combined-ad-adapter/index.html">GfpCombinedAdAdapter</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-1231534236%2FProperties%2F1416283910" anchor-label="combinedAdAdapter" id="-1231534236%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><p class="paragraph">The combined adapter class that this provider has.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="combined-ad-adapter.html">combinedAdAdapter</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/Class.html">Class</a><span class="token operator">&lt;</span><span class="token keyword">out </span><a href="../-gfp-combined-ad-adapter/index.html">GfpCombinedAdAdapter</a><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">The combined adapter class that this provider has.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="2120389323%2FProperties%2F1416283910" anchor-label="interstitialAdAdapter" id="2120389323%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
-        <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="interstitial-ad-adapter.html">interstitialAdAdapter</a></div>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="interstitial-ad-adapter.html"><span>interstitial</span><wbr></wbr><span>Ad</span><wbr></wbr><span><span>Adapter</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2120389323%2FProperties%2F1416283910"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><a data-name="2120389323%2FProperties%2F1416283910" anchor-label="interstitialAdAdapter" id="2120389323%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="interstitial-ad-adapter.html">interstitialAdAdapter</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html">Class</a><span class="token operator">&lt;</span><span class="token keyword">out </span><a href="../-gfp-interstitial-ad-adapter/index.html">GfpInterstitialAdAdapter</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="2120389323%2FProperties%2F1416283910" anchor-label="interstitialAdAdapter" id="2120389323%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><p class="paragraph">The interstitial adapter class that this provider has.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="interstitial-ad-adapter.html">interstitialAdAdapter</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/Class.html">Class</a><span class="token operator">&lt;</span><span class="token keyword">out </span><a href="../-gfp-interstitial-ad-adapter/index.html">GfpInterstitialAdAdapter</a><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">The interstitial adapter class that this provider has.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="487115638%2FProperties%2F1416283910" anchor-label="nativeAdAdapter" id="487115638%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
-        <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="native-ad-adapter.html">nativeAdAdapter</a></div>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="native-ad-adapter.html"><span>native</span><wbr></wbr><span>Ad</span><wbr></wbr><span><span>Adapter</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="487115638%2FProperties%2F1416283910"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><a data-name="487115638%2FProperties%2F1416283910" anchor-label="nativeAdAdapter" id="487115638%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="native-ad-adapter.html">nativeAdAdapter</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html">Class</a><span class="token operator">&lt;</span><span class="token keyword">out </span><a href="../-gfp-native-ad-adapter/index.html">GfpNativeAdAdapter</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="487115638%2FProperties%2F1416283910" anchor-label="nativeAdAdapter" id="487115638%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><p class="paragraph">The native adapter class that this provider has.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="native-ad-adapter.html">nativeAdAdapter</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/Class.html">Class</a><span class="token operator">&lt;</span><span class="token keyword">out </span><a href="../-gfp-native-ad-adapter/index.html">GfpNativeAdAdapter</a><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">The native adapter class that this provider has.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="430525704%2FProperties%2F1416283910" anchor-label="nativeSimpleAdAdapter" id="430525704%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
-        <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="native-simple-ad-adapter.html">nativeSimpleAdAdapter</a></div>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="native-simple-ad-adapter.html"><span>native</span><wbr></wbr><span>Simple</span><wbr></wbr><span>Ad</span><wbr></wbr><span><span>Adapter</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="430525704%2FProperties%2F1416283910"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><a data-name="430525704%2FProperties%2F1416283910" anchor-label="nativeSimpleAdAdapter" id="430525704%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="native-simple-ad-adapter.html">nativeSimpleAdAdapter</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html">Class</a><span class="token operator">&lt;</span><span class="token keyword">out </span><a href="../-gfp-native-simple-ad-adapter/index.html">GfpNativeSimpleAdAdapter</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="430525704%2FProperties%2F1416283910" anchor-label="nativeSimpleAdAdapter" id="430525704%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><p class="paragraph">The native simple adapter class that this provider has.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="native-simple-ad-adapter.html">nativeSimpleAdAdapter</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/Class.html">Class</a><span class="token operator">&lt;</span><span class="token keyword">out </span><a href="../-gfp-native-simple-ad-adapter/index.html">GfpNativeSimpleAdAdapter</a><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">The native simple adapter class that this provider has.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-225701836%2FProperties%2F1416283910" anchor-label="providerData" id="-225701836%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
-        <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="provider-data.html">providerData</a></div>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="provider-data.html"><span>provider</span><wbr></wbr><span><span>Data</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-225701836%2FProperties%2F1416283910"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><a data-name="-225701836%2FProperties%2F1416283910" anchor-label="providerData" id="-225701836%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation">@get:</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-name/index.html"><span class="token annotation">JvmName</span></a><span class="token punctuation">(</span><span>name<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;getProviderData&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">var </span><a href="provider-data.html">providerData</a><span class="token operator">: </span><span data-unresolved-link="com.naver.gfpsdk.internal.services.initialization/InitializationResponse.Provider///PointingToDeclaration/">InitializationResponse.Provider</span><span class="token operator">?</span><span class="token operator"> = </span>null<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-225701836%2FProperties%2F1416283910" anchor-label="providerData" id="-225701836%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><p class="paragraph">Data passed into the provider configuration for initialization of third party SDK.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@get:</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-name/index.html"><span class="token annotation builtin">JvmName</span></a><span class="token punctuation">(</span><span>name<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;getProviderData&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword">var </span><a href="provider-data.html">providerData</a><span class="token operator">: </span><span data-unresolved-link="com.naver.gfpsdk.internal.services.initialization/InitializationResponse.Provider///PointingToDeclaration/">InitializationResponse.Provider</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Data passed into the provider configuration for initialization of third party SDK.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="1027871396%2FProperties%2F1416283910" anchor-label="providerType" id="1027871396%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
-        <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="provider-type.html">providerType</a></div>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="provider-type.html"><span>provider</span><wbr></wbr><span><span>Type</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1027871396%2FProperties%2F1416283910"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><a data-name="1027871396%2FProperties%2F1416283910" anchor-label="providerType" id="1027871396%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="provider-type.html">providerType</a><span class="token operator">: </span><a href="../-provider-type/index.html">ProviderType</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="1027871396%2FProperties%2F1416283910" anchor-label="providerType" id="1027871396%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><p class="paragraph">The <a href="../-provider-type/index.html">ProviderType</a> of this provider.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="provider-type.html">providerType</a><span class="token operator">: </span><a href="../-provider-type/index.html">ProviderType</a></div><div class="brief "><p class="paragraph">The <a href="../-provider-type/index.html">ProviderType</a> of this provider.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-322410963%2FProperties%2F1416283910" anchor-label="rewardedAdAdapter" id="-322410963%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
-        <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="rewarded-ad-adapter.html">rewardedAdAdapter</a></div>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="rewarded-ad-adapter.html"><span>rewarded</span><wbr></wbr><span>Ad</span><wbr></wbr><span><span>Adapter</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-322410963%2FProperties%2F1416283910"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><a data-name="-322410963%2FProperties%2F1416283910" anchor-label="rewardedAdAdapter" id="-322410963%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="rewarded-ad-adapter.html">rewardedAdAdapter</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html">Class</a><span class="token operator">&lt;</span><span class="token keyword">out </span><a href="../-gfp-rewarded-ad-adapter/index.html">GfpRewardedAdAdapter</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-322410963%2FProperties%2F1416283910" anchor-label="rewardedAdAdapter" id="-322410963%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><p class="paragraph">The rewarded adapter class that this provider has.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="rewarded-ad-adapter.html">rewardedAdAdapter</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/Class.html">Class</a><span class="token operator">&lt;</span><span class="token keyword">out </span><a href="../-gfp-rewarded-ad-adapter/index.html">GfpRewardedAdAdapter</a><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">The rewarded adapter class that this provider has.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-582886383%2FProperties%2F1416283910" anchor-label="sdkVersion" id="-582886383%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
-        <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="sdk-version.html">sdkVersion</a></div>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="sdk-version.html"><span>sdk</span><wbr></wbr><span><span>Version</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-582886383%2FProperties%2F1416283910"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><a data-name="-582886383%2FProperties%2F1416283910" anchor-label="sdkVersion" id="-582886383%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="sdk-version.html">sdkVersion</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="-582886383%2FProperties%2F1416283910" anchor-label="sdkVersion" id="-582886383%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><p class="paragraph">The sdk version of this provider. In the case of a provider that does not include sdk, assigned null.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="sdk-version.html">sdkVersion</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">The sdk version of this provider. In the case of a provider that does not include sdk, assigned null.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="379625022%2FProperties%2F1416283910" anchor-label="videoAdAdapter" id="379625022%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
-        <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="video-ad-adapter.html">videoAdAdapter</a></div>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="video-ad-adapter.html"><span>video</span><wbr></wbr><span>Ad</span><wbr></wbr><span><span>Adapter</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="379625022%2FProperties%2F1416283910"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><a data-name="379625022%2FProperties%2F1416283910" anchor-label="videoAdAdapter" id="379625022%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="video-ad-adapter.html">videoAdAdapter</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html">Class</a><span class="token operator">&lt;</span><span class="token keyword">out </span><a href="../-gfp-video-ad-adapter/index.html">GfpVideoAdAdapter</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="379625022%2FProperties%2F1416283910" anchor-label="videoAdAdapter" id="379625022%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a><p class="paragraph">The video adapter class that this provider has.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">val </span><a href="video-ad-adapter.html">videoAdAdapter</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/Class.html">Class</a><span class="token operator">&lt;</span><span class="token keyword">out </span><a href="../-gfp-video-ad-adapter/index.html">GfpVideoAdAdapter</a><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="brief "><p class="paragraph">The video adapter class that this provider has.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h2 class="">Inheritors</h2>
-      <div class="table" data-togglable="Inheritors"><a data-name="-826654168%2FInheritors%2F1416283910" anchor-label="RtbProviderConfiguration" id="-826654168%2FInheritors%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
-        <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="../-rtb-provider-configuration/index.html">RtbProviderConfiguration</a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-826654168%2FInheritors%2F1416283910"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div></div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1004754842%2FFunctions%2F1416283910" anchor-label="getCurrentInitializationStatus" id="1004754842%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-current-initialization-status.html"><span>get</span><wbr></wbr><span>Current</span><wbr></wbr><span>Initialization</span><wbr></wbr><span><span>Status</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1004754842%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-current-initialization-status.html"><span class="token function">getCurrentInitializationStatus</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-initialization-status/index.html">ProviderConfiguration.InitializationStatus</a></div><div class="brief "><p class="paragraph">Returns the provider initialization status.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="606171116%2FFunctions%2F1416283910" anchor-label="initialize" id="606171116%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="initialize.html"><span><span>initialize</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="606171116%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="initialize.html"><span class="token function">initialize</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter ">initializationListener<span class="token operator">: </span><a href="-initialization-listener/index.html">ProviderConfiguration.InitializationListener</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called by the GFP SDK to initialize a third party SDK. This method is invoked shortly after the app initializes the GFP SDK.</p></div></div></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-        <div class="footer"><span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
                 class="pull-right"><span>Generated by </span><a
                 href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
         </div>
     </div>
-</div>
 </body>
 </html>
