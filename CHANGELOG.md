@@ -1,5 +1,14 @@
 # Changelog
 
+## 7.7.1 (2024-08-30)
+### Bug Fixes
+* **core:** now SdkPropertiesBuilder accept only one GfpProviderOptions per providerType
+* **nda:** fix a scroll issue on shopping search native ad
+
+### Code Refactoring
+* optimize the use of ViewObserver in GfpAdAdapter
+* support Android API 34
+
 ## 7.7.0 (2024-08-20)
 
 ### Features
