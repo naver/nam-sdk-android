@@ -1,5 +1,16 @@
 # Changelog
 
+## [7.7.2] (2024-09-10)
+### Bug Fixes
+* fix a bug that ViewTreeObserver is not properly removed
+* fix missing disconnect in `HttpUrlConnection`
+* **nda:** fix rendering the slot in GridLayout
+
+### Code Refactoring
+* **nda:** modify shopping nda ad design
+* **nda:** modify shopping NDA minor design
+* **nda:** use NasImageView on shopping search ad store icon
+
 ## 7.7.1 (2024-08-30)
 ### Bug Fixes
 * **core:** now SdkPropertiesBuilder accept only one GfpProviderOptions per providerType
