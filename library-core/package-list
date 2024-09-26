@@ -251,6 +251,7 @@ $dokka.location:com.naver.gfpsdk.provider/NativeSimpleAssetProvider/getImage/#/P
 $dokka.location:com.naver.gfpsdk.provider/NativeSimpleTemplateView///PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-native-simple-template-view/index.html
 $dokka.location:com.naver.gfpsdk.provider/NativeSimpleTemplateView/bindAndGetClickableViews/#com.naver.gfpsdk.GfpNativeAdView#com.naver.gfpsdk.provider.NativeAssetProvider#kotlin.Boolean/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-native-simple-template-view/bind-and-get-clickable-views.html
 $dokka.location:com.naver.gfpsdk.provider/NativeTemplateView///PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-native-template-view/index.html
+$dokka.location:com.naver.gfpsdk.provider/NativeTemplateView/measureAllChildrenWithRatio/#kotlin.Int#kotlin.Int/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-native-template-view/measure-all-children-with-ratio.html
 $dokka.location:com.naver.gfpsdk.provider/Provider///PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-provider/index.html
 $dokka.location:com.naver.gfpsdk.provider/Provider/creativeType/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-provider/creative-type.html
 $dokka.location:com.naver.gfpsdk.provider/Provider/productType/#/PointingToDeclaration/library-core/com.naver.gfpsdk.provider/-provider/product-type.html
@@ -511,12 +512,13 @@ $dokka.location:com.naver.gfpsdk/Gfp.Api///PointingToDeclaration/library-core/c
 $dokka.location:com.naver.gfpsdk/Gfp.Api/BANNER_AD_REQUEST_TIMEOUT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/-b-a-n-n-e-r_-a-d_-r-e-q-u-e-s-t_-t-i-m-e-o-u-t.html
 $dokka.location:com.naver.gfpsdk/Gfp.Api/DEFAULT_CONNECT_TIMEOUT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/-d-e-f-a-u-l-t_-c-o-n-n-e-c-t_-t-i-m-e-o-u-t.html
 $dokka.location:com.naver.gfpsdk/Gfp.Api/DEFAULT_READ_TIMEOUT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/-d-e-f-a-u-l-t_-r-e-a-d_-t-i-m-e-o-u-t.html
+$dokka.location:com.naver.gfpsdk/Gfp.Api/GFP_SERVER_URL/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/-g-f-p_-s-e-r-v-e-r_-u-r-l.html
 $dokka.location:com.naver.gfpsdk/Gfp.Api/INTERSTITIAL_AD_REQUEST_TIMEOUT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/-i-n-t-e-r-s-t-i-t-i-a-l_-a-d_-r-e-q-u-e-s-t_-t-i-m-e-o-u-t.html
 $dokka.location:com.naver.gfpsdk/Gfp.Api/NELO2_CONNECT_TIMEOUT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/-n-e-l-o2_-c-o-n-n-e-c-t_-t-i-m-e-o-u-t.html
 $dokka.location:com.naver.gfpsdk/Gfp.Api/REWARDED_AD_REQUEST_TIMEOUT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/-r-e-w-a-r-d-e-d_-a-d_-r-e-q-u-e-s-t_-t-i-m-e-o-u-t.html
 $dokka.location:com.naver.gfpsdk/Gfp.Api/UNIFIED_AD_REQUEST_TIMEOUT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/-u-n-i-f-i-e-d_-a-d_-r-e-q-u-e-s-t_-t-i-m-e-o-u-t.html
 $dokka.location:com.naver.gfpsdk/Gfp.Api/VIDEO_AD_REQUEST_TIMEOUT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/-v-i-d-e-o_-a-d_-r-e-q-u-e-s-t_-t-i-m-e-o-u-t.html
-$dokka.location:com.naver.gfpsdk/Gfp.Api/getGfpServerUrl/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/get-gfp-server-url.html
+$dokka.location:com.naver.gfpsdk/Gfp.Api/selectGfpServerUrl/#java.lang.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-api/select-gfp-server-url.html
 $dokka.location:com.naver.gfpsdk/Gfp.Build///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-build/index.html
 $dokka.location:com.naver.gfpsdk/Gfp.Build/DEBUG/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-build/-d-e-b-u-g.html
 $dokka.location:com.naver.gfpsdk/Gfp.Build/PHASE/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp/-build/-p-h-a-s-e.html
