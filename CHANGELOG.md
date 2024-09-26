@@ -1,6 +1,16 @@
 # Changelog
 
-## [7.7.2] (2024-09-10)
+## 7.8.0 (2024-09-26)
+### Features
+* **nda:** support the Smart Channel Flicking AD
+
+### Bug Fixes
+* **nda:** fix image badge size error in shopping label ad
+
+### Code Refactoring
+* **nda:** add content description to SlotsView
+
+## 7.7.2 (2024-09-10)
 ### Bug Fixes
 * fix a bug that ViewTreeObserver is not properly removed
 * fix missing disconnect in `HttpUrlConnection`
