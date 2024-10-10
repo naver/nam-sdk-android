@@ -1,4 +1,7 @@
 # Changelog
+## 7.8.1 (2024-10-10)
+### Bug Fixes
+* fix height value calculation error in `NativeTemplateView`
 
 ## 7.8.0 (2024-09-26)
 ### Features
