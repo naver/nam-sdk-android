@@ -1,4 +1,13 @@
 # Changelog
+## 7.9.0 (2024-10-24)
+
+### Bug Fixes
+* fix animation rendering issues on devices below Android 9
+* fix VAST parsing error
+
+### Code Refactoring
+* allow redirects for all http requests by default
+
 ## 7.8.1 (2024-10-10)
 ### Bug Fixes
 * fix height value calculation error in `NativeTemplateView`
