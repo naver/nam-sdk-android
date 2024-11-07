@@ -12,7 +12,7 @@ Please check the following 'Implement the AdVideoPlayer'
 dependencies {
     implementation platform('com.naver.gfpsdk:nam-bom:<latest-version>')
     implementation 'com.naver.gfpsdk:nam-core'
-    implementation 'com.naver.gfpsdk:nam-ndavideo'                      // (optional) for instream ads
+    implementation 'com.naver.gfpsdk.mediation:nam-ndavideo'                      // (optional) for instream ads
     implementation 'com.google.android.exoplayer:exoplayer-core:2.18.0' // using exoplayer for example
     implementation 'com.google.android.exoplayer:exoplayer-hls:2.18.0'
     implementation 'com.google.android.exoplayer:exoplayer-ui:2.18.0'
@@ -42,7 +42,7 @@ import com.google.android.exoplayer2.source.hls.HlsMediaSource;
 import com.google.android.exoplayer2.ui.StyledPlayerView;
 import com.google.android.exoplayer2.upstream.DefaultDataSource;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSource;
-import com.naver.gfpsdk.provider.AdVideoPlayer;
+import com.naver.gfpsdk.mediation.AdVideoPlayer;
 import java.io.IOException;
 import java.util.concurrent.CopyOnWriteArraySet;
 

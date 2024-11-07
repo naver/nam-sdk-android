@@ -14,9 +14,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import com.naver.gfpsdk.GenderType;
 import com.naver.gfpsdk.GfpSdk;
-import com.naver.gfpsdk.provider.DfpProviderOptions;
-import com.naver.gfpsdk.provider.FanProviderOptions;
-import com.naver.gfpsdk.provider.NdaProviderOptions;
+import com.naver.gfpsdk.mediation.DfpProviderOptions;
+import com.naver.gfpsdk.mediation.FanProviderOptions;
+import com.naver.gfpsdk.mediation.NdaProviderOptions;
 
 public class MainActivity extends AppCompatActivity {
     @Override

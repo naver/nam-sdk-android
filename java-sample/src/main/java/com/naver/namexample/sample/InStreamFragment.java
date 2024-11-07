@@ -27,7 +27,7 @@ import com.naver.gfpsdk.VideoAdListener;
 import com.naver.gfpsdk.VideoAdScheduleListener;
 import com.naver.gfpsdk.VideoAdScheduleParam;
 import com.naver.gfpsdk.VideoScheduleResponse;
-import com.naver.gfpsdk.provider.AdVideoPlayer;
+import com.naver.gfpsdk.mediation.AdVideoPlayer;
 import com.naver.namexample.R;
 import com.naver.namexample.video.SampleExoPlayerView;
 import java.text.SimpleDateFormat;
