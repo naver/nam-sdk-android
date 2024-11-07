@@ -28,7 +28,7 @@ repositories {
 
 ...
 dependencies {
-    implementation 'com.naver.gfpsdk:nam-inmobi:<latest-version>'  
+    implementation 'com.naver.gfpsdk.mediation:nam-inmobi:<latest-version>'  
 }
 ```
 

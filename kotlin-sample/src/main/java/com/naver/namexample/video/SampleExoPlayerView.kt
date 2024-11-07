@@ -26,8 +26,8 @@ import com.google.android.exoplayer2.source.hls.HlsMediaSource
 import com.google.android.exoplayer2.ui.StyledPlayerView
 import com.google.android.exoplayer2.upstream.DefaultDataSource
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSource
-import com.naver.gfpsdk.provider.AdVideoPlayer
-import com.naver.gfpsdk.provider.AdVideoPlayer.PlayerCallback
+import com.naver.gfpsdk.mediation.AdVideoPlayer
+import com.naver.gfpsdk.mediation.AdVideoPlayer.PlayerCallback
 import java.io.IOException
 import java.util.Locale
 import java.util.concurrent.CopyOnWriteArraySet

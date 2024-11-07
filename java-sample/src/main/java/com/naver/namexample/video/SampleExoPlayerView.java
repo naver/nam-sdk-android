@@ -29,7 +29,7 @@ import com.google.android.exoplayer2.ui.StyledPlayerView;
 import com.google.android.exoplayer2.upstream.DefaultDataSource;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSource;
 import com.naver.ads.NasLogger;
-import com.naver.gfpsdk.provider.AdVideoPlayer;
+import com.naver.gfpsdk.mediation.AdVideoPlayer;
 import java.io.IOException;
 import java.util.concurrent.CopyOnWriteArraySet;
 

@@ -28,7 +28,7 @@ repositories {
 
 ...
 dependencies {
-    implementation 'com.naver.gfpsdk:nam-fan:<latest-version>'  
+    implementation 'com.naver.gfpsdk.mediation:nam-fan:<latest-version>'  
 }
 ```
 

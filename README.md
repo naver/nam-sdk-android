@@ -65,7 +65,7 @@ implementation 'com.naver.gfpsdk:nam-core' // no version specified
 
 ```groovy
 dependencies {
-implementation 'com.naver.gfpsdk:nam-nda' // no version specified
+implementation 'com.naver.gfpsdk.mediation:nam-nda' // no version specified
 }
 ```
 
@@ -73,7 +73,7 @@ implementation 'com.naver.gfpsdk:nam-nda' // no version specified
 
 ```groovy
 dependencies {
-implementation 'com.naver.gfpsdk:nam-dfp' // no version specified
+implementation 'com.naver.gfpsdk.mediation:nam-dfp' // no version specified
 }
 ```
 
@@ -81,7 +81,7 @@ implementation 'com.naver.gfpsdk:nam-dfp' // no version specified
 
 ```groovy
 dependencies {
-implementation 'com.naver.gfpsdk:nam-fan' // no version specified
+implementation 'com.naver.gfpsdk.mediation:nam-fan' // no version specified
 }
 ```
 
@@ -89,7 +89,7 @@ implementation 'com.naver.gfpsdk:nam-fan' // no version specified
 
 ```groovy
 dependencies {
-implementation 'com.naver.gfpsdk:nam-inmobi' // no version specified
+implementation 'com.naver.gfpsdk.mediation:nam-inmobi' // no version specified
 }
 ```
 
@@ -97,7 +97,7 @@ implementation 'com.naver.gfpsdk:nam-inmobi' // no version specified
 
 ```groovy
 dependencies {
-implementation 'com.naver.gfpsdk:nam-unity' // no version specified
+implementation 'com.naver.gfpsdk.mediation:nam-unity' // no version specified
 }
 ```
 
@@ -105,7 +105,7 @@ implementation 'com.naver.gfpsdk:nam-unity' // no version specified
 
 ```groovy
 dependencies {
-implementation 'com.naver.gfpsdk:nam-applovin' // no version specified
+implementation 'com.naver.gfpsdk.mediation:nam-applovin' // no version specified
 }
 ```
 
@@ -113,14 +113,14 @@ implementation 'com.naver.gfpsdk:nam-applovin' // no version specified
 
 ```groovy
 dependencies {
-implementation 'com.naver.gfpsdk:nam-vungle' // no version specified
+implementation 'com.naver.gfpsdk.mediation:nam-vungle' // no version specified
 }
 ```
 
 #### For `Naver` In-Stream ads, please adds following dependency:
 ```groovy
 dependencies {
-implementation 'com.naver.gfpsdk:nam-ndavideo' // no version specified
+implementation 'com.naver.gfpsdk.mediation:nam-ndavideo' // no version specified
 }
 ```
 
@@ -128,7 +128,7 @@ implementation 'com.naver.gfpsdk:nam-ndavideo' // no version specified
 
 ```groovy
 dependencies {
-implementation 'com.naver.gfpsdk:nam-dt' // no version specified
+implementation 'com.naver.gfpsdk.mediation:nam-dt' // no version specified
 }
 ```
 
@@ -136,7 +136,7 @@ implementation 'com.naver.gfpsdk:nam-dt' // no version specified
 
 ```groovy
 dependencies {
-implementation 'com.naver.gfpsdk:nam-aps' // no version specified
+implementation 'com.naver.gfpsdk.mediation:nam-aps' // no version specified
 }
 ```
 
@@ -144,7 +144,7 @@ implementation 'com.naver.gfpsdk:nam-aps' // no version specified
 
 ```groovy
 dependencies {
-implementation 'com.naver.gfpsdk:nam-ironsource' // no version specified
+implementation 'com.naver.gfpsdk.mediation:nam-ironsource' // no version specified
 }
 ```
 
@@ -152,7 +152,7 @@ implementation 'com.naver.gfpsdk:nam-ironsource' // no version specified
 
 ```groovy
 dependencies {
-implementation 'com.naver.gfpsdk:nam-lan' // no version specified
+implementation 'com.naver.gfpsdk.mediation:nam-lan' // no version specified
 }
 ```
 

@@ -16,9 +16,9 @@ import com.naver.gfpsdk.GfpSdk.getSdkProperties
 import com.naver.gfpsdk.GfpSdk.getUserProperties
 import com.naver.gfpsdk.GfpSdk.setSdkProperties
 import com.naver.gfpsdk.GfpSdk.setUserProperties
-import com.naver.gfpsdk.provider.DfpProviderOptions
-import com.naver.gfpsdk.provider.FanProviderOptions
-import com.naver.gfpsdk.provider.NdaProviderOptions
+import com.naver.gfpsdk.mediation.DfpProviderOptions
+import com.naver.gfpsdk.mediation.FanProviderOptions
+import com.naver.gfpsdk.mediation.NdaProviderOptions
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
