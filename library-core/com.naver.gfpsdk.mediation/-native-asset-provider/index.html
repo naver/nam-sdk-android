@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>NativeAssetProvider</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            library-core
+                    </a>
+            </div>
+            <div class="library-version">
+8.0.0            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":library-core:dokkaHtmlExternal/main">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="library-core::com.naver.gfpsdk.mediation/NativeAssetProvider///PointingToDeclaration//1416283910">
+  <div class="breadcrumbs"><a href="../../../index.html">library-core</a><span class="delimiter">/</span><a href="../index.html">com.naver.gfpsdk.mediation</a><span class="delimiter">/</span><span class="current">NativeAssetProvider</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Native</span><wbr></wbr><span>Asset</span><wbr></wbr><span><span>Provider</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">NativeAssetProvider</a> : <a href="../-native-simple-asset-provider/index.html">NativeSimpleAssetProvider</a></div><p class="paragraph">Native Asset Provider is used for native specific assets. </p><p class="paragraph">End user won't use this class directly.</p><h4 class="">See also</h4><div class="table"><div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../../com.naver.gfpsdk/-gfp-native-ad/index.html"><span>Gfp</span><wbr></wbr><span>Native</span><wbr></wbr><span><span>Ad</span></span></a></div></span></div><div></div></div></div></div><h4 class="">Inheritors</h4><div class="table"><div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../../com.naver.gfpsdk/-gfp-native-ad/index.html">GfpNativeAd</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-native-normal-api/index.html">NativeNormalApi</a></div></span></div><div></div></div></div></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-444222662%2FFunctions%2F1416283910" anchor-label="getAdStyleOption" id="-444222662%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-ad-style-option.html"><span>get</span><wbr></wbr><span>Ad</span><wbr></wbr><span>Style</span><wbr></wbr><span><span>Option</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-444222662%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-ad-style-option.html"><span class="token function">getAdStyleOption</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../com.naver.gfpsdk/-ad-style-option/index.html">AdStyleOption</a></div><div class="brief ">Returns style information (ex.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2123970215%2FFunctions%2F1416283910" anchor-label="getAdvertiserName" id="2123970215%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-advertiser-name.html"><span>get</span><wbr></wbr><span>Advertiser</span><wbr></wbr><span><span>Name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2123970215%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-advertiser-name.html"><span class="token function">getAdvertiserName</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></div><div class="brief ">Returns the advertiser name.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="171591052%2FFunctions%2F1416283910" anchor-label="getAdvertiserNameWithOption" id="171591052%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-advertiser-name-with-option.html"><span>get</span><wbr></wbr><span>Advertiser</span><wbr></wbr><span>Name</span><wbr></wbr><span>With</span><wbr></wbr><span><span>Option</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="171591052%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-advertiser-name-with-option.html"><span class="token function">getAdvertiserNameWithOption</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../com.naver.gfpsdk/-label-option/index.html">LabelOption</a></div><div class="brief ">Returns the advertiser name with option.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1498158885%2FFunctions%2F1416283910" anchor-label="getBody" id="-1498158885%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-body.html"><span>get</span><wbr></wbr><span><span>Body</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1498158885%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-body.html"><span class="token function">getBody</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></div><div class="brief ">Returns the body.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1668102464%2FFunctions%2F1416283910" anchor-label="getBodyWithOption" id="-1668102464%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-body-with-option.html"><span>get</span><wbr></wbr><span>Body</span><wbr></wbr><span>With</span><wbr></wbr><span><span>Option</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1668102464%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-body-with-option.html"><span class="token function">getBodyWithOption</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../com.naver.gfpsdk/-label-option/index.html">LabelOption</a></div><div class="brief ">Returns the body with option.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1106389490%2FFunctions%2F1416283910" anchor-label="getCallToAction" id="-1106389490%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-call-to-action.html"><span>get</span><wbr></wbr><span>Call</span><wbr></wbr><span>To</span><wbr></wbr><span><span>Action</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1106389490%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-call-to-action.html"><span class="token function">getCallToAction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></div><div class="brief ">Returns the CTA text.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2075660339%2FFunctions%2F1416283910" anchor-label="getCallToActionWithOption" id="2075660339%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-call-to-action-with-option.html"><span>get</span><wbr></wbr><span>Call</span><wbr></wbr><span>To</span><wbr></wbr><span>Action</span><wbr></wbr><span>With</span><wbr></wbr><span><span>Option</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2075660339%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-call-to-action-with-option.html"><span class="token function">getCallToActionWithOption</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../com.naver.gfpsdk/-label-option/index.html">LabelOption</a></div><div class="brief ">Returns the CTA with option.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1924188819%2FFunctions%2F1416283910" anchor-label="getExtraImage" id="-1924188819%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-extra-image.html"><span>get</span><wbr></wbr><span>Extra</span><wbr></wbr><span><span>Image</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1924188819%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-extra-image.html"><span class="token function">getExtraImage</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/NonNull.html"><span class="token annotation builtin">NonNull</span></a> </span>key<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../com.naver.gfpsdk/-image/index.html">Image</a></div><div class="brief ">Returns the extra image corresponding to the key.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-190683525%2FFunctions%2F1416283910" anchor-label="getExtraText" id="-190683525%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-extra-text.html"><span>get</span><wbr></wbr><span>Extra</span><wbr></wbr><span><span>Text</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-190683525%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-extra-text.html"><span class="token function">getExtraText</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/NonNull.html"><span class="token annotation builtin">NonNull</span></a> </span>key<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></div><div class="brief ">Returns the extra text corresponding to the key.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1095577568%2FFunctions%2F1416283910" anchor-label="getExtraTextWithOption" id="-1095577568%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-extra-text-with-option.html"><span>get</span><wbr></wbr><span>Extra</span><wbr></wbr><span>Text</span><wbr></wbr><span>With</span><wbr></wbr><span><span>Option</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1095577568%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-extra-text-with-option.html"><span class="token function">getExtraTextWithOption</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/NonNull.html"><span class="token annotation builtin">NonNull</span></a> </span>key<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../com.naver.gfpsdk/-label-option/index.html">LabelOption</a></div><div class="brief ">Returns the extra text with option corresponding to the key.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-532941340%2FFunctions%2F1416283910" anchor-label="getIcon" id="-532941340%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-icon.html"><span>get</span><wbr></wbr><span><span>Icon</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-532941340%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-icon.html"><span class="token function">getIcon</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../com.naver.gfpsdk/-image/index.html">Image</a></div><div class="brief ">Returns the icon <a href="../../com.naver.gfpsdk/-image/index.html">Image</a>.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1218810981%2FFunctions%2F1416283910" anchor-label="getNotice" id="1218810981%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-notice.html"><span>get</span><wbr></wbr><span><span>Notice</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1218810981%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-notice.html"><span class="token function">getNotice</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></div><div class="brief ">Returns the notice text.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1274219978%2FFunctions%2F1416283910" anchor-label="getNoticeWithOption" id="1274219978%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-notice-with-option.html"><span>get</span><wbr></wbr><span>Notice</span><wbr></wbr><span>With</span><wbr></wbr><span><span>Option</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1274219978%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-notice-with-option.html"><span class="token function">getNoticeWithOption</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../com.naver.gfpsdk/-label-option/index.html">LabelOption</a></div><div class="brief ">Returns the notice with option.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2076683269%2FFunctions%2F1416283910" anchor-label="getSocialContext" id="-2076683269%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-social-context.html"><span>get</span><wbr></wbr><span>Social</span><wbr></wbr><span><span>Context</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2076683269%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-social-context.html"><span class="token function">getSocialContext</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></div><div class="brief ">Returns the social context.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1738290720%2FFunctions%2F1416283910" anchor-label="getSocialContextWithOption" id="-1738290720%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-social-context-with-option.html"><span>get</span><wbr></wbr><span>Social</span><wbr></wbr><span>Context</span><wbr></wbr><span>With</span><wbr></wbr><span><span>Option</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1738290720%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-social-context-with-option.html"><span class="token function">getSocialContextWithOption</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../com.naver.gfpsdk/-label-option/index.html">LabelOption</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1418125339%2FFunctions%2F1416283910" anchor-label="getTitle" id="-1418125339%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-title.html"><span>get</span><wbr></wbr><span><span>Title</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1418125339%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-title.html"><span class="token function">getTitle</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></div><div class="brief ">Returns the title.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="577648970%2FFunctions%2F1416283910" anchor-label="getTitleWithOption" id="577648970%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-title-with-option.html"><span>get</span><wbr></wbr><span>Title</span><wbr></wbr><span>With</span><wbr></wbr><span><span>Option</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="577648970%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-title-with-option.html"><span class="token function">getTitleWithOption</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../com.naver.gfpsdk/-label-option/index.html">LabelOption</a></div><div class="brief ">Returns the title with option.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
