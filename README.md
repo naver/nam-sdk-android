@@ -22,17 +22,17 @@ To prepare your app, complete the steps in the following sections.
 
 ```groovy
 buildscript {
-	repositories {
-		google()
-		mavenCentral()
-	}
+    repositories {
+        google()
+        mavenCentral()
+    }
 }
 
 allprojects {
-	repositories {
-		google()
-		mavenCentral()
-	}
+    repositories {
+        google()
+        mavenCentral()
+    }
 }
 ```
 
@@ -40,10 +40,10 @@ allprojects {
 
 ```groovy
 android {
-	compileOptions {
-		sourceCompatibility JavaVersion.VERSION_1_8
-		targetCompatibility JavaVersion.VERSION_1_8
-	}
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 ```
 
@@ -53,108 +53,11 @@ android {
 
 ```groovy
 dependencies {
-implementation platform('com.naver.gfpsdk:nam-bom:<latest-version>')
-implementation 'com.naver.gfpsdk:nam-core' // no version specified
+    implementation platform('com.naver.gfpsdk:nam-bom:<latest-version>')
+    implementation 'com.naver.gfpsdk:nam-core' // no version specified
 }
 ```
 >Note: You can avoid specifying the version of each dependency with a `Bill Of Materials`.
-
-#### (Optional) Add the mediation dependencies
-
-##### For `S2S` mediation, make sure the following dependencies are place:
-
-```groovy
-dependencies {
-implementation 'com.naver.gfpsdk.mediation:nam-nda' // no version specified
-}
-```
-
-##### For `Google Ad Manager` mediation, make sure the following dependencies are place:
-
-```groovy
-dependencies {
-implementation 'com.naver.gfpsdk.mediation:nam-dfp' // no version specified
-}
-```
-
-##### For `Meta Audience Network` mediation, make sure the following dependencies are place:
-
-```groovy
-dependencies {
-implementation 'com.naver.gfpsdk.mediation:nam-fan' // no version specified
-}
-```
-
-##### For `InMobi` mediation, make sure the following dependencies are place:
-
-```groovy
-dependencies {
-implementation 'com.naver.gfpsdk.mediation:nam-inmobi' // no version specified
-}
-```
-
-##### For `Unity` mediation, make sure the following dependencies are place:
-
-```groovy
-dependencies {
-implementation 'com.naver.gfpsdk.mediation:nam-unity' // no version specified
-}
-```
-
-##### For `AppLovin` mediation, make sure the following dependencies are place:
-
-```groovy
-dependencies {
-implementation 'com.naver.gfpsdk.mediation:nam-applovin' // no version specified
-}
-```
-
-##### For `Vungle` mediation, make sure the following dependencies are place:
-
-```groovy
-dependencies {
-implementation 'com.naver.gfpsdk.mediation:nam-vungle' // no version specified
-}
-```
-
-#### For `Naver` In-Stream ads, please adds following dependency:
-```groovy
-dependencies {
-implementation 'com.naver.gfpsdk.mediation:nam-ndavideo' // no version specified
-}
-```
-
-##### For `DigitalTurbine` mediation, make sure the following dependencies are place:
-
-```groovy
-dependencies {
-implementation 'com.naver.gfpsdk.mediation:nam-dt' // no version specified
-}
-```
-
-##### To use header bidding for Banner with `Amazon Publusher Services`, make sure the following dependencies are place:
-
-```groovy
-dependencies {
-implementation 'com.naver.gfpsdk.mediation:nam-aps' // no version specified
-}
-```
-
-##### For `IronSource` mediation, make sure the following dependencies are place:
-
-```groovy
-dependencies {
-implementation 'com.naver.gfpsdk.mediation:nam-ironsource' // no version specified
-}
-```
-
-##### For `LAN` mediation, make sure the following dependencies are place:
-
-```groovy
-dependencies {
-implementation 'com.naver.gfpsdk.mediation:nam-lan' // no version specified
-}
-```
 
 ### 4. Add your Publisher Code to your app's `AndroidManifest.xml` file.
 
@@ -162,18 +65,18 @@ To do so, add a `<meta-data>` tag with `android:name="com.naver.gfpsdk.PUBLISHER
 
 ```xml
 <manifest>
-	<application>
-		<meta-data
-			android:name="com.naver.gfpsdk.PUBLISHER_CD"
-			android:value="@string/publisher_cd" />
-	</application>
+    <application>
+        <meta-data
+            android:name="com.naver.gfpsdk.PUBLISHER_CD"
+            android:value="@string/publisher_cd" />
+    </application>
 </manifest>
 ```
 >Note: `GfpSdkInitProvider` will handle the initialization of NAM SDK. This `ContentProvider` is merged into the app's manifest by default when building with Gradle, and it runs automatically at app launch. **No additional lines of code are needed in this case.**
 
 ### 5. Select an ad format
 
-NAM SDK is now imported and you're ready to implement an ad. NAM SDK offers a number of differenct ad formats, so you can choose the one that best fits your app's user experience.
+NAM SDK is now imported and you're ready to implement an ad. NAM SDK offers a number of different ad formats, so you can choose the one that best fits your app's user experience.
 
 
 | Ad Provider                                           | Description                                                                                                                                                                                                                                                                   |
@@ -184,24 +87,25 @@ NAM SDK is now imported and you're ready to implement an ad. NAM SDK offers a nu
 | [In Stream Ads](docs/ad-formats/in_stream.md)         | In-Stream (Video) AD is placed between the beginning and the end of the video content.                                                                                                                                                                                        |
 | [Rewarded Ads](docs/ad-formats/rewarded.md)           | Rewarded ads provide incentives and rewards to users when they complete watching a video in full screen.                                                                                                                                                                      |
 
-### 6. Select ad provider you want to integrate
+### 6. Select mediation you want to integrate
 
-NAM SDK mediation supports several ad provider, with a mix of bidding and waterfall mediation integrations. Select an ad provider below for integration instructions specific to that ad provider.
+Mediation in GFP supports several ad source, with a mix of bidding and waterfall mediation integrations. Select an ad provider below for integration instructions specific to that ad source.
 
-| Ad Provider                                   | Banner | Native | Native Simple | Rewarded | Interstitial | Description                                            |
-|:----------------------------------------------|:-------|:-------|:--------------|:---------|:-------------|:-------------------------------------------------------|
-| [NDA](docs/ad-providers/nda.md)               | O      | O      | O             | O        | X            | S2S provider (Naver, Pubmatic, AppNexus, Rubicon, ...) |
-| [DFP](docs/ad-providers/dfp.md)               | O      | O      | X             | O        | O            | Google Ad Manager provider                             |
-| [FAN](docs/ad-providers/fan.md)               | O      | O      | X             | O        | O            | Meta Audience Network provider                         |
-| [INMOBI](docs/ad-providers/inmobi.md)         | O      | O      | X             | X        | X            | InMobi provider                                        |
-| UNITY                                         | O      | X      | X             | O        | O            | Unity provider                                         |
-| APPLOVIN                                      | O      | X      | X             | O        | O            | AppLovin provider                                      |
-| VUNGLE                                        | X      | X      | X             | O        | O            | Vungle provider                                        |
-| DigitalTurbine                                | O      | X      | X             | O        | O            | DigitalTurbine provider                                |
-| APS                                           | O      | X      | X             | X        | X            | AmazonPublisherServices provider (for header bidding)  |
-| LAN                                           | X      | O      | O             | O        | O            | Line provider                                          |
-| [IronSource](docs/ad-providers/ironsource.md) | X      | X      | X             | O        | O            | IronSource provider                                    |
->Note: After contacting the NAM manager, add the module of the Ad provider you want to add to.
+| Ad Source                                           |
+|:----------------------------------------------------|
+| [NAVER](mediation/nda/README.md)                    |
+| [AppLovin](mediation/applovin/README.md)            |
+| [Amazon Publisher Service](mediation/aps/README.md) |
+| [Google Ad Manager](mediation/dfp/README.md)        |
+| [Digital Turbine](mediation/dt/README.md)           |
+| [Meta Audience Network](mediation/fan/README.md)    |
+| [InMobi](mediation/inmobi/README.md)                |
+| [IronSource](mediation/ironsource/README.md)        |
+| [Line](mediation/line/README.md)                    |
+| [Unity](mediation/unity/README.md)                  |
+| [Vungle](mediation/vungle/README.md)                |
+
+>Note: After contacting the NAM manager, add the module of the Mediation you want to integrate.
 
 ### 7. (Optional) Targeting your ads
 
