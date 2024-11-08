@@ -92,7 +92,7 @@
 
 ### Code Refactoring
 
-* add GFP/NDA 1+3 View
+* add NDA 1+3 View
 * **ironsource:** refactor IronSource Integration to load multiple instance id
 * **nda:** modify badge UI on shopping nda ad
 * **nda:** show the CTA button on last frame for the Rewarded AD

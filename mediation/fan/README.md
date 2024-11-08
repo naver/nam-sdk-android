@@ -32,7 +32,7 @@ Follow Meta Audience Network's Android [network security config guide](https://d
 * verified compatibility with FAN SDK 6.18.0 
 
 ### Built and tested with
-- GFP SDK version 8.0.0
+- NAM SDK version 8.0.0
 - FAN SDK version 6.18.0
 
 ## 6.17.0.0 (2024-11-07)
@@ -43,5 +43,5 @@ Follow Meta Audience Network's Android [network security config guide](https://d
 * verified compatibility with FAN SDK 6.17.0
 
 ### Built and tested with
-- GFP SDK version 8.0.0
+- NAM SDK version 8.0.0
 - FAN SDK version 6.17.0

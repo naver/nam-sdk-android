@@ -28,5 +28,5 @@ dependencies {
 * verified compatibility with LAN SDK 2.7.20240214
 
 ### Built and tested with
-- GFP SDK version 8.0.0
+- NAM SDK version 8.0.0
 - LAN SDK version 2.7.20240214

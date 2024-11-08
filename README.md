@@ -89,7 +89,7 @@ NAM SDK is now imported and you're ready to implement an ad. NAM SDK offers a nu
 
 ### 6. Select mediation you want to integrate
 
-Mediation in GFP supports several ad source, with a mix of bidding and waterfall mediation integrations. Select an ad provider below for integration instructions specific to that ad source.
+Mediation in NAM supports several ad source, with a mix of bidding and waterfall mediation integrations. Select an ad provider below for integration instructions specific to that ad source.
 
 | Ad Source                                           |
 |:----------------------------------------------------|

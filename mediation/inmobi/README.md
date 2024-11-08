@@ -28,7 +28,7 @@ dependencies {
 * verified compatibility with InMobi SDK 10.7.7
 
 ### Built and tested with
-- GFP SDK version 8.0.0
+- NAM SDK version 8.0.0
 - INMOBI SDK version 10.7.7
 
 ## 10.7.5.0 (2024-11-07)
@@ -39,5 +39,5 @@ dependencies {
 * verified compatibility with InMobi SDK 10.7.5
 
 ### Built and tested with
-- GFP SDK version 8.0.0
+- NAM SDK version 8.0.0
 - INMOBI SDK version 10.7.5

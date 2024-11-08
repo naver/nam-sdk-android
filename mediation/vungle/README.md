@@ -28,7 +28,7 @@ dependencies {
 * verified compatibility with Vungle SDK 7.4.1 
 
 ### Built and tested with
-- GFP SDK version 8.0.0
+- NAM SDK version 8.0.0
 - VUNGLE SDK version 7.4.1
 
 ## 7.4.0.0 (2024-11-07)
@@ -39,5 +39,5 @@ dependencies {
 * verified compatibility with Vungle SDK 7.4.0 
 
 ### Built and tested with
-- GFP SDK version 8.0.0
+- NAM SDK version 8.0.0
 - VUNGLE SDK version 7.4.0

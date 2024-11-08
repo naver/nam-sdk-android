@@ -28,7 +28,7 @@ dependencies {
 * verified compatibility with APS SDK 9.10.2
 
 ### Built and tested with
-- GFP SDK version 8.0.0
+- NAM SDK version 8.0.0
 - APS SDK version 9.10.2
 
 

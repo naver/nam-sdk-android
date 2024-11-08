@@ -47,5 +47,5 @@ You can find your app ID in the Ad Manager UI. For `android:value`, insert your 
 * verified compatibility with DFP SDK 23.3.0 
 
 ### Built and tested with
-- GFP SDK version 8.0.0
+- NAM SDK version 8.0.0
 - DFP SDK version 23.3.0

@@ -28,7 +28,7 @@ dependencies {
 * verified compatibility with AppLovin SDK 12.6.1
 
 ### Built and tested with
-- GFP SDK version 8.0.0
+- NAM SDK version 8.0.0
 - APPLOVIN SDK version 12.6.1
 
 ## 12.6.0.0 (2024-11-07)
@@ -39,5 +39,5 @@ dependencies {
 * verified compatibility with AppLovin SDK 12.6.0 
 
 ### Built and tested with
-- GFP SDK version 8.0.0
+- NAM SDK version 8.0.0
 - APPLOVIN SDK version 12.6.0

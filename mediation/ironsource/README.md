@@ -34,7 +34,7 @@ dependencies {
 * verified compatibility with IronSource SDK 8.4.0 
 
 ### Built and tested with
-- GFP SDK version 8.0.0
+- NAM SDK version 8.0.0
 - IRONSOURCE SDK version 8.4.0
 
 ## 8.2.1.0 (2024-11-07)
@@ -45,5 +45,5 @@ dependencies {
 * verified compatibility with IronSource SDK 8.2.1 
 
 ### Built and tested with
-- GFP SDK version 8.0.0
+- NAM SDK version 8.0.0
 - IRONSOURCE SDK version 8.2.1

@@ -75,7 +75,7 @@ A unique identifier of the ad request. This can be used to identify the ad.
 Request ID 값은 광고 요청에 대한 고유한 식별자이고 이 값을 토대로 특정 광고 요청에 문제가 발생했을 때 원인을 파악하는데 도움이 되는 키값이 될 수 있습니다.
 
   - getAdCallLatency()\
-SDK 내에서 광고 서버(GFP 서버)로 광고를 요청(이하 adcall)하고 응답받는데 걸린 시간(millis)입니다.\
+SDK 내에서 광고 서버(NAM 서버)로 광고를 요청(이하 adcall)하고 응답받는데 걸린 시간(millis)입니다.\
 광고 요청을 보내지 않았으면 0 값이 반환됩니다.
 
   - getTotalLoadLatency()\

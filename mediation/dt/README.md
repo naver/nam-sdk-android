@@ -28,7 +28,7 @@ dependencies {
 * verified compatibility with DT SDK 8.3.0 
 
 ### Built and tested with
-- GFP SDK version 8.0.0
+- NAM SDK version 8.0.0
 - DT SDK version 8.3.0
 
 ## 8.2.7.0 (2024-11-07)
@@ -39,5 +39,5 @@ dependencies {
 * verified compatibility with DT SDK 8.2.7 
 
 ### Built and tested with
-- GFP SDK version 8.0.0
+- NAM SDK version 8.0.0
 - DT SDK version 8.2.7
