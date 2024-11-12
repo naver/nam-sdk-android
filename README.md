@@ -57,7 +57,8 @@ dependencies {
     implementation 'com.naver.gfpsdk:nam-core' // no version specified
 }
 ```
->Note: You can avoid specifying the version of each dependency with a `Bill Of Materials`.
+> [!NOTE]
+> You can avoid specifying the version of each dependency with a `Bill Of Materials`.
 
 ### 4. Add your Publisher Code to your app's `AndroidManifest.xml` file.
 
@@ -72,7 +73,8 @@ To do so, add a `<meta-data>` tag with `android:name="com.naver.gfpsdk.PUBLISHER
     </application>
 </manifest>
 ```
->Note: `GfpSdkInitProvider` will handle the initialization of NAM SDK. This `ContentProvider` is merged into the app's manifest by default when building with Gradle, and it runs automatically at app launch. **No additional lines of code are needed in this case.**
+> [!NOTE]
+> `GfpSdkInitProvider` will handle the initialization of NAM SDK. This `ContentProvider` is merged into the app's manifest by default when building with Gradle, and it runs automatically at app launch. **No additional lines of code are needed in this case.**
 
 ### 5. Select an ad format
 
@@ -105,7 +107,8 @@ Mediation in NAM supports several ad source, with a mix of bidding and waterfall
 | [Unity](mediation/unity/README.md)                  |
 | [Vungle](mediation/vungle/README.md)                |
 
->Note: After contacting the NAM manager, add the module of the Mediation you want to integrate.
+> [!NOTE]
+> After contacting the NAM manager, add the module of the Mediation you want to integrate.
 
 ### 7. (Optional) Targeting your ads
 
