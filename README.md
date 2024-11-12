@@ -122,7 +122,8 @@ The documentation for latest version is available on [here](https://naver.github
 
 - [Java Example](https://github.com/naver/nam-sdk-android/tree/main/java-sample)
 - [Kotlin Example](https://github.com/naver/nam-sdk-android/tree/main/kotlin-sample)
->Note: These applications are provided for demo purposes only. Do NOT use in production.
+> [!NOTE]
+> These applications are provided for demo purposes only. Do NOT use in production.
 
 ## Feedback and getting help
 
