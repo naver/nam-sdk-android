@@ -1,9 +1,15 @@
 # Changelog
 ## 8.0.0 (2024-11-07)
+
+> [!NOTE]
+> This release is a MAJOR version update with several breaking changes. See [Migration To SDK v8](https://naver.github.io/nam-sdk-guide/en/android/integrate/migration_to_8) for more information on how to migrate. 
+
 ### ⚠ BREAKING CHANGES
 * **core:** move `UserPropertiesBuilder` to the `com.naver.gfpsdk.properties` package
 * **core:** move `SdkPropertiesBuilder` to the `com.naver.gfpsdk.properties` package
 * change 3-party mediation module to handle versioning separately
+* change the artifact group id of the mediation module from `com.naver.gfpsdk` to `com.naver.gfpsdk.mediation`
+* change `com.naver.gfpsdk.provider` package to `com.naver.gfpsdk.mediation` package
 
 ### Features
 * change 3-party mediation module to handle versioning separately
