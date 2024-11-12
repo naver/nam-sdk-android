@@ -13,8 +13,8 @@ To prepare your app, complete the steps in the following sections.
 
 - Use Android Studio 3.2 or higher
 - Make sure that your app's build file uses the following values:
-- A `minSdkVersion` of `21` or higher
-- A `compileSdkVersion` of `28` or higher
+  - A `minSdkVersion` of `21` or higher
+  - A `compileSdkVersion` of `28` or higher
 
 ## Configure your app
 
@@ -95,17 +95,17 @@ Mediation in NAM supports several ad source, with a mix of bidding and waterfall
 
 | Ad Source                                           |
 |:----------------------------------------------------|
-| [NAVER](mediation/nda/README.md)                    |
-| [AppLovin](mediation/applovin/README.md)            |
-| [Amazon Publisher Service](mediation/aps/README.md) |
-| [Google Ad Manager](mediation/dfp/README.md)        |
-| [Digital Turbine](mediation/dt/README.md)           |
-| [Meta Audience Network](mediation/fan/README.md)    |
-| [InMobi](mediation/inmobi/README.md)                |
-| [IronSource](mediation/ironsource/README.md)        |
-| [Line](mediation/line/README.md)                    |
-| [Unity](mediation/unity/README.md)                  |
-| [Vungle](mediation/vungle/README.md)                |
+| [NAVER](mediation/nda)                              |
+| [AppLovin](mediation/applovin)                      |
+| [Amazon Publisher Service](mediation/aps)           |
+| [Google Ad Manager](mediation/dfp)                  |
+| [Digital Turbine](mediation/dt)                     |
+| [Meta Audience Network](mediation/fan)              |
+| [InMobi](mediation/inmobi)                          |
+| [IronSource](mediation/ironsource)                  |
+| [Line](mediation/line)                              |
+| [Unity](mediation/unity)                            |
+| [Vungle](mediation/vungle)                          |
 
 > [!NOTE]
 > After contacting the NAM manager, add the module of the Mediation you want to integrate.
@@ -128,6 +128,10 @@ The documentation for latest version is available on [here](https://naver.github
 ## Feedback and getting help
 
 Bugs and feature requests can be filed with [GitHub Issues](https://github.com/naver/nam-sdk-android/issues).
+
+## Getting Started with NAM SDK
+
+See [documentation](https://naver.github.io/nam-sdk-guide/en/android/) for more information.          
 
 ## License
 
