@@ -271,8 +271,10 @@ $dokka.location:com.naver.gfpsdk.mediation/ProviderType/parse/#java.lang.String/
 $dokka.location:com.naver.gfpsdk.mediation/ProviderType/valueOf/#java.lang.String/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-provider-type/value-of.html
 $dokka.location:com.naver.gfpsdk.mediation/ProviderType/values/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-provider-type/values.html
 $dokka.location:com.naver.gfpsdk.mediation/QoeTrackingInfo///PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-qoe-tracking-info/index.html
-$dokka.location:com.naver.gfpsdk.mediation/QoeTrackingInfo/QoeTrackingInfo/#kotlin.String#kotlin.String#kotlin.collections.List[kotlin.Int]#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-qoe-tracking-info/-qoe-tracking-info.html
+$dokka.location:com.naver.gfpsdk.mediation/QoeTrackingInfo/QoeTrackingInfo/#kotlin.String#kotlin.String#kotlin.collections.List[kotlin.Int]#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-qoe-tracking-info/-qoe-tracking-info.html
 $dokka.location:com.naver.gfpsdk.mediation/QoeTrackingInfo/appId/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-qoe-tracking-info/app-id.html
+$dokka.location:com.naver.gfpsdk.mediation/QoeTrackingInfo/clientId/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-qoe-tracking-info/client-id.html
+$dokka.location:com.naver.gfpsdk.mediation/QoeTrackingInfo/cookieString/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-qoe-tracking-info/cookie-string.html
 $dokka.location:com.naver.gfpsdk.mediation/QoeTrackingInfo/creativeId/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-qoe-tracking-info/creative-id.html
 $dokka.location:com.naver.gfpsdk.mediation/QoeTrackingInfo/host/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-qoe-tracking-info/host.html
 $dokka.location:com.naver.gfpsdk.mediation/QoeTrackingInfo/hostString/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-qoe-tracking-info/host-string.html
