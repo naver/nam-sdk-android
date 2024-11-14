@@ -131,7 +131,7 @@ Bugs and feature requests can be filed with [GitHub Issues](https://github.com/n
 
 ## Getting Started with NAM SDK
 
-See [documentation](https://naver.github.io/nam-sdk-guide/en/android/) for more information.          
+See [documentation](https://naver.github.io/nam-sdk-guide/en/android/) for more information.
 
 ## License
 

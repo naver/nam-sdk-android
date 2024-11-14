@@ -1,8 +1,32 @@
 # Changelog
+## 8.1.0 (2024-11-14)
+
+### Features
+* **nda:** add NN flicking AD
+
+### NAM SDKs mapped to this BoM version 8.1.0
+| Artifact name                             | Version mapped this BoM |
+|-------------------------------------------|-------------------------|
+| com.naver.gfpsdk:nam-core                 | 8.1.0                   |
+| com.naver.gfpsdk:nam-adplayer             | 8.1.0                   |
+| com.naver.gfpsdk.mediation:nam-nda        | 8.1.0                   |
+| com.naver.gfpsdk.mediation:nam-ndavideo   | 8.1.0                   |
+| com.naver.gfpsdk.mediation:nam-applovin   | 12.6.0.0                |
+| com.naver.gfpsdk.mediation:nam-aps        | 9.10.2.0                |
+| com.naver.gfpsdk.mediation:nam-dfp        | 23.3.0.0                |
+| com.naver.gfpsdk.mediation:nam-dt         | 8.2.7.0                 |
+| com.naver.gfpsdk.mediation:nam-fan        | 6.17.0.0                |
+| com.naver.gfpsdk.mediation:nam-inmobi     | 10.7.5.0                |
+| com.naver.gfpsdk.mediation:nam-ironsource | 8.2.1.0                 |
+| com.naver.gfpsdk.mediation:nam-lan        | 2.7.20240214.0          |
+| com.naver.gfpsdk.mediation:nam-unity      | 4.12.2.0                |
+| com.naver.gfpsdk.mediation:nam-vungle     | 7.4.0.0                 |
+
+
 ## 8.0.0 (2024-11-07)
 
 > [!NOTE]
-> This release is a MAJOR version update with several breaking changes. See [Migration To SDK v8](https://naver.github.io/nam-sdk-guide/en/android/integrate/migration_to_8) for more information on how to migrate. 
+> This release is a MAJOR version update with several breaking changes. See [Migration To SDK v8](https://naver.github.io/nam-sdk-guide/en/android/integrate/migration_to_8) for more information on how to migrate.
 
 ### ⚠ BREAKING CHANGES
 * **core:** move `UserPropertiesBuilder` to the `com.naver.gfpsdk.properties` package
