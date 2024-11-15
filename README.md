@@ -103,7 +103,7 @@ Mediation in NAM supports several ad source, with a mix of bidding and waterfall
 | [Meta Audience Network](mediation/fan)              |
 | [InMobi](mediation/inmobi)                          |
 | [IronSource](mediation/ironsource)                  |
-| [Line](mediation/line)                              |
+| [Line](mediation/lan)                              |
 | [Unity](mediation/unity)                            |
 | [Vungle](mediation/vungle)                          |
 
