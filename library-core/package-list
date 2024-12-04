@@ -1074,6 +1074,8 @@ $dokka.location:com.naver.gfpsdk/GfpSdk/getSdkProperties/#/PointingToDeclaration
 $dokka.location:com.naver.gfpsdk/GfpSdk/getUserProperties/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-sdk/get-user-properties.html
 $dokka.location:com.naver.gfpsdk/GfpSdk/initialize/#android.content.Context#com.naver.gfpsdk.GfpSdk.InitializationCallback?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-sdk/initialize.html
 $dokka.location:com.naver.gfpsdk/GfpSdk/isInitialized/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-sdk/is-initialized.html
+$dokka.location:com.naver.gfpsdk/GfpSdk/registerWebView/#android.webkit.WebView/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-sdk/register-web-view.html
+$dokka.location:com.naver.gfpsdk/GfpSdk/registerWebView/#com.naver.xwhale.WebView/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-sdk/register-web-view.html
 $dokka.location:com.naver.gfpsdk/GfpSdk/setSdkProperties/#com.naver.gfpsdk.properties.SdkProperties/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-sdk/set-sdk-properties.html
 $dokka.location:com.naver.gfpsdk/GfpSdk/setUserProperties/#com.naver.gfpsdk.properties.UserProperties/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-sdk/set-user-properties.html
 $dokka.location:com.naver.gfpsdk/GfpTheme.Companion///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-theme/-companion/index.html
