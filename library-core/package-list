@@ -907,12 +907,13 @@ $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Companion/ADCHOICES_BOTTOM_R
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Companion/ADCHOICES_TOP_LEFT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-companion/-a-d-c-h-o-i-c-e-s_-t-o-p_-l-e-f-t.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Companion/ADCHOICES_TOP_RIGHT/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-companion/-a-d-c-h-o-i-c-e-s_-t-o-p_-r-i-g-h-t.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/index.html
-$dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/GfpNativeAdOptions/#com.naver.gfpsdk.GfpTheme?#kotlin.Int#android.graphics.Rect#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#com.naver.gfpsdk.internal.GfpNativeVideoOptions/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-gfp-native-ad-options.html
+$dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/GfpNativeAdOptions/#com.naver.gfpsdk.GfpTheme?#kotlin.Int#android.graphics.Rect#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#com.naver.gfpsdk.internal.GfpNativeVideoOptions/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-gfp-native-ad-options.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/adChoicesPlacement/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/ad-choices-placement.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/hasMediaView/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/has-media-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/isActivateObservingOnBackground/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/is-activate-observing-on-background.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/isCustomAdChoicesEnabled/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/is-custom-ad-choices-enabled.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/isMediaBackgroundBlurEnabled/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/is-media-background-blur-enabled.html
+$dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/isMediaOverlayDimEnabled/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/is-media-overlay-dim-enabled.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/richMediaPaddingInDp/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/rich-media-padding-in-dp.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/theme/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/theme.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions/videoOptions/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/video-options.html
@@ -922,6 +923,7 @@ $dokka.location:com.naver.gfpsdk/GfpNativeAdOptionsBase/hasMediaView/#/PointingT
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptionsBase/isActivateObservingOnBackground/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options-base/is-activate-observing-on-background.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptionsBase/isCustomAdChoicesEnabled/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options-base/is-custom-ad-choices-enabled.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptionsBase/isMediaBackgroundBlurEnabled/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options-base/is-media-background-blur-enabled.html
+$dokka.location:com.naver.gfpsdk/GfpNativeAdOptionsBase/isMediaOverlayDimEnabled/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options-base/is-media-overlay-dim-enabled.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptionsBase/richMediaPaddingInDp/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options-base/rich-media-padding-in-dp.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptionsBase/theme/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options-base/theme.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptionsBase/videoOptions/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options-base/video-options.html
