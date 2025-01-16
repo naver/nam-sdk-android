@@ -20,6 +20,13 @@ dependencies {
 ```
 
 # Changelog
+## 7.4.1.1 (2025-01-16)
+### Code Refactoring
+* update the minimum required GFP SDK version
+
+### Built and tested with
+- GFP SDK version 8.2.4
+- VUNGLE SDK version 7.4.1
 
 ## 7.4.1.0 (2024-11-08)
 
