@@ -26,6 +26,13 @@ dependencies {
 ```
 
 # Changelog
+## 8.4.0.1 (2025-01-16)
+### Code Refactoring
+* update the minimum required GFP SDK version
+
+### Built and tested with
+- GFP SDK version 8.2.4
+- IRONSOURCE SDK version 8.4.0
 
 ## 8.4.0.0 (2024-11-08)
 

@@ -1,14 +1,35 @@
 # Changelog
+## 8.2.4 (2025-01-16)
+### Bug Fixes
+* fix `NetworkOnMainThreadException` when calling `HttpUrlConnection.disconnect()`
+* fix redirect logic to handle relative url
+
+### Code Refactoring
+* **core:** add an option to decide whether to use the adid
+
+### NAM SDKs mapped to this BoM version 8.2.4
+| Artifact name                             | Version mapped this BoM |
+|-------------------------------------------|-------------------------|
+| com.naver.gfpsdk:nam-core                 | 8.2.4                   |
+| com.naver.gfpsdk:nam-adplayer             | 8.2.4                   |
+| com.naver.gfpsdk.mediation:nam-nda        | 8.2.4                   |
+| com.naver.gfpsdk.mediation:nam-ndavideo   | 8.2.4                   |
+| com.naver.gfpsdk.mediation:nam-applovin   | 12.6.1.1                |
+| com.naver.gfpsdk.mediation:nam-aps        | 9.10.2.1                |
+| com.naver.gfpsdk.mediation:nam-dfp        | 23.3.0.1                |
+| com.naver.gfpsdk.mediation:nam-dt         | 8.3.5.1                 |
+| com.naver.gfpsdk.mediation:nam-fan        | 6.18.0.1                |
+| com.naver.gfpsdk.mediation:nam-inmobi     | 10.7.7.1                |
+| com.naver.gfpsdk.mediation:nam-ironsource | 8.4.0.1                 |
+| com.naver.gfpsdk.mediation:nam-lan        | 2.7.20240214.1          |
+| com.naver.gfpsdk.mediation:nam-unity      | 4.12.3.1                |
+| com.naver.gfpsdk.mediation:nam-vungle     | 7.4.1.1                 |
 
 ## 8.2.1 (2024-12-17)
-
-
 ### Bug Fixes
-
 * **adplayer:** fixing how skip offsets are calculated in in-stream ad
 
 ### Code Refactoring
-
 * modify user interest visible ratio
 
 ### NAM SDKs mapped to this BoM version 8.2.1

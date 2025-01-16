@@ -20,6 +20,13 @@ dependencies {
 ```
 
 # Changelog
+## 2.7.20240214.1 (2025-01-16)
+### Code Refactoring
+* update the minimum required GFP SDK version
+
+### Built and tested with
+- GFP SDK version 8.2.4
+- LAN SDK version 2.7.20240214
 
 ## 2.7.20240214.0 (2024-11-07)
 

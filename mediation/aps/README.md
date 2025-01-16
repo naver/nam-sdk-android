@@ -20,6 +20,13 @@ dependencies {
 ```
 
 # Changelog
+## 9.10.2.1 (2025-01-16)
+### Code Refactoring
+* update the minimum required GFP SDK version
+
+### Built and tested with
+- GFP SDK version 8.2.4
+- APS SDK version 9.10.2
 
 ## 9.10.2.0 (2024-11-07)
 
