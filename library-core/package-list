@@ -152,9 +152,9 @@ $dokka.location:com.naver.gfpsdk.mediation/NativeNormalAdTracker.Companion/KEY_I
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalAdTracker///PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-ad-tracker/index.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalAdTracker/NativeNormalAdTracker/#[Error type: Unresolved type for GfpNativeAdOptions]/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-ad-tracker/-native-normal-ad-tracker.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalAdTracker/getInnerAdViewClass/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-ad-tracker/get-inner-ad-view-class.html
-$dokka.location:com.naver.gfpsdk.mediation/NativeNormalAdTracker/internalTrackView/#com.naver.gfpsdk.GfpNativeAdView#TypeParam(bounds=[android.view.ViewGroup])#kotlin.collections.Map[kotlin.String,android.view.View]/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-ad-tracker/internal-track-view.html
+$dokka.location:com.naver.gfpsdk.mediation/NativeNormalAdTracker/internalTrackView/#com.naver.gfpsdk.GfpNativeAdView#TypeParam(bounds=[android.view.ViewGroup])#kotlin.collections.Map[kotlin.String,android.view.View]#kotlin.collections.Set[android.view.View]/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-ad-tracker/internal-track-view.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalAdTracker/internalUntrackView/#com.naver.gfpsdk.GfpNativeAdView/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-ad-tracker/internal-untrack-view.html
-$dokka.location:com.naver.gfpsdk.mediation/NativeNormalAdTracker/trackView/#com.naver.gfpsdk.GfpNativeAdView#kotlin.collections.Map[kotlin.String,android.view.View]/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-ad-tracker/track-view.html
+$dokka.location:com.naver.gfpsdk.mediation/NativeNormalAdTracker/trackView/#com.naver.gfpsdk.GfpNativeAdView#kotlin.collections.Map[kotlin.String,android.view.View]#kotlin.collections.Set[android.view.View]/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-ad-tracker/track-view.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalAdTracker/untrackView/#com.naver.gfpsdk.GfpNativeAdView#kotlin.Boolean/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-ad-tracker/untrack-view.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalApi.Callback///PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-api/-callback/index.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalApi.Callback/onApiError/#com.naver.gfpsdk.GfpError/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-api/-callback/on-api-error.html
@@ -186,11 +186,12 @@ $dokka.location:com.naver.gfpsdk.mediation/NativeNormalApi/getTracker/#/Pointing
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalApi/isAdInvalidated/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-api/is-ad-invalidated.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalApi/isCustomAdChoicesEnabled/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-api/is-custom-ad-choices-enabled.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalApi/muteAd/#com.naver.gfpsdk.AdMuteFeedback/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-api/mute-ad.html
+$dokka.location:com.naver.gfpsdk.mediation/NativeNormalApi/registerFriendlyObstructionView/#android.view.View/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-api/register-friendly-obstruction-view.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalApi/trackView/#com.naver.gfpsdk.GfpNativeAdView#kotlin.collections.Map[kotlin.String,android.view.View]/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-api/track-view.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalApi/untrackView/#com.naver.gfpsdk.GfpNativeAdView#kotlin.Boolean/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-api/untrack-view.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleAdTracker///PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-ad-tracker/index.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleAdTracker/NativeSimpleAdTracker/#com.naver.gfpsdk.GfpNativeSimpleAdOptions/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-ad-tracker/-native-simple-ad-tracker.html
-$dokka.location:com.naver.gfpsdk.mediation/NativeSimpleAdTracker/trackView/#com.naver.gfpsdk.GfpNativeSimpleAdView/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-ad-tracker/track-view.html
+$dokka.location:com.naver.gfpsdk.mediation/NativeSimpleAdTracker/trackView/#com.naver.gfpsdk.GfpNativeSimpleAdView#kotlin.collections.Set[android.view.View]/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-ad-tracker/track-view.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleAdTracker/untrackView/#com.naver.gfpsdk.GfpNativeSimpleAdView/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-ad-tracker/untrack-view.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleAdapterListener///PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-adapter-listener/index.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleAdapterListener/onAdClicked/#com.naver.gfpsdk.mediation.GfpNativeSimpleAdAdapter/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-adapter-listener/on-ad-clicked.html
@@ -212,6 +213,7 @@ $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleApi/getMediaData/#/Pointi
 $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleApi/getTrackedAdView/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-api/get-tracked-ad-view.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleApi/getTracker/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-api/get-tracker.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleApi/isAdInvalidated/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-api/is-ad-invalidated.html
+$dokka.location:com.naver.gfpsdk.mediation/NativeSimpleApi/registerFriendlyObstructionView/#android.view.View/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-api/register-friendly-obstruction-view.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleApi/trackView/#com.naver.gfpsdk.GfpNativeSimpleAdView/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-api/track-view.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleApi/untrackView/#com.naver.gfpsdk.GfpNativeSimpleAdView/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-api/untrack-view.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleAssetProvider///PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-asset-provider/index.html
@@ -893,6 +895,7 @@ $dokka.location:com.naver.gfpsdk/GfpNativeAd/getRenderType/#/PointingToDeclarati
 $dokka.location:com.naver.gfpsdk/GfpNativeAd/isAdInvalidated/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad/is-ad-invalidated.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAd/isCustomAdChoicesEnabled/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad/is-custom-ad-choices-enabled.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAd/muteAd/#com.naver.gfpsdk.AdMuteFeedback/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad/mute-ad.html
+$dokka.location:com.naver.gfpsdk/GfpNativeAd/registerFriendlyObstructionView/#android.view.View/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad/register-friendly-obstruction-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Builder///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-builder/index.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Builder/Builder/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-builder/-builder.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdOptions.Builder/build/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-options/-builder/build.html
@@ -959,6 +962,7 @@ $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAd///PointingToDeclaration/libr
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAd/destroy/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad/destroy.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAd/getMediaData/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad/get-media-data.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAd/isAdInvalidated/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad/is-ad-invalidated.html
+$dokka.location:com.naver.gfpsdk/GfpNativeSimpleAd/registerFriendlyObstructionView/#android.view.View/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad/register-friendly-obstruction-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions.Builder///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/-builder/index.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions.Builder/Builder/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/-builder/-builder.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions.Builder/build/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/-builder/build.html
