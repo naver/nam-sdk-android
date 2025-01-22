@@ -39,6 +39,14 @@ You can find your app ID in the Ad Manager UI. For `android:value`, insert your 
 ```
 
 # Changelog
+## 23.3.0.2 (2025-01-22)
+### Code Refactoring
+* update the minimum required NAM SDK version
+
+### Built and tested with
+- NAM SDK version 8.2.5
+- DFP SDK version 23.3.0
+
 ## 23.3.0.1 (2025-01-16)
 ### Code Refactoring
 * update the minimum required GFP SDK version
