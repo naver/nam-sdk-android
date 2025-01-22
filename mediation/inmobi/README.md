@@ -20,6 +20,14 @@ dependencies {
 ```
 
 # Changelog
+## 10.7.7.2 (2025-01-22)
+### Code Refactoring
+* update the minimum required NAM SDK version
+
+### Built and tested with
+- NAM SDK version 8.2.5
+- INMOBI SDK version 10.7.7
+
 ## 10.7.7.1 (2025-01-16)
 ### Code Refactoring
 * update the minimum required GFP SDK version

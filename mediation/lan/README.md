@@ -20,6 +20,15 @@ dependencies {
 ```
 
 # Changelog
+## 2.9.20241129.0 (2025-01-22)
+### Code Refactoring
+* update the minimum required NAM SDK version
+* verified compatibility with LAN SDK 2.9.20241129
+
+### Built and tested with
+- NAM SDK version 8.2.5
+- LAN SDK version 2.9.20241129
+
 ## 2.7.20240214.1 (2025-01-16)
 ### Code Refactoring
 * update the minimum required GFP SDK version
