@@ -19,7 +19,7 @@
 | com.naver.gfpsdk.mediation:nam-ironsource | 8.4.0.1                 |
 | com.naver.gfpsdk.mediation:nam-lan        | 2.9.20241129.0          |
 | com.naver.gfpsdk.mediation:nam-unity      | 4.12.3.1                |
-| com.naver.gfpsdk.mediation:nam-vungle     | 7.4.1.1                 | 
+| com.naver.gfpsdk.mediation:nam-vungle     | 7.4.1.1                 |
 
 ## 8.2.4 (2025-01-16)
 ### Bug Fixes
