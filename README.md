@@ -93,19 +93,20 @@ NAM SDK is now imported and you're ready to implement an ad. NAM SDK offers a nu
 
 Mediation in NAM supports several ad source, with a mix of bidding and waterfall mediation integrations. Select an ad provider below for integration instructions specific to that ad source.
 
-| Ad Source                                           |
-|:----------------------------------------------------|
-| [NAVER](mediation/nda)                              |
-| [AppLovin](mediation/applovin)                      |
-| [Amazon Publisher Service](mediation/aps)           |
-| [Google Ad Manager](mediation/dfp)                  |
-| [Digital Turbine](mediation/dt)                     |
-| [Meta Audience Network](mediation/fan)              |
-| [InMobi](mediation/inmobi)                          |
-| [IronSource](mediation/ironsource)                  |
-| [Line](mediation/lan)                              |
-| [Unity](mediation/unity)                            |
-| [Vungle](mediation/vungle)                          |
+| Ad Source                                 |
+|:------------------------------------------|
+| [NAVER](mediation/nda)                    |
+| [AppLovin](mediation/applovin)            |
+| [Amazon Publisher Service](mediation/aps) |
+| [Google Ad Manager](mediation/dfp)        |
+| [Digital Turbine](mediation/dt)           |
+| [Meta Audience Network](mediation/fan)    |
+| [InMobi](mediation/inmobi)                |
+| [IronSource](mediation/ironsource)        |
+| [Line](mediation/lan)                     |
+| [Unity](mediation/unity)                  |
+| [Vungle](mediation/vungle)                |
+| [Bidmachine](mediation/bidmachine)        |
 
 > [!NOTE]
 > After contacting the NAM manager, add the module of the Mediation you want to integrate.

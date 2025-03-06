@@ -45,6 +45,7 @@ dependencies {
 	implementation 'com.naver.gfpsdk.mediation:nam-aps' // (optional) AmazonPublisherServices mediation (for header bidding)
 	implementation 'com.naver.gfpsdk.mediation:nam-ironsource' // (optional) ironsource mediation
 	implementation 'com.naver.gfpsdk.mediation:nam-lan' // (optional) lan mediation
+	implementation 'com.naver.gfpsdk.mediation:nam-bidmachine' // (optional) lan mediation
 
 	// for video player, this example using exoplayer
 	implementation 'com.google.android.exoplayer:exoplayer-core:2.18.0'
