@@ -6,8 +6,8 @@ android {
 	namespace "com.naver.namexample"
 	defaultConfig {
 		minSdk 21
-		compileSdk 34
-		targetSdk 34
+		compileSdk 35
+		targetSdk 35
 		versionCode 1
 		versionName "1.0"
 
@@ -31,7 +31,7 @@ dependencies {
 	implementation 'com.google.android.material:material:1.4.0'
 	implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
 
-	implementation platform('com.naver.gfpsdk:nam-bom:8.2.6')
+	implementation platform('com.naver.gfpsdk:nam-bom:8.3.0')
 	implementation 'com.naver.gfpsdk:nam-core'
 	implementation 'com.naver.gfpsdk.mediation:nam-nda' // (optional) s2s mediation dependency
 	implementation 'com.naver.gfpsdk.mediation:nam-dfp' // (optional) dfp mediation dependency
@@ -45,6 +45,8 @@ dependencies {
 	implementation 'com.naver.gfpsdk.mediation:nam-aps' // (optional) AmazonPublisherServices mediation (for header bidding)
 	implementation 'com.naver.gfpsdk.mediation:nam-ironsource' // (optional) ironsource mediation
 	implementation 'com.naver.gfpsdk.mediation:nam-lan' // (optional) lan mediation
+	implementation 'com.naver.gfpsdk.mediation:nam-bidmachine' // (optional) bidmachine mediation
+	implementation 'com.naver.gfpsdk.mediation:nam-chartboost' // (optional) chartboost mediation
 
 	// for video player, this example using exoplayer
 	implementation 'com.google.android.exoplayer:exoplayer-core:2.18.0'

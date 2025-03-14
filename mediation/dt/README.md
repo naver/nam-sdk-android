@@ -20,6 +20,14 @@ dependencies {
 ```
 
 # Changelog
+## 8.3.5.2 (2025-03-14)
+### Code Refactoring
+* **dt:** refactor the DT banner ad loading process
+
+### Built and tested with
+- GFP SDK version 8.2.3
+- DT SDK version 8.3.5
+
 ## 8.3.5.1 (2025-01-16)
 ### Code Refactoring
 * update the minimum required GFP SDK version
