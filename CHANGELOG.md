@@ -1,4 +1,51 @@
 # Changelog
+## 8.3.0 (2025-03-14)
+
+### Features
+
+* target Android API 35
+* support BidMachine mediation
+* support Chartboost mediation
+
+
+### Bug Fixes
+
+* **adplayer:** add missing german string resources
+* fix certain carousel type native ads rendering incorrectly
+* fix memory leak
+* **nda:** fix title alignment issue in certain slot native ads
+* **nda:** revert the refactoring code in native ad
+* prevent adRenderedImpression firing multiple times on NS adapter
+
+
+### Code Refactoring
+
+* **core:** force initialization when app version changed
+* optimize rendering performance of carousel type native ads
+
+
+### NAM SDKs mapped to this BoM version 8.3.0
+|Artifact name|Version mapped this BoM|
+|---|---|
+|com.naver.gfpsdk:nam-core|8.3.0|
+|com.naver.gfpsdk:nam-adplayer|8.3.0|
+|com.naver.gfpsdk.mediation:nam-nda|8.3.0|
+|com.naver.gfpsdk.mediation:nam-ndarichmedia|8.3.0|
+|com.naver.gfpsdk.mediation:nam-ndavideo|8.3.0|
+|com.naver.gfpsdk.mediation:nam-applovin|12.6.1.1|
+|com.naver.gfpsdk.mediation:nam-aps|9.10.2.1|
+|com.naver.gfpsdk.mediation:nam-dfp|23.3.0.2|
+|com.naver.gfpsdk.mediation:nam-dt|8.3.5.2|
+|com.naver.gfpsdk.mediation:nam-fan|6.18.0.3|
+|com.naver.gfpsdk.mediation:nam-inmobi|10.8.0.0|
+|com.naver.gfpsdk.mediation:nam-ironsource|8.4.0.2|
+|com.naver.gfpsdk.mediation:nam-lan|2.9.20241129.1|
+|com.naver.gfpsdk.mediation:nam-unity|4.12.3.1|
+|com.naver.gfpsdk.mediation:nam-vungle|7.4.1.1|
+|com.naver.gfpsdk.mediation:nam-chartboost|9.7.0.0|
+|com.naver.gfpsdk.mediation:nam-bidmachine|3.1.1.0|
+
+
 ## 8.2.6 (2025-02-10)
 
 

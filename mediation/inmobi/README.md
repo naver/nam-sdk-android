@@ -20,6 +20,14 @@ dependencies {
 ```
 
 # Changelog
+## 10.8.0.0 (2025-03-14)
+### Code Refactoring
+* verified compatibility with InMobi SDK 10.8.0
+
+### Built and tested with
+- GFP SDK version 8.2.5
+- INMOBI SDK version 10.8.0
+- 
 ## 10.7.7.2 (2025-01-22)
 ### Code Refactoring
 * update the minimum required NAM SDK version

@@ -20,6 +20,14 @@ dependencies {
 ```
 
 # Changelog
+## 2.9.20241129.1 (2025-03-14)
+### Bug Fixes
+* prevent adRenderedImpression firing multiple times on NS adapter
+
+### Built and tested with
+- GFP SDK version 8.3.0
+- LAN SDK version 2.9.20241129
+
 ## 2.9.20241129.0 (2025-01-22)
 ### Code Refactoring
 * update the minimum required NAM SDK version
