@@ -42,7 +42,6 @@ $dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter///PointingToDeclaration/
 $dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter/ACTIVE_VIEW_IMP_TYPE/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-a-c-t-i-v-e_-v-i-e-w_-i-m-p_-t-y-p-e.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter/ADCALL_RES_TIME/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-a-d-c-a-l-l_-r-e-s_-t-i-m-e.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter/GFP_NO/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-g-f-p_-n-o.html
-$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter/VAST_SKIPPABLE/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-v-a-s-t_-s-k-i-p-p-a-b-l-e.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter/VIDEO_ADCHOICE/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-v-i-d-e-o_-a-d-c-h-o-i-c-e.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter/VIDEO_AUTO_PLAY_CONFIG/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-v-i-d-e-o_-a-u-t-o_-p-l-a-y_-c-o-n-f-i-g.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter/VIDEO_SKIP_AFTER/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-v-i-d-e-o_-s-k-i-p_-a-f-t-e-r.html
@@ -1093,6 +1092,7 @@ $dokka.location:com.naver.gfpsdk/GfpSdk/getSdkProperties/#/PointingToDeclaration
 $dokka.location:com.naver.gfpsdk/GfpSdk/getUserProperties/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-sdk/get-user-properties.html
 $dokka.location:com.naver.gfpsdk/GfpSdk/initialize/#android.content.Context#com.naver.gfpsdk.GfpSdk.InitializationCallback?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-sdk/initialize.html
 $dokka.location:com.naver.gfpsdk/GfpSdk/isInitialized/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-sdk/is-initialized.html
+$dokka.location:com.naver.gfpsdk/GfpSdk/isRegisteredWebView/#android.webkit.WebView#kotlin.Function1[kotlin.Boolean,kotlin.Unit]/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-sdk/is-registered-web-view.html
 $dokka.location:com.naver.gfpsdk/GfpSdk/registerNaverWebView/#android.view.View/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-sdk/register-naver-web-view.html
 $dokka.location:com.naver.gfpsdk/GfpSdk/registerWebView/#android.webkit.WebView/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-sdk/register-web-view.html
 $dokka.location:com.naver.gfpsdk/GfpSdk/setSdkProperties/#com.naver.gfpsdk.properties.SdkProperties/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-sdk/set-sdk-properties.html

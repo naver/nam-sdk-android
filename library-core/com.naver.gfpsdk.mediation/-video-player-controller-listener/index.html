@@ -45,7 +45,7 @@
                     </a>
             </div>
             <div class="library-version">
-8.3.0            </div>
+8.3.1            </div>
         </div>
         <div class="filter-section" id="filter-section">
                 <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":library-core:dokkaHtmlExternal/main">androidJvm</button>
@@ -65,7 +65,7 @@
   <div class="breadcrumbs"><a href="../../../index.html">library-core</a><span class="delimiter">/</span><a href="../index.html">com.naver.gfpsdk.mediation</a><span class="delimiter">/</span><span class="current">VideoPlayerControllerListener</span></div>
   <div class="cover ">
     <h1 class="cover"><span>Video</span><wbr></wbr><span>Player</span><wbr></wbr><span>Controller</span><wbr></wbr><span><span>Listener</span></span></h1>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">VideoPlayerControllerListener</a></div><p class="paragraph">This is SDK internal listener for Video ad adapter.</p></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">VideoPlayerControllerListener</a></div><p class="paragraph">Internal listener interface for video ad adapters. This interface defines callbacks for various video ad events and states.</p></div></div>
   </div>
   <div class="tabbedcontent">
     <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
@@ -82,7 +82,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="on-ad-clicked.html"><span class="token function">onAdClicked</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="on-ad-clicked.html"><span class="token function">onAdClicked</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a> </span>clickEventTrackers<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/util/List.html">List</a><span class="token operator">&lt;</span><span data-unresolved-link="com.naver.gfpsdk.internal/NonProgressEventTracker///PointingToDeclaration/">NonProgressEventTracker</span><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">clickThrough<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span></div><div class="brief ">Called when the current controller has clicked.</div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="on-ad-clicked.html"><span class="token function">onAdClicked</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="on-ad-clicked.html"><span class="token function">onAdClicked</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a> </span>clickEventTrackers<span class="token operator">: </span><a href="https://developer.android.com/reference/java/util/List.html">List</a><span class="token operator">&lt;</span><span data-unresolved-link="com.naver.gfpsdk.internal/NonProgressEventTracker///PointingToDeclaration/">NonProgressEventTracker</span><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">clickThrough<span class="token operator">: </span><a href="https://developer.android.com/reference/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span></div><div class="brief ">Called when the ad is clicked.</div></div></div>
                 </div>
               </div>
             </div>
@@ -97,7 +97,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-ad-completed.html"><span class="token function">onAdCompleted</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">광고가 완료되었을 때.</div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-ad-completed.html"><span class="token function">onAdCompleted</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">Called when the ad playback is completed.</div></div></div>
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-ad-loaded.html"><span class="token function">onAdLoaded</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">광고 load 완료, ACK_IMPRESSION 호출.</div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-ad-loaded.html"><span class="token function">onAdLoaded</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">Called when the ad is loaded successfully.</div></div></div>
                 </div>
               </div>
             </div>
@@ -127,7 +127,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-ad-paused.html"><span class="token function">onAdPaused</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">광고가 Paused 되었을 때.</div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-ad-paused.html"><span class="token function">onAdPaused</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">Called when the ad playback is paused.</div></div></div>
                 </div>
               </div>
             </div>
@@ -142,7 +142,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-ad-requested-to-start.html"><span class="token function">onAdRequestedToStart</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">광고 재생이 요청됐을 때.</div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-ad-requested-to-start.html"><span class="token function">onAdRequestedToStart</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">Called when ad playback is requested to start.</div></div></div>
                 </div>
               </div>
             </div>
@@ -157,7 +157,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-ad-resumed.html"><span class="token function">onAdResumed</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">광고가 Resumed 되었을 때.</div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-ad-resumed.html"><span class="token function">onAdResumed</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">Called when the ad playback is resumed after being paused.</div></div></div>
                 </div>
               </div>
             </div>
@@ -172,7 +172,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-ad-skipped.html"><span class="token function">onAdSkipped</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">광고가 Skipped 되었을 때.</div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-ad-skipped.html"><span class="token function">onAdSkipped</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">Called when the user skips the ad.</div></div></div>
                 </div>
               </div>
             </div>
@@ -187,7 +187,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-ad-started.html"><span class="token function">onAdStarted</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">광고 영상 시작, RENDERED_IMPRESSION 호출.</div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-ad-started.html"><span class="token function">onAdStarted</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">Called when the video ad starts playing.</div></div></div>
                 </div>
               </div>
             </div>
@@ -202,7 +202,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-ad-viewable-impression.html"><span class="token function">onAdViewableImpression</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">광고 영상 시작 2초 재생, VIEWABLE_IMPRESSION 호출.</div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-ad-viewable-impression.html"><span class="token function">onAdViewableImpression</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">Called when the ad has been playing for 2 seconds.</div></div></div>
                 </div>
               </div>
             </div>
@@ -217,7 +217,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-error.html"><span class="token function">onError</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">error<span class="token operator">: </span><a href="../../com.naver.gfpsdk/-gfp-error/index.html">GfpError</a></span></span><span class="token punctuation">)</span></div><div class="brief ">에러 발생시.</div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-error.html"><span class="token function">onError</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">error<span class="token operator">: </span><a href="../../com.naver.gfpsdk/-gfp-error/index.html">GfpError</a></span></span><span class="token punctuation">)</span></div><div class="brief ">Called when an error occurs during ad playback.</div></div></div>
                 </div>
               </div>
             </div>
