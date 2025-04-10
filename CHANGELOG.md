@@ -1,4 +1,34 @@
 # Changelog
+## 8.3.1 (2025-04-10)
+### Bug Fixes
+* **adplayer:** fire untracked progress event on ENDED event
+
+### Code Refactoring
+* add video load timeout option on out-stream ad
+* **core:** support checking whether the webView is registered or not
+* support for privacy click event tracking
+
+### NAM SDKs mapped to this BoM version 8.3.1
+|Artifact name| Version mapped this BoM |
+|---|-------------------------|
+|com.naver.gfpsdk:nam-core| 8.3.1                   |
+|com.naver.gfpsdk:nam-adplayer| 8.3.1                   |
+|com.naver.gfpsdk.mediation:nam-nda| 8.3.1                   |
+|com.naver.gfpsdk.mediation:nam-ndarichmedia| 8.3.1                   |
+|com.naver.gfpsdk.mediation:nam-ndavideo| 8.3.1                   |
+|com.naver.gfpsdk.mediation:nam-applovin| 12.6.1.1                |
+|com.naver.gfpsdk.mediation:nam-aps| 9.10.2.1                |
+|com.naver.gfpsdk.mediation:nam-dfp| 23.3.0.2                |
+|com.naver.gfpsdk.mediation:nam-dt| 8.3.6.0                 |
+|com.naver.gfpsdk.mediation:nam-fan| 6.18.0.3                |
+|com.naver.gfpsdk.mediation:nam-inmobi| 10.8.0.0                |
+|com.naver.gfpsdk.mediation:nam-ironsource| 8.4.0.2                 |
+|com.naver.gfpsdk.mediation:nam-lan| 2.9.20241129.1          |
+|com.naver.gfpsdk.mediation:nam-unity| 4.12.3.1                |
+|com.naver.gfpsdk.mediation:nam-vungle| 7.4.1.1                 |
+|com.naver.gfpsdk.mediation:nam-chartboost| 9.7.0.0                 |
+|com.naver.gfpsdk.mediation:nam-bidmachine| 3.1.1.0                 |
+
 ## 8.3.0 (2025-03-14)
 
 ### Features
