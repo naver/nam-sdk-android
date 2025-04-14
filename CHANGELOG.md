@@ -31,6 +31,11 @@
 
 ## 8.3.0 (2025-03-14)
 
+> [!NOTE]
+> Starting from version 8.3.0, there are changes in the internal behavior related to reusing ad objects for loading:
+> - When reusing a [GfpBannerAdView](https://naver.github.io/nam-sdk-android/library-core/com.naver.gfpsdk/-gfp-banner-ad-view), you should call [loadAd()](https://naver.github.io/nam-sdk-android/library-core/com.naver.gfpsdk/-gfp-banner-ad-view-base/load-ad.html) directly instead of calling [destroy()](https://naver.github.io/nam-sdk-android/library-core/com.naver.gfpsdk/-gfp-banner-ad-view-base/destroy.html) followed by [loadAd()](https://naver.github.io/nam-sdk-android/library-core/com.naver.gfpsdk/-gfp-banner-ad-view-base/load-ad.html)
+> - When reusing a [GfpAdLoader](https://naver.github.io/nam-sdk-android/library-core/com.naver.gfpsdk/-gfp-ad-loader), you should call [loadAd()](https://naver.github.io/nam-sdk-android/library-core/com.naver.gfpsdk/-gfp-ad-loader-base/load-ad.html) directly instead of calling [cancel()](https://naver.github.io/nam-sdk-android/library-core/com.naver.gfpsdk/-gfp-ad-loader-base/cancel.html) followed by [loadAd()](https://naver.github.io/nam-sdk-android/library-core/com.naver.gfpsdk/-gfp-ad-loader-base/load-ad.html)
+
 ### Features
 
 * target Android API 35
