@@ -20,6 +20,17 @@ dependencies {
 ```
 
 # Changelog
+## 2.9.20241129.2 (2025-04-28)
+
+
+### Code Refactoring
+
+* adjust rendered impressions fire timing
+
+### Built and tested with
+- NAM SDK version 8.3.0
+- LAN SDK version 2.9.20241129
+
 ## 2.9.20241129.1 (2025-03-14)
 ### Bug Fixes
 * prevent adRenderedImpression firing multiple times on NS adapter
