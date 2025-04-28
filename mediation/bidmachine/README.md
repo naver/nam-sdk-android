@@ -21,6 +21,17 @@ dependencies {
 
 # Changelog
 
+## 3.1.1.1 (2025-04-28)
+
+
+### Code Refactoring
+
+* adjust rendered impressions fire timing
+
+### Built and tested with
+- NAM SDK version 8.3.0
+- BIDMACHINE SDK version 3.1.1
+
 ## 3.1.1.0 (2025-03-14)
 
 ### Code Refactoring

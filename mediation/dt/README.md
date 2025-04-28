@@ -20,6 +20,17 @@ dependencies {
 ```
 
 # Changelog
+## 8.3.6.1 (2025-04-28)
+
+
+### Code Refactoring
+
+* adjust rendered impressions fire timing
+
+### Built and tested with
+- NAM SDK version 8.2.3
+- DT SDK version 8.3.6
+
 ## 8.3.6.0 (2025-04-10)
 ### Code Refactoring
 * verified compatibility with DT SDK 8.3.6

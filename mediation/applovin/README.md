@@ -20,6 +20,17 @@ dependencies {
 ```
 
 # Changelog
+## 13.0.1.0 (2025-04-28)
+
+
+### Code Refactoring
+
+* verified compatibility with AppLovin SDK 13.0.1
+
+### Built and tested with
+- NAM SDK version 8.2.3
+- APPLOVIN SDK version 13.0.1
+
 ## 12.6.1.1 (2025-01-16)
 ### Code Refactoring
 * update the minimum required GFP SDK version
