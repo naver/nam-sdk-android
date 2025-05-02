@@ -24,7 +24,7 @@
 |com.naver.gfpsdk.mediation:nam-unity|4.12.3.1|
 |com.naver.gfpsdk.mediation:nam-vungle|7.4.1.1|
 |com.naver.gfpsdk.mediation:nam-bidmachine|3.1.1.1|
-|com.naver.gfpsdk.mediation:nam-chartboost|9.7.0.0| 
+|com.naver.gfpsdk.mediation:nam-chartboost|9.7.0.0|
 
 ## 8.4.0 (2025-04-28)
 
