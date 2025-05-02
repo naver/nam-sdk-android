@@ -20,8 +20,18 @@ dependencies {
 ```
 
 # Changelog
-## 13.0.1.0 (2025-04-28)
 
+## 13.2.0.0 (2025-05-02)
+
+### Code Refactoring
+
+* verified compatibility with AppLovin SDK 13.2.0
+
+### Built and tested with
+- NAM SDK version 8.2.3
+- APPLOVIN SDK version 13.2.0
+
+## 13.0.1.0 (2025-04-28)
 
 ### Code Refactoring
 
