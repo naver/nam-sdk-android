@@ -20,6 +20,14 @@ dependencies {
 ```
 
 # Changelog
+## 9.10.2.2 (2025-05-23)
+### Code Refactoring
+* remove unnecessary internal method
+
+### Built and tested with
+- NAM SDK version 8.4.3
+- APS SDK version 9.10.2
+
 ## 9.10.2.1 (2025-01-16)
 ### Code Refactoring
 * update the minimum required GFP SDK version

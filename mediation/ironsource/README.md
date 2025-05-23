@@ -26,6 +26,14 @@ dependencies {
 ```
 
 # Changelog
+## 8.4.0.3 (2025-05-23)
+### Code Refactoring
+* remove unnecessary internal method
+
+### Built and tested with
+- NAM SDK version 8.4.3
+- IRONSOURCE SDK version 8.4.0
+
 ## 8.4.0.2 (2025-03-14)
 ### Built and tested with
 - GFP SDK version 8.2.3

@@ -20,12 +20,16 @@ dependencies {
 ```
 
 # Changelog
+## 3.1.1.2 (2025-05-23)
+### Code Refactoring
+* remove unnecessary internal method
+
+### Built and tested with
+- NAM SDK version 8.4.3
+- BIDMACHINE SDK version 3.1.1
 
 ## 3.1.1.1 (2025-04-28)
-
-
 ### Code Refactoring
-
 * adjust rendered impressions fire timing
 
 ### Built and tested with

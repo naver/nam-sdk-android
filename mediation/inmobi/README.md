@@ -20,6 +20,14 @@ dependencies {
 ```
 
 # Changelog
+## 10.8.0.1 (2025-05-23)
+### Code Refactoring
+* remove unnecessary internal method
+
+### Built and tested with
+- NAM SDK version 8.4.3
+- INMOBI SDK version 10.8.0
+
 ## 10.8.0.0 (2025-03-14)
 ### Code Refactoring
 * verified compatibility with InMobi SDK 10.8.0

@@ -20,6 +20,13 @@ dependencies {
 ```
 
 # Changelog
+## 13.2.0.1 (2025-05-23)
+### Code Refactoring
+* remove unnecessary internal method
+
+### Built and tested with
+- NAM SDK version 8.4.3
+- APPLOVIN SDK version 13.2.0
 
 ## 13.2.0.0 (2025-05-02)
 

@@ -20,6 +20,14 @@ dependencies {
 ```
 
 # Changelog
+## 4.12.3.2 (2025-05-23)
+### Code Refactoring
+* remove unnecessary internal method
+
+### Built and tested with
+- NAM SDK version 8.4.3
+- UNITY SDK version 4.12.3
+
 ## 4.12.3.1 (2025-01-16)
 ### Code Refactoring
 * update the minimum required GFP SDK version
