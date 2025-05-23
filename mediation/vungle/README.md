@@ -20,6 +20,14 @@ dependencies {
 ```
 
 # Changelog
+## 7.4.1.2 (2025-05-23)
+### Code Refactoring
+* remove unnecessary internal method
+
+### Built and tested with
+- NAM SDK version 8.4.3
+- VUNGLE SDK version 7.4.1
+
 ## 7.4.1.1 (2025-01-16)
 ### Code Refactoring
 * update the minimum required GFP SDK version

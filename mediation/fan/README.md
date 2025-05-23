@@ -24,6 +24,14 @@ dependencies {
 Follow Meta Audience Network's Android [network security config guide](https://developers.facebook.com/docs/audience-network/android-network-security-config) to modify your network security config file to support media caching.
 
 # Changelog
+## 6.18.0.4 (2025-05-23)
+### Code Refactoring
+* remove unnecessary internal method
+
+### Built and tested with
+- NAM SDK version 8.4.3
+- FAN SDK version 6.18.0
+
 ## 6.18.0.3 (2025-03-14)
 ### Bug Fixes
 * height of FAN media view was miscalculated on ConstraintLayout

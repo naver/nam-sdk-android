@@ -20,11 +20,16 @@ dependencies {
 ```
 
 # Changelog
-## 8.3.6.1 (2025-04-28)
-
-
+## 8.3.6.2 (2025-05-23)
 ### Code Refactoring
+* remove unnecessary internal method
 
+### Built and tested with
+- NAM SDK version 8.4.3
+- DT SDK version 8.3.6
+
+## 8.3.6.1 (2025-04-28)
+### Code Refactoring
 * adjust rendered impressions fire timing
 
 ### Built and tested with

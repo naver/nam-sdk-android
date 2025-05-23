@@ -20,9 +20,15 @@ dependencies {
 ```
 
 # Changelog
+## 9.7.0.1 (2025-05-23)
+### Code Refactoring
+* remove unnecessary internal method
+
+### Built and tested with
+- NAM SDK version 8.4.3
+- CHARTBOOST SDK version 9.7.0
 
 ## 9.7.0.0 (2025-03-14)
-
 ### Code Refactoring
 
 * verified compatibility with Chartboost SDK 9.7.0

@@ -20,6 +20,14 @@ dependencies {
 ```
 
 # Changelog
+## 2.9.20241129.3 (2025-05-23)
+### Code Refactoring
+* remove unnecessary internal method
+
+### Built and tested with
+- NAM SDK version 8.4.3
+- LAN SDK version 2.9.20241129
+
 ## 2.9.20241129.2 (2025-04-28)
 
 
