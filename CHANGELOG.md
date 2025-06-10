@@ -24,7 +24,7 @@
 |com.naver.gfpsdk.mediation:nam-ironsource|8.4.0.4|
 |com.naver.gfpsdk.mediation:nam-lan|2.9.20250110.0|
 |com.naver.gfpsdk.mediation:nam-unity|4.12.3.2|
-|com.naver.gfpsdk.mediation:nam-vungle|7.4.1.2| 
+|com.naver.gfpsdk.mediation:nam-vungle|7.4.1.2|
 
 ## 8.4.4 (2025-06-02)
 ### Code Refactoring
