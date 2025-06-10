@@ -26,6 +26,18 @@ dependencies {
 ```
 
 # Changelog
+
+## 8.4.0.4 (2025-06-10)
+
+
+### Code Refactoring
+
+* update to use ironSource SDK hosted on MavenCentral
+
+### Built and tested with
+- NAM SDK version 8.4.3
+- IRONSOURCE SDK version 8.4.0
+
 ## 8.4.0.3 (2025-05-23)
 ### Code Refactoring
 * remove unnecessary internal method
