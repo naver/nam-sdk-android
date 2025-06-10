@@ -20,6 +20,19 @@ dependencies {
 ```
 
 # Changelog
+
+
+## 3.1.1.3 (2025-06-10)
+
+
+### Code Refactoring
+
+* improve event handling to ensure consistent behavior
+
+### Built and tested with
+- NAM SDK version 8.4.3
+- BIDMACHINE SDK version 3.1.1
+
 ## 3.1.1.2 (2025-05-23)
 ### Code Refactoring
 * remove unnecessary internal method
