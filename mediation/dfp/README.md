@@ -39,6 +39,17 @@ You can find your app ID in the Ad Manager UI. For `android:value`, insert your 
 ```
 
 # Changelog
+
+## 23.3.0.4 (2025-06-17)
+
+### Bug Fixes
+
+* fix intermittent issue with video ads not rendering
+
+### Built and tested with
+- GFP SDK version 8.4.3
+- DFP SDK version 23.3.0
+
 ## 23.3.0.3 (2025-05-23)
 ### Code Refactoring
 * remove unnecessary internal method
