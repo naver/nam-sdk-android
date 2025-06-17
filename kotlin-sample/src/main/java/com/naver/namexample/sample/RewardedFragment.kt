@@ -55,7 +55,7 @@ class RewardedFragment : Fragment() {
         rewardedAdManager = GfpRewardedAdManager(requireActivity(), adParam)
 
         rewardedAdManager?.setAdListener(
-            object : RewardedAdListener() {
+            object : RewardedAdListener {
                 override fun onAdLoaded(ad: GfpRewardedAd) {
                     logTextView.append(
                         "[${DateUtil.CURR_TIME_STR}] AD Loaded.\n\t\tAdProviderName: ${ad.adProviderName}\n" // ktlint-disable max-line-length

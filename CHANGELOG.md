@@ -1,5 +1,40 @@
 # Changelog
 
+## 8.5.0 (2025-06-17)
+
+### Features
+
+* add global `GfpTheme` setting in `SdkProperties`
+* support native template ad
+
+### Code Refactoring
+
+* **nda:** add the overlay badge on Shopping NDA AD
+* **nda:** refactoring the reward ad resources
+* support server side reward validation
+
+> 💡 From version 8.5.0, RewardedAdListener is migrated to Kotlin as an interface.
+
+### NAM SDKs mapped to this BoM version 8.5.0
+|Artifact name|Version mapped this BoM|
+|---|---|
+|com.naver.gfpsdk:nam-core|8.5.0|
+|com.naver.gfpsdk:nam-adplayer|8.5.0|
+|com.naver.gfpsdk.mediation:nam-nda|8.5.0|
+|com.naver.gfpsdk.mediation:nam-ndavideo|8.5.0|
+|com.naver.gfpsdk.mediation:nam-applovin|13.2.0.1|
+|com.naver.gfpsdk.mediation:nam-aps|9.10.2.2|
+|com.naver.gfpsdk.mediation:nam-bidmachine|3.1.1.3|
+|com.naver.gfpsdk.mediation:nam-chartboost|9.7.0.1|
+|com.naver.gfpsdk.mediation:nam-dfp|23.3.0.4|
+|com.naver.gfpsdk.mediation:nam-dt|8.3.6.2|
+|com.naver.gfpsdk.mediation:nam-fan|6.18.0.4|
+|com.naver.gfpsdk.mediation:nam-inmobi|10.8.0.1|
+|com.naver.gfpsdk.mediation:nam-ironsource|8.4.0.4|
+|com.naver.gfpsdk.mediation:nam-lan|2.9.20250110.0|
+|com.naver.gfpsdk.mediation:nam-unity|4.12.3.2|
+|com.naver.gfpsdk.mediation:nam-vungle|7.4.1.2|
+
 ## 8.4.5 (2025-06-10)
 
 ### Code Refactoring
