@@ -14,9 +14,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import com.naver.gfpsdk.AdEventListener;
 import com.naver.gfpsdk.AdParam;
+import com.naver.gfpsdk.GfpAd;
 import com.naver.gfpsdk.GfpAdLoader;
 import com.naver.gfpsdk.GfpError;
 import com.naver.gfpsdk.GfpNativeSimpleAdOptions;
@@ -48,7 +50,7 @@ public class SmartChannelFragment extends Fragment {
                         .withAdListener(
                                 new AdEventListener() {
                                     @Override
-                                    public void onAdClicked() {
+                                    public void onAdClicked(@NonNull GfpAd ad) {
                                         logTextView.append(
                                                 String.format(
                                                         "[%s] AD Clicked.%n",
@@ -56,7 +58,15 @@ public class SmartChannelFragment extends Fragment {
                                     }
 
                                     @Override
-                                    public void onAdImpression() {
+                                    public void onAdRendered(@NonNull GfpAd ad) {
+                                        logTextView.append(
+                                                String.format(
+                                                        "[%s] AD Rendered.%n",
+                                                        sdf.format(new Date())));
+                                    }
+
+                                    @Override
+                                    public void onAdImpression(@NonNull GfpAd ad) {
                                         logTextView.append(
                                                 String.format(
                                                         "[%s] AD impression.%n",
@@ -65,7 +75,9 @@ public class SmartChannelFragment extends Fragment {
 
                                     @Override
                                     public void onError(
-                                            GfpError error, GfpResponseInfo responseInfo) {
+                                            GfpAd ad,
+                                            GfpError error,
+                                            GfpResponseInfo responseInfo) {
                                         logTextView.append(
                                                 String.format(
                                                         Locale.US,

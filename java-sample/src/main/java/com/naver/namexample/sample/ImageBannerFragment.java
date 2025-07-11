@@ -79,6 +79,12 @@ public class ImageBannerFragment extends Fragment {
                     }
 
                     @Override
+                    public void onAdRendered(GfpBannerAd ad) {
+                        logTextView.append(
+                                String.format("[%s] AD rendered.%n", sdf.format(new Date())));
+                    }
+
+                    @Override
                     public void onAdImpression(GfpBannerAd ad) {
                         logTextView.append(
                                 String.format("[%s] AD impression.%n", sdf.format(new Date())));

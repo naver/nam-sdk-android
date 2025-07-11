@@ -15,6 +15,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import com.naver.gfpsdk.AdParam;
 import com.naver.gfpsdk.GfpError;
@@ -59,7 +60,7 @@ public class RewardedFragment extends Fragment {
         rewardedAdManager.setAdListener(
                 new RewardedAdListener() {
                     @Override
-                    public void onAdLoaded(GfpRewardedAd ad) {
+                    public void onAdLoaded(@NonNull GfpRewardedAd ad) {
                         logTextView.append(
                                 String.format(
                                         "[%s] AD Loaded.%n    AdProviderName: %s%n",
@@ -68,32 +69,32 @@ public class RewardedFragment extends Fragment {
                     }
 
                     @Override
-                    public void onAdStarted(GfpRewardedAd ad) {
+                    public void onAdStarted(@NonNull GfpRewardedAd ad) {
                         logTextView.append(
                                 String.format("[%s] AD Started.%n", sdf.format(new Date())));
                     }
 
                     @Override
-                    public void onAdClicked(GfpRewardedAd ad) {
+                    public void onAdClicked(@NonNull GfpRewardedAd ad) {
                         logTextView.append(
                                 String.format("[%s] AD Clicked.%n", sdf.format(new Date())));
                     }
 
                     @Override
-                    public void onAdClosed(GfpRewardedAd ad) {
+                    public void onAdClosed(@NonNull GfpRewardedAd ad) {
                         logTextView.append(
                                 String.format("[%s] AD Closed.%n", sdf.format(new Date())));
                         showButton.setEnabled(false);
                     }
 
                     @Override
-                    public void onAdCompleted(GfpRewardedAd ad) {
+                    public void onAdCompleted(@NonNull GfpRewardedAd ad) {
                         logTextView.append(
                                 String.format("[%s] AD Completed.%n", sdf.format(new Date())));
                     }
 
                     @Override
-                    public void onError(GfpRewardedAd ad, GfpError error) {
+                    public void onError(@NonNull GfpRewardedAd ad, @NonNull GfpError error) {
                         logTextView.append(
                                 String.format(
                                         Locale.US,

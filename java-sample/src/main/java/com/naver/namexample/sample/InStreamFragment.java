@@ -173,19 +173,19 @@ public class InStreamFragment extends Fragment {
         videoAdScheduleManager.setAdListener(
                 new VideoAdListener() {
                     @Override
-                    public void onAdLoaded(GfpVideoAd ad) {
+                    public void onAdLoaded(@NonNull GfpVideoAd ad) {
                         logTextView.append(String.format("[%s] 광고 로드%n", sdf.format(new Date())));
                     }
 
                     @Override
-                    public void onAdStartReady(GfpVideoAd ad) {
+                    public void onAdStartReady(@NonNull GfpVideoAd ad) {
                         ad.start(true);
                         logTextView.append(
                                 String.format("[%s] 광고 재생 준비 완료%n", sdf.format(new Date())));
                     }
 
                     @Override
-                    public void onAdNonLinearStartReady(GfpVideoAd ad) {
+                    public void onAdNonLinearStartReady(@NonNull GfpVideoAd ad) {
                         logTextView.append(
                                 String.format(
                                         "[%s] Non Linear 광고 재생 준비 완료%n", sdf.format(new Date())));
@@ -195,17 +195,17 @@ public class InStreamFragment extends Fragment {
                     }
 
                     @Override
-                    public void onAdStarted(GfpVideoAd ad) {
+                    public void onAdStarted(@NonNull GfpVideoAd ad) {
                         logTextView.append(String.format("[%s] 광고 재생%n", sdf.format(new Date())));
                     }
 
                     @Override
-                    public void onAdClicked(GfpVideoAd ad) {
+                    public void onAdClicked(@NonNull GfpVideoAd ad) {
                         logTextView.append(String.format("[%s] 클릭 발생%n", sdf.format(new Date())));
                     }
 
                     @Override
-                    public void onAdCompleted(GfpVideoAd ad) {
+                    public void onAdCompleted(@NonNull GfpVideoAd ad) {
                         logTextView.append(
                                 String.format("[%s] 광고 재생 완료%n", sdf.format(new Date())));
 
@@ -216,7 +216,7 @@ public class InStreamFragment extends Fragment {
                     }
 
                     @Override
-                    public void onError(GfpVideoAd ad, GfpError error) {
+                    public void onError(@NonNull GfpVideoAd ad, @NonNull GfpError error) {
                         logTextView.append(
                                 String.format(
                                         "[%s] 에러 발생(%s)%n",
