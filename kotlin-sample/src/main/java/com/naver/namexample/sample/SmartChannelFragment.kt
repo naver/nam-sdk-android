@@ -20,6 +20,7 @@ import com.naver.gfpsdk.GfpAdLoader
 import com.naver.gfpsdk.GfpError
 import com.naver.gfpsdk.GfpNativeSimpleAd
 import com.naver.gfpsdk.GfpNativeSimpleAdOptions
+import com.naver.gfpsdk.GfpNativeTemplateOptions
 import com.naver.gfpsdk.GfpResponseInfo
 import com.naver.namexample.databinding.FragmentSmartChannelBinding
 import com.naver.namexample.util.DateUtil
@@ -67,6 +68,7 @@ class SmartChannelFragment : Fragment() {
             .withNativeSimpleAd(
                 GfpNativeSimpleAdOptions.Builder()
                     .setAdChoicesPlacement(GfpNativeSimpleAdOptions.ADCHOICES_TOP_RIGHT)
+                    .setNativeTemplateOptions(GfpNativeTemplateOptions())
                     .build()
             ) { nativeSimpleAd: GfpNativeSimpleAd ->
                 logTextView.append(

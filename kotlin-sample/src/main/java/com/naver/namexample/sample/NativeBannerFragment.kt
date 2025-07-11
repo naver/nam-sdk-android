@@ -18,6 +18,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.naver.gfpsdk.AdEventListener
 import com.naver.gfpsdk.AdParam
+import com.naver.gfpsdk.GfpAd
 import com.naver.gfpsdk.GfpAdLoader
 import com.naver.gfpsdk.GfpError
 import com.naver.gfpsdk.GfpNativeAd
@@ -51,15 +52,23 @@ class NativeBannerFragment : Fragment() {
         adLoader = GfpAdLoader.Builder(requireContext(), adParam)
             .withTimeoutMillis(60000L)
             .withAdListener(object : AdEventListener() {
-                override fun onAdClicked() {
+                override fun onAdClicked(ad: GfpAd) {
                     logTextView.append("[${DateUtil.CURR_TIME_STR}] AD Clicked.\n")
                 }
 
-                override fun onAdImpression() {
+                override fun onAdRendered(ad: GfpAd) {
+                    logTextView.append("[${DateUtil.CURR_TIME_STR}] AD rendered.\n")
+                }
+
+                override fun onAdImpression(ad: GfpAd) {
                     logTextView.append("[${DateUtil.CURR_TIME_STR}] AD impression.\n")
                 }
 
-                override fun onAdMetaChanged(params: Map<String, String>?) {
+                override fun onAdSlotClicked(ad: GfpAd, slotIndex: Int) {
+                    logTextView.append("[${DateUtil.CURR_TIME_STR}] AD Slot[#$slotIndex] Clicked.\n")
+                }
+
+                override fun onAdMetaChanged(ad: GfpAd, params: Map<String, String>?) {
                     params?.entries?.map {
                         "\n\tkey: ${it.key} value: ${it.value}"
                     }?.reduce { resultString, newString -> resultString + newString }?.let {
@@ -67,7 +76,7 @@ class NativeBannerFragment : Fragment() {
                     }
                 }
 
-                override fun onError(error: GfpError, responseInfo: GfpResponseInfo) {
+                override fun onError(ad: GfpAd?, error: GfpError, responseInfo: GfpResponseInfo) {
                     logTextView.append(
                         "[${DateUtil.CURR_TIME_STR}] Error occurred.\n\tcode[${error.errorCode}]\n\tsubCode[${error.errorSubCode}]\n\t\tmessage[${error.errorMessage}]\n" // ktlint-disable max-line-length
                     )

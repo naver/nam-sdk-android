@@ -68,6 +68,10 @@ class ImageBannerFragment : Fragment() {
                         logTextView.append("[${DateUtil.CURR_TIME_STR}] AD Clicked.\n")
                     }
 
+                    override fun onAdRendered(ad: GfpBannerAd?) {
+                        logTextView.append("[${DateUtil.CURR_TIME_STR}] AD rendered.\n")
+                    }
+
                     override fun onAdImpression(ad: GfpBannerAd) {
                         logTextView.append("[${DateUtil.CURR_TIME_STR}] AD impression.\n")
                     }
