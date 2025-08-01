@@ -1,4 +1,33 @@
 # Changelog
+
+## 8.6.1 (2025-08-01)
+### Bug Fixes
+* **core:** crash at AdEventListener.onError on certain circumstance
+
+### Code Refactoring
+* **core:** modify AdChoice icon position on NativeSimple AD with background
+* modify the AdMute icon for NDA native ad
+
+### NAM SDKs mapped to this BoM version 8.6.1
+|Artifact name|Version mapped this BoM|
+|---|---|
+|com.naver.gfpsdk:nam-core|8.6.1|
+|com.naver.gfpsdk:nam-adplayer|8.6.1|
+|com.naver.gfpsdk.mediation:nam-nda|8.6.1|
+|com.naver.gfpsdk.mediation:nam-ndavideo|8.6.1|
+|com.naver.gfpsdk.mediation:nam-applovin|13.2.0.1|
+|com.naver.gfpsdk.mediation:nam-aps|9.10.2.2|
+|com.naver.gfpsdk.mediation:nam-bidmachine|3.1.1.3|
+|com.naver.gfpsdk.mediation:nam-chartboost|9.7.0.1|
+|com.naver.gfpsdk.mediation:nam-dfp|23.3.0.4|
+|com.naver.gfpsdk.mediation:nam-dt|8.3.6.2|
+|com.naver.gfpsdk.mediation:nam-fan|6.18.0.4|
+|com.naver.gfpsdk.mediation:nam-inmobi|10.8.0.1|
+|com.naver.gfpsdk.mediation:nam-ironsource|8.4.0.4|
+|com.naver.gfpsdk.mediation:nam-lan|2.9.20250110.0|
+|com.naver.gfpsdk.mediation:nam-unity|4.12.3.2|
+|com.naver.gfpsdk.mediation:nam-vungle|7.4.1.2|
+
 ## 8.6.0 (2025-07-11)
 ### Features
 * **core:** pass AdContextInfo on ad event callback
