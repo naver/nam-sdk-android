@@ -20,6 +20,15 @@ dependencies {
 ```
 
 # Changelog
+## 4.12.3.3 (2025-08-08)
+
+### Features (Experimental)
+* support Ad Inspector
+
+### Built and tested with
+- GFP SDK version 8.7.0
+- UNITY SDK version 4.12.3
+
 ## 4.12.3.2 (2025-05-23)
 ### Code Refactoring
 * remove unnecessary internal method

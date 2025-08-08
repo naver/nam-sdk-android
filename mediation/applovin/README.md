@@ -20,6 +20,15 @@ dependencies {
 ```
 
 # Changelog
+## 13.2.0.2 (2025-08-08)
+
+### Features (Experimental)
+* support Ad Inspector
+
+### Built and tested with
+- GFP SDK version 8.7.0
+- APPLOVIN SDK version 13.2.0
+
 ## 13.2.0.1 (2025-05-23)
 ### Code Refactoring
 * remove unnecessary internal method

@@ -20,6 +20,15 @@ dependencies {
 ```
 
 # Changelog
+## 8.3.6.3 (2025-08-08)
+
+### Features (Experimental)
+* support Ad Inspector
+
+### Built and tested with
+- GFP SDK version 8.7.0
+- DT SDK version 8.3.6
+
 ## 8.3.6.2 (2025-05-23)
 ### Code Refactoring
 * remove unnecessary internal method
