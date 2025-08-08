@@ -1,5 +1,30 @@
 # Changelog
 
+## 8.7.0 (2025-08-08)
+
+### Features
+* **nda:** Support S2S Interstitial video ad
+
+### NAM SDKs mapped to this BoM version 8.7.0
+|Artifact name|Version mapped this BoM|
+|---|---|
+|com.naver.gfpsdk:gfpsdk-core|8.7.0|
+|com.naver.gfpsdk:gfpsdk-adplayer|8.7.0|
+|com.naver.gfpsdk.mediation:nda|8.7.0|
+|com.naver.gfpsdk.mediation:ndavideo|8.7.0|
+|com.naver.gfpsdk.mediation:applovin|13.2.0.2|
+|com.naver.gfpsdk.mediation:aps|9.10.2.3|
+|com.naver.gfpsdk.mediation:bidmachine|3.1.1.4|
+|com.naver.gfpsdk.mediation:chartboost|9.7.0.2|
+|com.naver.gfpsdk.mediation:dfp|23.3.0.5|
+|com.naver.gfpsdk.mediation:dt|8.3.6.3|
+|com.naver.gfpsdk.mediation:fan|6.18.0.5|
+|com.naver.gfpsdk.mediation:inmobi|10.8.0.2|
+|com.naver.gfpsdk.mediation:ironsource|8.4.0.5|
+|com.naver.gfpsdk.mediation:lan|2.9.20250110.1|
+|com.naver.gfpsdk.mediation:unity|4.12.3.3|
+|com.naver.gfpsdk.mediation:vungle|7.4.1.3|
+
 ## 8.6.1 (2025-08-01)
 ### Bug Fixes
 * **core:** crash at AdEventListener.onError on certain circumstance

@@ -24,6 +24,15 @@ dependencies {
 Follow Meta Audience Network's Android [network security config guide](https://developers.facebook.com/docs/audience-network/android-network-security-config) to modify your network security config file to support media caching.
 
 # Changelog
+## 6.18.0.5 (2025-08-08)
+
+### Features (Experimental)
+* support Ad Inspector
+
+### Built and tested with
+- GFP SDK version 8.7.0
+- FAN SDK version 6.18.0
+
 ## 6.18.0.4 (2025-05-23)
 ### Code Refactoring
 * remove unnecessary internal method

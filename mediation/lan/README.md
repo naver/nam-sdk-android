@@ -20,6 +20,14 @@ dependencies {
 ```
 
 # Changelog
+## 2.9.20250110.1 (2025-08-08)
+
+### Features (Experimental)
+* support Ad Inspector
+
+### Built and tested with
+- GFP SDK version 8.7.0
+- LAN SDK version 2.9.20250110
 
 ## 2.9.20250110.0 (2025-06-10)
 

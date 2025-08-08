@@ -27,6 +27,15 @@ dependencies {
 
 # Changelog
 
+## 8.4.0.5 (2025-08-08)
+
+### Features
+* support Ad Inspector
+
+### Built and tested with
+- GFP SDK version 8.7.0
+- IRONSOURCE SDK version 8.4.0
+
 ## 8.4.0.4 (2025-06-10)
 
 

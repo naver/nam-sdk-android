@@ -20,6 +20,19 @@ dependencies {
 ```
 
 # Changelog
+## 7.4.1.3 (2025-08-08)
+
+### Features (Experimental)
+* support Ad Inspector
+
+### Code Refactoring
+
+* **vungle:** support Banner and Native ad of Vungle ([2ce5d06](https://oss.navercorp.com/da-ssp-app-sdk/naver_sdk_aos/commit/2ce5d067d6e0efddd0dbb53e9d95f0cec56717de))
+
+### Built and tested with
+- GFP SDK version 8.7.0
+- VUNGLE SDK version 7.4.1
+
 ## 7.4.1.2 (2025-05-23)
 ### Code Refactoring
 * remove unnecessary internal method

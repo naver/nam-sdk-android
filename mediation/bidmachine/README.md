@@ -20,7 +20,14 @@ dependencies {
 ```
 
 # Changelog
+## 3.1.1.4 (2025-08-08)
 
+### Features (Experimental)
+* support Ad Inspector
+
+### Built and tested with
+- GFP SDK version 8.7.0
+- BIDMACHINE SDK version 3.1.1
 
 ## 3.1.1.3 (2025-06-10)
 
