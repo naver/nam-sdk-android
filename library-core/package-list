@@ -1,5 +1,10 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
+$dokka.location:com.naver.gfpsdk.inspector.file////PointingToDeclaration/library-core/com.naver.gfpsdk.inspector.file/index.html
+$dokka.location:com.naver.gfpsdk.inspector.file/GfpAdInspectorFileProvider.Companion///PointingToDeclaration/library-core/com.naver.gfpsdk.inspector.file/-gfp-ad-inspector-file-provider/-companion/index.html
+$dokka.location:com.naver.gfpsdk.inspector.file/GfpAdInspectorFileProvider.Companion/getFileProviderUri/#android.content.Context#java.io.File/PointingToDeclaration/library-core/com.naver.gfpsdk.inspector.file/-gfp-ad-inspector-file-provider/-companion/get-file-provider-uri.html
+$dokka.location:com.naver.gfpsdk.inspector.file/GfpAdInspectorFileProvider///PointingToDeclaration/library-core/com.naver.gfpsdk.inspector.file/-gfp-ad-inspector-file-provider/index.html
+$dokka.location:com.naver.gfpsdk.inspector.file/GfpAdInspectorFileProvider/GfpAdInspectorFileProvider/#/PointingToDeclaration/library-core/com.naver.gfpsdk.inspector.file/-gfp-ad-inspector-file-provider/-gfp-ad-inspector-file-provider.html
 $dokka.location:com.naver.gfpsdk.mediation////PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/index.html
 $dokka.location:com.naver.gfpsdk.mediation/AdVideoPlayer.PlayerCallback///PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-ad-video-player/-player-callback/index.html
 $dokka.location:com.naver.gfpsdk.mediation/AdVideoPlayer.PlayerCallback/onCompleted/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-ad-video-player/-player-callback/on-completed.html
@@ -54,6 +59,41 @@ $dokka.location:com.naver.gfpsdk.mediation/DefaultNativeTemplateAdView///Pointin
 $dokka.location:com.naver.gfpsdk.mediation/DefaultNativeTemplateAdView/DefaultNativeTemplateAdView/#android.content.Context#android.util.AttributeSet?#kotlin.Int/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-default-native-template-ad-view/-default-native-template-ad-view.html
 $dokka.location:com.naver.gfpsdk.mediation/DefaultNativeTemplateAdView/bind/#com.naver.gfpsdk.GfpNativeAdView#com.naver.gfpsdk.mediation.NativeAssetProvider#com.naver.gfpsdk.mediation.NativeTemplateAdView.RenderingOptions/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-default-native-template-ad-view/bind.html
 $dokka.location:com.naver.gfpsdk.mediation/DefaultNativeTemplateAdView/onUserShowInterestChanged/#kotlin.Boolean#com.naver.gfpsdk.mediation.NativeAssetProvider#com.naver.gfpsdk.mediation.NativeTemplateAdView.RenderingOptions/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-default-native-template-ad-view/on-user-show-interest-changed.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterErrorType.OCCURRED_LOAD_ERROR///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-error-type/-o-c-c-u-r-r-e-d_-l-o-a-d_-e-r-r-o-r/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterErrorType.OCCURRED_START_ERROR///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-error-type/-o-c-c-u-r-r-e-d_-s-t-a-r-t_-e-r-r-o-r/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterErrorType///PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-error-type/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterErrorType/valueOf/#java.lang.String/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-error-type/value-of.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterErrorType/values/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-error-type/values.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.ACK_IMPRESSION///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-a-c-k_-i-m-p-r-e-s-s-i-o-n/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.ATTACHED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-a-t-t-a-c-h-e-d/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.CLICKED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-c-l-i-c-k-e-d/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.CLOSED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-c-l-o-s-e-d/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.COMPLETED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-c-o-m-p-l-e-t-e-d/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.LAZY_RENDER_MEDIA_FAILED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-l-a-z-y_-r-e-n-d-e-r_-m-e-d-i-a_-f-a-i-l-e-d/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.MUTED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-m-u-t-e-d/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.OCCURRED_BOUNCE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-o-c-c-u-r-r-e-d_-b-o-u-n-c-e/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.OCCURRED_RENDERED_IMPRESSION///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-o-c-c-u-r-r-e-d_-r-e-n-d-e-r-e-d_-i-m-p-r-e-s-s-i-o-n/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.OCCURRED_VIEWABLE_IMPRESSION///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-o-c-c-u-r-r-e-d_-v-i-e-w-a-b-l-e_-i-m-p-r-e-s-s-i-o-n/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.OCCURRED_V_IMP_100///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-o-c-c-u-r-r-e-d_-v_-i-m-p_100/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.OCCURRED_V_IMP_100P///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-o-c-c-u-r-r-e-d_-v_-i-m-p_100-p/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.OCCURRED_V_IMP_1PX///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-o-c-c-u-r-r-e-d_-v_-i-m-p_1-p-x/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.PAUSED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-p-a-u-s-e-d/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.PRIVACY_CLICKED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-p-r-i-v-a-c-y_-c-l-i-c-k-e-d/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.REQUESTED_TO_PROVIDER///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-r-e-q-u-e-s-t-e-d_-t-o_-p-r-o-v-i-d-e-r/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.RESUMED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-r-e-s-u-m-e-d/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.SKIPPED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-s-k-i-p-p-e-d/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.TRACKED_VIEW///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-t-r-a-c-k-e-d_-v-i-e-w/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType.UNTRACKED_VIEW///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/-u-n-t-r-a-c-k-e-d_-v-i-e-w/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType///PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType/valueOf/#java.lang.String/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/value-of.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterEventType/values/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-event-type/values.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterState.DESTROYED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-state/-d-e-s-t-r-o-y-e-d/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterState.LOADED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-state/-l-o-a-d-e-d/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterState.RENDERED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-state/-r-e-n-d-e-r-e-d/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterState.REQUESTED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-state/-r-e-q-u-e-s-t-e-d/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterState///PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-state/index.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterState/valueOf/#java.lang.String/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-state/value-of.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter.AdapterState/values/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-adapter-state/values.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter///PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/index.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter/ACTIVE_VIEW_IMP_TYPE/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-a-c-t-i-v-e_-v-i-e-w_-i-m-p_-t-y-p-e.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter/ADCALL_RES_TIME/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/-a-d-c-a-l-l_-r-e-s_-t-i-m-e.html
@@ -65,7 +105,8 @@ $dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter/VIDEO_SKIP_MIN/#/Pointin
 $dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter/destroy/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/destroy.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter/getAdContextInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/get-ad-context-info.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter/getAdProviderName/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/get-ad-provider-name.html
-$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter/setAdapterLogListener/#com.naver.gfpsdk.internal.AdapterLogListener/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/set-adapter-log-listener.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter/getInspectorEventId/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/get-inspector-event-id.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpAdAdapter/setEvent/#com.naver.gfpsdk.internal.inspector.data.AdCallEvent/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-ad-adapter/set-event.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpBannerAdAdapter///PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-banner-ad-adapter/index.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpBannerAdAdapter/destroy/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-banner-ad-adapter/destroy.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpBannerAdAdapter/requestAd/#com.naver.gfpsdk.internal.mediation.BannerAdMutableParam#com.naver.gfpsdk.mediation.BannerAdapterListener/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-banner-ad-adapter/request-ad.html
@@ -79,7 +120,7 @@ $dokka.location:com.naver.gfpsdk.mediation/GfpInterstitialAdAdapter/getCreativeT
 $dokka.location:com.naver.gfpsdk.mediation/GfpInterstitialAdAdapter/getExpirationDelay/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-interstitial-ad-adapter/get-expiration-delay.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpInterstitialAdAdapter/isAdInvalidated/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-interstitial-ad-adapter/is-ad-invalidated.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpInterstitialAdAdapter/isLoaded/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-interstitial-ad-adapter/is-loaded.html
-$dokka.location:com.naver.gfpsdk.mediation/GfpInterstitialAdAdapter/requestAd/#com.naver.gfpsdk.GfpInterstitialAdOptions#com.naver.gfpsdk.mediation.InterstitialAdapterListener/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-interstitial-ad-adapter/request-ad.html
+$dokka.location:com.naver.gfpsdk.mediation/GfpInterstitialAdAdapter/requestAd/#com.naver.gfpsdk.internal.mediation.InterstitialAdMutableParam#com.naver.gfpsdk.mediation.InterstitialAdapterListener/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-interstitial-ad-adapter/request-ad.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpInterstitialAdAdapter/showAd/#android.app.Activity/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-interstitial-ad-adapter/show-ad.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpNativeAdAdapter///PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-native-ad-adapter/index.html
 $dokka.location:com.naver.gfpsdk.mediation/GfpNativeAdAdapter/destroy/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-gfp-native-ad-adapter/destroy.html
@@ -205,6 +246,7 @@ $dokka.location:com.naver.gfpsdk.mediation/NativeNormalApi/getSocialContextWithO
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalApi/getTitleWithOption/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-api/get-title-with-option.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalApi/getTracker/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-api/get-tracker.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalApi/getVisualKey/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-api/get-visual-key.html
+$dokka.location:com.naver.gfpsdk.mediation/NativeNormalApi/inspectorEventId/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-api/inspector-event-id.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalApi/isAdInvalidated/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-api/is-ad-invalidated.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalApi/isCustomAdChoicesEnabled/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-api/is-custom-ad-choices-enabled.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalApi/muteAd/#com.naver.gfpsdk.AdMuteFeedback/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-api/mute-ad.html
@@ -239,6 +281,7 @@ $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleApi/getMediaData/#/Pointi
 $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleApi/getTrackedAdView/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-api/get-tracked-ad-view.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleApi/getTracker/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-api/get-tracker.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleApi/getVisualKey/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-api/get-visual-key.html
+$dokka.location:com.naver.gfpsdk.mediation/NativeSimpleApi/inspectorEventId/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-api/inspector-event-id.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleApi/isAdInvalidated/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-api/is-ad-invalidated.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleApi/registerFriendlyObstructionView/#android.view.View/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-api/register-friendly-obstruction-view.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeSimpleApi/trackView/#com.naver.gfpsdk.GfpNativeSimpleAdView/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-simple-api/track-view.html
@@ -312,6 +355,7 @@ $dokka.location:com.naver.gfpsdk.mediation/ProviderConfiguration/ProviderConfigu
 $dokka.location:com.naver.gfpsdk.mediation/ProviderConfiguration/bannerAdAdapter/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-provider-configuration/banner-ad-adapter.html
 $dokka.location:com.naver.gfpsdk.mediation/ProviderConfiguration/combinedAdAdapter/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-provider-configuration/combined-ad-adapter.html
 $dokka.location:com.naver.gfpsdk.mediation/ProviderConfiguration/getCurrentInitializationStatus/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-provider-configuration/get-current-initialization-status.html
+$dokka.location:com.naver.gfpsdk.mediation/ProviderConfiguration/getLastErrorMessage/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-provider-configuration/get-last-error-message.html
 $dokka.location:com.naver.gfpsdk.mediation/ProviderConfiguration/initialize/#android.content.Context#com.naver.gfpsdk.mediation.ProviderConfiguration.InitializationListener?/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-provider-configuration/initialize.html
 $dokka.location:com.naver.gfpsdk.mediation/ProviderConfiguration/interstitialAdAdapter/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-provider-configuration/interstitial-ad-adapter.html
 $dokka.location:com.naver.gfpsdk.mediation/ProviderConfiguration/nativeAdAdapter/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-provider-configuration/native-ad-adapter.html
@@ -463,6 +507,8 @@ $dokka.location:com.naver.gfpsdk/AdContextInfo.Companion///PointingToDeclaration
 $dokka.location:com.naver.gfpsdk/AdContextInfo///PointingToDeclaration/library-core/com.naver.gfpsdk/-ad-context-info/index.html
 $dokka.location:com.naver.gfpsdk/AdContextInfo/AdContextInfo/#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-ad-context-info/-ad-context-info.html
 $dokka.location:com.naver.gfpsdk/AdContextInfo/json/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-ad-context-info/json.html
+$dokka.location:com.naver.gfpsdk/AdContextInfo/toJsonObject/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-ad-context-info/to-json-object.html
+$dokka.location:com.naver.gfpsdk/AdContextInfo/toString/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-ad-context-info/to-string.html
 $dokka.location:com.naver.gfpsdk/AdEventListener///PointingToDeclaration/library-core/com.naver.gfpsdk/-ad-event-listener/index.html
 $dokka.location:com.naver.gfpsdk/AdEventListener/AdEventListener/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-ad-event-listener/-ad-event-listener.html
 $dokka.location:com.naver.gfpsdk/AdEventListener/onAdClicked/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-ad-event-listener/on-ad-clicked.html
@@ -554,7 +600,6 @@ $dokka.location:com.naver.gfpsdk/BannerAdListener/onAdRendered/#com.naver.gfpsdk
 $dokka.location:com.naver.gfpsdk/BannerAdListener/onAdSizeChanged/#com.naver.gfpsdk.GfpBannerAd/PointingToDeclaration/library-core/com.naver.gfpsdk/-banner-ad-listener/on-ad-size-changed.html
 $dokka.location:com.naver.gfpsdk/BannerAdListener/onError/#com.naver.gfpsdk.GfpBannerAd#com.naver.gfpsdk.GfpError/PointingToDeclaration/library-core/com.naver.gfpsdk/-banner-ad-listener/on-error.html
 $dokka.location:com.naver.gfpsdk/BannerAdMediator///PointingToDeclaration/library-core/com.naver.gfpsdk/-banner-ad-mediator/index.html
-$dokka.location:com.naver.gfpsdk/BannerAdMediator/onChangedMediationState/#com.naver.gfpsdk.internal.util.StateLogCreator.StateLog/PointingToDeclaration/library-core/com.naver.gfpsdk/-banner-ad-mediator/on-changed-mediation-state.html
 $dokka.location:com.naver.gfpsdk/BannerAdMediator/onFailedToLogEvent/#java.lang.String#java.lang.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-banner-ad-mediator/on-failed-to-log-event.html
 $dokka.location:com.naver.gfpsdk/BannerAdMediator/onPickedAdapter/#com.naver.gfpsdk.mediation.GfpBannerAdAdapter/PointingToDeclaration/library-core/com.naver.gfpsdk/-banner-ad-mediator/on-picked-adapter.html
 $dokka.location:com.naver.gfpsdk/BannerAdMediator/onSuccessToLogEvent/#java.lang.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-banner-ad-mediator/on-success-to-log-event.html
@@ -577,7 +622,6 @@ $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/adPaused/#/PointingToDecl
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/adResumed/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/ad-resumed.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/adSkipped/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/ad-skipped.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/adStarted/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/ad-started.html
-$dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/changedState/#com.naver.gfpsdk.internal.util.StateLogCreator.StateLog?/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/changed-state.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/clickVideoAd/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/click-video-ad.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/destroy/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/destroy.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/failedToLoad/#com.naver.gfpsdk.GfpError/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/failed-to-load.html
@@ -595,6 +639,7 @@ $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/getTimeOffsetMillis/#/Poi
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/getVideoAdOptions/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/get-video-ad-options.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/getVideoMediaInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/get-video-media-info.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/hideOverlayUi/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/hide-overlay-ui.html
+$dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/inspectorEventId/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/inspector-event-id.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/loadAd/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/load-ad.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/pause/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/pause.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/resume/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/resume.html
@@ -605,7 +650,6 @@ $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/setGfpVideoProperties/#[E
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/setNoticeDurationMillis/#kotlin.Long/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/set-notice-duration-millis.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/setOnStartListener/#com.naver.gfpsdk.BaseInStreamAdManager.OnStartListener/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/set-on-start-listener.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/setQoeListener/#com.naver.gfpsdk.GfpVideoAdQoeListener?/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/set-qoe-listener.html
-$dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/setStateLogListener/#com.naver.gfpsdk.internal.StateLogListener?/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/set-state-log-listener.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/setVideoAdOptions/#com.naver.gfpsdk.GfpVideoAdOptions?/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/set-video-ad-options.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/showNonLinearAd/#com.naver.gfpsdk.GfpNonLinearAdView.ContainerType?/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/show-non-linear-ad.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/showOverlayUi/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/show-overlay-ui.html
@@ -730,6 +774,10 @@ $dokka.location:com.naver.gfpsdk/GfpAdChoicesData/iconWidthInDp/#/PointingToDecl
 $dokka.location:com.naver.gfpsdk/GfpAdChoicesView///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-choices-view/index.html
 $dokka.location:com.naver.gfpsdk/GfpAdChoicesView/GfpAdChoicesView/#android.content.Context#android.util.AttributeSet?#kotlin.Int/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-choices-view/-gfp-ad-choices-view.html
 $dokka.location:com.naver.gfpsdk/GfpAdChoicesView/getAdChoicesDrawableResId/#kotlin.Boolean/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-choices-view/get-ad-choices-drawable-res-id.html
+$dokka.location:com.naver.gfpsdk/GfpAdInspector///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-inspector/index.html
+$dokka.location:com.naver.gfpsdk/GfpAdInspector/isEnabled/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-inspector/is-enabled.html
+$dokka.location:com.naver.gfpsdk/GfpAdInspector/setEnabled/#kotlin.Boolean/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-inspector/set-enabled.html
+$dokka.location:com.naver.gfpsdk/GfpAdInspector/show/#android.content.Context#com.naver.gfpsdk.GfpAd?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-inspector/show.html
 $dokka.location:com.naver.gfpsdk/GfpAdLoader.Builder///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-loader/-builder/index.html
 $dokka.location:com.naver.gfpsdk/GfpAdLoader.Builder/Builder/#android.content.Context#com.naver.gfpsdk.AdParam/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-loader/-builder/-builder.html
 $dokka.location:com.naver.gfpsdk/GfpAdLoader///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-ad-loader/index.html
@@ -765,6 +813,7 @@ $dokka.location:com.naver.gfpsdk/GfpApsAdParam///PointingToDeclaration/library-
 $dokka.location:com.naver.gfpsdk/GfpApsAdParam/GfpApsAdParam/#java.lang.String#int#int#java.util.Map<java.lang.String,java.util.List<java.lang.String>>#java.util.Map<java.lang.String,java.lang.String>#java.lang.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-aps-ad-param/-gfp-aps-ad-param.html
 $dokka.location:com.naver.gfpsdk/GfpApsAdParam/bidInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-aps-ad-param/bid-info.html
 $dokka.location:com.naver.gfpsdk/GfpApsAdParam/getParameters/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-aps-ad-param/get-parameters.html
+$dokka.location:com.naver.gfpsdk/GfpApsAdParam/toString/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-aps-ad-param/to-string.html
 $dokka.location:com.naver.gfpsdk/GfpBannerAd.OnBannerAdViewLoadedListener///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-banner-ad/-on-banner-ad-view-loaded-listener/index.html
 $dokka.location:com.naver.gfpsdk/GfpBannerAd.OnBannerAdViewLoadedListener/onBannerAdViewLoaded/#GfpBannerAdView/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-banner-ad/-on-banner-ad-view-loaded-listener/on-banner-ad-view-loaded.html
 $dokka.location:com.naver.gfpsdk/GfpBannerAd///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-banner-ad/index.html
@@ -796,8 +845,10 @@ $dokka.location:com.naver.gfpsdk/GfpBannerAdViewBase/adParam/#/PointingToDeclara
 $dokka.location:com.naver.gfpsdk/GfpBannerAdViewBase/bannerAdOptions/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-banner-ad-view-base/banner-ad-options.html
 $dokka.location:com.naver.gfpsdk/GfpBannerAdViewBase/bannerAdSize/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-banner-ad-view-base/banner-ad-size.html
 $dokka.location:com.naver.gfpsdk/GfpBannerAdViewBase/destroy/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-banner-ad-view-base/destroy.html
+$dokka.location:com.naver.gfpsdk/GfpBannerAdViewBase/dispatchTouchEvent/#android.view.MotionEvent/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-banner-ad-view-base/dispatch-touch-event.html
 $dokka.location:com.naver.gfpsdk/GfpBannerAdViewBase/getAdContextInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-banner-ad-view-base/get-ad-context-info.html
 $dokka.location:com.naver.gfpsdk/GfpBannerAdViewBase/getAdProviderName/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-banner-ad-view-base/get-ad-provider-name.html
+$dokka.location:com.naver.gfpsdk/GfpBannerAdViewBase/getInspectorEventId/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-banner-ad-view-base/get-inspector-event-id.html
 $dokka.location:com.naver.gfpsdk/GfpBannerAdViewBase/getResponseInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-banner-ad-view-base/get-response-info.html
 $dokka.location:com.naver.gfpsdk/GfpBannerAdViewBase/isDestroyed/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-banner-ad-view-base/is-destroyed.html
 $dokka.location:com.naver.gfpsdk/GfpBannerAdViewBase/loadAd/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-banner-ad-view-base/load-ad.html
@@ -915,18 +966,21 @@ $dokka.location:com.naver.gfpsdk/GfpInterstitialAd/loadAd/#/PointingToDeclaratio
 $dokka.location:com.naver.gfpsdk/GfpInterstitialAd/showAd/#android.app.Activity/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad/show-ad.html
 $dokka.location:com.naver.gfpsdk/GfpInterstitialAdManager///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager/index.html
 $dokka.location:com.naver.gfpsdk/GfpInterstitialAdManager/GfpInterstitialAdManager/#android.content.Context#com.naver.gfpsdk.AdParam/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager/-gfp-interstitial-ad-manager.html
-$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManager/adParam/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager/ad-param.html
-$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManager/destroy/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager/destroy.html
-$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManager/getAdContextInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager/get-ad-context-info.html
-$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManager/getAdProviderName/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager/get-ad-provider-name.html
-$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManager/getResponseInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager/get-response-info.html
-$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManager/isAdInvalidated/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager/is-ad-invalidated.html
-$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManager/isDestroyed/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager/is-destroyed.html
-$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManager/isLoaded/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager/is-loaded.html
-$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManager/loadAd/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager/load-ad.html
-$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManager/setAdListener/#com.naver.gfpsdk.InterstitialAdListener/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager/set-ad-listener.html
-$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManager/setTimeoutMillis/#long/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager/set-timeout-millis.html
-$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManager/showAd/#android.app.Activity/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager/show-ad.html
+$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManagerBase///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager-base/index.html
+$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManagerBase/GfpInterstitialAdManagerBase/#android.content.Context#com.naver.gfpsdk.AdParam/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager-base/-gfp-interstitial-ad-manager-base.html
+$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManagerBase/adParam/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager-base/ad-param.html
+$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManagerBase/destroy/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager-base/destroy.html
+$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManagerBase/getAdContextInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager-base/get-ad-context-info.html
+$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManagerBase/getAdProviderName/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager-base/get-ad-provider-name.html
+$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManagerBase/getInspectorEventId/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager-base/get-inspector-event-id.html
+$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManagerBase/getResponseInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager-base/get-response-info.html
+$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManagerBase/isAdInvalidated/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager-base/is-ad-invalidated.html
+$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManagerBase/isDestroyed/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager-base/is-destroyed.html
+$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManagerBase/isLoaded/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager-base/is-loaded.html
+$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManagerBase/loadAd/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager-base/load-ad.html
+$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManagerBase/setAdListener/#com.naver.gfpsdk.InterstitialAdListener/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager-base/set-ad-listener.html
+$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManagerBase/setTimeoutMillis/#long/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager-base/set-timeout-millis.html
+$dokka.location:com.naver.gfpsdk/GfpInterstitialAdManagerBase/showAd/#android.app.Activity/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-manager-base/show-ad.html
 $dokka.location:com.naver.gfpsdk/GfpInterstitialAdOptions.Builder///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-options/-builder/index.html
 $dokka.location:com.naver.gfpsdk/GfpInterstitialAdOptions.Builder/Builder/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-options/-builder/-builder.html
 $dokka.location:com.naver.gfpsdk/GfpInterstitialAdOptions.Builder/build/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-interstitial-ad-options/-builder/build.html
@@ -1060,12 +1114,14 @@ $dokka.location:com.naver.gfpsdk/GfpNativeAdView/assetsContainer/#/PointingToDec
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/bodyView/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/body-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/bringChildToFront/#android.view.View?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/bring-child-to-front.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/callToActionView/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/call-to-action-view.html
+$dokka.location:com.naver.gfpsdk/GfpNativeAdView/dispatchTouchEvent/#android.view.MotionEvent/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/dispatch-touch-event.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/findInnerAdView/#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/find-inner-ad-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/getAdditionalContainer/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/get-additional-container.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/getClickableViews/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/get-clickable-views.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/getExtraImageView/#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/get-extra-image-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/getExtraTextView/#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/get-extra-text-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/iconView/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/icon-view.html
+$dokka.location:com.naver.gfpsdk/GfpNativeAdView/inspectorEventId/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/inspector-event-id.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/mediaView/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/media-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/noticeView/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/notice-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/removeAllViews/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/remove-all-views.html
@@ -1127,7 +1183,9 @@ $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/addView/#android.view.Vie
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/additionalContainer/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/additional-container.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/badgeContainer/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/badge-container.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/bringChildToFront/#android.view.View?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/bring-child-to-front.html
+$dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/dispatchTouchEvent/#android.view.MotionEvent/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/dispatch-touch-event.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/initializeBackgroundContainer/#com.naver.gfpsdk.internal.services.adcall.StyleRecord?#kotlin.Int#com.naver.gfpsdk.ResolvedTheme/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/initialize-background-container.html
+$dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/inspectorEventId/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/inspector-event-id.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/mediaView/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/media-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/removeAllViews/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/remove-all-views.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/removeView/#android.view.View?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/remove-view.html
@@ -1165,6 +1223,7 @@ $dokka.location:com.naver.gfpsdk/GfpNativeTemplateAd/getImage/#/PointingToDeclar
 $dokka.location:com.naver.gfpsdk/GfpNativeTemplateAd/getMediaData/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-template-ad/get-media-data.html
 $dokka.location:com.naver.gfpsdk/GfpNativeTemplateAd/getResponseInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-template-ad/get-response-info.html
 $dokka.location:com.naver.gfpsdk/GfpNativeTemplateAd/getVisualKey/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-template-ad/get-visual-key.html
+$dokka.location:com.naver.gfpsdk/GfpNativeTemplateAd/inspectorEventId/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-template-ad/inspector-event-id.html
 $dokka.location:com.naver.gfpsdk/GfpNativeTemplateAd/isAdInvalidated/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-template-ad/is-ad-invalidated.html
 $dokka.location:com.naver.gfpsdk/GfpNativeTemplateAd/registerFriendlyObstructionView/#android.view.View?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-template-ad/register-friendly-obstruction-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeTemplateOptions.Builder///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-template-options/-builder/index.html
@@ -1194,22 +1253,23 @@ $dokka.location:com.naver.gfpsdk/GfpNonLinearAdView/init/#com.naver.gfpsdk.NonLi
 $dokka.location:com.naver.gfpsdk/GfpNonLinearAdView/setAdContainer/#android.widget.FrameLayout/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-non-linear-ad-view/set-ad-container.html
 $dokka.location:com.naver.gfpsdk/GfpNonLinearAdView/setNonLinearClickListener/#com.naver.gfpsdk.GfpNonLinearAdView.NonLinearClickListener/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-non-linear-ad-view/set-non-linear-click-listener.html
 $dokka.location:com.naver.gfpsdk/GfpNonLinearAdView/show/#com.naver.gfpsdk.GfpNonLinearAdView.ContainerType/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-non-linear-ad-view/show.html
+$dokka.location:com.naver.gfpsdk/GfpResponseInfo.Companion///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/-companion/index.html
 $dokka.location:com.naver.gfpsdk/GfpResponseInfo.GfpAdapterResponseInfo///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/-gfp-adapter-response-info/index.html
-$dokka.location:com.naver.gfpsdk/GfpResponseInfo.GfpAdapterResponseInfo/adapterName/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/-gfp-adapter-response-info/adapter-name.html
-$dokka.location:com.naver.gfpsdk/GfpResponseInfo.GfpAdapterResponseInfo/error/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/-gfp-adapter-response-info/error.html
+$dokka.location:com.naver.gfpsdk/GfpResponseInfo.GfpAdapterResponseInfo/GfpAdapterResponseInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/-gfp-adapter-response-info/-gfp-adapter-response-info.html
+$dokka.location:com.naver.gfpsdk/GfpResponseInfo.GfpAdapterResponseInfo/getAdapterName/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/-gfp-adapter-response-info/get-adapter-name.html
+$dokka.location:com.naver.gfpsdk/GfpResponseInfo.GfpAdapterResponseInfo/getError/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/-gfp-adapter-response-info/get-error.html
 $dokka.location:com.naver.gfpsdk/GfpResponseInfo.GfpAdapterResponseInfo/getLoadErrorLatency/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/-gfp-adapter-response-info/get-load-error-latency.html
 $dokka.location:com.naver.gfpsdk/GfpResponseInfo.GfpAdapterResponseInfo/getLoadLatency/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/-gfp-adapter-response-info/get-load-latency.html
 $dokka.location:com.naver.gfpsdk/GfpResponseInfo.GfpAdapterResponseInfo/toJSON/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/-gfp-adapter-response-info/to-j-s-o-n.html
 $dokka.location:com.naver.gfpsdk/GfpResponseInfo.GfpAdapterResponseInfo/toString/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/-gfp-adapter-response-info/to-string.html
 $dokka.location:com.naver.gfpsdk/GfpResponseInfo///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/index.html
-$dokka.location:com.naver.gfpsdk/GfpResponseInfo/GfpResponseInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/-gfp-response-info.html
-$dokka.location:com.naver.gfpsdk/GfpResponseInfo/adapterResponses/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/adapter-responses.html
-$dokka.location:com.naver.gfpsdk/GfpResponseInfo/errors/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/errors.html
 $dokka.location:com.naver.gfpsdk/GfpResponseInfo/getAdCallLatency/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/get-ad-call-latency.html
 $dokka.location:com.naver.gfpsdk/GfpResponseInfo/getAdapterLoadLatency/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/get-adapter-load-latency.html
+$dokka.location:com.naver.gfpsdk/GfpResponseInfo/getAdapterResponses/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/get-adapter-responses.html
+$dokka.location:com.naver.gfpsdk/GfpResponseInfo/getErrors/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/get-errors.html
+$dokka.location:com.naver.gfpsdk/GfpResponseInfo/getLoadedAdapterName/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/get-loaded-adapter-name.html
+$dokka.location:com.naver.gfpsdk/GfpResponseInfo/getRequestId/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/get-request-id.html
 $dokka.location:com.naver.gfpsdk/GfpResponseInfo/getTotalLoadLatency/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/get-total-load-latency.html
-$dokka.location:com.naver.gfpsdk/GfpResponseInfo/loadedAdapterName/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/loaded-adapter-name.html
-$dokka.location:com.naver.gfpsdk/GfpResponseInfo/requestId/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/request-id.html
 $dokka.location:com.naver.gfpsdk/GfpResponseInfo/toJSON/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/to-j-s-o-n.html
 $dokka.location:com.naver.gfpsdk/GfpResponseInfo/toString/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-response-info/to-string.html
 $dokka.location:com.naver.gfpsdk/GfpRewardItem///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-reward-item/index.html
@@ -1234,6 +1294,7 @@ $dokka.location:com.naver.gfpsdk/GfpRewardedAdManagerBase/close/#/PointingToDecl
 $dokka.location:com.naver.gfpsdk/GfpRewardedAdManagerBase/destroy/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-rewarded-ad-manager-base/destroy.html
 $dokka.location:com.naver.gfpsdk/GfpRewardedAdManagerBase/getAdContextInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-rewarded-ad-manager-base/get-ad-context-info.html
 $dokka.location:com.naver.gfpsdk/GfpRewardedAdManagerBase/getAdProviderName/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-rewarded-ad-manager-base/get-ad-provider-name.html
+$dokka.location:com.naver.gfpsdk/GfpRewardedAdManagerBase/getInspectorEventId/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-rewarded-ad-manager-base/get-inspector-event-id.html
 $dokka.location:com.naver.gfpsdk/GfpRewardedAdManagerBase/getResponseInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-rewarded-ad-manager-base/get-response-info.html
 $dokka.location:com.naver.gfpsdk/GfpRewardedAdManagerBase/isAdInvalidated/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-rewarded-ad-manager-base/is-ad-invalidated.html
 $dokka.location:com.naver.gfpsdk/GfpRewardedAdManagerBase/isDestroyed/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-rewarded-ad-manager-base/is-destroyed.html
@@ -1528,8 +1589,6 @@ $dokka.location:com.naver.gfpsdk/UnifiedAdMediator/onAdRendered/#/PointingToDecl
 $dokka.location:com.naver.gfpsdk/UnifiedAdMediator/onAdSizeChanged/#com.naver.gfpsdk.GfpBannerAdSize/PointingToDeclaration/library-core/com.naver.gfpsdk/-unified-ad-mediator/on-ad-size-changed.html
 $dokka.location:com.naver.gfpsdk/UnifiedAdMediator/onAdSlotClicked/#int/PointingToDeclaration/library-core/com.naver.gfpsdk/-unified-ad-mediator/on-ad-slot-clicked.html
 $dokka.location:com.naver.gfpsdk/UnifiedAdMediator/onCancelledAdCall/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-unified-ad-mediator/on-cancelled-ad-call.html
-$dokka.location:com.naver.gfpsdk/UnifiedAdMediator/onChangedAdapterState/#com.naver.gfpsdk.internal.util.StateLogCreator.StateLog/PointingToDeclaration/library-core/com.naver.gfpsdk/-unified-ad-mediator/on-changed-adapter-state.html
-$dokka.location:com.naver.gfpsdk/UnifiedAdMediator/onChangedMediationState/#com.naver.gfpsdk.internal.util.StateLogCreator.StateLog/PointingToDeclaration/library-core/com.naver.gfpsdk/-unified-ad-mediator/on-changed-mediation-state.html
 $dokka.location:com.naver.gfpsdk/UnifiedAdMediator/onExpandableAdEvent/#com.naver.gfpsdk.ExpandableAdEvent/PointingToDeclaration/library-core/com.naver.gfpsdk/-unified-ad-mediator/on-expandable-ad-event.html
 $dokka.location:com.naver.gfpsdk/UnifiedAdMediator/onFailedToLogEvent/#java.lang.String#java.lang.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-unified-ad-mediator/on-failed-to-log-event.html
 $dokka.location:com.naver.gfpsdk/UnifiedAdMediator/onPickedAdapter/#com.naver.gfpsdk.mediation.GfpAdAdapter/PointingToDeclaration/library-core/com.naver.gfpsdk/-unified-ad-mediator/on-picked-adapter.html
@@ -1661,6 +1720,7 @@ $dokka.location:com.naver.gfpsdk/VideoScheduleResponse/requestId/#/PointingToDec
 $dokka.location:com.naver.gfpsdk/VideoScheduleResponse/startOffsetUse/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-video-schedule-response/start-offset-use.html
 $dokka.location:com.naver.gfpsdk/VideoScheduleResponse/videoAdScheduleId/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-video-schedule-response/video-ad-schedule-id.html
 com.naver.gfpsdk
+com.naver.gfpsdk.inspector.file
 com.naver.gfpsdk.mediation
 com.naver.gfpsdk.properties
 

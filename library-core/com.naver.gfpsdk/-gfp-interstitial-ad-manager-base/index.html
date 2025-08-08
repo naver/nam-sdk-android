@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>GfpInterstitialAdManagerBase</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            library-core
+                    </a>
+            </div>
+            <div class="library-version">
+8.7.0            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":library-core:dokkaHtmlExternal/main">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="library-core::com.naver.gfpsdk/GfpInterstitialAdManagerBase///PointingToDeclaration//1416283910">
+  <div class="breadcrumbs"><a href="../../../index.html">library-core</a><span class="delimiter">/</span><a href="../index.html">com.naver.gfpsdk</a><span class="delimiter">/</span><span class="current">GfpInterstitialAdManagerBase</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Gfp</span><wbr></wbr><span>Interstitial</span><wbr></wbr><span>Ad</span><wbr></wbr><span>Manager</span><wbr></wbr><span><span>Base</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">class </span><a href="index.html">GfpInterstitialAdManagerBase</a> : <a href="../-gfp-interstitial-ad/index.html">GfpInterstitialAd</a></div><p class="paragraph">전면광고를 처리하는 관리자 클래스의 기본 구현체입니다. </p><p class="paragraph">이 클래스는 전면광고의 로딩, 표시, 상태 관리 등의 핵심 기능을 제공합니다. GfpAdLoader 대신 전면광고 구현에 사용되어야 합니다. </p><p class="paragraph">기본 사용법: </p><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">
+GfpInterstitialAdManagerBase manager = new GfpInterstitialAdManagerBase(context, adParam);
+manager.setAdListener(listener);
+manager.loadAd();
+// 광고 로드 완료 후
+manager.showAd(activity);
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><h4 class="">Inheritors</h4><div class="table"><div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-gfp-interstitial-ad-manager/index.html">GfpInterstitialAdManager</a></div></span></div><div></div></div></div></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="1785919729%2FConstructors%2F1416283910" anchor-label="GfpInterstitialAdManagerBase" id="1785919729%2FConstructors%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-gfp-interstitial-ad-manager-base.html"><span>Gfp</span><wbr></wbr><span>Interstitial</span><wbr></wbr><span>Ad</span><wbr></wbr><span>Manager</span><wbr></wbr><span><span>Base</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1785919729%2FConstructors%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/NonNull.html"><span class="token annotation builtin">NonNull</span></a> </span>context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/NonNull.html"><span class="token annotation builtin">NonNull</span></a> </span>adParam<span class="token operator">: </span><a href="../-ad-param/index.html">AdParam</a></span></span><span class="token punctuation">)</span></div><div class="brief ">GfpInterstitialAdManagerBase 생성자입니다.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="973313833%2FProperties%2F1416283910" anchor-label="adParam" id="973313833%2FProperties%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="ad-param.html"><span>ad</span><wbr></wbr><span><span>Param</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="973313833%2FProperties%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="ad-param.html">adParam</a><span class="token operator">: </span><a href="../-ad-param/index.html">AdParam</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1218796377%2FFunctions%2F1416283910" anchor-label="destroy" id="1218796377%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="destroy.html"><span><span>destroy</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1218796377%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="destroy.html"><span class="token function">destroy</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">Destroys the interstitial ad manager and cleans up resources.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="740267907%2FFunctions%2F1416283910" anchor-label="getAdContextInfo" id="740267907%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-ad-context-info.html"><span>get</span><wbr></wbr><span>Ad</span><wbr></wbr><span>Context</span><wbr></wbr><span><span>Info</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="740267907%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">open </span><span class="token keyword">fun </span><a href="get-ad-context-info.html"><span class="token function">getAdContextInfo</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-ad-context-info/index.html">AdContextInfo</a></div><div class="brief ">Gets the ad context information after loading the ad.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1114538146%2FFunctions%2F1416283910" anchor-label="getAdProviderName" id="-1114538146%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-ad-provider-name.html"><span>get</span><wbr></wbr><span>Ad</span><wbr></wbr><span>Provider</span><wbr></wbr><span><span>Name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1114538146%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="get-ad-provider-name.html"><span class="token function">getAdProviderName</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></div><div class="brief ">Gets the name of the ad provider after loading.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-222460481%2FFunctions%2F1416283910" anchor-label="getInspectorEventId" id="-222460481%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-inspector-event-id.html"><span>get</span><wbr></wbr><span>Inspector</span><wbr></wbr><span>Event</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-222460481%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/Nullable.html"><span class="token annotation builtin">Nullable</span></a></div></div><span class="token keyword">open </span><span class="token keyword">fun </span><a href="get-inspector-event-id.html"><span class="token function">getInspectorEventId</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></div><div class="brief ">event id 또는 null (추적중이지 않은 경우)</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1815888046%2FFunctions%2F1416283910" anchor-label="getResponseInfo" id="1815888046%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-response-info.html"><span>get</span><wbr></wbr><span>Response</span><wbr></wbr><span><span>Info</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1815888046%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="get-response-info.html"><span class="token function">getResponseInfo</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-gfp-response-info/index.html">GfpResponseInfo</a></div><div class="brief ">Gets the response information after loading the ad.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1061204535%2FFunctions%2F1416283910" anchor-label="isAdInvalidated" id="1061204535%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="is-ad-invalidated.html"><span>is</span><wbr></wbr><span>Ad</span><wbr></wbr><span><span>Invalidated</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1061204535%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="is-ad-invalidated.html"><span class="token function">isAdInvalidated</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief ">Checks if the ad has expired or been invalidated.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2139498012%2FFunctions%2F1416283910" anchor-label="isDestroyed" id="-2139498012%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="is-destroyed.html"><span>is</span><wbr></wbr><span><span>Destroyed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2139498012%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="is-destroyed.html"><span class="token function">isDestroyed</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/Boolean.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="822794552%2FFunctions%2F1416283910" anchor-label="isLoaded" id="822794552%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="is-loaded.html"><span>is</span><wbr></wbr><span><span>Loaded</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="822794552%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="is-loaded.html"><span class="token function">isLoaded</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief ">Checks if the ad is loaded and ready to be shown.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="244173598%2FFunctions%2F1416283910" anchor-label="loadAd" id="244173598%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="load-ad.html"><span>load</span><wbr></wbr><span><span>Ad</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="244173598%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="load-ad.html"><span class="token function">loadAd</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">Loads an interstitial ad.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1455211733%2FFunctions%2F1416283910" anchor-label="setAdListener" id="-1455211733%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-ad-listener.html"><span>set</span><wbr></wbr><span>Ad</span><wbr></wbr><span><span>Listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1455211733%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="set-ad-listener.html"><span class="token function">setAdListener</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">listener<span class="token operator">: </span><a href="../-interstitial-ad-listener/index.html">InterstitialAdListener</a></span></span><span class="token punctuation">)</span></div><div class="brief ">Sets the listener for interstitial ad events.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-783329914%2FFunctions%2F1416283910" anchor-label="setTimeoutMillis" id="-783329914%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-timeout-millis.html"><span>set</span><wbr></wbr><span>Timeout</span><wbr></wbr><span><span>Millis</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-783329914%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="set-timeout-millis.html"><span class="token function">setTimeoutMillis</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/IntRange.html"><span class="token annotation builtin">IntRange</span></a><span class="token punctuation">(</span><span>from<span class="token operator"> = </span><span class="breakable-word"><span class="token constant">0</span></span></span><wbr></wbr><span class="token punctuation">)</span> </span>timeoutMillis<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-long/index.html">Long</a></span></span><span class="token punctuation">)</span></div><div class="brief ">Sets the timeout duration for ad loading.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1641068492%2FFunctions%2F1416283910" anchor-label="showAd" id="1641068492%2FFunctions%2F1416283910" data-filterable-set=":library-core:dokkaHtmlExternal/main"></a>
+          <div class="table-row" data-filterable-current=":library-core:dokkaHtmlExternal/main" data-filterable-set=":library-core:dokkaHtmlExternal/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="show-ad.html"><span>show</span><wbr></wbr><span><span>Ad</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1641068492%2FFunctions%2F1416283910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library-core:dokkaHtmlExternal/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="show-ad.html"><span class="token function">showAd</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/NonNull.html"><span class="token annotation builtin">NonNull</span></a> </span>activity<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief ">Shows the loaded interstitial ad.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2025 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
