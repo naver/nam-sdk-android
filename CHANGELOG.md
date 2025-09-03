@@ -26,7 +26,7 @@
 |com.naver.gfpsdk.mediation:nam-ironsource|8.4.0.5|
 |com.naver.gfpsdk.mediation:nam-lan|2.9.20250110.1|
 |com.naver.gfpsdk.mediation:nam-unity|4.12.3.3|
-|com.naver.gfpsdk.mediation:nam-vungle|7.4.1.3| 
+|com.naver.gfpsdk.mediation:nam-vungle|7.4.1.3|
 
 ## 8.7.0 (2025-08-08)
 
