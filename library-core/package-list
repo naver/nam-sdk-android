@@ -696,7 +696,7 @@ $dokka.location:com.naver.gfpsdk/ExpandableAdEvent.Ratio.RATIO_9_16///PointingTo
 $dokka.location:com.naver.gfpsdk/ExpandableAdEvent.Ratio.RATIO_UNKNOWN///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk/-expandable-ad-event/-ratio/-r-a-t-i-o_-u-n-k-n-o-w-n/index.html
 $dokka.location:com.naver.gfpsdk/ExpandableAdEvent.Ratio///PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-ratio/index.html
 $dokka.location:com.naver.gfpsdk/ExpandableAdEvent.Ratio/entries/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-ratio/entries.html
-$dokka.location:com.naver.gfpsdk/ExpandableAdEvent.Ratio/ratio/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-ratio/ratio.html
+$dokka.location:com.naver.gfpsdk/ExpandableAdEvent.Ratio/value/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-ratio/value.html
 $dokka.location:com.naver.gfpsdk/ExpandableAdEvent.Ratio/valueOf/#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-ratio/value-of.html
 $dokka.location:com.naver.gfpsdk/ExpandableAdEvent.Ratio/values/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-ratio/values.html
 $dokka.location:com.naver.gfpsdk/ExpandableAdEvent.Type.COLLAPSE_ENDED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk/-expandable-ad-event/-type/-c-o-l-l-a-p-s-e_-e-n-d-e-d/index.html
