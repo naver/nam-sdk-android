@@ -20,6 +20,15 @@ dependencies {
 ```
 
 # Changelog
+## 8.3.6.4 (2025-09-03)
+
+### Bug Fixes
+* set mediation name and version before DT initialization
+
+### Built and tested with
+- NAM SDK version 8.7.0
+- DT SDK version 8.3.6
+
 ## 8.3.6.3 (2025-08-08)
 
 ### Features (Experimental)
