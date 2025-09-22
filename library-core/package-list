@@ -443,6 +443,7 @@ $dokka.location:com.naver.gfpsdk.mediation/VideoPlayerControllerListener/onError
 $dokka.location:com.naver.gfpsdk.properties////PointingToDeclaration/library-core/com.naver.gfpsdk.properties/index.html
 $dokka.location:com.naver.gfpsdk.properties/SdkProperties///PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-sdk-properties/index.html
 $dokka.location:com.naver.gfpsdk.properties/SdkProperties/bannerAdRequestTimeout/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-sdk-properties/banner-ad-request-timeout.html
+$dokka.location:com.naver.gfpsdk.properties/SdkProperties/bufferDurationsMs/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-sdk-properties/buffer-durations-ms.html
 $dokka.location:com.naver.gfpsdk.properties/SdkProperties/buildUpon/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-sdk-properties/build-upon.html
 $dokka.location:com.naver.gfpsdk.properties/SdkProperties/clickHandler/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-sdk-properties/click-handler.html
 $dokka.location:com.naver.gfpsdk.properties/SdkProperties/findProviderOptions/#com.naver.gfpsdk.mediation.ProviderType/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-sdk-properties/find-provider-options.html
@@ -460,6 +461,7 @@ $dokka.location:com.naver.gfpsdk.properties/SdkPropertiesBuilder///PointingToDec
 $dokka.location:com.naver.gfpsdk.properties/SdkPropertiesBuilder/addAllProviderOptionsSet/#kotlin.collections.Set[com.naver.gfpsdk.mediation.GfpProviderOptions]/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-sdk-properties-builder/add-all-provider-options-set.html
 $dokka.location:com.naver.gfpsdk.properties/SdkPropertiesBuilder/addProviderOptions/#com.naver.gfpsdk.mediation.GfpProviderOptions/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-sdk-properties-builder/add-provider-options.html
 $dokka.location:com.naver.gfpsdk.properties/SdkPropertiesBuilder/bannerAdRequestTimeout/#kotlin.Long/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-sdk-properties-builder/banner-ad-request-timeout.html
+$dokka.location:com.naver.gfpsdk.properties/SdkPropertiesBuilder/bufferDurationsMs/#com.naver.ads.video.player.BufferDurationsMs/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-sdk-properties-builder/buffer-durations-ms.html
 $dokka.location:com.naver.gfpsdk.properties/SdkPropertiesBuilder/build/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-sdk-properties-builder/build.html
 $dokka.location:com.naver.gfpsdk.properties/SdkPropertiesBuilder/interstitialAdRequestTimeout/#kotlin.Long/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-sdk-properties-builder/interstitial-ad-request-timeout.html
 $dokka.location:com.naver.gfpsdk.properties/SdkPropertiesBuilder/muteAudio/#kotlin.Boolean/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-sdk-properties-builder/mute-audio.html
