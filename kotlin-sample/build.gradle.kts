@@ -37,7 +37,7 @@ plugins {
 		    implementation("com.google.android.material:material:1.4.0")
 		    implementation("androidx.constraintlayout:constraintlayout:2.1.3")
 
-		    implementation(platform("com.naver.gfpsdk:nam-bom:8.8.3"))
+		    implementation(platform("com.naver.gfpsdk:nam-bom:8.8.4"))
 		    implementation("com.naver.gfpsdk:nam-core")
 		    implementation("com.naver.gfpsdk.mediation:nam-nda") // (optional) s2s mediation dependency
 		    implementation("com.naver.gfpsdk.mediation:nam-dfp") // (optional) dfp mediation dependency
