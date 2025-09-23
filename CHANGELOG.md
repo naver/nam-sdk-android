@@ -1,5 +1,31 @@
 # Changelog
 
+## 8.8.4 (2025-09-23)
+
+### Bug Fixes
+
+* **core:** fix a native simple ad background for some ads
+
+### NAM SDKs mapped to this BoM version 8.8.4
+|Artifact name|Version mapped this BoM|
+|---|---|
+|com.naver.gfpsdk:nam-core|8.8.4|
+|com.naver.gfpsdk:nam-adplayer|8.8.4|
+|com.naver.gfpsdk.mediation:nam-nda|8.8.4|
+|com.naver.gfpsdk.mediation:nam-ndavideo|8.8.4|
+|com.naver.gfpsdk.mediation:nam-applovin|13.2.0.2|
+|com.naver.gfpsdk.mediation:nam-aps|9.10.2.3|
+|com.naver.gfpsdk.mediation:nam-bidmachine|3.1.1.4|
+|com.naver.gfpsdk.mediation:nam-chartboost|9.7.0.2|
+|com.naver.gfpsdk.mediation:nam-dfp|23.3.0.5|
+|com.naver.gfpsdk.mediation:nam-dt|8.3.6.4|
+|com.naver.gfpsdk.mediation:nam-fan|6.18.0.5|
+|com.naver.gfpsdk.mediation:nam-inmobi|10.8.0.2|
+|com.naver.gfpsdk.mediation:nam-ironsource|8.4.0.5|
+|com.naver.gfpsdk.mediation:nam-lan|2.9.20250110.1|
+|com.naver.gfpsdk.mediation:nam-unity|4.12.3.3|
+|com.naver.gfpsdk.mediation:nam-vungle|7.4.1.3|
+
 ## 8.8.3 (2025-09-22)
 
 ### Code Refactoring
