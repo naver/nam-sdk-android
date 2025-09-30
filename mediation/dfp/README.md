@@ -39,13 +39,21 @@ You can find your app ID in the Ad Manager UI. For `android:value`, insert your 
 ```
 
 # Changelog
+## 24.5.0.0 (2025-09-30)
+### Code Refactoring
+* verified compatibility with DFP SDK 24.5.0
+
+### Built and tested with
+- NAM SDK version 8.9.0
+- DFP SDK version 24.5.0
+
 ## 23.3.0.5 (2025-08-08)
 
 ### Features (Experimental)
 * support Ad Inspector
 
 ### Built and tested with
-- GFP SDK version 8.7.0
+- NAM SDK version 8.7.0
 - DFP SDK version 23.3.0
 
 ## 23.3.0.4 (2025-06-17)
@@ -55,7 +63,7 @@ You can find your app ID in the Ad Manager UI. For `android:value`, insert your 
 * fix intermittent issue with video ads not rendering
 
 ### Built and tested with
-- GFP SDK version 8.4.3
+- NAM SDK version 8.4.3
 - DFP SDK version 23.3.0
 
 ## 23.3.0.3 (2025-05-23)
@@ -76,10 +84,10 @@ You can find your app ID in the Ad Manager UI. For `android:value`, insert your 
 
 ## 23.3.0.1 (2025-01-16)
 ### Code Refactoring
-* update the minimum required GFP SDK version
+* update the minimum required NAM SDK version
 
 ### Built and tested with
-- GFP SDK version 8.2.4
+- NAM SDK version 8.2.4
 - DFP SDK version 23.3.0
 
 ## 23.3.0.0 (2024-11-07)

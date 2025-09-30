@@ -14,19 +14,43 @@
 
 ```gradle
 ...
+repositories {
+    maven {
+        url "https://cboost.jfrog.io/artifactory/chartboost-ads/"
+    }
+}
+
 dependencies {
     implementation 'com.naver.gfpsdk.mediation:nam-chartboost:<latest-version>'  
 }
+
+productFlavors {
+        create("example") {
+            dimension = "version"
+            matchingFallbacks.add("production") // if you define product flavor, need to add this from 9.9.3.0
+        }
+    }
 ```
 
 # Changelog
+## 9.9.3.0 (2025-09-30)
+### Code Refactoring
+* add ProductType when creating a bid token
+* improve SDK initialization data structure
+* use SignalData for bidding token requests in RTB mediation networks
+* verified compatibility with ChartBoost SDK 9.9.3
+
+### Built and tested with
+- NAM SDK version 8.9.0
+- CHARTBOOST SDK version 9.9.3
+
 ## 9.7.0.2 (2025-08-08)
 
 ### Features (Experimental)
 * support Ad Inspector
 
 ### Built and tested with
-- GFP SDK version 8.7.0
+- NAM SDK version 8.7.0
 - CHARTBOOST SDK version 9.7.0
 
 ## 9.7.0.1 (2025-05-23)
@@ -43,5 +67,5 @@ dependencies {
 * verified compatibility with Chartboost SDK 9.7.0
 
 ### Built and tested with
-- GFP SDK version 8.3.0
+- NAM SDK version 8.3.0
 - CHARTBOOST SDK version 9.7.0

@@ -13,7 +13,7 @@ To prepare your app, complete the steps in the following sections.
 
 - Use Android Studio 3.2 or higher
 - Make sure that your app's build file uses the following values:
-  - A `minSdkVersion` of `21` or higher
+  - A `minSdkVersion` of `23` or higher
   - A `compileSdkVersion` of `28` or higher
 
 ## Configure your app
@@ -88,6 +88,7 @@ NAM SDK is now imported and you're ready to implement an ad. NAM SDK offers a nu
 | [Native Simple Ads](docs/ad-formats/native_simple.md) | Native Simple has been designed to make the implementation of native ads as easy as possible, and it's a great choice if you are new to the format.                                                                                                                           |
 | [In Stream Ads](docs/ad-formats/in_stream.md)         | In-Stream (Video) AD is placed between the beginning and the end of the video content.                                                                                                                                                                                        |
 | [Rewarded Ads](docs/ad-formats/rewarded.md)           | Rewarded ads provide incentives and rewards to users when they complete watching a video in full screen.                                                                                                                                                                      |
+| [Interstitial Ads](docs/ad-formats/interstitial.md)   | Interstitial ads are a type of ad format that occupies the entire screen of the app.                                                                                                                                                                                          |
 
 ### 6. Select mediation you want to integrate
 
@@ -106,6 +107,7 @@ Mediation in NAM supports several ad source, with a mix of bidding and waterfall
 | [InMobi](mediation/inmobi)                |
 | [IronSource](mediation/ironsource)        |
 | [Line](mediation/lan)                     |
+| [Pangle](mediation/pangle)                |
 | [Unity](mediation/unity)                  |
 | [Vungle](mediation/vungle)                |
 

@@ -19,6 +19,7 @@ import androidx.fragment.app.ListFragment
 import com.naver.namexample.databinding.FragmentMainMenuBinding
 import com.naver.namexample.sample.ImageBannerFragment
 import com.naver.namexample.sample.InStreamFragment
+import com.naver.namexample.sample.InterstitialFragment
 import com.naver.namexample.sample.NativeBannerFragment
 import com.naver.namexample.sample.RewardedFragment
 import com.naver.namexample.sample.SmartChannelFragment
@@ -30,7 +31,8 @@ class MainMenuFragment : ListFragment() {
         SampleAdInfo("네이티브형 배너") { NativeBannerFragment() },
         SampleAdInfo("스마트채널") { SmartChannelFragment() },
         SampleAdInfo("동영상형") { InStreamFragment() },
-        SampleAdInfo("리워드형") { RewardedFragment() }
+        SampleAdInfo("리워드형") { RewardedFragment() },
+        SampleAdInfo("전면형") { InterstitialFragment() }
     )
 
     override fun onCreateView(
@@ -44,13 +46,16 @@ class MainMenuFragment : ListFragment() {
     }
 
     override fun onListItemClick(l: ListView, v: View, position: Int, id: Long) {
-        requireActivity().supportFragmentManager.beginTransaction()
+        val transaction = requireActivity().supportFragmentManager.beginTransaction()
             .replace(
                 R.id.fragment_container,
                 (listView.getItemAtPosition(position) as SampleAdInfo).fragmentGetter()
             )
             .addToBackStack(null)
-            .commit()
+
+        if (!requireActivity().isFinishing && !requireActivity().isDestroyed) {
+            transaction.commit()
+        }
     }
 
     data class SampleAdInfo(val adName: String, val fragmentGetter: () -> Fragment) {

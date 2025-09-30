@@ -19,18 +19,24 @@ dependencies {
 }
 ```
 
-## Additional code required
-
-Follow Meta Audience Network's Android [network security config guide](https://developers.facebook.com/docs/audience-network/android-network-security-config) to modify your network security config file to support media caching.
-
 # Changelog
+## 6.20.0.0 (2025-09-30)
+### Code Refactoring
+* add ProductType when creating a bid token
+* use SignalData for bidding token requests in RTB mediation networks
+* verified compatibility with META SDK 6.20.0
+
+### Built and tested with
+- NAM SDK version 8.9.0
+- FAN SDK version 6.20.0
+
 ## 6.18.0.5 (2025-08-08)
 
 ### Features (Experimental)
 * support Ad Inspector
 
 ### Built and tested with
-- GFP SDK version 8.7.0
+- NAM SDK version 8.7.0
 - FAN SDK version 6.18.0
 
 ## 6.18.0.4 (2025-05-23)
@@ -46,7 +52,7 @@ Follow Meta Audience Network's Android [network security config guide](https://d
 * height of FAN media view was miscalculated on ConstraintLayout
 
 ### Built and tested with
-- GFP SDK version 8.2.5
+- NAM SDK version 8.2.5
 - FAN SDK version 6.18.0
 
 ## 6.18.0.2 (2025-01-22)
@@ -59,10 +65,10 @@ Follow Meta Audience Network's Android [network security config guide](https://d
 
 ## 6.18.0.1 (2025-01-16)
 ### Code Refactoring
-* update the minimum required GFP SDK version
+* update the minimum required NAM SDK version
 
 ### Built and tested with
-- GFP SDK version 8.2.4
+- NAM SDK version 8.2.4
 - FAN SDK version 6.18.0
 
 ## 6.18.0.0 (2024-11-08)

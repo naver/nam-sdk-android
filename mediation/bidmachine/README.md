@@ -20,13 +20,23 @@ dependencies {
 ```
 
 # Changelog
+## 3.3.0.0 (2025-09-30)
+### Code Refactoring
+* add ProductType when creating a bid token
+* use SignalData for bidding token requests in RTB mediation networks
+* verified compatibility with BidMachine SDK 3.3.0
+
+### Built and tested with
+- NAM SDK version 8.9.0
+- BIDMACHINE SDK version 3.3.0
+
 ## 3.1.1.4 (2025-08-08)
 
 ### Features (Experimental)
 * support Ad Inspector
 
 ### Built and tested with
-- GFP SDK version 8.7.0
+- NAM SDK version 8.7.0
 - BIDMACHINE SDK version 3.1.1
 
 ## 3.1.1.3 (2025-06-10)
@@ -63,5 +73,5 @@ dependencies {
 * verified compatibility with BidMachine SDK 3.1.1
 
 ### Built and tested with
-- GFP SDK version 8.3.0
+- NAM SDK version 8.3.0
 - BIDMACHINE SDK version 3.1.1
