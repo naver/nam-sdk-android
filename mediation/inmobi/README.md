@@ -20,13 +20,21 @@ dependencies {
 ```
 
 # Changelog
+## 10.8.7.0 (2025-09-30)
+### Code Refactoring
+* verified compatibility with InMobi SDK 10.8.7
+
+### Built and tested with
+- NAM SDK version 8.9.0
+- INMOBI SDK version 10.8.7
+
 ## 10.8.0.2 (2025-08-08)
 
 ### Features (Experimental)
 * support Ad Inspector
 
 ### Built and tested with
-- GFP SDK version 8.7.0
+- NAM SDK version 8.7.0
 - INMOBI SDK version 10.8.0
 
 ## 10.8.0.1 (2025-05-23)
@@ -42,7 +50,7 @@ dependencies {
 * verified compatibility with InMobi SDK 10.8.0
 
 ### Built and tested with
-- GFP SDK version 8.2.5
+- NAM SDK version 8.2.5
 - INMOBI SDK version 10.8.0
 - 
 ## 10.7.7.2 (2025-01-22)
@@ -55,10 +63,10 @@ dependencies {
 
 ## 10.7.7.1 (2025-01-16)
 ### Code Refactoring
-* update the minimum required GFP SDK version
+* update the minimum required NAM SDK version
 
 ### Built and tested with
-- GFP SDK version 8.2.4
+- NAM SDK version 8.2.4
 - INMOBI SDK version 10.7.7
 
 ## 10.7.7.0 (2024-11-08)

@@ -20,13 +20,21 @@ dependencies {
 ```
 
 # Changelog
+## 13.4.0.0 (2025-09-30)
+### Code Refactoring
+* verified compatibility with AppLovin SDK 13.4.0
+
+### Built and tested with
+- NAM SDK version 8.9.0
+- APPLOVIN SDK version 13.4.0
+
 ## 13.2.0.2 (2025-08-08)
 
 ### Features (Experimental)
 * support Ad Inspector
 
 ### Built and tested with
-- GFP SDK version 8.7.0
+- NAM SDK version 8.7.0
 - APPLOVIN SDK version 13.2.0
 
 ## 13.2.0.1 (2025-05-23)
@@ -59,10 +67,10 @@ dependencies {
 
 ## 12.6.1.1 (2025-01-16)
 ### Code Refactoring
-* update the minimum required GFP SDK version
+* update the minimum required NAM SDK version
 
 ### Built and tested with
-- GFP SDK version 8.2.4
+- NAM SDK version 8.2.4
 - APPLOVIN SDK version 12.6.1
 
 ## 12.6.1.0 (2024-11-08)

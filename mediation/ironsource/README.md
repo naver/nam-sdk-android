@@ -26,6 +26,14 @@ dependencies {
 ```
 
 # Changelog
+## 8.11.1.0 (2025-09-30)
+### Code Refactoring
+* improve SDK initialization data structure
+* verified compatibility with IronSource SDK 8.11.1
+
+### Built and tested with
+- NAM SDK version 8.9.0
+- IRONSOURCE SDK version 8.11.1
 
 ## 8.4.0.5 (2025-08-08)
 
@@ -33,7 +41,7 @@ dependencies {
 * support Ad Inspector
 
 ### Built and tested with
-- GFP SDK version 8.7.0
+- NAM SDK version 8.7.0
 - IRONSOURCE SDK version 8.4.0
 
 ## 8.4.0.4 (2025-06-10)
@@ -57,15 +65,15 @@ dependencies {
 
 ## 8.4.0.2 (2025-03-14)
 ### Built and tested with
-- GFP SDK version 8.2.3
+- NAM SDK version 8.2.3
 - IRONSOURCE SDK version 8.4.0
 
 ## 8.4.0.1 (2025-01-16)
 ### Code Refactoring
-* update the minimum required GFP SDK version
+* update the minimum required NAM SDK version
 
 ### Built and tested with
-- GFP SDK version 8.2.4
+- NAM SDK version 8.2.4
 - IRONSOURCE SDK version 8.4.0
 
 ## 8.4.0.0 (2024-11-08)

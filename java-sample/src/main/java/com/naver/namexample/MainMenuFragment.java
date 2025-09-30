@@ -22,6 +22,7 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.fragment.app.ListFragment;
 import com.naver.namexample.sample.ImageBannerFragment;
 import com.naver.namexample.sample.InStreamFragment;
+import com.naver.namexample.sample.InterstitialFragment;
 import com.naver.namexample.sample.NativeBannerFragment;
 import com.naver.namexample.sample.RewardedFragment;
 import com.naver.namexample.sample.SmartChannelFragment;
@@ -33,7 +34,8 @@ public class MainMenuFragment extends ListFragment {
                 new SampleAdInfo("네이티브형 배너", SampleAdType.NATIVE_BANNER),
                 new SampleAdInfo("스마트채널", SampleAdType.SMART_CHANNEL),
                 new SampleAdInfo("동영상형", SampleAdType.INSTREAM),
-                new SampleAdInfo("리워드형", SampleAdType.REWARDED)
+                new SampleAdInfo("리워드형", SampleAdType.REWARDED),
+                new SampleAdInfo("전면형", SampleAdType.INTERSTITIAL)
             };
 
     @Override
@@ -69,6 +71,9 @@ public class MainMenuFragment extends ListFragment {
             case REWARDED:
                 newFragment = new RewardedFragment();
                 break;
+            case INTERSTITIAL:
+                newFragment = new InterstitialFragment();
+                break;
             default:
                 Toast.makeText(
                                 this.getContext(),
@@ -82,7 +87,10 @@ public class MainMenuFragment extends ListFragment {
                     requireActivity().getSupportFragmentManager().beginTransaction();
             transaction.replace(R.id.fragment_container, newFragment);
             transaction.addToBackStack(null);
-            transaction.commit();
+
+            if (!requireActivity().isFinishing() && !requireActivity().isDestroyed()) {
+                transaction.commit();
+            }
         }
     }
 
@@ -91,7 +99,8 @@ public class MainMenuFragment extends ListFragment {
         NATIVE_BANNER,
         SMART_CHANNEL,
         INSTREAM,
-        REWARDED
+        REWARDED,
+        INTERSTITIAL
     }
 
     static class SampleAdInfo {

@@ -20,13 +20,24 @@ dependencies {
 ```
 
 # Changelog
+## 4.16.1.0 (2025-09-30)
+### Bug Fixes
+* set mediation metadata before Unity initialization
+
+### Code Refactoring
+* verified compatibility with Unity SDK 4.16.1
+
+### Built and tested with
+- NAM SDK version 8.9.0
+- UNITY SDK version 4.16.1
+
 ## 4.12.3.3 (2025-08-08)
 
 ### Features (Experimental)
 * support Ad Inspector
 
 ### Built and tested with
-- GFP SDK version 8.7.0
+- NAM SDK version 8.7.0
 - UNITY SDK version 4.12.3
 
 ## 4.12.3.2 (2025-05-23)
@@ -39,10 +50,10 @@ dependencies {
 
 ## 4.12.3.1 (2025-01-16)
 ### Code Refactoring
-* update the minimum required GFP SDK version
+* update the minimum required NAM SDK version
 
 ### Built and tested with
-- GFP SDK version 8.2.4
+- NAM SDK version 8.2.4
 - UNITY SDK version 4.12.3
 
 ## 4.12.3.0 (2024-11-08)

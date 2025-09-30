@@ -20,6 +20,14 @@ dependencies {
 ```
 
 # Changelog
+## 8.3.8.0 (2025-09-30)
+### Code Refactoring
+* verified compatibility with DigitalTurbine SDK 8.3.8
+
+### Built and tested with
+- NAM SDK version 8.9.0
+- DT SDK version 8.3.8
+
 ## 8.3.6.4 (2025-09-03)
 
 ### Bug Fixes
@@ -35,7 +43,7 @@ dependencies {
 * support Ad Inspector
 
 ### Built and tested with
-- GFP SDK version 8.7.0
+- NAM SDK version 8.7.0
 - DT SDK version 8.3.6
 
 ## 8.3.6.2 (2025-05-23)
@@ -59,7 +67,7 @@ dependencies {
 * verified compatibility with DT SDK 8.3.6
 
 ### Built and tested with
-- GFP SDK version 8.2.3
+- NAM SDK version 8.2.3
 - DT SDK version 8.3.6
 
 ## 8.3.5.2 (2025-03-14)
@@ -67,15 +75,15 @@ dependencies {
 * **dt:** refactor the DT banner ad loading process
 
 ### Built and tested with
-- GFP SDK version 8.2.3
+- NAM SDK version 8.2.3
 - DT SDK version 8.3.5
 
 ## 8.3.5.1 (2025-01-16)
 ### Code Refactoring
-* update the minimum required GFP SDK version
+* update the minimum required NAM SDK version
 
 ### Built and tested with
-- GFP SDK version 8.2.4
+- NAM SDK version 8.2.4
 - DT SDK version 8.3.5
 
 ## 8.3.0.0 (2024-11-08)

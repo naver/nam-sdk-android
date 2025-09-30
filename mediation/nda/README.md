@@ -7,7 +7,7 @@
 | Banner        | O           |
 | Native        | O           |
 | Native Simple | O           |
-| Interstitial  | X           |
+| Interstitial  | O           |
 | Rewarded      | O           |
 
 ## Integration
