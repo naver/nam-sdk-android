@@ -7,6 +7,7 @@
 * **core:** video can not start if vast contains unsupported NonLinear type
 * **nda:** fix a potential issue with badge rendering on TravellingNda AD
 * **nda:** resolve flickering issue when transitioning from thumbnail to video
+* fix url encoding issue in some specific cases
 
 ### NAM SDKs mapped to this BoM version 8.10.0
 |Artifact name|Version mapped this BoM|
