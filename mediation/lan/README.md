@@ -20,6 +20,14 @@ dependencies {
 ```
 
 # Changelog
+## 2.9.20250110.3 (2025-10-30)
+### Code Refactoring
+* Refactor the NativeSimpleAd to support new rich media ad
+
+### Built and tested with
+- NAM SDK version 8.10.0
+- LAN SDK version 2.9.20250110
+
 ## 2.9.20250110.2 (2025-09-30)
 ### Code Refactoring
 * add ProductType when creating a bid token
