@@ -26,6 +26,17 @@ dependencies {
 ```
 
 # Changelog
+## 7.5.0.3.1 (2025-12-15)
+
+
+### Code Refactoring
+
+* verified compatibility with mediation network modules
+
+### Built and tested with
+- NAM SDK version 8.11.0
+- PANGLE SDK version 7.5.0.3
+
 ## 7.5.0.3.0 (2025-09-30)
 ### Code Refactoring
 * verified compatibility with Pangle SDK 7.5.0.3

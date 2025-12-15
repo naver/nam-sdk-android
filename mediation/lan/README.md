@@ -20,6 +20,17 @@ dependencies {
 ```
 
 # Changelog
+## 2.9.20250110.4 (2025-12-15)
+
+
+### Code Refactoring
+
+* verified compatibility with mediation network modules
+
+### Built and tested with
+- NAM SDK version 8.11.0
+- LAN SDK version 2.9.20250110
+
 ## 2.9.20250110.3 (2025-10-30)
 ### Code Refactoring
 * Refactor the NativeSimpleAd to support new rich media ad

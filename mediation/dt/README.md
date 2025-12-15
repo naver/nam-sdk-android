@@ -20,6 +20,17 @@ dependencies {
 ```
 
 # Changelog
+## 8.3.8.1 (2025-12-15)
+
+
+### Code Refactoring
+
+* verified compatibility with mediation network modules
+
+### Built and tested with
+- NAM SDK version 8.11.0
+- DT SDK version 8.3.8
+
 ## 8.3.8.0 (2025-09-30)
 ### Code Refactoring
 * verified compatibility with DigitalTurbine SDK 8.3.8

@@ -20,6 +20,17 @@ dependencies {
 ```
 
 # Changelog
+## 4.16.1.1 (2025-12-15)
+
+
+### Code Refactoring
+
+* verified compatibility with mediation network modules
+
+### Built and tested with
+- NAM SDK version 8.11.0
+- UNITY SDK version 4.16.1
+
 ## 4.16.1.0 (2025-09-30)
 ### Bug Fixes
 * set mediation metadata before Unity initialization
