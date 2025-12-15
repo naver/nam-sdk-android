@@ -26,6 +26,17 @@ dependencies {
 ```
 
 # Changelog
+## 8.11.1.1 (2025-12-15)
+
+
+### Code Refactoring
+
+* verified compatibility with mediation network modules
+
+### Built and tested with
+- NAM SDK version 8.11.0
+- IRONSOURCE SDK version 8.11.1
+
 ## 8.11.1.0 (2025-09-30)
 ### Code Refactoring
 * improve SDK initialization data structure

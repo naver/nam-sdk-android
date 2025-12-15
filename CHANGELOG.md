@@ -1,5 +1,48 @@
 # Changelog
 
+## 8.11.0 (2025-12-15)
+
+
+### Features
+
+* add adaptive square sizing to ScrollTransformImageView
+* support interaction collection ad
+
+
+### Bug Fixes
+
+* **core:** prevent crash for some device
+* use original size for AdChoices icon in native simple ads
+
+
+### Code Refactoring
+
+* add video support for 1+N native ad
+* **core:** improve language coverage
+* **nda:** change AdChoices icon margin for native simple ads
+* **nda:** improve scroll behavior for slots
+
+### NAM SDKs mapped to this BoM version 8.11.0
+|Artifact name|Version mapped this BoM|
+|---|---|
+|com.naver.gfpsdk:nam-core|8.11.0|
+|com.naver.gfpsdk:nam-adplayer|8.11.0|
+|com.naver.gfpsdk.mediation:nam-nda|8.11.0|
+|com.naver.gfpsdk.mediation:nam-ndavideo|8.11.0|
+|com.naver.gfpsdk.mediation:nam-applovin|13.4.0.1|
+|com.naver.gfpsdk.mediation:nam-aps|11.0.0.1|
+|com.naver.gfpsdk.mediation:nam-bidmachine|3.3.0.1|
+|com.naver.gfpsdk.mediation:nam-chartboost|9.9.3.1|
+|com.naver.gfpsdk.mediation:nam-dfp|24.5.0.1|
+|com.naver.gfpsdk.mediation:nam-dt|8.3.8.1|
+|com.naver.gfpsdk.mediation:nam-fan|6.20.0.1|
+|com.naver.gfpsdk.mediation:nam-inmobi|10.8.7.1|
+|com.naver.gfpsdk.mediation:nam-ironsource|8.11.1.1|
+|com.naver.gfpsdk.mediation:nam-lan|2.9.20250110.4|
+|com.naver.gfpsdk.mediation:nam-pangle|7.5.0.3.1|
+|com.naver.gfpsdk.mediation:nam-unity|4.16.1.1|
+|com.naver.gfpsdk.mediation:nam-vungle|7.5.1.1|
+
 ## 8.10.3 (2025-11-19)
 ### Bug Fixes
 * **nda:** fix incorrect height calculation in NS Flicking AD

@@ -20,6 +20,17 @@ dependencies {
 ```
 
 # Changelog
+## 10.8.7.1 (2025-12-15)
+
+
+### Code Refactoring
+
+* verified compatibility with mediation network modules
+
+### Built and tested with
+- NAM SDK version 8.11.0
+- INMOBI SDK version 10.8.7
+
 ## 10.8.7.0 (2025-09-30)
 ### Code Refactoring
 * verified compatibility with InMobi SDK 10.8.7

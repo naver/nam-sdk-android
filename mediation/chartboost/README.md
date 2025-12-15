@@ -33,6 +33,17 @@ productFlavors {
 ```
 
 # Changelog
+## 9.9.3.1 (2025-12-15)
+
+
+### Code Refactoring
+
+* verified compatibility with mediation network modules
+
+### Built and tested with
+- NAM SDK version 8.11.0
+- CHARTBOOST SDK version 9.9.3
+
 ## 9.9.3.0 (2025-09-30)
 ### Code Refactoring
 * add ProductType when creating a bid token

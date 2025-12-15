@@ -20,6 +20,17 @@ dependencies {
 ```
 
 # Changelog
+## 13.4.0.1 (2025-12-15)
+
+
+### Code Refactoring
+
+* verified compatibility with mediation network modules
+
+### Built and tested with
+- NAM SDK version 8.11.0
+- APPLOVIN SDK version 13.4.0
+
 ## 13.4.0.0 (2025-09-30)
 ### Code Refactoring
 * verified compatibility with AppLovin SDK 13.4.0
