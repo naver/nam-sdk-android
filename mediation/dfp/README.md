@@ -39,6 +39,17 @@ You can find your app ID in the Ad Manager UI. For `android:value`, insert your 
 ```
 
 # Changelog
+## 24.7.0.0 (2026-01-14)
+
+
+### Code Refactoring
+
+* verified compatibility with DFP SDK 24.7.0
+
+### Built and tested with
+- NAM SDK version 8.11.0
+- DFP SDK version 24.7.0
+
 ## 24.5.0.1 (2025-12-15)
 
 

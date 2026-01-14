@@ -20,6 +20,18 @@ dependencies {
 ```
 
 # Changelog
+## 6.21.0.0 (2026-01-14)
+
+
+### Code Refactoring
+
+* unify error message format when getting signal
+* verified compatibility with META SDK 6.21.0
+
+### Built and tested with
+- NAM SDK version 8.11.1
+- FAN SDK version 6.21.0
+
 ## 6.20.0.1 (2025-12-15)
 
 

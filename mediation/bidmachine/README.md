@@ -20,6 +20,23 @@ dependencies {
 ```
 
 # Changelog
+## 3.5.0.0 (2026-01-14)
+
+
+### Features
+
+* set BidMachine privacy policy
+
+
+### Code Refactoring
+
+* unify error message format when getting signal
+* verified compatibility with BidMachine SDK 3.5.0
+
+### Built and tested with
+- NAM SDK version 8.11.1
+- BIDMACHINE SDK version 3.5.0
+
 ## 3.3.0.1 (2025-12-15)
 
 

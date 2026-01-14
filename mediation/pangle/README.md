@@ -26,6 +26,17 @@ dependencies {
 ```
 
 # Changelog
+## 7.5.0.3.2 (2026-01-14)
+
+
+### Code Refactoring
+
+* unify error message format when getting signal
+
+### Built and tested with
+- NAM SDK version 8.11.1
+- PANGLE SDK version 7.5.0.3
+
 ## 7.5.0.3.1 (2025-12-15)
 
 

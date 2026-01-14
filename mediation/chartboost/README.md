@@ -33,6 +33,18 @@ productFlavors {
 ```
 
 # Changelog
+## 9.10.2.0 (2026-01-14)
+
+
+### Code Refactoring
+
+* unify error message format when getting signal
+* verified compatibility with Chartboost SDK 9.10.2
+
+### Built and tested with
+- NAM SDK version 8.11.1
+- CHARTBOOST SDK version 9.10.2
+
 ## 9.9.3.1 (2025-12-15)
 
 

@@ -26,6 +26,17 @@ dependencies {
 ```
 
 # Changelog
+## 9.1.0.0 (2026-01-14)
+
+
+### Code Refactoring
+
+* verified compatibility with IronSource SDK 9.1.0
+
+### Built and tested with
+- NAM SDK version 8.11.0
+- IRONSOURCE SDK version 9.1.0
+
 ## 8.11.1.1 (2025-12-15)
 
 
