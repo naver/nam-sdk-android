@@ -20,6 +20,17 @@ dependencies {
 ```
 
 # Changelog
+## 2.9.20251028.0 (2026-01-14)
+
+
+### Code Refactoring
+
+* verified compatibility with LAN SDK v2.9.20251028
+
+### Built and tested with
+- NAM SDK version 8.11.0
+- LAN SDK version 2.9.20251028
+
 ## 2.9.20250110.4 (2025-12-15)
 
 

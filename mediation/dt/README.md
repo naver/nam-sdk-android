@@ -20,6 +20,24 @@ dependencies {
 ```
 
 # Changelog
+## 8.4.0.0 (2026-01-14)
+
+
+### Bug Fixes
+
+* **dt:** support non bidding ad request
+
+
+### Code Refactoring
+
+* support in-app bidding for DigitalTurbine
+* unify error message format when getting signal
+* verified compatibility with DigitalTurbine SDK 8.4.0
+
+### Built and tested with
+- NAM SDK version 8.11.1
+- DT SDK version 8.4.0
+
 ## 8.3.8.1 (2025-12-15)
 
 

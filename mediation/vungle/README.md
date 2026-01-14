@@ -20,6 +20,23 @@ dependencies {
 ```
 
 # Changelog
+## 7.6.1.0 (2026-01-14)
+
+
+### Bug Fixes
+
+* **vungle:** support non bidding ad request
+
+
+### Code Refactoring
+
+* unify error message format when getting signal
+* verified compatibility with Vungle SDK 7.6.1
+
+### Built and tested with
+- NAM SDK version 8.11.1
+- VUNGLE SDK version 7.6.1
+
 ## 7.5.1.0 (2025-09-30)
 ### Code Refactoring
 * add ProductType when creating a bid token
