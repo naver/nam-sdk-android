@@ -1,5 +1,43 @@
 # Changelog
 
+## 8.12.0 (2026-02-02)
+
+
+### Bug Fixes
+
+* **core:** ad resources were not cached when disk caching
+* **nda:** correct slot spacing in Shopping NDA ad
+* **nda:** fix activity reference passing in fullscreen ads
+* **nda:** fix context leak of some ad
+* **nda:** fix unintended margin issue in MediaView
+
+
+### Code Refactoring
+
+* apply missing VAST macros
+* support GPP specs
+
+### NAM SDKs mapped to this BoM version 8.12.0
+|Artifact name|Version mapped this BoM|
+|---|---|
+|com.naver.gfpsdk:nam-core|8.12.0|
+|com.naver.gfpsdk:nam-adplayer|8.12.0|
+|com.naver.gfpsdk.mediation:nam-nda|8.12.0|
+|com.naver.gfpsdk.mediation:nam-ndavideo|8.12.0|
+|com.naver.gfpsdk.mediation:nam-applovin|13.5.0.1|
+|com.naver.gfpsdk.mediation:nam-aps|11.0.0.1|
+|com.naver.gfpsdk.mediation:nam-bidmachine|3.5.0.1|
+|com.naver.gfpsdk.mediation:nam-chartboost|9.10.2.0|
+|com.naver.gfpsdk.mediation:nam-dfp|24.7.0.0|
+|com.naver.gfpsdk.mediation:nam-dt|8.4.0.0|
+|com.naver.gfpsdk.mediation:nam-fan|6.21.0.1|
+|com.naver.gfpsdk.mediation:nam-inmobi|11.1.0.0|
+|com.naver.gfpsdk.mediation:nam-ironsource|9.1.0.1|
+|com.naver.gfpsdk.mediation:nam-lan|2.9.20251028.0|
+|com.naver.gfpsdk.mediation:nam-pangle|7.5.0.3.2|
+|com.naver.gfpsdk.mediation:nam-unity|4.16.5.1|
+|com.naver.gfpsdk.mediation:nam-vungle|7.6.1.0|
+
 ## 8.11.1 (2026-01-14)
 
 

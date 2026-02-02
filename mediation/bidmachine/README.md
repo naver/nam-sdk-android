@@ -20,6 +20,17 @@ dependencies {
 ```
 
 # Changelog
+## 3.5.0.1 (2026-02-02)
+
+
+### Code Refactoring
+
+* support GPP specs
+
+### Built and tested with
+- NAM SDK version 8.12.0
+- BIDMACHINE SDK version 3.5.0
+
 ## 3.5.0.0 (2026-01-14)
 
 

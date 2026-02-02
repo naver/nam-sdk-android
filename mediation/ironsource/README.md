@@ -26,6 +26,17 @@ dependencies {
 ```
 
 # Changelog
+## 9.1.0.1 (2026-02-02)
+
+
+### Code Refactoring
+
+* support GPP specs
+
+### Built and tested with
+- NAM SDK version 8.12.0
+- IRONSOURCE SDK version 9.1.0
+
 ## 9.1.0.0 (2026-01-14)
 
 
