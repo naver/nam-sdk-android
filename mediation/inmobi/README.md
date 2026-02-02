@@ -20,6 +20,17 @@ dependencies {
 ```
 
 # Changelog
+## 11.1.0.0 (2026-02-02)
+
+
+### Code Refactoring
+
+* verified compatibility with InMobi SDK 11.1.0
+
+### Built and tested with
+- NAM SDK version 8.11.0
+- INMOBI SDK version 11.1.0
+
 ## 10.8.7.1 (2025-12-15)
 
 
