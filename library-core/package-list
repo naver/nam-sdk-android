@@ -31,6 +31,8 @@ $dokka.location:com.naver.gfpsdk.caching/GfpAdCacheManager/load/#android.content
 $dokka.location:com.naver.gfpsdk.caching/GfpAdCacheManager/prefetch/#android.content.Context#kotlin.String#com.naver.gfpsdk.caching.GfpAdCacheType#com.naver.gfpsdk.caching.GfpAdCacheManager.PrefetchCallback?/PointingToDeclaration/library-core/com.naver.gfpsdk.caching/-gfp-ad-cache-manager/prefetch.html
 $dokka.location:com.naver.gfpsdk.caching/GfpAdCacheType.NativeAd///PointingToDeclaration/library-core/com.naver.gfpsdk.caching/-gfp-ad-cache-type/-native-ad/index.html
 $dokka.location:com.naver.gfpsdk.caching/GfpAdCacheType.NativeSimpleAd///PointingToDeclaration/library-core/com.naver.gfpsdk.caching/-gfp-ad-cache-type/-native-simple-ad/index.html
+$dokka.location:com.naver.gfpsdk.caching/GfpAdCacheType.NativeSimpleAd/NativeSimpleAd/#com.naver.gfpsdk.GfpNativeTemplateOptions?/PointingToDeclaration/library-core/com.naver.gfpsdk.caching/-gfp-ad-cache-type/-native-simple-ad/-native-simple-ad.html
+$dokka.location:com.naver.gfpsdk.caching/GfpAdCacheType.NativeSimpleAd/nativeTemplateOptions/#/PointingToDeclaration/library-core/com.naver.gfpsdk.caching/-gfp-ad-cache-type/-native-simple-ad/native-template-options.html
 $dokka.location:com.naver.gfpsdk.caching/GfpAdCacheType///PointingToDeclaration/library-core/com.naver.gfpsdk.caching/-gfp-ad-cache-type/index.html
 $dokka.location:com.naver.gfpsdk.inspector.file////PointingToDeclaration/library-core/com.naver.gfpsdk.inspector.file/index.html
 $dokka.location:com.naver.gfpsdk.inspector.file/GfpAdInspectorFileProvider.Companion///PointingToDeclaration/library-core/com.naver.gfpsdk.inspector.file/-gfp-ad-inspector-file-provider/-companion/index.html
@@ -248,6 +250,7 @@ $dokka.location:com.naver.gfpsdk.mediation/NativeAssetProvider/getSocialContext/
 $dokka.location:com.naver.gfpsdk.mediation/NativeAssetProvider/getSocialContextWithOption/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-asset-provider/get-social-context-with-option.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeAssetProvider/getTitle/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-asset-provider/get-title.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeAssetProvider/getTitleWithOption/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-asset-provider/get-title-with-option.html
+$dokka.location:com.naver.gfpsdk.mediation/NativeAssetProvider/isBodyHandled/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-asset-provider/is-body-handled.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalAdTracker.Companion///PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-ad-tracker/-companion/index.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalAdTracker.Companion/KEY_INNER_AD_VIEW/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-ad-tracker/-companion/-k-e-y_-i-n-n-e-r_-a-d_-v-i-e-w.html
 $dokka.location:com.naver.gfpsdk.mediation/NativeNormalAdTracker///PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-native-normal-ad-tracker/index.html
