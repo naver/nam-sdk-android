@@ -203,6 +203,7 @@ $dokka.location:com.naver.gfpsdk.mediation/GfpVideoAdAdapter/requestAd/#com.nave
 $dokka.location:com.naver.gfpsdk.mediation/InStreamVideoPlayerController///PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-in-stream-video-player-controller/index.html
 $dokka.location:com.naver.gfpsdk.mediation/InStreamVideoPlayerController/clickVideoAd/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-in-stream-video-player-controller/click-video-ad.html
 $dokka.location:com.naver.gfpsdk.mediation/InStreamVideoPlayerController/destroy/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-in-stream-video-player-controller/destroy.html
+$dokka.location:com.naver.gfpsdk.mediation/InStreamVideoPlayerController/forceSkip/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-in-stream-video-player-controller/force-skip.html
 $dokka.location:com.naver.gfpsdk.mediation/InStreamVideoPlayerController/getGfpVideoAdQoeInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-in-stream-video-player-controller/get-gfp-video-ad-qoe-info.html
 $dokka.location:com.naver.gfpsdk.mediation/InStreamVideoPlayerController/getLoudnessInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-in-stream-video-player-controller/get-loudness-info.html
 $dokka.location:com.naver.gfpsdk.mediation/InStreamVideoPlayerController/getNonLinearAdInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk.mediation/-in-stream-video-player-controller/get-non-linear-ad-info.html
@@ -678,6 +679,7 @@ $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/clickVideoAd/#/PointingTo
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/destroy/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/destroy.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/failedToLoad/#com.naver.gfpsdk.GfpError/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/failed-to-load.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/failedToLog/#kotlin.String?#kotlin.String?/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/failed-to-log.html
+$dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/forceSkip/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/force-skip.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/getAdContextInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/get-ad-context-info.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/getAdParam/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/get-ad-param.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/getAdProviderName/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/get-ad-provider-name.html
@@ -693,6 +695,7 @@ $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/getVideoMediaInfo/#/Point
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/hideOverlayUi/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/hide-overlay-ui.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/inspectorEventId/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/inspector-event-id.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/loadAd/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/load-ad.html
+$dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/loadAd/#com.naver.gfpsdk.internal.services.adcall.AdCallResponse/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/load-ad.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/pause/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/pause.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/resume/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/resume.html
 $dokka.location:com.naver.gfpsdk/BaseInStreamAdManager/setAdContainer/#android.widget.FrameLayout?/PointingToDeclaration/library-core/com.naver.gfpsdk/-base-in-stream-ad-manager/set-ad-container.html
@@ -1399,6 +1402,7 @@ $dokka.location:com.naver.gfpsdk/GfpTheme/getResolvedTheme/#/PointingToDeclarati
 $dokka.location:com.naver.gfpsdk/GfpTheme/key/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-theme/key.html
 $dokka.location:com.naver.gfpsdk/GfpVideoAd///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad/index.html
 $dokka.location:com.naver.gfpsdk/GfpVideoAd/clickVideoAd/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad/click-video-ad.html
+$dokka.location:com.naver.gfpsdk/GfpVideoAd/forceSkip/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad/force-skip.html
 $dokka.location:com.naver.gfpsdk/GfpVideoAd/getAdQoeInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad/get-ad-qoe-info.html
 $dokka.location:com.naver.gfpsdk/GfpVideoAd/getLoudnessInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad/get-loudness-info.html
 $dokka.location:com.naver.gfpsdk/GfpVideoAd/getNonLinearAdInfo/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad/get-non-linear-ad-info.html
@@ -1465,10 +1469,12 @@ $dokka.location:com.naver.gfpsdk/GfpVideoAdScheduleManager/clickVideoAd/#/Pointi
 $dokka.location:com.naver.gfpsdk/GfpVideoAdScheduleManager/contentPauseRequest/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad-schedule-manager/content-pause-request.html
 $dokka.location:com.naver.gfpsdk/GfpVideoAdScheduleManager/contentResumeRequest/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad-schedule-manager/content-resume-request.html
 $dokka.location:com.naver.gfpsdk/GfpVideoAdScheduleManager/destroy/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad-schedule-manager/destroy.html
+$dokka.location:com.naver.gfpsdk/GfpVideoAdScheduleManager/forceSkip/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad-schedule-manager/force-skip.html
 $dokka.location:com.naver.gfpsdk/GfpVideoAdScheduleManager/gfpVideoProperties/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad-schedule-manager/gfp-video-properties.html
 $dokka.location:com.naver.gfpsdk/GfpVideoAdScheduleManager/hideLinearAdOverlayUi/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad-schedule-manager/hide-linear-ad-overlay-ui.html
 $dokka.location:com.naver.gfpsdk/GfpVideoAdScheduleManager/hideNonLinearAdContainer/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad-schedule-manager/hide-non-linear-ad-container.html
 $dokka.location:com.naver.gfpsdk/GfpVideoAdScheduleManager/load/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad-schedule-manager/load.html
+$dokka.location:com.naver.gfpsdk/GfpVideoAdScheduleManager/loadWithAdCallResponse/#com.naver.gfpsdk.internal.services.adcall.AdCallResponse/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad-schedule-manager/load-with-ad-call-response.html
 $dokka.location:com.naver.gfpsdk/GfpVideoAdScheduleManager/loadWithAdSchedule/#com.naver.gfpsdk.VideoScheduleResponse/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad-schedule-manager/load-with-ad-schedule.html
 $dokka.location:com.naver.gfpsdk/GfpVideoAdScheduleManager/pause/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad-schedule-manager/pause.html
 $dokka.location:com.naver.gfpsdk/GfpVideoAdScheduleManager/resume/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-video-ad-schedule-manager/resume.html
