@@ -3,6 +3,7 @@ plugins {
 		    id("org.jetbrains.kotlin.android")
 		}
 
+
 		android {
 		    namespace = "com.naver.namexample"
 		    defaultConfig {
@@ -37,7 +38,8 @@ plugins {
 		    implementation("com.google.android.material:material:1.4.0")
 		    implementation("androidx.constraintlayout:constraintlayout:2.1.3")
 
-		    implementation(platform("com.naver.gfpsdk:nam-bom:8.13.0"))
+		    val namVersion = property("namVersion").toString()
+		    implementation(platform("com.naver.gfpsdk:nam-bom:$namVersion"))
 		    implementation("com.naver.gfpsdk:nam-core")
 		    implementation("com.naver.gfpsdk.mediation:nam-nda") // (optional) s2s mediation dependency
 		    implementation("com.naver.gfpsdk.mediation:nam-dfp") // (optional) dfp mediation dependency
