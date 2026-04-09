@@ -1,4 +1,42 @@
 # Changelog
+
+## 8.14.0 (2026-04-09)
+
+
+### Bug Fixes
+
+* **core:** activity context leak in GfpAdLoader
+
+
+### Code Refactoring
+
+* **core:** clear focus of BannerAdView on destroying
+* **core:** withDiskCache was not applied on loadAd(adParam)
+* improve shopping ad UI
+* **nda:** optimize slots ads
+* support ai generated mark on NDA AD
+
+### NAM SDKs mapped to this BoM version 8.14.0
+|Artifact name|Version mapped this BoM|
+|---|---|
+|com.naver.gfpsdk:nam-core|8.14.0|
+|com.naver.gfpsdk:nam-adplayer|8.14.0|
+|com.naver.gfpsdk.mediation:nam-nda|8.14.0|
+|com.naver.gfpsdk.mediation:nam-ndavideo|8.14.0|
+|com.naver.gfpsdk.mediation:nam-applovin|13.5.0.1|
+|com.naver.gfpsdk.mediation:nam-aps|11.0.0.1|
+|com.naver.gfpsdk.mediation:nam-bidmachine|3.5.0.1|
+|com.naver.gfpsdk.mediation:nam-chartboost|9.10.2.0|
+|com.naver.gfpsdk.mediation:nam-dfp|24.7.0.0|
+|com.naver.gfpsdk.mediation:nam-dt|8.4.0.0|
+|com.naver.gfpsdk.mediation:nam-fan|6.21.0.1|
+|com.naver.gfpsdk.mediation:nam-inmobi|11.1.0.0|
+|com.naver.gfpsdk.mediation:nam-ironsource|9.1.0.1|
+|com.naver.gfpsdk.mediation:nam-lan|3.0.1.0|
+|com.naver.gfpsdk.mediation:nam-pangle|7.5.0.3.2|
+|com.naver.gfpsdk.mediation:nam-unity|4.16.5.1|
+|com.naver.gfpsdk.mediation:nam-vungle|7.6.1.0|
+
 ## 8.13.0 (2026-03-20)
 ### Features
 * support OMID on in-stream AD
