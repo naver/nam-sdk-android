@@ -20,6 +20,17 @@ dependencies {
 ```
 
 # Changelog
+## 3.5.0.2 (2026-04-23)
+
+
+### Code Refactoring
+
+* migrate to new BidToken api
+
+### Built and tested with
+- NAM SDK version 8.12.0
+- BIDMACHINE SDK version 3.5.0
+
 ## 3.5.0.1 (2026-02-02)
 
 
