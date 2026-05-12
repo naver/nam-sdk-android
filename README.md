@@ -108,6 +108,7 @@ Mediation in NAM supports several ad source, with a mix of bidding and waterfall
 | [IronSource](mediation/ironsource)        |
 | [Line](mediation/lan)                     |
 | [Pangle](mediation/pangle)                |
+| [Teads](mediation/teads)                  |
 | [Unity](mediation/unity)                  |
 | [Vungle](mediation/vungle)                |
 
