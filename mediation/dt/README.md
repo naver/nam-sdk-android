@@ -20,6 +20,17 @@ dependencies {
 ```
 
 # Changelog
+## 8.4.0.1 (2026-05-15)
+
+
+### Bug Fixes
+
+* guard nullable bidToken in DtProviderConfiguration.collectSignals
+
+### Built and tested with
+- NAM SDK version 8.11.1
+- DT SDK version 8.4.0
+
 ## 8.4.0.0 (2026-01-14)
 
 
