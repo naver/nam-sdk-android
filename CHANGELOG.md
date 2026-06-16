@@ -1,5 +1,44 @@
 # Changelog
 
+## 8.17.0 (2026-06-16)
+
+
+### Features
+
+* support Moloco mediation
+
+
+### Bug Fixes
+
+* **core:** fix memory leak in native template ad
+* **core:** keep AccessPoint eventReceiveTs in transmitted location payload
+* **core:** recalculate splash media view width on size change
+* **nda:** fix missing accessibility label on no-control video overlay
+
+
+### NAM SDKs mapped to this BoM version 8.17.0
+|Artifact name|Version mapped this BoM|
+|---|---|
+|com.naver.gfpsdk:nam-core|8.17.0|
+|com.naver.gfpsdk:nam-adplayer|8.17.0|
+|com.naver.gfpsdk.mediation:nam-nda|8.17.0|
+|com.naver.gfpsdk.mediation:nam-ndavideo|8.17.0|
+|com.naver.gfpsdk.mediation:nam-applovin|13.5.0.1|
+|com.naver.gfpsdk.mediation:nam-aps|11.0.0.1|
+|com.naver.gfpsdk.mediation:nam-bidmachine|3.5.0.2|
+|com.naver.gfpsdk.mediation:nam-chartboost|9.10.2.0|
+|com.naver.gfpsdk.mediation:nam-dfp|24.7.0.0|
+|com.naver.gfpsdk.mediation:nam-dt|8.4.0.2|
+|com.naver.gfpsdk.mediation:nam-fan|6.21.0.1|
+|com.naver.gfpsdk.mediation:nam-inmobi|11.1.0.0|
+|com.naver.gfpsdk.mediation:nam-ironsource|9.1.0.1|
+|com.naver.gfpsdk.mediation:nam-lan|3.0.1.0|
+|com.naver.gfpsdk.mediation:nam-pangle|7.5.0.3.2|
+|com.naver.gfpsdk.mediation:nam-teads|6.1.0.1|
+|com.naver.gfpsdk.mediation:nam-unity|4.16.5.1|
+|com.naver.gfpsdk.mediation:nam-vungle|7.6.1.0|
+|com.naver.gfpsdk.mediation:nam-moloco|4.8.0.0|
+
 ## 8.16.0 (2026-06-01)
 
 ### Bug Fixes
