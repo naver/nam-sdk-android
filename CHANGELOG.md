@@ -1,5 +1,39 @@
 # Changelog
 
+## 8.17.1 (2026-07-08)
+
+### Bug Fixes
+* **nda:** override VerticalTwoPartMediaView.removeView to mirror addView forwarding
+
+
+### Code Refactoring
+* **nda:** replace AdChoicesView accessibility label with meaningful Korean text
+* support lazy loading for native out-stream ad
+
+
+### NAM SDKs mapped to this BoM version 8.17.1
+|Artifact name|Version mapped this BoM|
+|---|---|
+|com.naver.gfpsdk:nam-core|8.17.1|
+|com.naver.gfpsdk:nam-adplayer|8.17.1|
+|com.naver.gfpsdk.mediation:nam-nda|8.17.1|
+|com.naver.gfpsdk.mediation:nam-ndavideo|8.17.1|
+|com.naver.gfpsdk.mediation:nam-applovin|13.5.0.1|
+|com.naver.gfpsdk.mediation:nam-aps|11.0.0.1|
+|com.naver.gfpsdk.mediation:nam-bidmachine|3.5.0.2|
+|com.naver.gfpsdk.mediation:nam-chartboost|9.10.2.0|
+|com.naver.gfpsdk.mediation:nam-dfp|24.7.0.0|
+|com.naver.gfpsdk.mediation:nam-dt|8.4.0.2|
+|com.naver.gfpsdk.mediation:nam-fan|6.21.0.1|
+|com.naver.gfpsdk.mediation:nam-inmobi|11.1.0.0|
+|com.naver.gfpsdk.mediation:nam-ironsource|9.1.0.1|
+|com.naver.gfpsdk.mediation:nam-lan|3.1.1.0|
+|com.naver.gfpsdk.mediation:nam-pangle|7.5.0.3.2|
+|com.naver.gfpsdk.mediation:nam-teads|6.1.0.1|
+|com.naver.gfpsdk.mediation:nam-unity|4.16.5.1|
+|com.naver.gfpsdk.mediation:nam-vungle|7.6.1.0|
+|com.naver.gfpsdk.mediation:nam-moloco|4.8.0.0|
+
 ## 8.17.0 (2026-06-16)
 
 
