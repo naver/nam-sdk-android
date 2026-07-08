@@ -21,6 +21,16 @@ dependencies {
 
 # Changelog
 
+## 3.1.1.0 (2026-07-08)
+
+### Code Refactoring
+
+* verified compatibility with LAN(fivead) SDK 3.1.1
+
+### Built and tested with
+- NAM SDK version 8.11.0
+- LAN SDK version 3.1.1
+
 ## 3.0.1.0 (2026-02-11)
 
 

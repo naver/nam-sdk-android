@@ -57,6 +57,7 @@ plugins {
 		    implementation("com.naver.gfpsdk.mediation:nam-chartboost") // (optional) chartboost mediation
 			implementation("com.naver.gfpsdk.mediation:nam-pangle") // (optional) pangle mediation
 		    implementation("com.naver.gfpsdk.mediation:nam-teads") // (optional) teads mediation
+		    implementation("com.naver.gfpsdk.mediation:nam-moloco") // (optional) moloco mediation
 
 		    // for video player, this example using exoplayer
 		    implementation("com.google.android.exoplayer:exoplayer-core:2.18.0")
