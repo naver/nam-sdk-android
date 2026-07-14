@@ -20,6 +20,17 @@ dependencies {
 ```
 
 # Changelog
+## 4.16.6.0 (2026-07-14)
+
+
+### Code Refactoring
+
+* verified compatibility with Unity SDK 4.16.6
+
+### Built and tested with
+- NAM SDK version 8.12.0
+- UNITY SDK version 4.16.6
+
 ## 4.16.5.1 (2026-02-02)
 
 

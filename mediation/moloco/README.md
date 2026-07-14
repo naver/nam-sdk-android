@@ -20,6 +20,18 @@ dependencies {
 ```
 
 # Changelog
+## 4.8.0.1 (2026-07-14)
+
+
+### Bug Fixes
+
+* **moloco:** fix media type of Moloco native
+
+
+### Built and tested with
+- NAM SDK version 8.17.0
+- MOLOCO SDK version 4.8.0
+
 ## 4.8.0.0 (2026-06-16)
 
 
