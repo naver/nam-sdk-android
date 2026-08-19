@@ -1,5 +1,47 @@
 # Changelog
 
+## 8.18.0 (2026-08-19)
+### Features
+* **nda:** add retail media shopping NDA
+* support Magnite Prebid mediation
+* support shopping promotion ad
+
+### Bug Fixes
+* hide playback controller when video starts playing
+* **nda:** gate mraid commands behind user click
+* **nda:** preserve out-stream video covers across playback restore
+
+### Code Refactoring
+* **nda:** refactor content description for some ads
+* **nda:** remove Shopping1Plus3 slot native template
+* **nda:** update page indicator sizes for SlotsView
+
+### GFP SDKs mapped to this BoM version 8.18.0
+|Artifact name|Version mapped this BoM|
+|---|---|
+|com.naver.gfpsdk:gfpsdk-core|8.18.0|
+|com.naver.gfpsdk:gfpsdk-adplayer|8.18.0|
+|com.naver.gfpsdk.mediation:nda|8.18.0|
+|com.naver.gfpsdk.mediation:ndarichmedia|8.18.0|
+|com.naver.gfpsdk.mediation:ndavideo|8.18.0|
+|com.naver.gfpsdk.mediation:applovin|13.5.0.1|
+|com.naver.gfpsdk.mediation:aps|11.0.0.1|
+|com.naver.gfpsdk.mediation:bidmachine|3.5.0.2|
+|com.naver.gfpsdk.mediation:chartboost|9.13.0.0|
+|com.naver.gfpsdk.mediation:dfp|24.7.0.0|
+|com.naver.gfpsdk.mediation:dt|8.4.0.2|
+|com.naver.gfpsdk.mediation:fan|6.21.0.1|
+|com.naver.gfpsdk.mediation:ima|3.37.0.3|
+|com.naver.gfpsdk.mediation:inmobi|11.1.0.0|
+|com.naver.gfpsdk.mediation:ironsource|9.1.0.1|
+|com.naver.gfpsdk.mediation:lan|3.1.1.0|
+|com.naver.gfpsdk.mediation:moloco|4.8.0.1|
+|com.naver.gfpsdk.mediation:pangle|7.5.0.3.2|
+|com.naver.gfpsdk.mediation:teads|6.1.0.2|
+|com.naver.gfpsdk.mediation:unity|4.16.6.0|
+|com.naver.gfpsdk.mediation:vungle|7.6.1.0|
+|com.naver.gfpsdk.mediation:prebid|3.3.1.0|
+
 ## 8.17.2 (2026-07-14)
 
 

@@ -27,6 +27,15 @@ dependencies {
 
 # Changelog
 
+## 6.1.0.2 (2026-08-19)
+### Bug Fixes
+* specify wildcard module for compose exclusions
+* render out-stream video creatives in native normal
+
+### Built and tested with
+- NAM SDK version 8.15.0
+- TEADS SDK version 6.1.0
+
 ## 6.1.0.1 (2026-05-11)
 
 ### Code Refactoring
@@ -36,4 +45,3 @@ dependencies {
 ### Built and tested with
 - GFP SDK version 8.15.1
 - TEADS SDK version 6.1.0
- 

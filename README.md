@@ -112,6 +112,7 @@ Mediation in NAM supports several ad source, with a mix of bidding and waterfall
 | [Teads](mediation/teads)                  |
 | [Unity](mediation/unity)                  |
 | [Vungle](mediation/vungle)                |
+| [Prebid(Magnite)](mediation/prebid)       |
 
 > [!NOTE]
 > After contacting the NAM manager, add the module of the Mediation you want to integrate.
