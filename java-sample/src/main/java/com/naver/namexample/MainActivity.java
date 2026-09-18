@@ -8,8 +8,17 @@
  */
 package com.naver.namexample;
 
+import android.content.res.Configuration;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.view.View;
+import androidx.activity.EdgeToEdge;
+import androidx.activity.SystemBarStyle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import com.naver.gfpsdk.GenderType;
@@ -21,8 +30,19 @@ import com.naver.gfpsdk.mediation.NdaProviderOptions;
 public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // Android 15(API 35) and above draw every app edge-to-edge. Opting in explicitly keeps
+        // the behavior identical on older API levels.
+        // The toolbar paints the status bar area with 'colorPrimary', which is dark in the day
+        // theme and light in the night theme, so the system icons follow the opposite of it.
+        EdgeToEdge.enable(
+                this,
+                isNightMode()
+                        ? SystemBarStyle.light(Color.TRANSPARENT, Color.TRANSPARENT)
+                        : SystemBarStyle.dark(Color.TRANSPARENT));
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setSupportActionBar(findViewById(R.id.toolbar));
+        applyWindowInsets();
         prepareSdk();
 
         if (savedInstanceState == null) {
@@ -31,6 +51,40 @@ public class MainActivity extends AppCompatActivity {
             transaction.add(R.id.fragment_container, mainFragment);
             transaction.commit();
         }
+    }
+
+    private boolean isNightMode() {
+        return (getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK)
+                == Configuration.UI_MODE_NIGHT_YES;
+    }
+
+    /**
+     * Keeps the sample content out of the system bars and the display cutout, which the system no
+     * longer does on behalf of an edge-to-edge app.
+     */
+    private void applyWindowInsets() {
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        ViewCompat.setOnApplyWindowInsetsListener(
+                toolbar,
+                (view, windowInsets) -> {
+                    Insets insets = getContentInsets(windowInsets);
+                    view.setPadding(insets.left, insets.top, insets.right, view.getPaddingBottom());
+                    return windowInsets;
+                });
+
+        View container = findViewById(R.id.fragment_container);
+        ViewCompat.setOnApplyWindowInsetsListener(
+                container,
+                (view, windowInsets) -> {
+                    Insets insets = getContentInsets(windowInsets);
+                    view.setPadding(insets.left, view.getPaddingTop(), insets.right, insets.bottom);
+                    return windowInsets;
+                });
+    }
+
+    private static Insets getContentInsets(WindowInsetsCompat windowInsets) {
+        return windowInsets.getInsets(
+                WindowInsetsCompat.Type.systemBars() | WindowInsetsCompat.Type.displayCutout());
     }
 
     /**

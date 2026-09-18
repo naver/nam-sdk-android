@@ -25,7 +25,6 @@ import com.naver.namexample.sample.RewardedFragment
 import com.naver.namexample.sample.SmartChannelFragment
 
 class MainMenuFragment : ListFragment() {
-    private lateinit var binding: FragmentMainMenuBinding
     private val fragmentList = arrayOf(
         SampleAdInfo("이미지형 배너") { ImageBannerFragment() },
         SampleAdInfo("네이티브형 배너") { NativeBannerFragment() },
@@ -40,9 +39,12 @@ class MainMenuFragment : ListFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentMainMenuBinding.inflate(layoutInflater)
-        listAdapter = ArrayAdapter(requireContext(), R.layout.content_frgment_list, fragmentList)
-        return binding.root
+        return FragmentMainMenuBinding.inflate(inflater, container, false).root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        listAdapter = ArrayAdapter(requireContext(), R.layout.content_fragment_list, fragmentList)
     }
 
     override fun onListItemClick(l: ListView, v: View, position: Int, id: Long) {
