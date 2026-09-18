@@ -27,6 +27,17 @@ dependencies {
 
 # Changelog
 
+## 6.1.0.3 (2026-09-18)
+### Bug Fixes
+* declare native simple overlay containers as friendly obstructions
+
+### Code Refactoring
+* add Teads validation mode option and apply debug logs with test mode
+
+### Built and tested with
+- NAM SDK version 8.15.0
+- TEADS SDK version 6.1.0
+
 ## 6.1.0.2 (2026-08-19)
 ### Bug Fixes
 * specify wildcard module for compose exclusions

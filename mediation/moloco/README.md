@@ -20,6 +20,17 @@ dependencies {
 ```
 
 # Changelog
+## 4.9.0.0 (2026-09-18)
+
+
+### Code Refactoring
+
+* verified compatibility with Moloco SDK 4.9.0
+
+### Built and tested with
+- NAM SDK version 8.17.0
+- MOLOCO SDK version 4.9.0
+
 ## 4.8.0.1 (2026-07-14)
 
 
