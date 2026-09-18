@@ -26,6 +26,17 @@ dependencies {
 ```
 
 # Changelog
+## 7.8.0.7.0 (2026-09-18)
+
+
+### Code Refactoring
+
+* verified compatibility with Pangle SDK 7.8.0.7
+
+### Built and tested with
+- NAM SDK version 8.11.1
+- PANGLE SDK version 7.8.0.7
+
 ## 7.5.0.3.2 (2026-01-14)
 
 

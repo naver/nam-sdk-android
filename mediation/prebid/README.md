@@ -21,6 +21,14 @@ dependencies {
 
 # Changelog
 
+## 3.3.4.0 (2026-09-18)
+### Code Refactoring
+* verified compatibility with Prebid SDK 3.3.4
+
+### Built and tested with
+- NAM SDK version 8.18.0
+- PREBID SDK version 3.3.4
+
 ## 3.3.1.0 (2026-08-19)
 ### Features
 * add Magnite Prebid mediation module
