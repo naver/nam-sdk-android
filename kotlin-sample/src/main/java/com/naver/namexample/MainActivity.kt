@@ -8,8 +8,17 @@
  */
 package com.naver.namexample
 
+import android.content.res.Configuration
+import android.graphics.Color
 import android.os.Bundle
+import android.view.View
+import androidx.activity.SystemBarStyle
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.updatePadding
 import com.naver.ads.NasLogger
 import com.naver.gfpsdk.GenderType
 import com.naver.gfpsdk.GfpSdk.getSdkProperties
@@ -22,8 +31,21 @@ import com.naver.gfpsdk.mediation.NdaProviderOptions
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        // Android 15(API 35) and above draw every app edge-to-edge. Opting in explicitly keeps
+        // the behavior identical on older API levels.
+        // The toolbar paints the status bar area with 'colorPrimary', which is dark in the day
+        // theme and light in the night theme, so the system icons follow the opposite of it.
+        enableEdgeToEdge(
+            statusBarStyle = if (isNightMode()) {
+                SystemBarStyle.light(Color.TRANSPARENT, Color.TRANSPARENT)
+            } else {
+                SystemBarStyle.dark(Color.TRANSPARENT)
+            }
+        )
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        setSupportActionBar(findViewById<Toolbar>(R.id.toolbar))
+        applyWindowInsets()
 
         NasLogger.setLogLevel(NasLogger.LogLevel.DEBUG)
         // un-necessary on release
@@ -66,8 +88,40 @@ class MainActivity : AppCompatActivity() {
                 .build()
         )
 
+        if (savedInstanceState != null) {
+            return
+        }
+
         supportFragmentManager.beginTransaction()
             .add(R.id.fragment_container, MainMenuFragment())
             .commit()
+    }
+
+    private fun isNightMode(): Boolean =
+        resources.configuration.uiMode and Configuration.UI_MODE_NIGHT_MASK ==
+            Configuration.UI_MODE_NIGHT_YES
+
+    /**
+     * Keeps the sample content out of the system bars and the display cutout, which the system no
+     * longer does on behalf of an edge-to-edge app.
+     */
+    private fun applyWindowInsets() {
+        val toolbar = findViewById<View>(R.id.toolbar)
+        ViewCompat.setOnApplyWindowInsetsListener(toolbar) { view, windowInsets ->
+            val insets = windowInsets.getInsets(
+                WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.displayCutout()
+            )
+            view.updatePadding(left = insets.left, top = insets.top, right = insets.right)
+            windowInsets
+        }
+
+        val container = findViewById<View>(R.id.fragment_container)
+        ViewCompat.setOnApplyWindowInsetsListener(container) { view, windowInsets ->
+            val insets = windowInsets.getInsets(
+                WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.displayCutout()
+            )
+            view.updatePadding(left = insets.left, right = insets.right, bottom = insets.bottom)
+            windowInsets
+        }
     }
 }
