@@ -757,8 +757,12 @@ $dokka.location:com.naver.gfpsdk/EventTrackingStatType/code/#/PointingToDeclarat
 $dokka.location:com.naver.gfpsdk/EventTrackingStatType/toString/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-event-tracking-stat-type/to-string.html
 $dokka.location:com.naver.gfpsdk/EventTrackingStatType/valueOf/#java.lang.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-event-tracking-stat-type/value-of.html
 $dokka.location:com.naver.gfpsdk/EventTrackingStatType/values/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-event-tracking-stat-type/values.html
+$dokka.location:com.naver.gfpsdk/ExpandableAdEvent.AnimationData///PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-animation-data/index.html
+$dokka.location:com.naver.gfpsdk/ExpandableAdEvent.AnimationData/AnimationData/#kotlin.Float#android.animation.ValueAnimator/PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-animation-data/-animation-data.html
+$dokka.location:com.naver.gfpsdk/ExpandableAdEvent.AnimationData/animator/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-animation-data/animator.html
+$dokka.location:com.naver.gfpsdk/ExpandableAdEvent.AnimationData/expandOrCollapseFraction/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-animation-data/expand-or-collapse-fraction.html
 $dokka.location:com.naver.gfpsdk/ExpandableAdEvent.Companion///PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-companion/index.html
-$dokka.location:com.naver.gfpsdk/ExpandableAdEvent.Companion/create/#com.naver.gfpsdk.ExpandableAdEvent.Type#com.naver.gfpsdk.ExpandableAdEvent.Ratio#kotlin.Int#kotlin.Int#android.graphics.Rect#android.graphics.Rect/PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-companion/create.html
+$dokka.location:com.naver.gfpsdk/ExpandableAdEvent.Companion/create/#com.naver.gfpsdk.ExpandableAdEvent.Type#com.naver.gfpsdk.ExpandableAdEvent.Ratio#kotlin.Int#kotlin.Int#android.graphics.Rect#android.graphics.Rect#com.naver.gfpsdk.ExpandableAdEvent.AnimationData?/PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-companion/create.html
 $dokka.location:com.naver.gfpsdk/ExpandableAdEvent.ExpandableAdEventListener///PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-expandable-ad-event-listener/index.html
 $dokka.location:com.naver.gfpsdk/ExpandableAdEvent.ExpandableAdEventListener/onExpandableAdEvent/#com.naver.gfpsdk.ExpandableAdEvent/PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-expandable-ad-event-listener/on-expandable-ad-event.html
 $dokka.location:com.naver.gfpsdk/ExpandableAdEvent.Ratio.Companion///PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-ratio/-companion/index.html
@@ -784,6 +788,7 @@ $dokka.location:com.naver.gfpsdk/ExpandableAdEvent.Type/entries/#/PointingToDecl
 $dokka.location:com.naver.gfpsdk/ExpandableAdEvent.Type/valueOf/#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-type/value-of.html
 $dokka.location:com.naver.gfpsdk/ExpandableAdEvent.Type/values/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/-type/values.html
 $dokka.location:com.naver.gfpsdk/ExpandableAdEvent///PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/index.html
+$dokka.location:com.naver.gfpsdk/ExpandableAdEvent/animationData/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/animation-data.html
 $dokka.location:com.naver.gfpsdk/ExpandableAdEvent/height/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/height.html
 $dokka.location:com.naver.gfpsdk/ExpandableAdEvent/newRect/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/new-rect.html
 $dokka.location:com.naver.gfpsdk/ExpandableAdEvent/oldRect/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-expandable-ad-event/old-rect.html
@@ -936,6 +941,16 @@ $dokka.location:com.naver.gfpsdk/GfpContentInfo/serialize/#/PointingToDeclaratio
 $dokka.location:com.naver.gfpsdk/GfpContentInfo/sourceId/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-content-info/source-id.html
 $dokka.location:com.naver.gfpsdk/GfpContentInfo/sourceSubType/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-content-info/source-sub-type.html
 $dokka.location:com.naver.gfpsdk/GfpContentInfo/sourceType/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-content-info/source-type.html
+$dokka.location:com.naver.gfpsdk/GfpDecorationType.COUPON///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}library-core/com.naver.gfpsdk/-gfp-decoration-type/-c-o-u-p-o-n/index.html
+$dokka.location:com.naver.gfpsdk/GfpDecorationType.Companion///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-decoration-type/-companion/index.html
+$dokka.location:com.naver.gfpsdk/GfpDecorationType.Companion/parse/#kotlin.String?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-decoration-type/-companion/parse.html
+$dokka.location:com.naver.gfpsdk/GfpDecorationType///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-decoration-type/index.html
+$dokka.location:com.naver.gfpsdk/GfpDecorationType/entries/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-decoration-type/entries.html
+$dokka.location:com.naver.gfpsdk/GfpDecorationType/key/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-decoration-type/key.html
+$dokka.location:com.naver.gfpsdk/GfpDecorationType/valueOf/#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-decoration-type/value-of.html
+$dokka.location:com.naver.gfpsdk/GfpDecorationType/values/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-decoration-type/values.html
+$dokka.location:com.naver.gfpsdk/GfpDecorationView///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-decoration-view/index.html
+$dokka.location:com.naver.gfpsdk/GfpDecorationView/GfpDecorationView/#android.content.Context#android.util.AttributeSet?#kotlin.Int/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-decoration-view/-gfp-decoration-view.html
 $dokka.location:com.naver.gfpsdk/GfpDedupeManager///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-dedupe-manager/index.html
 $dokka.location:com.naver.gfpsdk/GfpDedupeManager/GfpDedupeManager/#int/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-dedupe-manager/-gfp-dedupe-manager.html
 $dokka.location:com.naver.gfpsdk/GfpDedupeManager/destroy/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-dedupe-manager/destroy.html
@@ -1202,6 +1217,7 @@ $dokka.location:com.naver.gfpsdk/GfpNativeAdView/findInnerAdView/#kotlin.String/
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/getAdCallIdForDebugger/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/get-ad-call-id-for-debugger.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/getAdditionalContainer/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/get-additional-container.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/getClickableViews/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/get-clickable-views.html
+$dokka.location:com.naver.gfpsdk/GfpNativeAdView/getDecorationView/#com.naver.gfpsdk.GfpDecorationType/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/get-decoration-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/getExtraImageView/#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/get-extra-image-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/getExtraTextView/#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/get-extra-text-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/iconView/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/icon-view.html
@@ -1210,6 +1226,7 @@ $dokka.location:com.naver.gfpsdk/GfpNativeAdView/mediaView/#/PointingToDeclarati
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/noticeView/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/notice-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/removeAllViews/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/remove-all-views.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/removeView/#android.view.View?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/remove-view.html
+$dokka.location:com.naver.gfpsdk/GfpNativeAdView/setDecorationView/#com.naver.gfpsdk.GfpDecorationType#com.naver.gfpsdk.GfpDecorationView?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/set-decoration-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/setExtraImageView/#kotlin.String#android.widget.ImageView?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/set-extra-image-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/setExtraTextView/#kotlin.String#android.view.View?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/set-extra-text-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeAdView/setNativeAd/#com.naver.gfpsdk.GfpNativeAd/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-ad-view/set-native-ad.html
@@ -1267,6 +1284,7 @@ $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView///PointingToDeclaration/
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/GfpNativeSimpleAdView/#android.content.Context#android.util.AttributeSet?#kotlin.Int/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/-gfp-native-simple-ad-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/addView/#android.view.View?#kotlin.Int#android.view.ViewGroup.LayoutParams?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/add-view.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/additionalContainer/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/additional-container.html
+$dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/backgroundContainer/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/background-container.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/bringChildToFront/#android.view.View?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/bring-child-to-front.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/dispatchTouchEvent/#android.view.MotionEvent/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/dispatch-touch-event.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdView/extraAdViews/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-view/extra-ad-views.html
