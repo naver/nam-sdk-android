@@ -39,6 +39,18 @@ You can find your app ID in the Ad Manager UI. For `android:value`, insert your 
 ```
 
 # Changelog
+## 24.7.0.1 (2026-10-08)
+
+
+### Bug Fixes
+
+* apply SDK mute setting to native video ads
+* fix size issue for native video by setting media view aspect ratio
+
+### Built and tested with
+- NAM SDK version 8.11.0
+- DFP SDK version 24.7.0
+
 ## 24.7.0.0 (2026-01-14)
 
 
