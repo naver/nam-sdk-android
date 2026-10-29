@@ -955,6 +955,7 @@ $dokka.location:com.naver.gfpsdk/GfpDedupeManager///PointingToDeclaration/libra
 $dokka.location:com.naver.gfpsdk/GfpDedupeManager/GfpDedupeManager/#int/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-dedupe-manager/-gfp-dedupe-manager.html
 $dokka.location:com.naver.gfpsdk/GfpDedupeManager/destroy/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-dedupe-manager/destroy.html
 $dokka.location:com.naver.gfpsdk/GfpDedupeManager/loadAd/#GfpAdLoader/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-dedupe-manager/load-ad.html
+$dokka.location:com.naver.gfpsdk/GfpDedupeManager/resetChunk/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-dedupe-manager/reset-chunk.html
 $dokka.location:com.naver.gfpsdk/GfpError.Companion///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error/-companion/index.html
 $dokka.location:com.naver.gfpsdk/GfpError.Companion/DESTROYED_LOAD_ERROR_MSG/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error/-companion/-d-e-s-t-r-o-y-e-d_-l-o-a-d_-e-r-r-o-r_-m-s-g.html
 $dokka.location:com.naver.gfpsdk/GfpError.Companion/invoke/#com.naver.gfpsdk.GfpErrorType#kotlin.String#kotlin.String?#com.naver.gfpsdk.EventTrackingStatType?/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error/-companion/invoke.html
@@ -1265,7 +1266,7 @@ $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions.Companion/MAX_HEIGHT_P
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions.MaxHeightProvider///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/-max-height-provider/index.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions.MaxHeightProvider/getMaxHeight/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/-max-height-provider/get-max-height.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions.MinHeightProvider///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/-min-height-provider/index.html
-$dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions.MinHeightProvider/getMinHeight/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/-min-height-provider/get-min-height.html
+$dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions.MinHeightProvider/getMinHeightPx/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/-min-height-provider/get-min-height-px.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/index.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions/adChoicesPlacement/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/ad-choices-placement.html
 $dokka.location:com.naver.gfpsdk/GfpNativeSimpleAdOptions/backgroundStyle/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-native-simple-ad-options/background-style.html
