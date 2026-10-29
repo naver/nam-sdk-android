@@ -1,5 +1,42 @@
 # Changelog
 
+## 8.20.0 (2026-10-29)
+### Features
+
+* improve accessibility of native ads
+* **nda:** add special da 140 native simple ads
+
+### Bug Fixes
+
+* **adplayer:** follow the screen orientation in the in-stream ad overlay
+* **core:** announce single image native simple ad as a button for screen readers
+* **nda:** prevent native ad from stealing Talkback focus on render
+* **ndarichmedia:** fix layout of expand video plus v2 renewal ad
+
+### NAM SDKs mapped to this BoM version 8.20.0
+|Artifact name|Version mapped this BoM|
+|---|---|
+|com.naver.gfpsdk:nam-core|8.20.0|
+|com.naver.gfpsdk:nam-adplayer|8.20.0|
+|com.naver.gfpsdk.mediation:nam-nda|8.20.0|
+|com.naver.gfpsdk.mediation:nam-ndavideo|8.20.0|
+|com.naver.gfpsdk.mediation:nam-unity|4.16.6.0|
+|com.naver.gfpsdk.mediation:nam-vungle|7.6.1.0|
+|com.naver.gfpsdk.mediation:nam-inmobi|11.1.0.0|
+|com.naver.gfpsdk.mediation:nam-dt|8.4.0.2|
+|com.naver.gfpsdk.mediation:nam-applovin|13.5.0.1|
+|com.naver.gfpsdk.mediation:nam-prebid|3.3.4.0|
+|com.naver.gfpsdk.mediation:nam-pangle|7.8.0.7.0|
+|com.naver.gfpsdk.mediation:nam-moloco|4.9.0.0|
+|com.naver.gfpsdk.mediation:nam-bidmachine|3.5.0.2|
+|com.naver.gfpsdk.mediation:nam-aps|11.0.0.1|
+|com.naver.gfpsdk.mediation:nam-teads|6.1.0.3|
+|com.naver.gfpsdk.mediation:nam-dfp|24.7.0.1|
+|com.naver.gfpsdk.mediation:nam-ironsource|9.1.0.1|
+|com.naver.gfpsdk.mediation:nam-lan|3.1.1.0|
+|com.naver.gfpsdk.mediation:nam-fan|6.21.0.1|
+|com.naver.gfpsdk.mediation:nam-chartboost|9.13.0.0|
+
 ## 8.19.0 (2026-10-08)
 ### Features
 * support retail media clip images ads
