@@ -48,6 +48,17 @@ dependencies {
 - NAM SDK version 8.11.1
 - VUNGLE SDK version 7.6.1
 
+## 7.5.1.1 (2025-12-15)
+
+
+### Code Refactoring
+
+* verified compatibility with mediation network modules
+
+### Built and tested with
+- NAM SDK version 8.11.0
+- VUNGLE SDK version 7.5.1
+
 ## 7.5.1.0 (2025-09-30)
 ### Code Refactoring
 * add ProductType when creating a bid token
