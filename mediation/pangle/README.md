@@ -26,6 +26,17 @@ dependencies {
 ```
 
 # Changelog
+## 7.8.0.7.1 (2026-11-13)
+
+
+### Bug Fixes
+
+* disable multi-process WebView file lock handling
+
+### Built and tested with
+- NAM SDK version 8.11.1
+- PANGLE SDK version 7.8.0.7
+
 ## 7.8.0.7.0 (2026-09-18)
 
 
