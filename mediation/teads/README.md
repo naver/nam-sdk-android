@@ -54,5 +54,16 @@ dependencies {
 * verified compatibility with Teads SDK 6.1.0  
 
 ### Built and tested with
-- GFP SDK version 8.15.1
+- NAM SDK version 8.15.0
+- TEADS SDK version 6.1.0
+
+## 6.1.0.0 (2026-05-11)
+
+
+### Code Refactoring
+
+* verified compatibility with Teads SDK 6.1.0
+
+### Built and tested with
+- NAM SDK version 8.15.0
 - TEADS SDK version 6.1.0

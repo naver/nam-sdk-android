@@ -31,18 +31,46 @@
 |com.naver.gfpsdk.mediation:nam-unity|4.16.6.0|
 |com.naver.gfpsdk.mediation:nam-vungle|7.7.4.0|
 
+## 8.20.1 (2026-11-04)
+
+### Bug Fixes
+
+* improve performance
+
+### NAM SDKs mapped to this BoM version 8.20.1
+|Artifact name|Version mapped this BoM|
+|---|---|
+|com.naver.gfpsdk:nam-core|8.20.1|
+|com.naver.gfpsdk:nam-adplayer|8.20.1|
+|com.naver.gfpsdk.mediation:nam-nda|8.20.1|
+|com.naver.gfpsdk.mediation:nam-ndavideo|8.20.1|
+|com.naver.gfpsdk.mediation:nam-unity|4.16.6.0|
+|com.naver.gfpsdk.mediation:nam-vungle|7.6.1.0|
+|com.naver.gfpsdk.mediation:nam-inmobi|11.1.0.0|
+|com.naver.gfpsdk.mediation:nam-dt|8.4.0.2|
+|com.naver.gfpsdk.mediation:nam-applovin|13.5.0.1|
+|com.naver.gfpsdk.mediation:nam-prebid|3.3.4.0|
+|com.naver.gfpsdk.mediation:nam-pangle|7.8.0.7.0|
+|com.naver.gfpsdk.mediation:nam-moloco|4.9.0.0|
+|com.naver.gfpsdk.mediation:nam-bidmachine|3.5.0.2|
+|com.naver.gfpsdk.mediation:nam-aps|11.0.0.1|
+|com.naver.gfpsdk.mediation:nam-teads|6.1.0.3|
+|com.naver.gfpsdk.mediation:nam-dfp|24.7.0.1|
+|com.naver.gfpsdk.mediation:nam-ironsource|9.1.0.1|
+|com.naver.gfpsdk.mediation:nam-lan|3.1.1.0|
+|com.naver.gfpsdk.mediation:nam-fan|6.21.0.1|
+|com.naver.gfpsdk.mediation:nam-chartboost|9.13.0.0|
+
 ## 8.20.0 (2026-10-29)
 ### Features
 
 * improve accessibility of native ads
-* **nda:** add special da 140 native simple ads
 
 ### Bug Fixes
 
 * **adplayer:** follow the screen orientation in the in-stream ad overlay
 * **core:** announce single image native simple ad as a button for screen readers
 * **nda:** prevent native ad from stealing Talkback focus on render
-* **ndarichmedia:** fix layout of expand video plus v2 renewal ad
 
 ### NAM SDKs mapped to this BoM version 8.20.0
 |Artifact name|Version mapped this BoM|
@@ -81,61 +109,57 @@
 ### Code Refactoring
 * remove COLLECTION_1_3 slots type and GridLayout rendering path
 
-### GFP SDKs mapped to this BoM version 8.19.0
+### NAM SDKs mapped to this BoM version 8.19.0
 |Artifact name|Version mapped this BoM|
 |---|---|
-|com.naver.gfpsdk:gfpsdk-core|8.19.0|
-|com.naver.gfpsdk:gfpsdk-adplayer|8.19.0|
-|com.naver.gfpsdk.mediation:nda|8.19.0|
-|com.naver.gfpsdk.mediation:ndarichmedia|8.19.0|
-|com.naver.gfpsdk.mediation:ndavideo|8.19.0|
-|com.naver.gfpsdk.mediation:applovin|13.5.0.1|
-|com.naver.gfpsdk.mediation:aps|11.0.0.1|
-|com.naver.gfpsdk.mediation:bidmachine|3.5.0.2|
-|com.naver.gfpsdk.mediation:chartboost|9.13.0.0|
-|com.naver.gfpsdk.mediation:dfp|24.7.0.1|
-|com.naver.gfpsdk.mediation:dt|8.4.0.2|
-|com.naver.gfpsdk.mediation:fan|6.21.0.1|
-|com.naver.gfpsdk.mediation:ima|3.37.0.3|
-|com.naver.gfpsdk.mediation:inmobi|11.1.0.0|
-|com.naver.gfpsdk.mediation:ironsource|9.1.0.1|
-|com.naver.gfpsdk.mediation:lan|3.1.1.0|
-|com.naver.gfpsdk.mediation:moloco|4.9.0.0|
-|com.naver.gfpsdk.mediation:pangle|7.8.0.7.0|
-|com.naver.gfpsdk.mediation:teads|6.1.0.3|
-|com.naver.gfpsdk.mediation:unity|4.16.6.0|
-|com.naver.gfpsdk.mediation:vungle|7.6.1.0|
-|com.naver.gfpsdk.mediation:prebid|3.3.4.0|
+|com.naver.gfpsdk:nam-core|8.19.0|
+|com.naver.gfpsdk:nam-adplayer|8.19.0|
+|com.naver.gfpsdk.mediation:nam-nda|8.19.0|
+|com.naver.gfpsdk.mediation:nam-ndavideo|8.19.0|
+|com.naver.gfpsdk.mediation:nam-applovin|13.5.0.1|
+|com.naver.gfpsdk.mediation:nam-aps|11.0.0.1|
+|com.naver.gfpsdk.mediation:nam-bidmachine|3.5.0.2|
+|com.naver.gfpsdk.mediation:nam-chartboost|9.13.0.0|
+|com.naver.gfpsdk.mediation:nam-dfp|24.7.0.1|
+|com.naver.gfpsdk.mediation:nam-dt|8.4.0.2|
+|com.naver.gfpsdk.mediation:nam-fan|6.21.0.1|
+|com.naver.gfpsdk.mediation:nam-inmobi|11.1.0.0|
+|com.naver.gfpsdk.mediation:nam-ironsource|9.1.0.1|
+|com.naver.gfpsdk.mediation:nam-lan|3.1.1.0|
+|com.naver.gfpsdk.mediation:nam-moloco|4.9.0.0|
+|com.naver.gfpsdk.mediation:nam-pangle|7.8.0.7.0|
+|com.naver.gfpsdk.mediation:nam-teads|6.1.0.3|
+|com.naver.gfpsdk.mediation:nam-unity|4.16.6.0|
+|com.naver.gfpsdk.mediation:nam-vungle|7.6.1.0|
+|com.naver.gfpsdk.mediation:nam-prebid|3.3.4.0|
 
 ## 8.18.1 (2026-09-18)
 ### Code Refactoring
 * **nda:** add bottom dim for retail media image
 
-### GFP SDKs mapped to this BoM version 8.18.1
+### NAM SDKs mapped to this BoM version 8.18.1
 |Artifact name|Version mapped this BoM|
 |---|---|
-|com.naver.gfpsdk:gfpsdk-core|8.18.1|
-|com.naver.gfpsdk:gfpsdk-adplayer|8.18.1|
-|com.naver.gfpsdk.mediation:nda|8.18.1|
-|com.naver.gfpsdk.mediation:ndarichmedia|8.18.1|
-|com.naver.gfpsdk.mediation:ndavideo|8.18.1|
-|com.naver.gfpsdk.mediation:applovin|13.5.0.1|
-|com.naver.gfpsdk.mediation:aps|11.0.0.1|
-|com.naver.gfpsdk.mediation:bidmachine|3.5.0.2|
-|com.naver.gfpsdk.mediation:chartboost|9.13.0.0|
-|com.naver.gfpsdk.mediation:dfp|24.7.0.0|
-|com.naver.gfpsdk.mediation:dt|8.4.0.2|
-|com.naver.gfpsdk.mediation:fan|6.21.0.1|
-|com.naver.gfpsdk.mediation:ima|3.37.0.3|
-|com.naver.gfpsdk.mediation:inmobi|11.1.0.0|
-|com.naver.gfpsdk.mediation:ironsource|9.1.0.1|
-|com.naver.gfpsdk.mediation:lan|3.1.1.0|
-|com.naver.gfpsdk.mediation:moloco|4.9.0.0|
-|com.naver.gfpsdk.mediation:pangle|7.8.0.7.0|
-|com.naver.gfpsdk.mediation:teads|6.1.0.3|
-|com.naver.gfpsdk.mediation:unity|4.16.6.0|
-|com.naver.gfpsdk.mediation:vungle|7.6.1.0|
-|com.naver.gfpsdk.mediation:prebid|3.3.4.0|
+|com.naver.gfpsdk:nam-core|8.18.1|
+|com.naver.gfpsdk:nam-adplayer|8.18.1|
+|com.naver.gfpsdk.mediation:nam-nda|8.18.1|
+|com.naver.gfpsdk.mediation:nam-ndavideo|8.18.1|
+|com.naver.gfpsdk.mediation:nam-applovin|13.5.0.1|
+|com.naver.gfpsdk.mediation:nam-aps|11.0.0.1|
+|com.naver.gfpsdk.mediation:nam-bidmachine|3.5.0.2|
+|com.naver.gfpsdk.mediation:nam-chartboost|9.13.0.0|
+|com.naver.gfpsdk.mediation:nam-dfp|24.7.0.0|
+|com.naver.gfpsdk.mediation:nam-dt|8.4.0.2|
+|com.naver.gfpsdk.mediation:nam-fan|6.21.0.1|
+|com.naver.gfpsdk.mediation:nam-inmobi|11.1.0.0|
+|com.naver.gfpsdk.mediation:nam-ironsource|9.1.0.1|
+|com.naver.gfpsdk.mediation:nam-lan|3.1.1.0|
+|com.naver.gfpsdk.mediation:nam-moloco|4.9.0.0|
+|com.naver.gfpsdk.mediation:nam-pangle|7.8.0.7.0|
+|com.naver.gfpsdk.mediation:nam-teads|6.1.0.3|
+|com.naver.gfpsdk.mediation:nam-unity|4.16.6.0|
+|com.naver.gfpsdk.mediation:nam-vungle|7.6.1.0|
+|com.naver.gfpsdk.mediation:nam-prebid|3.3.4.0|
 
 ## 8.18.0 (2026-08-19)
 ### Features
@@ -153,31 +177,29 @@
 * **nda:** remove Shopping1Plus3 slot native template
 * **nda:** update page indicator sizes for SlotsView
 
-### GFP SDKs mapped to this BoM version 8.18.0
+### NAM SDKs mapped to this BoM version 8.18.0
 |Artifact name|Version mapped this BoM|
 |---|---|
-|com.naver.gfpsdk:gfpsdk-core|8.18.0|
-|com.naver.gfpsdk:gfpsdk-adplayer|8.18.0|
-|com.naver.gfpsdk.mediation:nda|8.18.0|
-|com.naver.gfpsdk.mediation:ndarichmedia|8.18.0|
-|com.naver.gfpsdk.mediation:ndavideo|8.18.0|
-|com.naver.gfpsdk.mediation:applovin|13.5.0.1|
-|com.naver.gfpsdk.mediation:aps|11.0.0.1|
-|com.naver.gfpsdk.mediation:bidmachine|3.5.0.2|
-|com.naver.gfpsdk.mediation:chartboost|9.13.0.0|
-|com.naver.gfpsdk.mediation:dfp|24.7.0.0|
-|com.naver.gfpsdk.mediation:dt|8.4.0.2|
-|com.naver.gfpsdk.mediation:fan|6.21.0.1|
-|com.naver.gfpsdk.mediation:ima|3.37.0.3|
-|com.naver.gfpsdk.mediation:inmobi|11.1.0.0|
-|com.naver.gfpsdk.mediation:ironsource|9.1.0.1|
-|com.naver.gfpsdk.mediation:lan|3.1.1.0|
-|com.naver.gfpsdk.mediation:moloco|4.8.0.1|
-|com.naver.gfpsdk.mediation:pangle|7.5.0.3.2|
-|com.naver.gfpsdk.mediation:teads|6.1.0.2|
-|com.naver.gfpsdk.mediation:unity|4.16.6.0|
-|com.naver.gfpsdk.mediation:vungle|7.6.1.0|
-|com.naver.gfpsdk.mediation:prebid|3.3.1.0|
+|com.naver.gfpsdk:nam-core|8.18.0|
+|com.naver.gfpsdk:nam-adplayer|8.18.0|
+|com.naver.gfpsdk.mediation:nam-nda|8.18.0|
+|com.naver.gfpsdk.mediation:nam-ndavideo|8.18.0|
+|com.naver.gfpsdk.mediation:nam-applovin|13.5.0.1|
+|com.naver.gfpsdk.mediation:nam-aps|11.0.0.1|
+|com.naver.gfpsdk.mediation:nam-bidmachine|3.5.0.2|
+|com.naver.gfpsdk.mediation:nam-chartboost|9.13.0.0|
+|com.naver.gfpsdk.mediation:nam-dfp|24.7.0.0|
+|com.naver.gfpsdk.mediation:nam-dt|8.4.0.2|
+|com.naver.gfpsdk.mediation:nam-fan|6.21.0.1|
+|com.naver.gfpsdk.mediation:nam-inmobi|11.1.0.0|
+|com.naver.gfpsdk.mediation:nam-ironsource|9.1.0.1|
+|com.naver.gfpsdk.mediation:nam-lan|3.1.1.0|
+|com.naver.gfpsdk.mediation:nam-moloco|4.8.0.1|
+|com.naver.gfpsdk.mediation:nam-pangle|7.5.0.3.2|
+|com.naver.gfpsdk.mediation:nam-teads|6.1.0.2|
+|com.naver.gfpsdk.mediation:nam-unity|4.16.6.0|
+|com.naver.gfpsdk.mediation:nam-vungle|7.6.1.0|
+|com.naver.gfpsdk.mediation:nam-prebid|3.3.1.0|
 
 ## 8.17.2 (2026-07-14)
 
@@ -312,9 +334,6 @@
 
 ## 8.15.1 (2026-05-11)
 
-### Features
-* support Teads mediation
-
 ### Bug Fixes
 
 * prevent word-level line breaking in NasTextView
@@ -345,6 +364,44 @@
 |com.naver.gfpsdk.mediation:nam-unity|4.16.5.1|
 |com.naver.gfpsdk.mediation:nam-vungle|7.6.1.0|
 |com.naver.gfpsdk.mediation:nam-teads|6.1.0.1|
+
+## 8.15.0 (2026-05-11)
+
+> ⚠ Warning
+>
+>  This version contains a corrupted artifact. Please use NAM SDK v8.15.1 or higher.
+
+### Features
+
+* support Teads mediation
+
+### Bug Fixes
+
+* **core:** cache disallowed AdDebugger activation responses by TTL
+* **core:** fix crash at GfpLocationCollector
+* **nda:** stabilize smart channel right-gradient sizing and initial layout
+
+### NAM SDKs mapped to this BoM version 8.15.0
+|Artifact name|Version mapped this BoM|
+|---|---|
+|com.naver.gfpsdk:nam-core|8.15.0|
+|com.naver.gfpsdk:nam-adplayer|8.15.0|
+|com.naver.gfpsdk.mediation:nam-nda|8.15.0|
+|com.naver.gfpsdk.mediation:nam-ndavideo|8.15.0|
+|com.naver.gfpsdk.mediation:nam-applovin|13.5.0.1|
+|com.naver.gfpsdk.mediation:nam-aps|11.0.0.1|
+|com.naver.gfpsdk.mediation:nam-bidmachine|3.5.0.2|
+|com.naver.gfpsdk.mediation:nam-chartboost|9.10.2.0|
+|com.naver.gfpsdk.mediation:nam-dfp|24.7.0.0|
+|com.naver.gfpsdk.mediation:nam-dt|8.4.0.0|
+|com.naver.gfpsdk.mediation:nam-fan|6.21.0.1|
+|com.naver.gfpsdk.mediation:nam-inmobi|11.1.0.0|
+|com.naver.gfpsdk.mediation:nam-ironsource|9.1.0.1|
+|com.naver.gfpsdk.mediation:nam-lan|3.0.1.0|
+|com.naver.gfpsdk.mediation:nam-pangle|7.5.0.3.2|
+|com.naver.gfpsdk.mediation:nam-unity|4.16.5.1|
+|com.naver.gfpsdk.mediation:nam-vungle|7.6.1.0|
+|com.naver.gfpsdk.mediation:nam-teads|6.1.0.0|
 
 ## 8.14.0 (2026-04-09)
 
@@ -608,7 +665,7 @@
 |com.naver.gfpsdk.mediation:nam-vungle|7.5.1.0|
 |com.naver.gfpsdk.mediation:nam-pangle|7.5.0.3.0|
 
-# 8.10.0 (2025-10-30)
+## 8.10.0 (2025-10-30)
 ### Features
 * **nda:** support image motion ad
 
@@ -805,22 +862,22 @@
 ### NAM SDKs mapped to this BoM version 8.7.0
 |Artifact name|Version mapped this BoM|
 |---|---|
-|com.naver.gfpsdk:gfpsdk-core|8.7.0|
-|com.naver.gfpsdk:gfpsdk-adplayer|8.7.0|
-|com.naver.gfpsdk.mediation:nda|8.7.0|
-|com.naver.gfpsdk.mediation:ndavideo|8.7.0|
-|com.naver.gfpsdk.mediation:applovin|13.2.0.2|
-|com.naver.gfpsdk.mediation:aps|9.10.2.3|
-|com.naver.gfpsdk.mediation:bidmachine|3.1.1.4|
-|com.naver.gfpsdk.mediation:chartboost|9.7.0.2|
-|com.naver.gfpsdk.mediation:dfp|23.3.0.5|
-|com.naver.gfpsdk.mediation:dt|8.3.6.3|
-|com.naver.gfpsdk.mediation:fan|6.18.0.5|
-|com.naver.gfpsdk.mediation:inmobi|10.8.0.2|
-|com.naver.gfpsdk.mediation:ironsource|8.4.0.5|
-|com.naver.gfpsdk.mediation:lan|2.9.20250110.1|
-|com.naver.gfpsdk.mediation:unity|4.12.3.3|
-|com.naver.gfpsdk.mediation:vungle|7.4.1.3|
+|com.naver.gfpsdk:nam-core|8.7.0|
+|com.naver.gfpsdk:nam-adplayer|8.7.0|
+|com.naver.gfpsdk.mediation:nam-nda|8.7.0|
+|com.naver.gfpsdk.mediation:nam-ndavideo|8.7.0|
+|com.naver.gfpsdk.mediation:nam-applovin|13.2.0.2|
+|com.naver.gfpsdk.mediation:nam-aps|9.10.2.3|
+|com.naver.gfpsdk.mediation:nam-bidmachine|3.1.1.4|
+|com.naver.gfpsdk.mediation:nam-chartboost|9.7.0.2|
+|com.naver.gfpsdk.mediation:nam-dfp|23.3.0.5|
+|com.naver.gfpsdk.mediation:nam-dt|8.3.6.3|
+|com.naver.gfpsdk.mediation:nam-fan|6.18.0.5|
+|com.naver.gfpsdk.mediation:nam-inmobi|10.8.0.2|
+|com.naver.gfpsdk.mediation:nam-ironsource|8.4.0.5|
+|com.naver.gfpsdk.mediation:nam-lan|2.9.20250110.1|
+|com.naver.gfpsdk.mediation:nam-unity|4.12.3.3|
+|com.naver.gfpsdk.mediation:nam-vungle|7.4.1.3|
 
 ## 8.6.1 (2025-08-01)
 ### Bug Fixes
@@ -1112,7 +1169,6 @@
 |com.naver.gfpsdk:nam-core| 8.3.1                   |
 |com.naver.gfpsdk:nam-adplayer| 8.3.1                   |
 |com.naver.gfpsdk.mediation:nam-nda| 8.3.1                   |
-|com.naver.gfpsdk.mediation:nam-ndarichmedia| 8.3.1                   |
 |com.naver.gfpsdk.mediation:nam-ndavideo| 8.3.1                   |
 |com.naver.gfpsdk.mediation:nam-applovin| 12.6.1.1                |
 |com.naver.gfpsdk.mediation:nam-aps| 9.10.2.1                |
@@ -1165,7 +1221,6 @@
 |com.naver.gfpsdk:nam-core|8.3.0|
 |com.naver.gfpsdk:nam-adplayer|8.3.0|
 |com.naver.gfpsdk.mediation:nam-nda|8.3.0|
-|com.naver.gfpsdk.mediation:nam-ndarichmedia|8.3.0|
 |com.naver.gfpsdk.mediation:nam-ndavideo|8.3.0|
 |com.naver.gfpsdk.mediation:nam-applovin|12.6.1.1|
 |com.naver.gfpsdk.mediation:nam-aps|9.10.2.1|
