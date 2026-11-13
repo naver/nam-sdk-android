@@ -20,6 +20,17 @@ dependencies {
 ```
 
 # Changelog
+## 7.7.4.0 (2026-11-13)
+
+
+### Code Refactoring
+
+* verified compatibility with Vungle SDK 7.7.4
+
+### Built and tested with
+- NAM SDK version 8.11.1
+- VUNGLE SDK version 7.7.4
+
 ## 7.6.1.0 (2026-01-14)
 
 
