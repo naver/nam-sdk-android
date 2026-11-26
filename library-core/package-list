@@ -540,11 +540,13 @@ $dokka.location:com.naver.gfpsdk.properties/UserProperties/abt/#/PointingToDecla
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/buildUpon/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/build-upon.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/clearCookies/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/clear-cookies.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/clearCustomParameter/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/clear-custom-parameter.html
+$dokka.location:com.naver.gfpsdk.properties/UserProperties/clearExternalIds/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/clear-external-ids.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/contentId/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/content-id.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/cookies/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/cookies.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/country/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/country.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/customParameter/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/custom-parameter.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/disableAdId/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/disable-ad-id.html
+$dokka.location:com.naver.gfpsdk.properties/UserProperties/externalIds/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/external-ids.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/gender/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/gender.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/getCookieString/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/get-cookie-string.html
 $dokka.location:com.naver.gfpsdk.properties/UserProperties/id/#/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties/id.html
@@ -567,6 +569,7 @@ $dokka.location:com.naver.gfpsdk.properties/UserPropertiesBuilder/properties/#/P
 $dokka.location:com.naver.gfpsdk.properties/UserPropertiesBuilder/setContentId/#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties-builder/set-content-id.html
 $dokka.location:com.naver.gfpsdk.properties/UserPropertiesBuilder/setCustomParam/#kotlin.collections.Map[kotlin.String,kotlin.String]/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties-builder/set-custom-param.html
 $dokka.location:com.naver.gfpsdk.properties/UserPropertiesBuilder/setDisableAdId/#kotlin.Boolean/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties-builder/set-disable-ad-id.html
+$dokka.location:com.naver.gfpsdk.properties/UserPropertiesBuilder/setExternalIds/#kotlin.collections.List[com.naver.gfpsdk.GfpExternalId]/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties-builder/set-external-ids.html
 $dokka.location:com.naver.gfpsdk.properties/UserPropertiesBuilder/underAgeOfConsent/#kotlin.Boolean?/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties-builder/under-age-of-consent.html
 $dokka.location:com.naver.gfpsdk.properties/UserPropertiesBuilder/underAgeOfConsent/#kotlin.String?/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties-builder/under-age-of-consent.html
 $dokka.location:com.naver.gfpsdk.properties/UserPropertiesBuilder/yob/#kotlin.Int/PointingToDeclaration/library-core/com.naver.gfpsdk.properties/-user-properties-builder/yob.html
@@ -1044,6 +1047,10 @@ $dokka.location:com.naver.gfpsdk/GfpErrorType/defaultErrorMessage/#/PointingToDe
 $dokka.location:com.naver.gfpsdk/GfpErrorType/errorCode/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-type/error-code.html
 $dokka.location:com.naver.gfpsdk/GfpErrorType/valueOf/#java.lang.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-type/value-of.html
 $dokka.location:com.naver.gfpsdk/GfpErrorType/values/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-error-type/values.html
+$dokka.location:com.naver.gfpsdk/GfpExternalId///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-external-id/index.html
+$dokka.location:com.naver.gfpsdk/GfpExternalId/GfpExternalId/#kotlin.String#kotlin.String/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-external-id/-gfp-external-id.html
+$dokka.location:com.naver.gfpsdk/GfpExternalId/id/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-external-id/id.html
+$dokka.location:com.naver.gfpsdk/GfpExternalId/source/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-external-id/source.html
 $dokka.location:com.naver.gfpsdk/GfpInitializer///PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-initializer/index.html
 $dokka.location:com.naver.gfpsdk/GfpInitializer/GfpInitializer/#/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-initializer/-gfp-initializer.html
 $dokka.location:com.naver.gfpsdk/GfpInitializer/create/#android.content.Context#kotlin.String#com.naver.ads.inspector.EventHub#com.naver.ads.NasInitializer.InitializerListener/PointingToDeclaration/library-core/com.naver.gfpsdk/-gfp-initializer/create.html
