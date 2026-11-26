@@ -21,6 +21,14 @@ dependencies {
 
 # Changelog
 
+## 3.4.1.0 (2026-11-26)
+### Code Refactoring
+* verified compatibility with Prebid SDK 3.4.1
+
+### Built and tested with
+- NAM SDK version 8.18.0
+- PREBID SDK version 3.4.1
+
 ## 3.3.4.0 (2026-09-18)
 ### Code Refactoring
 * verified compatibility with Prebid SDK 3.3.4
