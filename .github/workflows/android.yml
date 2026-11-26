@@ -21,4 +21,10 @@ jobs:
         distribution: 'temurin'
         cache: gradle
     - name: Build with Gradle
-      run: ./gradlew clean assembleDebug
+      # Retry once so that a transient failure, such as a 429 from Maven Central, does not fail the run
+      run: |
+        ./gradlew clean assembleDebug || {
+          echo "::warning::Gradle build failed, retrying in 60 seconds"
+          sleep 60
+          ./gradlew assembleDebug
+        }

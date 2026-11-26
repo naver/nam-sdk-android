@@ -5,7 +5,7 @@
 | Ad format     | Description |
 |:--------------|:------------|
 | Banner        | O           |
-| Native        | X           |
+| Native        | O           |
 | Native Simple | X           |
 | Interstitial  | O           |
 | Rewarded      | O           |
@@ -20,6 +20,22 @@ dependencies {
 ```
 
 # Changelog
+## 3.8.0.0 (2026-11-26)
+
+
+### Features
+
+* support BidMachine native ads
+
+
+### Code Refactoring
+
+* verified compatibility with BidMachine SDK 3.8.0
+
+### Built and tested with
+- NAM SDK version 8.21.0
+- BIDMACHINE SDK version 3.8.0
+
 ## 3.5.0.2 (2026-04-23)
 
 

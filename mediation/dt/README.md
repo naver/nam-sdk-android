@@ -5,7 +5,7 @@
 | Ad format     | Description |
 |:--------------|:------------|
 | Banner        | O           |
-| Native        | X           |
+| Native        | O           |
 | Native Simple | X           |
 | Interstitial  | O           |
 | Rewarded      | O           |
@@ -20,6 +20,14 @@ dependencies {
 ```
 
 # Changelog
+## 8.4.0.3 (2026-11-26)
+### Features
+* support native ads
+
+### Built and tested with
+- NAM SDK version 8.11.1
+- DT SDK version 8.4.0
+
 ## 8.4.0.2 (2026-05-15)
 ### Bug Fixes
 * correct dependencies version in published POM
